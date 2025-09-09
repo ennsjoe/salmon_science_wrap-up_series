@@ -4,8 +4,9 @@ project:
 
 website:
   title: "PSSI Salmon Science Wrap-Up Series"
-  navbar:
-    left:
+  sidebar:
+    style: "floating"  # or "docked"
+    contents:
       - text: Home
         href: index.qmd
       - text: About
