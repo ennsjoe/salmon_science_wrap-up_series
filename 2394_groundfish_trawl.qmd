@@ -2,6 +2,4 @@
 title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery"
 ---
 
-# Groundfish
-
 <p>The Pacific Region groundfish trawl fishery likely represents the largest source of Pacific salmon catch in a non-salmon directed commercial fishery. While all Pacific salmon species are prohibited in groundfish trawl and cannot be sold or traded, salmon bycatch in trawl fisheries experience high mortality rates and there have been no management measures in place to monitor or mitigate risks to stocks of concern. This sampling program was designed in collaboration between DFO Science, Fisheries Management, industry and monitoring service providers to provide accurate estimates of salmon bycatch by species in the trawl fishery and representative information on Chinook stock composition and indicator stocks.</p>
