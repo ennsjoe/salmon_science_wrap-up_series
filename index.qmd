@@ -2,10 +2,23 @@
 title: "PSSI Salmon Science Speaker Series"
 ---
 
-This is a Quarto website.
+## 🧪 Salmon Science Projects
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to the gallery of research projects. Click on any card to explore the details.
 
-```{r}
-1 + 1
-```
+:::::: gallery
+::: gallery-card
+[**Groundfish Trawl**](2394_groundfish_trawl.qmd)\
+*Enhanced salmon monitoring in northern trawl zones.*
+:::
+
+::: gallery-card
+[**Project B**](project-b.qmd)\
+*Genetic stock ID sampling in mixed fisheries.*
+:::
+
+::: gallery-card
+[**Project C**](project-c.qmd)\
+*Observer program expansion and data validation.*
+:::
+::::::
