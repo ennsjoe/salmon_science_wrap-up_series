@@ -1,17 +1,19 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "salmon_science_wrap-up_series"
+  title: "PSSI Salmon Science Wrap-Up Series"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+      - text: Groundfish Trawl
+        href: 2394_groundfish_trawl.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
 
