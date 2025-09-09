@@ -1,1 +1,10 @@
 /* css styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  background-color: #004d40;
+  color: white;
+}
