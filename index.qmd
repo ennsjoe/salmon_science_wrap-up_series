@@ -1,5 +1,5 @@
 ---
-title: "salmon_science_wrap-up_series"
+title: "PSSI Salmon Science Speaker Series"
 ---
 
 This is a Quarto website.
