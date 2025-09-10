@@ -1,0 +1,12 @@
+---
+title: "A data pipeline to support more rapid calculation of Proportionate Natural Influence"
+---
+
+## 🧬 Project Summary
+
+**Lead(s):** Tom Bird  
+**Location:** N/A  
+**Status:** New  
+
+**Overview:**  
+No description available.

@@ -1,0 +1,12 @@
+---
+title: "Complementing British Columbia’s coasts longest Sea Surface Temperature and Salinity records with 21st century technology to monitor a changing climate."
+---
+
+## 🧬 Project Summary
+
+**Lead(s):** Jennifer Jackson  
+**Location:** N/A  
+**Status:** Ongoing  
+
+**Overview:**  
+Continuous marine salmon habitat measurements are important for fisheries management. The BC Shore Station Program collects long-term sea surface temperature and salinity at twelve coastal stations, but the data are coarse and limited by weather and labour. This ecosystem monitoring project is testing and installing a minimum of four independent water quality logging stations spanning the coast to collect and transmit hourly real-time data posted online.
