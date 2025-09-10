@@ -8,17 +8,227 @@ Welcome to the gallery of research projects. Click on any card to explore the de
 
 :::::: gallery
 ::: gallery-card
-[**Groundfish Trawl**](2394_groundfish_trawl.qmd)\
-*Enhanced salmon monitoring in northern trawl zones.*
+[**Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery**](pages/2394.qmd)*Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.*
 :::
-
 ::: gallery-card
-[**Project B**](project-b.qmd)\
-*Genetic stock ID sampling in mixed fisheries.*
+[**Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi**](pages/2397.qmd)*Indigenous knowledge includes countless generations of place-based Pacific salmon experience that cannot be recreated or measured. Guided by the Eptuaptmumk (“Two-Eyed Seeing”) framework, we are partnering with First Nations on the West coast of Vancouver Island (WCVI) and University of Victoria to identify rebuilding targets and reference points for Chinook salmon that pair Indigenous Knowledge Systems with Western Science, based on interviews and focus groups with Indigenous Knowledge holders and a review of assessment literature.*
 :::
-
 ::: gallery-card
-[**Project C**](project-c.qmd)\
-*Observer program expansion and data validation.*
+[**WCVI Sediment Transport and Redd Scour Assessment**](pages/2398.qmd)*Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.*
+:::
+::: gallery-card
+[**Risk Assessment Method for Salmon – Development for Regional Implementation**](pages/2399.qmd)*Researchers in 2010 developed a tool called the Risk Assessment Method for Salmon that uses population and ecosystem information to identify and prioritize salmon population bottlenecks at different life stages. The tool constantly evolves, but currently uses awkward technology and lacks marine information. This stock management support project updates regional salmon information including marine and freshwater life stage information and converts the old Excel program to a more visual and user-friendly R programming design.*
+:::
+::: gallery-card
+[**Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.**](pages/2400.qmd)*Screening salmon brood stock for bacterial kidney disease has allowed hatcheries to reduce the disease in young salmon and returning adults. Hatcheries now have 16 years of disease test data along with genetic (parentage) information. This hatchery study collects disease data and genetics from Chinook and coho at the Spius, Puntledge, and Nitinat hatcheries
+ to model variables that could improve hatchery methods.*
+:::
+::: gallery-card
+[**Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon**](pages/2401.qmd)*Long-term monitoring of the salmonid virus “infectious hematopoietic necrosis virus,” which can be deadly for sockeye, shows annual and geographic fluctuations between stocks, but for unknown reasons. This study examines IHNV prevalence across different watersheds, sockeye stocks, and environmental conditions in an effort to identify those factors responsible for driving IHNV prevalence and/or influencing disease within sockeye salmon populations.*
+:::
+::: gallery-card
+[**Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act**](pages/2402.qmd)*Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.*
+:::
+::: gallery-card
+[**San Juan River Adult and Juvenile Assessment Program**](pages/2403.qmd)*Pacheedaht First Nation (PFN) have extensive monitoring and restoration projects underway in the San Juan Watershed, but some data gaps for San Juan Chinook still exist, and more detailed biological sampling is required. DFO Salmon Stock Assessment and PFN developed a holistic lifecycle monitoring program for San Juan Chinook through operation of a freshwater rotary screw trap, marine purse seining, and microtrolling, allowing researchers to monitor Chinook across all life stages and compare traits of natural and hatchery origin.*
+:::
+::: gallery-card
+[**Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon**](pages/2404.qmd)*Low-oxygen (hypoxia) conditions have been observed near the surface in salmon migration inlets on west coast Vancouver Island. The ecosystem monitoring component of this study measures salinity, temperature, and oxygen at different depths in Clayoquot Sound fjords in collaboration with Indigenous groups to establish present-day baseline conditions. The modelling component helps understand the drivers of hypoxia and how they may change in the future. Will salmon have to face more or less hypoxic conditions while migrating?*
+:::
+::: gallery-card
+[**Biological models to support prioritizing salmon stocks under future climates**](pages/2405.qmd)*Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.*
+:::
+::: gallery-card
+[**Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters**](pages/2406.qmd)*Has climate change reduced the amount of plankton at the bottom of the food web in BC waters, reducing the carrying capacity for salmon? Have smaller phytoplankton replaced diatoms, lengthening the food chain and making food less nutritious for salmon? This study uses chemical markers in sediment cores and water samples to investigate food web changes in BC coastal inlets.*
+:::
+::: gallery-card
+[**Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island**](pages/2407.qmd)*Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival.*
+:::
+::: gallery-card
+[**Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.**](pages/2408.qmd)*Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.*
+:::
+::: gallery-card
+[**Convergent tracks: a tagging study to quantify salmon predation by sea lions**](pages/2409.qmd)*Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.*
+:::
+::: gallery-card
+[**Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future**](pages/2410.qmd)*Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.*
+:::
+::: gallery-card
+[**Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species**](pages/2412.qmd)*Ocean warming and acidic upwelling changes the zooplankton food web for young salmon in the Northeast Pacific. This project measures the survival and nutritional value of pteropods (zooplankton) under different temperatures and acidic conditions in a lab. Researchers then compare lab findings to natural zooplankton conditions.*
+:::
+::: gallery-card
+[**Barkley Sound and Clayoquot Sound Krill Monitoring**](pages/2413.qmd)*Krill, a type of zooplankton, are a critical component of the marine food webs and important part of juvenile salmon diets. This ecosystem monitoring program collects krill on a monthly basis in two key feeding areas for early marine juvenile salmon along the west coast of Vancouver Island. We are monitoring how the amount and nutritional value (fats, protein and total energy) of krill varies with season and ocean conditions (temperature, salinity, and oxygen).*
+:::
+::: gallery-card
+[**South Coast freshwater ecological indicator pilot**](pages/2414.qmd)*Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates.*
+:::
+::: gallery-card
+[**A Decision Support Framework for Identifying and Characterizing the Non-fishing Threats to Pacific Salmon**](pages/2415.qmd)*No description available.*
+:::
+::: gallery-card
+[**Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins**](pages/2416.qmd)*Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
+We are comparing biotoxin levels with environmental conditions and indicators of fish health.*
+:::
+::: gallery-card
+[**Optimization of feeds used in the hatchery production of Pacific Salmon.**](pages/2417.qmd)*Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.*
+:::
+::: gallery-card
+[**Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.**](pages/2418.qmd)*Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to warming oceans and changing food webs. The nutrient deficiency lowers the survival rate for salmon fry and has been observed in Yukon and California Chinook, but hasn’t been studied well in BC. This fish health monitoring study gathers Chinook tissue samples from the Albion test fishery and hatcheries to measure thiamine, fatty acids, and other health parameters to help predict and monitor vulnerable stocks.*
+:::
+::: gallery-card
+[**Pilot skills study of new hatchery tray configuration.**](pages/2419.qmd)*No description available.*
+:::
+::: gallery-card
+[**Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.**](pages/2421.qmd)*Chronic stress impacts fish health and can be measured in salmon by sampling hormone (cortisol) and enzyme deposits in scales. This lab and hatchery study gathers coho and Chinook scale samples from broodstock surveys to develop methods of measuring chronic and acute stress hormone levels that could be expanded to monitor salmon health responses to stressors including climate change.*
+:::
+::: gallery-card
+[**Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.**](pages/2422.qmd)*Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.*
+:::
+::: gallery-card
+[**Complementing British Columbia’s coasts longest Sea Surface Temperature and Salinity records with 21st century technology to monitor a changing climate.**](pages/2423.qmd)*Continuous marine salmon habitat measurements are important for fisheries management. The BC Shore Station Program collects long-term sea surface temperature and salinity at twelve coastal stations, but the data are coarse and limited by weather and labour. This ecosystem monitoring project is testing and installing a minimum of four independent water quality logging stations spanning the coast to collect and transmit hourly real-time data posted online.*
+:::
+::: gallery-card
+[**Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity**](pages/2424.qmd)*Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.*
+:::
+::: gallery-card
+[**Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program**](pages/2425.qmd)*Identifying individual and cumulative threats to salmon and their habitat is critical for effective management and restoration actions. This project estimates and maps nine human activities and landscape disturbance-based threats and four climate change-based threats for the stream network in the Fraser Basin. Results identify threat levels across salmon Conservation Units and the human activities and land uses that contributed most to threats.*
+:::
+::: gallery-card
+[**Sakinaw Sockeye Juvenile Research on Measures to Increase Marine Survival**](pages/2426.qmd)*Marine survival is a limiting factor for the endangered Sakinaw Lake sockeye smolts who migrate past hundreds of harbour seals at Hodgson Islands in the Strait of Georgia every spring. This salmon tracking study traps and PIT tags up to 2,500 sockeye smolts at a smolt fence, then transports the sockeye by boat past the seal colony and compares the survival rate of transported sockeye to naturally migrating smolts.*
+:::
+::: gallery-card
+[**Salish Sea plankton and oceanography**](pages/2427.qmd)*Zooplankton monitoring in the Strait of Georgia is important to understand the food web and juvenile salmon survival, but the current monthly sampling timing is too low for confident statistics and modelling. This food web monitoring study collects zooplankton and ocean conditions on bi-weekly surveys in the spring and fall to more confidently model salmon diet and health.*
+:::
+::: gallery-card
+[**Feasibility of Estimating Chilko River Smolt Abundance Using Upward- and Side-Looking SONAR Methods**](pages/2430.qmd)*Chilko Lake sockeye smolts are counted each spring from a fish-counting weir, and these counts inform broader Fraser River fisheries management decisions. However, with earlier spring freshets due to the warming climate, crews must remove the weir more often before the smolts are counted. This salmon monitoring project tests upward-looking and side-looking SONAR units that can be used during high flows, and compares the results to the weir counts.*
+:::
+::: gallery-card
+[**Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey**](pages/2432.qmd)*Acoustic tools can provide important information on salmon ecology (food web) and salmon survival in marine areas. These salmon habitat and abundance monitoring studies use multi-frequency echosounders from mooring stations and mobile units in West Coast Vancouver Island sounds and the Salish sea to measure aspects of salmon forage species (zooplankton, krill, and Pacific herring) and count juvenile and adult salmon along their migration.*
+:::
+::: gallery-card
+[**Integrated Salish Sea acoustic monitoring of salmon and salmon prey**](pages/2433.qmd)*Acoustic tools can provide important information on salmon ecology (food web) and salmon survival in marine areas. These salmon habitat and abundance monitoring studies use multi-frequency echosounders from mooring stations and mobile units in West Coast Vancouver Island sounds and the Salish sea to measure aspects of salmon forage species (zooplankton, krill, and Pacific herring) and count juvenile and adult salmon along their migration.*
+:::
+::: gallery-card
+[**SHERLOCK assay for rapid genotyping applications**](pages/2434.qmd)*Hatchery staff use genetic markers to tell the difference between summer and fall runs of Chinook in the Puntledge River to preserve genetic integrity. However, genetic tests can often be slow and only applied later. This salmon genetics pilot project assesses rapid, in-season testing where genetic marker information could be provided in under an hour.*
+:::
+::: gallery-card
+[**Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon**](pages/2435.qmd)*Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods.*
+:::
+::: gallery-card
+[**Chum whole genome sequencing for improved stock delineation**](pages/2436.qmd)*Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution.*
+:::
+::: gallery-card
+[**Adaptive genetic variation and climate change resilience in Canadian Pacific salmon**](pages/2437.qmd)*Pacific salmon genetic markers are regularly used to manage fisheries and hatcheries. While these genetic analysis efforts provide important stock management information, they could also be used to assess diversity of salmon species relative to habitat changes. This salmon genetic adaptation study gathers Chinook and sockeye DNA samples and compares genomes to environmental conditions and climate projections.*
+:::
+::: gallery-card
+[**Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station**](pages/2439.qmd)*Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.*
+:::
+::: gallery-card
+[**Mat-37 Improvements to the evaluation of abundance and stock composition for Fraser River Juvenile Salmon**](pages/2440.qmd)*No description available.*
+:::
+::: gallery-card
+[**Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system**](pages/2442.qmd)*Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging.*
+:::
+::: gallery-card
+[**Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake**](pages/2443.qmd)*Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.*
+:::
+::: gallery-card
+[**Assessment of the distribution and abundance of juvenile Chinook salmon in the lower Thompson River basin.**](pages/2444.qmd)*Historic flooding in 2021 impacted salmon spawning and rearing habitat throughout the lower Thompson River and tributaries. This salmon population monitoring study counts juvenile Chinook (night snorkel surveys) in the lower Thompson mainstem and tributaries and compare to previous years to assess the population and habitat recovery.*
+:::
+::: gallery-card
+[**Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA**](pages/2447.qmd)*Salmon experience a variety of physiological stressors and pathogens over migration which can be monitored non-lethally using Fit-Chip technology. Chinook salmon will expose themselves to potentially impactful stressors to avail feeding opportunities, enhancing vulnerability to cumulative stressors. eDNA data resolves habitat usage for Chinook salmon and demonstrating they associate with high biomass areas (prey availability), including aquaculture facilities, and avoid harmful algae. Models addressing the cumulative and synergistic interplay between factors will inform which levers under human control will result in strongest outcomes for salmon.*
+:::
+::: gallery-card
+[**Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production**](pages/2448.qmd)*A proactive holistic health monitoring approach based on high throughput molecular technologies has been validated for utility in two salmon enhancement hatcheries, and is now ready for minimally invasive application in hatcheries culturing conservation stocks. The technical approach revealed annual shifts in stress, infection, and timing of smolt readiness. Future monitoring of pathogens in hatchery source water is crucial to minimize infection potential and maximize post-release survival in stocks of conservation concern.*
+:::
+::: gallery-card
+[**A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon**](pages/2449.qmd)*Resource managers rely on decision modelling tool and programs to predict the outcomes from different actions. For salmon management, often these tools fail to include hatchery or habitat parameters. This decision-support project develops an open source, single-population prototype model that can be applied to West Coast Vancouver Island Chinook as a case study, including hatchery and habitat levers, as well as, uncertainty and risk.*
+:::
+::: gallery-card
+[**Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations**](pages/2451.qmd)*Salmon bred from a hatchery are often less fit in wild environments than naturally bred salmon. However, this situation can change using different hatchery methods. This genetic study compares DNA samples from returning hatchery Chinook to natural Chinook in Sarita River to see if hatchery methods improve the spawning success of hatchery Chinook.*
+:::
+::: gallery-card
+[**Genetic associations with age of return in male Canadian Chinook Salmon**](pages/2452.qmd)*Jacks (males that return a year early) are a natural source of genetic diversity for Chinook, but too many jacks in a population can have limited breeding success and reduce the body size of the population. Hatchery breeding increases the number of jacks, and hatchery staff screen out jacks by body size, which is uncertain. This genetic monitoring study samples male Chinook tissues from the Chilliwack, Puntledge, and Qualicum rivers to sequence the genes, compare the y-chromosome haplotypes specific to jacks, and develop a rapid screening test for broodstock selection.*
+:::
+::: gallery-card
+[**Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon**](pages/2453.qmd)*There are few genetic differences between hatchery-bred and natural salmon in populations enhanced by the Salmonid Enhancement Program (SEP), but structural modifications to genes may affect gene expression and impact salmon fitness in the wild. This genetic sequencing study gathers Chinook samples from hatcheries at the Nicola, Quinsam, Sarita, Atnarko, and Chilliwack rivers to compare epigenetic (methylation) differences between hatchery and wild Chinook to better monitor the proportion of hatchery salmon in a river.*
+:::
+::: gallery-card
+[**Kim Hyatt’s Legacy Data: Juvenile Sockeye Biosample Data and Summary Metrics for B.C. Study Lakes, 1977-present**](pages/2454.qmd)*No description available.*
+:::
+::: gallery-card
+[**YTRA TBR Weather Stations**](pages/2455.qmd)*No description available.*
+:::
+::: gallery-card
+[**Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments**](pages/2493.qmd)*Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions.*
+:::
+::: gallery-card
+[**Modeling interactions of environmental, biological and infectious factors with respect to production of Pacific salmon (Oncorhynchus spp.) at the Quinsam River hatchery**](pages/2494.qmd)*No description available.*
+:::
+::: gallery-card
+[**Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat**](pages/2504.qmd)*Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas.*
+:::
+::: gallery-card
+[**Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon**](pages/2513.qmd)*Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.*
+:::
+::: gallery-card
+[**Explanation for the Collapse of the Commercial Chum Salmon Fishery in British Columbia**](pages/2522.qmd)*No description available.*
+:::
+::: gallery-card
+[**Understanding the impact of Arctic outflow winds on British Columbia fjords.**](pages/2534.qmd)*Arctic air masses move from the interior to coastal inlets, cooling and adding oxygen to the marine habitat. Fjords where this cooling occurs can become a marine refuge for salmon. This project monitors climate conditions in BC mainland fjords to measure the impact on salmon habitat and study how these factors may impact other coastal inlets.*
+:::
+::: gallery-card
+[**Climate Downscaling for salmon conservation in Marine Ecosystems**](pages/2539.qmd)*Ocean and climate conditions influence salmon numbers and health. While efforts have been made to model future climate conditions, these models are broad in scope which creates a scale gap when applying projections to salmon habitat. This modelling project downscales broader global climate models to include coastal environments and salmon species distribution.*
+:::
+::: gallery-card
+[**Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecasts**](pages/2540.qmd)*No description available.*
+:::
+::: gallery-card
+[**Genetics Stock Identification and Parentage Based Tagging of Pacific salmon**](pages/2545.qmd)*No description available.*
+:::
+::: gallery-card
+[**Fishery & Assessment Data Section - Data Stewardship Unit**](pages/2546.qmd)*No description available.*
+:::
+::: gallery-card
+[**PSSI High Seas Salmon Research - West Coast Vancouver Island (and transition to ONE juvenile program)**](pages/2560.qmd)*No description available.*
+:::
+::: gallery-card
+[**State of Pacific Salmon Report 2024-2025**](pages/2561.qmd)*No description available.*
+:::
+::: gallery-card
+[**Salmon Marine Interactions - SMI - COE Section**](pages/1261.qmd)*No description available.*
+:::
+::: gallery-card
+[**Salmon Scanner and composite status data sets**](pages/2563.qmd)*No description available.*
+:::
+::: gallery-card
+[**Climate Change Vulnerability Assessments**](pages/2562.qmd)*No description available.*
+:::
+::: gallery-card
+[**Fishery & Assessment Data Section - Knowledge Mobilization Unit**](pages/2547.qmd)*No description available.*
+:::
+::: gallery-card
+[**Assessing Salinity Alteration of Nursery Conditions for Salmon Smolts following Construction of Roberts Bank Terminal-2**](pages/2572.qmd)*No description available.*
+:::
+::: gallery-card
+[**Drivers and functional consequences of hatchery epigenetic variation**](pages/3103.qmd)*No description available.*
+:::
+::: gallery-card
+[**Establishing a feed assessment program in Pacific salmon enhancement hatcheries**](pages/3104.qmd)*No description available.*
+:::
+::: gallery-card
+[**Scenario Planning: improving the adaptability of Pacific salmon hatchery planning and implementation to current and future climate changes**](pages/3107.qmd)*No description available.*
+:::
+::: gallery-card
+[**Genomic consequences of stray hatchery introgression**](pages/3119.qmd)*No description available.*
+:::
+::: gallery-card
+[**Genetic and epigenetic consequences of hatchery adaptation**](pages/3120.qmd)*No description available.*
+:::
+::: gallery-card
+[**Impact of genetic divergence on outbreeding depression in Chinook Salmon**](pages/3121.qmd)*No description available.*
+:::
+::: gallery-card
+[**A data pipeline to support more rapid calculation of Proportionate Natural Influence**](pages/3124.qmd)*No description available.*
 :::
 ::::::
