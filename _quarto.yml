@@ -1,16 +1,24 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - index.qmd
-    - pages/*.qmd
+
+render:
+  - index.qmd
+  - pages/*.qmd  # Automatically render all project pages
+
+resources:
+  - CNAME
 
 website:
   title: "PSSI Salmon Science Speaker Series"
-  navbar:
-    left:
+  sidebar:
+    style: floating
+    contents:
       - href: index.qmd
         text: Home
+      - section: Projects
+        contents:
+          - pages/*.qmd  # Auto-populate sidebar with all project pages
 
 format:
   html:
