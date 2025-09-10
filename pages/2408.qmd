@@ -5,8 +5,9 @@ title: "Improvement, Expansion and Modernization of Salmonid Health Diagnostic S
 ## 🧬 Project Summary
 
 **Lead(s):** Amy Long  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Aquatic Animal Health  
 **Location:** ["Pacific Biological Station","Fulton Hatchery","Nadina Spawning Channels","Chehalis River Hatchery","Quinsam River","Inch Creek Hatchery","Nanaimo River Hatchery","Big Qualicum River Hatchery"]  
-**Status:** Ongoing  
 
 **Overview:**  
-Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.
+Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.  

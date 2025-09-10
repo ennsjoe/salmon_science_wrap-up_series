@@ -5,8 +5,9 @@ title: "Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecas
 ## 🧬 Project Summary
 
 **Lead(s):** Stephen Page, Richard Thomson  
-**Location:** N/A  
-**Status:** New  
+**Division:** Ocean Sciences (OSD)  
+**Section:** State of the Ocean  
+**Location:**   
 
 **Overview:**  
-No description available.
+

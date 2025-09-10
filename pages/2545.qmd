@@ -5,8 +5,9 @@ title: "Genetics Stock Identification and Parentage Based Tagging of Pacific sal
 ## 🧬 Project Summary
 
 **Lead(s):** Eric Rondeau  
-**Location:** N/A  
-**Status:** Ongoing  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Molecular Genetics  
+**Location:**   
 
 **Overview:**  
-No description available.
+

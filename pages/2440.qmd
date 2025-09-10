@@ -5,8 +5,9 @@ title: "Mat-37 Improvements to the evaluation of abundance and stock composition
 ## 🧬 Project Summary
 
 **Lead(s):** Matthew Townsend, Kaitlyn Dionne  
-**Location:** N/A  
-**Status:** Not funded  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Location:**   
 
 **Overview:**  
-No description available.
+

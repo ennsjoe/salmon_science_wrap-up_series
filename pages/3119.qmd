@@ -5,8 +5,9 @@ title: "Genomic consequences of stray hatchery introgression"
 ## 🧬 Project Summary
 
 **Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Location:** N/A  
-**Status:** New  
+**Division:**   
+**Section:** Molecular Genetics  
+**Location:**   
 
 **Overview:**  
-No description available.
+

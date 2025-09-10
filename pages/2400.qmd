@@ -5,8 +5,9 @@ title: "Assessment of SEP Chinook and Coho broodstock ELISA screening data by mo
 ## 🧬 Project Summary
 
 **Lead(s):** Amy Long  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Aquatic Animal Health  
 **Location:** ["Spius Creek","Puntledge River","Nitinat"]  
-**Status:** Ongoing  
 
 **Overview:**  
 Screening salmon brood stock for bacterial kidney disease has allowed hatcheries to reduce the disease in young salmon and returning adults. Hatcheries now have 16 years of disease test data along with genetic (parentage) information. This hatchery study collects disease data and genetics from Chinook and coho at the Spius, Puntledge, and Nitinat hatcheries

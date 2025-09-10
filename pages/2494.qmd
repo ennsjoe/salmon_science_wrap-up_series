@@ -5,8 +5,9 @@ title: "Modeling interactions of environmental, biological and infectious factor
 ## 🧬 Project Summary
 
 **Lead(s):** Simon Jones  
-**Location:** N/A  
-**Status:** Complete  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Aquatic Animal Health  
+**Location:**   
 
 **Overview:**  
-No description available.
+

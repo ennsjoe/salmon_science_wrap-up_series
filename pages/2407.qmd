@@ -5,8 +5,9 @@ title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring 
 ## 🧬 Project Summary
 
 **Lead(s):** Jessy Bokvist  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** South Coast Area Salmon Stock Assessment  
 **Location:** ["Stamp River","Sarita River","Nitinat","Barkley Sound"]  
-**Status:** Ongoing  
 
 **Overview:**  
-Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival.
+Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival.  

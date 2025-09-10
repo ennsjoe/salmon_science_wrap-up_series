@@ -5,8 +5,9 @@ title: "YTRA TBR Weather Stations"
 ## 🧬 Project Summary
 
 **Lead(s):** sean stark  
-**Location:** N/A  
-**Status:** Complete  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
+**Location:**   
 
 **Overview:**  
-No description available.
+

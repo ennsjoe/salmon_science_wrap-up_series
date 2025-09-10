@@ -5,8 +5,9 @@ title: "A data pipeline to support more rapid calculation of Proportionate Natur
 ## 🧬 Project Summary
 
 **Lead(s):** Tom Bird  
-**Location:** N/A  
-**Status:** New  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Fishery and Assessment Data  
+**Location:**   
 
 **Overview:**  
-No description available.
+

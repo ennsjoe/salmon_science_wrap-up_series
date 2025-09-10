@@ -5,8 +5,9 @@ title: "WCVI Sediment Transport and Redd Scour Assessment"
 ## 🧬 Project Summary
 
 **Lead(s):** Diana McHugh  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** South Coast Area Salmon Stock Assessment  
 **Location:** ["Tranquil Creek"]  
-**Status:** Ongoing  
 
 **Overview:**  
 Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.

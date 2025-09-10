@@ -5,8 +5,9 @@ title: "Epidemiological modeling of infectious hematopoietic necrosis virus in S
 ## 🧬 Project Summary
 
 **Lead(s):** Kyle Garver  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Aquatic Animal Health  
 **Location:** ["Okanagan","Nadina Hatchery","Fulton Hatchery","Pinkut Hatchery","Weaver Creek Spawning Channels"]  
-**Status:** Ongoing  
 
 **Overview:**  
 Long-term monitoring of the salmonid virus “infectious hematopoietic necrosis virus,” which can be deadly for sockeye, shows annual and geographic fluctuations between stocks, but for unknown reasons. This study examines IHNV prevalence across different watersheds, sockeye stocks, and environmental conditions in an effort to identify those factors responsible for driving IHNV prevalence and/or influencing disease within sockeye salmon populations.

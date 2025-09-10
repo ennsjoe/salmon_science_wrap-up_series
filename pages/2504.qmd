@@ -5,8 +5,9 @@ title: "Identifying and characterizing tire-related chemical (6PPD-quinone) toxi
 ## 🧬 Project Summary
 
 **Lead(s):** Lisa Loseto  
+**Division:** Ocean Sciences (OSD)  
+**Section:** Ecology and Biogeochemistry   
 **Location:** ["Greater Vancouver","Squamish"]  
-**Status:** Ongoing  
 
 **Overview:**  
 Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas.

@@ -5,8 +5,9 @@ title: "Characterizing and monitoring priority contaminants of concern in WCVI j
 ## 🧬 Project Summary
 
 **Lead(s):** Lisa Loseto  
-**Location:** N/A  
-**Status:** Ongoing  
+**Division:** Ocean Sciences (OSD)  
+**Section:** Ecology and Biogeochemistry   
+**Location:**   
 
 **Overview:**  
 Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.

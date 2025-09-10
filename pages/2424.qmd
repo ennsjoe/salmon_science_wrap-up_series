@@ -5,8 +5,9 @@ title: "Mechanistic modelling to link hydrology to juvenile salmon habitat quali
 ## 🧬 Project Summary
 
 **Lead(s):** Sean Naman  
+**Division:** Ecosystem Sciences (ESD)  
+**Section:** Freshwater Ecosystems  
 **Location:** ["Thompson"]  
-**Status:** Ongoing  
 
 **Overview:**  
 Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.
