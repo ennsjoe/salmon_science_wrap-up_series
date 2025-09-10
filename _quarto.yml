@@ -23,3 +23,25 @@ format:
     toc: true
 
 editor: visual
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - pages/*.qmd
+
+website:
+  title: "PSSI Salmon Science Speaker Series"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - section: Projects
+        contents:
+          - pages/*.qmd  # Automatically include all project pages
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
