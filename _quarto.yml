@@ -3,31 +3,6 @@ project:
   output-dir: docs
   render:
     - index.qmd
-    - pages/*.qmd  # Automatically render all project pages
-
-website:
-  title: "PSSI Salmon Science Speaker Series"
-  sidebar:
-    style: floating
-    contents:
-      - href: index.qmd
-        text: Home
-      - section: Projects
-        contents:
-          - pages/*.qmd  # Auto-populate sidebar with all project pages
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-editor: visual
-project:
-  type: website
-  output-dir: docs
-  render:
-    - index.qmd
     - pages/*.qmd
 
 website:
@@ -36,12 +11,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - section: Projects
-        contents:
-          - pages/*.qmd  # Automatically include all project pages
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+
+editor: visual
