@@ -11,6 +11,7 @@ title: "Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salm
 **Status:** Ongoing  
 **Theme:** Ecosystem Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
 We will use a suite of acoustic tools to improve our understanding of salmon

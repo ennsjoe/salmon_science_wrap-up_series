@@ -11,6 +11,7 @@ title: "Development and application of laser ablation-inductively coupled plasma
 **Status:** Ongoing  
 **Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Innovative tools and assessments  
 
 **Overview:**  
 This project addresses the (IOS Mass Spectrometry) lab-based component of the

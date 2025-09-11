@@ -11,6 +11,7 @@ title: "Characterizing and monitoring priority contaminants of concern in WCVI j
 **Status:** Ongoing  
 **Theme:** Threat Assessment and Mitigation  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
 The work proposed here is focused on the contaminant component of the “Follow

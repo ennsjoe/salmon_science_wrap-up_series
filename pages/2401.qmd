@@ -11,6 +11,7 @@ title: "Epidemiological modeling of infectious hematopoietic necrosis virus in S
 **Status:** Ongoing  
 **Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Fish health and disease  
 
 **Overview:**  
 Infectious hematopoietic necrosis virus (IHNV) is a deadly virus of sockeye

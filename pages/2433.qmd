@@ -11,6 +11,7 @@ title: "Integrated Salish Sea acoustic monitoring of salmon and salmon prey"
 **Status:** Ongoing  
 **Theme:** Ecosystem Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
 We propose to create and build on acoustic monitoring within the Salish Sea

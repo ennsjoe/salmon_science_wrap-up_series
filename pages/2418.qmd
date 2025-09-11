@@ -11,6 +11,7 @@ title: "Prediction of reproductive success of Chinook salmon based on Thiamine c
 **Status:** Ongoing  
 **Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Fish health and disease  
 
 **Overview:**  
 What is being proposed: Thiamine (vitamin B1) deficiency complex (TDC) is an

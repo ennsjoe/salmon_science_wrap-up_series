@@ -11,6 +11,7 @@ title: "Risk Assessment Method for Salmon – Development for Regional Implement
 **Status:** Ongoing  
 **Theme:** Decision Support  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Uncategorized  
 
 **Overview:**  
 **(1) WHAT IS BEING PROPOSED**

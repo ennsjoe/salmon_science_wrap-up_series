@@ -11,6 +11,7 @@ title: "WCVI Sediment Transport and Redd Scour Assessment"
 **Status:** Ongoing  
 **Theme:** Salmon Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Freshwater ecosystems and stressors  
 
 **Overview:**  
 1. West Coast Vancouver Island (WCVI) Chinook salmon (Oncorhynchus tschwatcha) populations declined precipitously after the 1990s. Survival rates for naturally spawning WCVI Chinook are now below replacement levels. In 2020, WCVI Chinook was listed as "Threatened" by Canada's Committee on the Status of Endangered Wildlife triggering the Chinook Rebuilding Plan and the marine and freshwater risk assessment (FWRA) processes. Results from the FWRA, highlighted that across the region the incubation life history phase was extremely data deficient. High incubation mortality can reduce productivity and limit the recovery of Chinook salmon populations. A small change in survival during this life history phase can have significant implications on production. Redd scour was identified as a high priority data gap in the indicator watersheds throughout WCVI. The purpose of this study is to evaluate redd scour, sediment transport, and hydrological conditions in three indicator watersheds in Area 23 and Area 24. This study will be important for developing a standard methodology to address this data gap, and for characterizing the scale of the issue. The results will be vital for developing indicators and benchmarks, and to inform restoration, enhancement, and rebuilding measures for WCVI Chinook.

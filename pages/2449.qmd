@@ -11,6 +11,7 @@ title: "A decision-support tool that considers harvest, hatchery, and habitat ma
 **Status:** Ongoing  
 **Theme:** Decision Support  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
 Our goal is to develop a salmon-specific, open-source, flexible decision-

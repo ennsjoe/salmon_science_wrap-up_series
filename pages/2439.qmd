@@ -11,6 +11,7 @@ title: "Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application f
 **Status:** Ongoing  
 **Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Innovative tools and assessments  
 
 **Overview:**  
 The Application of Fourier Transform-Near Infrared Spectroscopy (FT-NIR) for

@@ -11,6 +11,7 @@ title: "Identifying and characterizing tire-related chemical (6PPD-quinone) toxi
 **Status:** Ongoing  
 **Theme:** Threat Assessment and Mitigation  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Freshwater ecosystems and stressors  
 
 **Overview:**  
 6PPD-quinone has been found to be the cause of toxic injury and death (40-90%)

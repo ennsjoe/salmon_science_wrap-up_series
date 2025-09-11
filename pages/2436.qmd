@@ -11,6 +11,7 @@ title: "Chum whole genome sequencing for improved stock delineation"
 **Status:** Ongoing  
 **Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Genetics and adaptation  
 
 **Overview:**  
 The objective of this study is to better understand the population structure

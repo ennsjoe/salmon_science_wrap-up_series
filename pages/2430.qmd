@@ -11,6 +11,7 @@ title: "Feasibility of Estimating Chilko River Smolt Abundance Using Upward- and
 **Status:** Ongoing  
 **Theme:** Salmon Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Salmon population monitoring and assessment  
 
 **Overview:**  
 Chilko Sockeye salmon represent the only wild Sockeye indicator stock in the

@@ -11,6 +11,7 @@ title: "SHERLOCK assay for rapid genotyping applications"
 **Status:** Ongoing  
 **Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Genetics and adaptation  
 
 **Overview:**  
 The objective of this project is to adapt and test the use of SHERLOCK lateral

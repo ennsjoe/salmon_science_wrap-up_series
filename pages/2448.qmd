@@ -11,6 +11,7 @@ title: "Developing a proactive, modernized, holistic approach to ensure optimal 
 **Status:** Ongoing  
 **Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Fish health and disease  
 
 **Overview:**  
 This research is the second year of a proof of concept level adoption of a

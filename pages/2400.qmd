@@ -11,6 +11,7 @@ title: "Assessment of SEP Chinook and Coho broodstock ELISA screening data by mo
 **Status:** Ongoing  
 **Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Hatchery science  
 
 **Overview:**  
 Renibacterium salmoninarum, the causative agent of bacterial kidney disease

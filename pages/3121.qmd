@@ -11,6 +11,7 @@ title: "Impact of genetic divergence on outbreeding depression in Chinook Salmon
 **Status:** New  
 **Theme:** Unspecified  
 **PSSI Pillar:** Unspecified  
+**Speaker Theme:** Hatchery science  
 
 **Overview:**  
 Abundances of many Chinook Salmon populations are in decline. In extreme cases

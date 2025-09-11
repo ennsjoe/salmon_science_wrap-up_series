@@ -7,7 +7,7 @@ render:
   - pages/*.qmd  # Automatically render all project pages
 
 website:
-  title: "PSSI Salmon Science Speaker Series"
+  title: "Pacific Salmon Science"
   navbar:
     left:
       - href: index.qmd

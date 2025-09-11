@@ -11,6 +11,7 @@ title: "Fishery & Assessment Data Section - Data Stewardship Unit"
 **Status:** Ongoing  
 **Theme:** Data Management  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
 Vision: All DFO-owned data relating to pacific salmon are appropriately

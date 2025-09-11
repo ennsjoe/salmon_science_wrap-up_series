@@ -11,6 +11,7 @@ title: "A data pipeline to support more rapid calculation of Proportionate Natur
 **Status:** New  
 **Theme:** Unspecified  
 **PSSI Pillar:** Unspecified  
+**Speaker Theme:** Uncategorized  
 
 **Overview:**  
 Determining the hatchery contribution to fisheries catch and escapement is

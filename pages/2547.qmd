@@ -11,6 +11,7 @@ title: "Fishery & Assessment Data Section - Knowledge Mobilization Unit"
 **Status:** New  
 **Theme:** Unspecified  
 **PSSI Pillar:** Unspecified  
+**Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
 The knowledge mobilization unit works to analyze how DFO makes use of data and

@@ -11,6 +11,7 @@ title: "Development of geospatial tools for large-scale freshwater salmon habita
 **Status:** Ongoing  
 **Theme:** Decision Support  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
 This project represents continued support for the Freshwater Spatial Ecology

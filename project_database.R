@@ -1,7 +1,7 @@
 ################################################################################
 # Title: Load CSVs into SQLite, Clean Column Names & List Table Structures
 # Description: Writes all CSVs from 'data/' folder to DB, cleans column names,
-#              and prints table schemas
+#              and prints table schemas. Also handles Speaker Themes.csv.
 ################################################################################
 
 # Load libraries
@@ -34,11 +34,26 @@ for (csv_path in csv_files) {
   cat(glue("\n📥 Loading '{basename(csv_path)}' into table '{table_name}'...\n"))
   
   data <- read_csv(csv_path, show_col_types = FALSE) %>%
-    janitor::clean_names()  # Clean column names
+    janitor::clean_names()
   
   dbWriteTable(con, table_name, data, overwrite = TRUE)
   
   cat(glue("✅ Table '{table_name}' written to database with cleaned column names.\n"))
+}
+
+# Explicitly handle Speaker Themes.csv if not already included
+speaker_themes_path <- file.path(data_dir, "Speaker Themes.csv")
+if (file.exists(speaker_themes_path)) {
+  cat(glue("\n📥 Loading 'Speaker Themes.csv' into table 'speaker_themes'...\n"))
+  
+  speaker_themes <- read_csv(speaker_themes_path, show_col_types = FALSE) %>%
+    janitor::clean_names()
+  
+  dbWriteTable(con, "speaker_themes", speaker_themes, overwrite = TRUE)
+  
+  cat("✅ Table 'speaker_themes' written to database with cleaned column names.\n")
+} else {
+  cat("⚠️ 'Speaker Themes.csv' not found in data directory.\n")
 }
 
 # List all tables and their columns

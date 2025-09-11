@@ -11,6 +11,7 @@ title: "Improved decision making for salmon by understanding the threats of fres
 **Status:** Ongoing  
 **Theme:** Decision Support  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
 Climate change and Aquatic Invasive Species (AIS) are leading threats to

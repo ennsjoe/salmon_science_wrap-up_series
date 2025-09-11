@@ -11,6 +11,7 @@ title: "Intergenerational transfer and parental origins of DNA methylation varia
 **Status:** Ongoing  
 **Theme:** Hatchery Science  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Genetics and adaptation  
 
 **Overview:**  
 The objective of this project is to document inheritance of DNA methylation

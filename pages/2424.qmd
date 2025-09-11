@@ -11,6 +11,7 @@ title: "Mechanistic modelling to link hydrology to juvenile salmon habitat quali
 **Status:** Ongoing  
 **Theme:** Decision Support  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Freshwater ecosystems and stressors  
 
 **Overview:**  
 Hydrology is a key determinant of salmon productivity and persistence in

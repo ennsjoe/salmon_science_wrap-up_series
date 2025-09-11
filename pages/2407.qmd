@@ -11,6 +11,7 @@ title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring 
 **Status:** Ongoing  
 **Theme:** Salmon Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Salmon population monitoring and assessment  
 
 **Overview:**  
 Follow the Fish (FtF), is an overarching research program being developed to

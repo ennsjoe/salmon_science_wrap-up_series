@@ -11,6 +11,7 @@ title: "Complementing British Columbia’s coasts longest Sea Surface Temperatur
 **Status:** Ongoing  
 **Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 1-Conservation and stewardship  
+**Speaker Theme:** Uncategorized  
 
 **Overview:**  
 At present, Sea Surface Temperature (SST) and Sea Surface Salinity (SSS) data

@@ -11,6 +11,7 @@ title: "Genetics Stock Identification and Parentage Based Tagging of Pacific sal
 **Status:** Ongoing  
 **Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 2-Salmon enhancement  
+**Speaker Theme:** Uncategorized  
 
 **Overview:**  
 Genetic identification of samples on both a rapid (daily or intraweek) and
