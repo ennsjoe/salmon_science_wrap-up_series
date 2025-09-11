@@ -8,8 +8,56 @@ title: "Sakinaw Sockeye Juvenile Research on Measures to Increase Marine Surviva
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** South Coast Area Salmon Stock Assessment  
 **Location:** ["Hodgson Islands","Sakinaw Lake","Salish Sea","Strait of Georgia"]  
+**Status:** Ongoing  
+**Theme:** Threat Assessment and Mitigation  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Marine survival is a limiting factor for the endangered Sakinaw Lake sockeye smolts who migrate past hundreds of harbour seals at Hodgson Islands in the Strait of Georgia every spring. This salmon tracking study traps and PIT tags up to 2,500 sockeye smolts at a smolt fence, then transports the sockeye by boat past the seal colony and compares the survival rate of transported sockeye to naturally migrating smolts.
+Sakinaw sockeye smolts out-migrate from Sakinaw Lake each spring into the
+Strait of Georgia. Recovery efforts have determined that the marine survival
+of this population is very low, which is a major limiting factor to population
+recovery. On water surveys of pinnipeds from the estuary out to the seal haul
+outs on Hodgson Islands (approximately 2km from the estuary, Figure 1) during
+the spring out-migration timing (since 2019) have estimated from approximately
+100-350 harbour seals in the area.
+
+This project was started as a pilot in 2022 to test the hypothesis that the
+Hodgson Island harbour seal population is negatively affecting smolt survival,
+and subsequently adult returns. The goal of the project is to transport and
+release smolts past the seal haul out and then compare marine survival rates
+between transported smolts and those out-migrating naturally. The pilot
+project began with a low number of smolts transported in small trial releases
+to test the effect of additional handling/ osmoregulation on fish as well as
+the function of equipment. Small numbers of fish were PIT tagged to confirm
+fish are able to recover from the procedure and be transported on the same
+day. Additional activities included continuation of harbour seal counts
+(Figure 2) on local haul outs during the smolt (May) and adult (July) peak
+migration windows. Transport activities are conducted with shíshálh Nation’s
+newly acquired 30 foot aluminum landing craft which is suited to this kind of
+work.
+
+In years 2-5 (spring 2023-2026), we propose scaling up releases to achieve
+adequate sample sizes in order to properly test the hypothesis. A minimum of
+1,000 and up to 2,500 PIT tagged sockeye are recommended per year such that a
+1% survival will yield a total of 10-25 tag returns. Return rates of less than
+1% may be too low to justify operationalizing this activity long term. The
+transport of non-tagged fish should be avoided as to not confound comparisons
+with the control group (untagged fence migrants). Results from 2023/24
+releases will be realized in 2025/26 escapement years at which point a
+decision on the future of the project can be made. Additional activities may
+include walking the Hodson Island haul out with a mobile PIT tag antenna to
+look for evidence of predation on out migrating smolts (river or transport
+groups; Coho and Sockeye), or installing a PIT antenna on the haul out.
+
+Sakinaw Sockeye has been confirmed as an endangered stock since 2003, and a
+recovery potential assessment, completed in 2017 cited low marine survival as
+the greatest limiting factor in recovery, with predator abundance and assumed
+predation on smolts and adults ranked as high risk, with a critical level of
+impact. Perpetually low marine survivals are preventing recovery such that the
+persistence of the population is entirely dependent on a captive brood
+program. This activity may be one of the few tools available to increase
+survival.
+
+
 
 [⬅ Back to Home](../index.qmd)

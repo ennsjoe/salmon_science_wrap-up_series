@@ -7,9 +7,33 @@ title: "Improved decision making for salmon by understanding the threats of fres
 **Lead(s):** Thomas Therriault, Cher LaCoste  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Decision Support  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.
+Climate change and Aquatic Invasive Species (AIS) are leading threats to
+biodiversity globally. In British Columbia (BC), many salmon stocks have been
+assessed as at-risk by COSEWIC (Committee on the Status of Endangered Wildlife
+in Canada), but while climate change has been increasingly considered in
+salmon management and policy, the threat posed by AIS has largely been
+ignored. Further, stressors like increasing global temperatures are out of the
+control of regional management while AIS can be managed locally. By targeting
+AIS most likely to have the biggest impact on salmon survival or productivity,
+we can improve salmon recovery by reducing the stress that these invasive
+species cause. AIS impacts on salmon are well documented in the US Pacific
+Northwest where, for example, invasive Walleye consume up to 2 million smolts
+a year in the Columbia River (Sanderson et al. 2009). The expansion of
+Northern Pike in Alaska has led to the decline of salmon productivity in some
+regions and all five salmon species have been classified as highly vulnerable
+to pike invasion in at least part of their Alaskan range (Jalbert et al.
+2021). Habitat alteration can also impact salmon: Schwoerer et al. (2019)
+estimated the potential for $159 million annual damage to the Alaskan Sockeye
+salmon industry from one invasive plant species, Elodea. However, the extent
+and relative impact of freshwater AIS threats to salmon habitat and
+productivity have yet to be assessed in BC. Here we will fill this gap.
+
+
 
 [⬅ Back to Home](../index.qmd)

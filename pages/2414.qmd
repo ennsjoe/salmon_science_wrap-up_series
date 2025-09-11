@@ -7,9 +7,24 @@ title: "South Coast freshwater ecological indicator pilot"
 **Lead(s):** Diana McHugh  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** South Coast Area Salmon Stock Assessment  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Ecosystem Monitoring  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates.
+To support the Chinook Rebuilding Planning process, we need to collect
+additional ecological data including water quality measurements and benthic
+invertebrate surveys in order to fill some of the gaps identified in the data
+available in the Habitat Risk Assessments. The initial program developed for a
+few systems on the west coast, should be maintained and expanded to cover
+additional systems, where there is particular concern and local support. With
+a reduced budget, one technician will coordinate with other available techs to
+visit index systems and maintain equipment opportunistically. Short-term
+Priority systems: Kaouk, Leiner, Bedwell/Ursus, San Juan, and Sarita Secondary
+systems: Clemens, Conuma, Nahmint, Somass, Cayeghle, Marble, Nitinat, Sugsaw,
+Nimpkish
+
+
 
 [⬅ Back to Home](../index.qmd)

@@ -7,9 +7,17 @@ title: "Fishery & Assessment Data Section - Knowledge Mobilization Unit"
 **Lead(s):** Shelee Hamilton, Tom Bird  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
-**Location:**   
+**Location:** N/A  
+**Status:** New  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
+The knowledge mobilization unit works to analyze how DFO makes use of data and
+knowledge to support decision-making, research and outreach. We do this using
+modern data science tools including large language models, graph databases,
+generative AI, optical character recognition and clustering analyses.
+
 
 
 [⬅ Back to Home](../index.qmd)

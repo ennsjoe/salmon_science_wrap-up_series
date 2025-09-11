@@ -8,8 +8,75 @@ title: "Convergent tracks: a tagging study to quantify salmon predation by sea l
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **Location:** ["Triangle Island","Haida Gwaii"]  
+**Status:** Ongoing  
+**Theme:** Threat Assessment and Mitigation  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.
+The abundance of many Pacific salmon populations has remained below management
+reference points for decades despite large reductions in exploitation rates. A
+common paradigm is that poor marine survival has constrained recovery;
+however, the mechanisms (e.g. predation vs. starvation) leading to mortality
+and at which life stages they operate remain unclear. One specific hypothesis
+is that large aggregations of Steller sea lions intercept Fraser River sockeye
+salmon (10 of 24 CUs threatened or endangered (COSEWIC 2017)) north of
+Vancouver Island during return migrations. Yet little is known about sea lion
+foraging behaviour and diet in these remote transitions zones between offshore
+and coastal areas and even less is known about salmon mortality rates. Our
+proposal outlines a field program to addresses salmon and pinniped components
+simultaneously. This work will employ leading edge technologies to generate
+hard data on sources of salmon mortality and specifically the degree of
+pinniped mortality, moving us/debate/issue beyond the realm of conjecture and
+inference. Although this document describes a sockeye salmon-sea lion field
+program, we emphasize that our proposal is modular in that one or both species
+components can be pursued, and the framework could focus on alternative
+pinniped species, salmon species or salmon life stages based on departmental
+priorities (e.g. harbor seal impacts on juvenile Chinook salmon); however the
+costs associated with tagging juvenile salmonids will be considerably higher.
+
+We will estimate sea lion predation on adult sockeye salmon as they migrate
+past Triangle Island, off the northern tip of Vancouver Island. This region is
+the site of the largest Steller sea lion rookery in the world and is
+hypothesized to be a survival bottleneck that disproportionately impacts
+Fraser River sockeye salmon productivity (e.g. Walters et al. 2020). Salmon-
+related work would quantify predation impacts via multiple complementary
+tagging technologies. After capturing sockeye salmon via purse seine near
+Haida Gwaii, we will use satellite tags to quantify guild-specific predation
+rates (e.g. cetacean, pinniped, shark) based on depth and temperature sensors,
+to generate high resolution estimates of salmon habitat use, and to estimate
+diversion rates that may moderate predation impacts (i.e. migrations through
+Juan de Fuca rather than Johnstone Strait). We will leverage existing acoustic
+telemetry infrastructure in the northern Strait of Georgia, that will increase
+the precision of mortality rate estimates at relatively low cost. Pinniped-
+related work will include complementary methods (fatty acids, stable isotopes
+and scats) to estimate diets at multiple temporal scales along migration
+pathways on either side of Vancouver Island. Pinniped diet analyses will be
+complemented by satellite tagging to understand movements, distribution and
+foraging behaviour in relation to salmon mortality locations. We wish to
+emphasize that these pinniped data will be highly relevant for gauging
+predator impacts more broadly, Including other PSSI initiatives.
+
+For the salmon component, Y1 (FY 2023-24) will be a ramp-up period, with
+tagging occurring in Y2 and Y3. For the pinniped component, diet collections
+will begin in Y1 and continue through Y3. We will undertake initial satellite
+tagging of pinnipeds in Y1 to refine effective protocols and increase tagging
+rates in Y2 and Y3. Analytical pipelines for both components will be developed
+in Y2 so that final analyses can begin in Y3 and continue through 2026 (PIs
+have the capacity to complete analytical work without additional staffing).
+Unfortunately salmon tagging will occur during off cycle years; however we
+anticipate sufficient numbers of fish will be available to meet our sample
+size requirements.
+
+Ultimately data on survival rates and predation are critical to several
+management questions. First, total survival rates can provide strategic
+information on whether specific life history stages are likely to constrain
+recovery (i.e. if survival is high then subsequent efforts should focus on
+other stages). Second, information on guild-specific predation rates can
+provide information on the utility of targeted management actions (e.g.
+fisheries, culls). These data are also key inputs to ongoing life cycle and
+ecosystem modeling efforts intended to guide prioritization of Pacific salmon
+stocks for rebuilding.
+
+
 
 [⬅ Back to Home](../index.qmd)

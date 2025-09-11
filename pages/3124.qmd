@@ -7,9 +7,39 @@ title: "A data pipeline to support more rapid calculation of Proportionate Natur
 **Lead(s):** Tom Bird  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
-**Location:**   
+**Location:** N/A  
+**Status:** New  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
+Determining the hatchery contribution to fisheries catch and escapement is
+crucial to determine the Proportionate Natural Influence (PNI) of a stock.
+Used to support planning of hatchery activities, allocation of fishing effort
+and research on stock composition, PNI is calculated by combining a number of
+potential data sources including genetics, coded wire tags, thermal otolith
+marks or fin clip recoveries, depending on the availability of data for
+different stocks. Rapid calculation of PNI is currently confounded by a number
+of factors including lack of managed data sources, varied analysis processes,
+and disconnects between fisheries, escapement and hatchery data sources. This
+project will identify the main barriers to determining PNI, develop a proof of
+concept data pipeline and highlight where effort at building data management
+and analysis pipelines will provide greatest benefit. The work will center on
+two priority areas: Priority 1: Broodstock PBT database: Routine access to PBT
+results is a known barrier for SEP staff. This project component will develop
+methods for enabling SEP to access them in a timely manner and suitable
+format. Deliverables: 1) Process map showing the PBT results needed by SEP
+staff, current blockers to access and what their needs are for ongoing/routine
+access 2) Develop proof of concept PBT data results pipeline and portal in
+collaboration with MGL (in EPro, data lakehouse, github or other) Priority 2:
+PNI Calculation Pipeline: Building on the understanding of PBT data processes,
+this component will map the various systems and data sources used to calculate
+PNI, then propose a standardized decision-tree system using multiple data
+sources and based on SEP PNI calculation guidelines. Deliverables: 1) Compile
+SEP knowledge on PNI calculation steps 2) Map the blockers and opportunities
+for formalizing these steps in a data pipeline 3) Implement a proof of concept
+PNI calculation pipeline in DFO’s cloud environment.
+
 
 
 [⬅ Back to Home](../index.qmd)

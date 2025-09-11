@@ -5,11 +5,75 @@ title: "Scenario Planning: improving the adaptability of Pacific salmon hatchery
 ## 🧬 Project Summary
 
 **Lead(s):** Sue Grant, Bronwyn MacDonald, Lenora Turcotte, David Willis  
-**Division:**   
+**Division:** N/A  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**Location:**   
+**Location:** N/A  
+**Status:** New  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
+The problem: Climate change is creating a more volatile, uncertain, complex,
+and ambiguous world. How do hatchery managers move forward despite these
+uncertainties and overcome “management paralysis” in the context of climate
+change?
+
+What is being proposed: We will use scenario planning to develop insight into
+how SEP/DFO can better ensure that hatchery planning and implementation is
+adaptable to climate change impacts over the next 20 years. Year 1 will focus
+on a DFO internal process and plan for broader engagement in Year 2 with
+Indigenous knowledge experts.
+
+Scenario planning enables organizations to embrace uncertainty by expanding
+their understanding of the plausible range of futures they may experience.
+Scenarios are meant to guide and inform organizations about potential future
+changes that will impact how they operate. These processes enable
+organizations to be better positioned to deal with unexpected threats, and
+take advantage of unexpected opportunities.
+
+Scenario planning is a structured approach for defining plausible futures.
+This is a co-learning participatory process, that has been identified as a key
+way to advance climate adaptation within organizations and processes (Hare
+2020). Expertise provided by DFO Science, SEP, Indigenous groups, and other
+Sectors will be integrated through this process.
+
+Scenario planning identifies areas of high impact and low predictability
+within a system, and imagines future situations, termed scenarios, that could
+occur given the uncertainties identified. Large-scale driving forces that may
+push the future in different directions are identified and used to uncover
+potential future states. Scenarios provide a fresh perspective, and a new
+framework that can be used to encourage dialogue and strategic thinking on the
+challenges and opportunities we may face. It is a powerful tool for forcing us
+to challenge commonly-held assumptions and expectations, and abandon
+previously fixed ideas that may no longer hold true. Scenarios help by
+legitimizing a dialogue, challenging conventional wisdom, initiating
+widespread discussion, and creating the possibility of genuine transformation.
+
+Participants in scenario planning processes identify and evaluate management
+options or adaptations that are robust to alternate plausible future
+scenarios. In this way, scenario planning can help managers understand where
+management strategies may need to change to prepare for the future. This work
+can also prioritize knowledge gaps and future science priorities.
+
+Scenario planning is a flexible process that can be tailored to the specific
+project goals and objectives. Generally, processes follow five steps described
+by Frens and Morrison (2020): 1\. Orientation to the problem: define the
+specific issue being discussed, goals, scope, and desired outcomes. 2\.
+Exploration: improve understanding of the issue, identify key drivers and
+uncertainties. 3\. Scenario building: identify critical uncertainties
+(drivers) for the scenario framework, develop plausible scenario narratives.
+4\. Application: examine scenarios for implications, develop and evaluate
+management actions. 5\. Identify indicators: specifically, environmental
+indicators and thresholds that would trigger recommended management
+strategies.
+
+Collaboration with another ESD-SEP PSSI Proposal: this work links with ESD
+proposal led by Chrys Neville: “Assessing the impact of modifications to
+hatchery release strategies of Chinook salmon on their distribution and marine
+survival’ though engaging scientific expertise and knowledge that can support
+scenario planning process to identify hatchery adaptation robust to future
+climate change scenarios.
+
 
 
 [⬅ Back to Home](../index.qmd)

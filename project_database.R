@@ -1,6 +1,7 @@
 ################################################################################
-# Title: Summarize Science Projects Database
-# Description: Connects to the SQLite database and summarizes the 'projects' table
+# Title: Load CSVs into SQLite, Clean Column Names & List Table Structures
+# Description: Writes all CSVs from 'data/' folder to DB, cleans column names,
+#              and prints table schemas
 ################################################################################
 
 # Load libraries
@@ -8,6 +9,10 @@ library(here)
 library(DBI)
 library(RSQLite)
 library(dplyr)
+library(readr)
+library(tools)
+library(glue)
+library(janitor)
 
 # Define path to the database
 db_path <- here("science_projects.sqlite")
@@ -15,40 +20,36 @@ db_path <- here("science_projects.sqlite")
 # Connect to the database
 con <- dbConnect(SQLite(), dbname = db_path)
 
-# Check available tables
-tables <- dbListTables(con)
-cat("📋 Tables in the database:\n")
-print(tables)
+# Read all CSV files from the 'data' folder
+data_dir <- here("data")
+csv_files <- list.files(data_dir, pattern = "\\.csv$", full.names = TRUE)
 
-# If 'projects' table exists, summarize it
-if ("projects" %in% tables) {
-  # Load data into R
-  projects <- dbReadTable(con, "projects")
+cat("📂 Found CSV files:\n")
+print(csv_files)
+
+# Write each CSV to the database with cleaned column names
+for (csv_path in csv_files) {
+  table_name <- file_path_sans_ext(basename(csv_path)) %>% make.names()
   
-  # Basic summary
-  cat("\n🔍 Summary of 'projects' table:\n")
-  cat("Number of rows:", nrow(projects), "\n")
-  cat("Number of columns:", ncol(projects), "\n")
-  cat("Column names:\n")
-  print(colnames(projects))
+  cat(glue("\n📥 Loading '{basename(csv_path)}' into table '{table_name}'...\n"))
   
-  # Show first few rows
-  cat("\n📌 Sample rows:\n")
-  print(head(projects, 5))
+  data <- read_csv(csv_path, show_col_types = FALSE) %>%
+    janitor::clean_names()  # Clean column names
   
-  # Optional: summarize a key column (e.g., category or status)
-  if ("Category" %in% colnames(projects)) {
-    cat("\n📊 Projects by Category:\n")
-    print(table(projects$Category))
-  }
+  dbWriteTable(con, table_name, data, overwrite = TRUE)
   
-  if ("Status" %in% colnames(projects)) {
-    cat("\n📊 Projects by Status:\n")
-    print(table(projects$Status))
-  }
-  
-} else {
-  cat("\n⚠️ Table 'projects' not found in the database.\n")
+  cat(glue("✅ Table '{table_name}' written to database with cleaned column names.\n"))
+}
+
+# List all tables and their columns
+tables <- dbListTables(con)
+cat("\n📋 Tables and their columns:\n")
+
+for (table_name in tables) {
+  columns <- dbListFields(con, table_name)
+  cat(glue("\n🔹 Table: {table_name}\n"))
+  cat("   Columns:\n")
+  print(columns)
 }
 
 # Disconnect

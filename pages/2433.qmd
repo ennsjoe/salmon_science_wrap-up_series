@@ -6,10 +6,39 @@ title: "Integrated Salish Sea acoustic monitoring of salmon and salmon prey"
 
 **Lead(s):** Stephane Gauthier  
 **Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry   
+**Section:** Ecology and Biogeochemistry  
 **Location:** ["Salish Sea"]  
+**Status:** Ongoing  
+**Theme:** Ecosystem Monitoring  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Acoustic tools can provide important information on salmon ecology (food web) and salmon survival in marine areas. These salmon habitat and abundance monitoring studies use multi-frequency echosounders from mooring stations and mobile units in West Coast Vancouver Island sounds and the Salish sea to measure aspects of salmon forage species (zooplankton, krill, and Pacific herring) and count juvenile and adult salmon along their migration.
+We propose to create and build on acoustic monitoring within the Salish Sea
+with a focus on expanding our understanding of Pacific salmon productivity and
+survival along with drivers that can affect them. This concept proposal would
+build on a number of current survey efforts as well as proposing new work to
+address specific ecosystem aspects. The different components of the proposed
+work include: 1) Deployment of autonomous acoustic multi-frequency
+echosounders: Moorings have been deployed in the Discovery Passage to track
+the timing and intensity of juvenile Pacific salmon out-migration since 2015.
+We would continue this monitoring, and add two additional moorings in the
+Strait of Georgia / Haro Strait to obtain high temporal and vertical
+resolution data on key ecosystem components (zooplankton and krill, juvenile
+salmon, forage species, and adult salmon – in particular Chinook due to their
+large size). The new mooring positions would be strategically selected to
+build on ongoing sampling programs in the Salish Sea. 2) Build on existing
+acoustic-trawl surveys in the Strait of Georgia (focused on Pacific Hake and
+walleye pollock assessments) to develop spatially-explicit estimates of krill
+biomass for the Strait and main inlets, along with information on density and
+distribution of forage fish species (e.g. Pacific herring). Other surveys
+within the Salish Sea also collect acoustic data that would feed into these
+estimates, such as the Spring and Fall juvenile salmon surveys (Neville). 3)
+Incorporate portable echosounder systems to complement current zooplankton and
+oceanographic sampling efforts (Sastri). 4) Carry out dedicated small-scale
+acoustic surveys in targeted areas to assess poorly monitored forage fish
+species that are important for salmon, with particular attention to Pacific
+Sandlance.
+
+
 
 [⬅ Back to Home](../index.qmd)

@@ -8,8 +8,52 @@ title: "Epidemiological modeling of infectious hematopoietic necrosis virus in S
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
 **Location:** ["Okanagan","Nadina Hatchery","Fulton Hatchery","Pinkut Hatchery","Weaver Creek Spawning Channels"]  
+**Status:** Ongoing  
+**Theme:** Fish Health  
+**PSSI Pillar:** 2-Salmon enhancement  
 
 **Overview:**  
-Long-term monitoring of the salmonid virus “infectious hematopoietic necrosis virus,” which can be deadly for sockeye, shows annual and geographic fluctuations between stocks, but for unknown reasons. This study examines IHNV prevalence across different watersheds, sockeye stocks, and environmental conditions in an effort to identify those factors responsible for driving IHNV prevalence and/or influencing disease within sockeye salmon populations.
+Infectious hematopoietic necrosis virus (IHNV) is a deadly virus of sockeye
+salmon, causing catastrophic losses during the early lifestages (1-4). Long-
+term monitoring of IHNV infections across multiple stocks of sockeye salmon
+has revealed the prevalence of IHNV infections can vary annually within and
+between stocks; however, the factor(s) responsible for such fluctuations in
+IHNV prevalence in sockeye salmon stocks in British Columbia remain
+unresolved. Understanding the drivers behind the occurrence and perpetuation
+of IHNV in Sockeye salmon is instrumental in managing and mitigating the risk
+of this endemic pathogen.
+
+Building upon work conducted through the Program for Aquaculture Regulatory
+Research, we’ll utilize epidemiological analytical approaches to study the
+patterns of IHNV occurrence across Fraser, Skeena and Columbia River Sockeye
+salmon stocks with the goal of identifying the factors which influence IHNV
+infection and disease in BC Sockeye salmon stocks. This will be achieved
+through three main objectives accomplished over a two year period: Objective
+1: (Year 1) – Expand upon a long-term dataset of IHNV in Fraser and Skeena
+Sockeye stocks to include IHNV monitoring results of Okanagan River Sockeye
+salmon. In addition this comprehensive IHNV dataset will be populated with
+data detailing the enumeration of fish at various life stages, survival rates,
+and productivity for each of the corresponding Sockeye stocks. Where
+available, data concerning environmental and other potentially important
+variables gathered from other databases will be integrated into the new
+database to explore how these variables may impact pathogen prevalence.
+
+Objective 2: (Year 1&amp; 2) – Data verification and analyses to compare IHNV
+prevalence across the multiple Sockeye salmon stocks, evaluating similarities
+and differences both within and between stocks along with temporal and spatial
+variation.
+
+Objective 3: (Year 2 &amp; 3) – Use a mixed-effects analysis and ecosystem health
+approach to determine how changes in pathogen prevalence in wild sockeye
+populations relate to environmental and other potentially important factors
+and management measures in an effort to identify potential correlates with
+IHNV variability.
+
+This work will permit a data-based logical argument enabling one to quantify
+specific environmental or other variable affects on IHNV status and facilitate
+the development and implementation of management measures to mitigate effects
+of IHNV in hatchery and enhanced populations of Sockeye salmon.
+
+
 
 [⬅ Back to Home](../index.qmd)

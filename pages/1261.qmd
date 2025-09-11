@@ -7,9 +7,12 @@ title: "Salmon Marine Interactions - SMI - COE Section"
 **Lead(s):** Chrys Neville, Michelle Charbonneau  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**Location:**   
+**Location:** N/A  
+**Status:** New  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
-
+No description available.
 
 [⬅ Back to Home](../index.qmd)

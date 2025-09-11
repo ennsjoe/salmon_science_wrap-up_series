@@ -7,9 +7,59 @@ title: "Complementing British Columbia’s coasts longest Sea Surface Temperatur
 **Lead(s):** Jennifer Jackson  
 **Division:** Ocean Sciences (OSD)  
 **Section:** State of the Ocean  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Innovation & Diagnostics  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Continuous marine salmon habitat measurements are important for fisheries management. The BC Shore Station Program collects long-term sea surface temperature and salinity at twelve coastal stations, but the data are coarse and limited by weather and labour. This ecosystem monitoring project is testing and installing a minimum of four independent water quality logging stations spanning the coast to collect and transmit hourly real-time data posted online.
+At present, Sea Surface Temperature (SST) and Sea Surface Salinity (SSS) data
+are collected as part of DFO’s British Columbia Shore Station Program (BCSOP)
+at twelve coastal stations that have been monitored for several decades, the
+earliest commencing in 1914 (see map below).
+
+The data are collected manually, by lighthouses keepers, at a daily interval.
+Despite its success in providing data at remote locations for an outstanding
+duration (one of the longest in the world of this kind), the program faces
+challenges and limitations: gaps due to weather conditions, concerns with
+lighthouse keepers payment, time lag between data collection and reception and
+relatively coarse observational resolution. Theses challenges result in gaps
+in the timeseries which can limit their otherwise wide range of possible
+applications.
+
+To address those challenges and enhance these valuable timeseries, we propose
+the testing and deployment of autonomous systems which can record SST and SSS
+at higher frequency (e.g. hourly) and transmit those data in near real-time.
+The system would consist of an in-situ sensors package, a data logger and
+transmitter and an antenna. Examples of such systems include elements of the
+Ocean Network Canada (https://data.oceannetworks.ca/home) and of Smart
+Atlantic, on the East coast
+(https://www.smartatlantic.ca/station_alt.html?id=dfo_nharb).
+
+The main outcome of this project will be the acquisitions of continuous, gap-
+free, high resolution (hourly) timeseries of SST and SSS at key sites along
+the BC coast. These timeseries would be available in real-time mode and/or
+delay mode and posted online via the Open Data portal
+(https://open.canada.ca/data/en/dataset/719955f2-bf8e-44f7-bc26-6bd623e82884)
+as well as on the Ocean Network Canada and Canadian Integrated Ocean Observing
+System (CIOOS, https://cioos.ca/about/). The number of sites to be equipped
+upon successful testing (1st year) will depend on budget available (details
+below); a minimum of 4 stations would be necessary to be representative of the
+BC coast as a whole, i.e. Salish Sea (Chrome Island to Race Rocks), West coast
+(Amphitrite Point to Kains Island), North coast (Pine Island to Bonilla
+Island) and Haida Gwaii (Langara Island). Region and station priorities would
+be defined upon results of the first year tests and in coordination with other
+researchers and PSSI priorities.
+
+SST and SSS characteristics determine the suitability of marine ecosystems
+habitat for native and invasive species that impacts migration patterns,
+predator-prey relationships and stock abundance. Data from the BCSOP currently
+contributes to fisheries management as input into forecasts of the northern
+diversion of Fraser River sockeye and models of salmon and anchovy stock
+abundance in the Strait of Georgia. Thus, enhanced data from this initiative
+would not only strengthen the current applications but also be helpful to
+newly implemented PSSI initiatives.
+
+
 
 [⬅ Back to Home](../index.qmd)

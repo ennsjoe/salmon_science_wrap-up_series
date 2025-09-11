@@ -8,8 +8,36 @@ title: "Chum whole genome sequencing for improved stock delineation"
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **Location:** ["Fraser","Chilliwack River"]  
+**Status:** Ongoing  
+**Theme:** Innovation & Diagnostics  
+**PSSI Pillar:** 2-Salmon enhancement  
 
 **Overview:**  
-Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution.
+The objective of this study is to better understand the population structure
+of Chum salmon in British Columbia, to help strengthen genetic stock
+delineation.
+
+In the initial phases of the project, the focus will begin on the southern
+coastal populations. While stock delineation using the existing SNP panel is
+close to Conservation Unit-level resolution, there remain difficult
+delineations to make that are of interest to stock assessment and management.
+For year 1, the focus will be predominately on the lower Fraser, where
+delineation of Chilliwack River from the remaining lower Fraser populations
+remains difficult in the current analysis methods but is desired to support
+management objectives. To better understand what differentiates these
+populations, we will use next generation sequencing technologies to perform
+low-coverage whole genome sequencing on a selection of spawning populations in
+the lower Fraser, Chilliwack River, and select populations in the Salish sea
+in the first year - this will include enhanced stocks from each region. Future
+analyses will identify where differences stocks exist and allow for the
+selection of genetic markers to better delineate among them, thereby allowing
+for more accurate assessment and enhancement methods using genetic techniques.
+
+This initial effort will be built upon in future years by extending sampling
+to additional regions where further stock delineation is necessitated to meet
+assessment and enhancement objectives, such as Strait of Georgia/Howe Sound,
+West Coast Vancouver Island, and Johnstone Strait and the Central Coast.
+
+
 
 [⬅ Back to Home](../index.qmd)

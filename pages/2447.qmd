@@ -8,8 +8,88 @@ title: "Innovative Ecosystem Based Approaches to identify cumulative stressors: 
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **Location:** ["Barkley Sound","Clayoquot Sound"]  
+**Status:** Ongoing  
+**Theme:** Salmon Monitoring  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Salmon experience a variety of physiological stressors and pathogens over migration which can be monitored non-lethally using Fit-Chip technology. Chinook salmon will expose themselves to potentially impactful stressors to avail feeding opportunities, enhancing vulnerability to cumulative stressors. eDNA data resolves habitat usage for Chinook salmon and demonstrating they associate with high biomass areas (prey availability), including aquaculture facilities, and avoid harmful algae. Models addressing the cumulative and synergistic interplay between factors will inform which levers under human control will result in strongest outcomes for salmon.
+Climate change has negatively impacted productivity of many Canadian Pacific
+salmon stocks and species, but the cumulative interplay between environmental
+stress and changes to salmon ecosystems impacting survival are still yet to be
+fully evaluated. This knowledge is required to identify effective mediation
+strategies under anthropogenic control. An innovative salmon Fit-Chip tool is
+poised to fill this knowledge gap. The salmon Fit-Chip tool contains curated
+biomarker panels that can specifically recognize independent stressors
+(thermal, osmotic, hypoxia), disease states (viral), imminent mortality
+(natural death within 72 hours), and smolt readiness (differentiating pre-
+smolts, smolts and de-smolts), based on profiling from non-lethal gill biopsy
+samples. Fit-chips also contain biomarkers associated with inflammation and
+immune activation, and can include assays to key pathogens and parasites.
+
+While physical oceanographic monitoring can provide environmental measures of
+temperature, oxygen, and salinity, they do not tell us whether fish are
+actually experiencing stress, or possibly avoiding areas where these stressors
+occur. Fit-Chip data allow us to directly test whether the highest ranking
+environmental risk factors identified in the WCVI Marine Risk
+Assessments—elevated temperature summer through early fall and reduced oxygen
+in the fall, the moderate risk of carryover effects (in this case smolt
+readiness rather than size) and exposure to HABs, cause physiological stress
+and impairment in Chinook salmon. Moreover, Fit-Chips can effectively identify
+habitats where salmon are least vs most compromised, allowing regulators and
+habitat biologists to target remediation where needed most, with remediation
+success tracked via decreased stress.
+
+Working within the West Coast Vancouver Island (WCVI) &quot;Follow the fish
+Research Consortium funded under PSSI, under objective 1, we will run Fit-
+Chips on 2,000 Chinook released from Robertson and Nitinat hatcheries sampled
+over the migration trajectory from freshwater-estuary-marine, including
+overwintering Chinook caught across all 5 WCVI sounds through microtrolling
+led by local First Nations. Using a south coast wide Fit-Chip dataset
+developed in 2022-2023 using PSSI funding, comprised of over 4500 Chinook
+sampled from 2008-2018, we will employ stock-recruitment models to identify
+associations between individual stressors and population-level survival across
+the southern BC coast, and build a new model framework to address the
+cumulative interplay between stress and disease undermining survival. This
+analysis will address several of the risk factors identified in the WCVI
+Marine Risk Assessment for Chinook salmon, including climate-driven
+environmental stressors (temperature, hypoxia, salinity) and
+pathogens/disease, and their association with survival. We will then apply
+this knowledge to our Fit-Chip data on WCVI Chinook collected from 2022-2024,
+along with the physical oceanographic data collected at the same time, to
+identify where and when environmental stressors are “felt” by WCVI Chinook,
+including their relationship with measured environmental parameters, and where
+and when signs of increased morbidity occur. Importantly, this spatial
+analysis will also address the anthropogenically controlled intrinsic and
+extrinsic factors associated with stressors and diseases that pose the highest
+population-level risk to WCVI Chinook. The ultimate goal is to identify
+stressor and/or disease impacts that can be effectively mediated to increase
+early marine survival of salmon, and habitats where mediation is most urgently
+required.
+
+The WCVI Marine Risk Assessments identified prey availability/feeding a high
+current and future risk, pathogens/parasites a moderate current and high
+future risk, and predation/HABs a moderate risks. Data gaps were identified
+for all of these risk factors. While multiple individual projects are proposed
+to tackle most of these risk factors and where they are most strongly felt in
+Barclay and Clayoquot Sound, eDNA offers a more holistic tool to identify the
+species compositions – e.g. salmon spp, predators, prey, competitors,
+infective agents, HABs, that can corroborate community assessment more
+efficiently over a broader spatial scale. Under objective 2, we will carry out
+eDNA sampling in the same areas and seasons where the follow the fish project
+is actively catching fish, starting in the estuaries and Barclay Sound in
+spring/summer, and moving into Clayoquot sound in the early fall and
+throughout all five sounds overwinter. In addition to providing an ecosystem
+characterization via metabarcoding, and pathogens through our infective agent
+monitoring system -- including potential hot-spot areas around
+farms/processing plants, eDNA may also provide more information on areas of
+the sound where salmon are more or less abundant. Importantly, under this
+objective we will integrate data analyses with projects using a more
+traditional species assessments (e.g. via plankton sampling, HAB monitoring,
+hydroacoustics). Importantly, when contrasting eDNA community compositions in
+ecosystems where salmon show indices of optimal vs compromised health, we can
+provide a second pillar to develop and measure the effectiveness of mediation
+efforts.
+
+
 
 [⬅ Back to Home](../index.qmd)

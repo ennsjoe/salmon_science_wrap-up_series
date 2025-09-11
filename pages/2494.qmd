@@ -7,9 +7,12 @@ title: "Modeling interactions of environmental, biological and infectious factor
 **Lead(s):** Simon Jones  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
-**Location:**   
+**Location:** N/A  
+**Status:** Complete  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
-
+No description available.
 
 [⬅ Back to Home](../index.qmd)

@@ -6,10 +6,23 @@ title: "Development and application of laser ablation-inductively coupled plasma
 
 **Lead(s):** Andrew Ross, Xiangjun Liao, Nicole LaForge  
 **Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry   
+**Section:** Ecology and Biogeochemistry  
 **Location:** ["IOS Sidney"]  
+**Status:** Ongoing  
+**Theme:** Innovation & Diagnostics  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.
+This project addresses the (IOS Mass Spectrometry) lab-based component of the
+otolith microchemistry work that forms a key part of the “Follow the Fish”
+program (FtF), the subject of a broader PSSI project proposal focused on West
+Coast Vancouver Island (WCVI) Chinook salmon. The overall aim of the work
+described here is to develop in-house capacity for laser ablation-inductively
+coupled plasma-mass spectrometry (LA-ICP-MS). This will provide specialized
+analytical support for FtF and capacity to conduct similar analyses for other
+DFO programs and activities like fish aging and ongoing projects in the Fraser
+and Cowichan rivers.
+
+
 
 [⬅ Back to Home](../index.qmd)

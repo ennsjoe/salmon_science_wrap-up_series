@@ -7,9 +7,12 @@ title: "PSSI High Seas Salmon Research - West Coast Vancouver Island (and transi
 **Lead(s):** Jackie King, Michelle Charbonneau  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**Location:**   
+**Location:** N/A  
+**Status:** Not funded  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
-
+No description available.
 
 [⬅ Back to Home](../index.qmd)

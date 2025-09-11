@@ -7,9 +7,46 @@ title: "State of Pacific Salmon Report 2024-2025"
 **Lead(s):** Sue Grant  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**Location:**   
+**Location:** N/A  
+**Status:** New  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
+State of Pacific Salmon 2024 Report: This has been requested by ESD Division
+Manager (Eddy Kennedy) and RDS (Andy Thomson) and also expectations that this
+is completed through PSSI leads (Sarah Murdoch and Wes Shoemaker) as part of
+PSSI.
+
+This report will update the previous State of Salmon report in 2019: technical
+report: https://www.dfo-mpo.gc.ca/species-especes/publications/salmon-
+saumon/state-etat-2019/abstract-resume/index-eng.html and accompanying e-book
+were published: https://www.dfo-mpo.gc.ca/species-especes/publications/salmon-
+saumon/state-etat-2019/ebook/index-eng.html. This also builds on a broad
+recent North Pacific Anadromous Fish Commission (NPAFC) status report led by
+DFO&#39;s State of the Salmon Program, and our Alaskan Chair, with support from
+Stock Assessment Science group, and International Year of the Salmon (IYS) and
+parties of NPAFC. It will also tie in a recent SOS report on climate change
+adaptation: https://waves-vagues.dfo-mpo.gc.ca/library-
+bibliotheque/41213531.pdf
+
+With the publishing of DFO&#39;s rapid status approach to assess status and limit
+reference points (LRPs), we will use this Scanner as the foundation of SOS
+reporting. DFO&#39;s Scanner is an interactive data visualization tool that
+presents salmon WSP status and trends information within a mapping interface.
+By using the Scanner we can compare and contrast salmon CU trends in the
+Pacific Region. Currently Fraser salmon CUs and select North coast and
+southern BC Chinook CUs are available in the Scanner. Information provided by
+experts, combined with their use of the Scanner results will form the
+foundation on state of salmon reporting. Including First Nations observations
+will be an additional objective of the SOS reporting. How to include Western
+Science and Indigenous knowledge as two separate streams of knowledge will be
+explored. The report will provide trends and statuses and key narratives on
+the State of Pacific Salmon. This extends on annual reporting that has been
+done through State of the Pacific Ocean (salmon trends) and the Integrated
+Fisheries Management Plans (IFMPs) for environmental conditions for the
+upcoming return year.
+
 
 
 [⬅ Back to Home](../index.qmd)

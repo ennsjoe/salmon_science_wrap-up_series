@@ -7,9 +7,59 @@ title: "Identifying good practices for considering Indigenous Knowledge in Rebui
 **Lead(s):** Carrie Holt  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Quantitative Assessment Methods  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Decision Support  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Indigenous knowledge includes countless generations of place-based Pacific salmon experience that cannot be recreated or measured. Guided by the Eptuaptmumk (“Two-Eyed Seeing”) framework, we are partnering with First Nations on the West coast of Vancouver Island (WCVI) and University of Victoria to identify rebuilding targets and reference points for Chinook salmon that pair Indigenous Knowledge Systems with Western Science, based on interviews and focus groups with Indigenous Knowledge holders and a review of assessment literature.
+The goal of this project is to identify reference points and rebuilding
+targets for Pacific salmon by pairing Indigenous knowledge systems with
+Western science within a knowledge co-production paradigm. Knowledge co-
+production can be defined as “the process of bringing together two different
+knowledge systems, in true partnership and equity, to enhance, learn, and
+create new understandings on a specific topic.” (Ellam Yua et al. 2022).
+
+Analytical methods for identifying limit reference points have been developed
+for Pacific salmon (DFO 2022a) based on Western science, but these have not
+considered Indigenous Knowledge which was identified as a gap within CSAS
+review (DFO 2022a, b). ‘Upper stock references’ (delineating ‘critical’ and
+‘cautious’ zones of status) and rebuilding targets are components of the DFO’s
+Precautionary Approach Framework and the Fish Stocks provisions under the
+Fisheries Act, but guidance on identifying them is currently lacking for
+Pacific salmon. The Fisheries Act further enables the consideration of
+Indigenous Knowledge in management, such as in the development of rebuilding
+targets and reference points, but there is limited/no precedents for this for
+Pacific salmon.
+
+Pairing Indigenous knowledge systems and Western science in the development of
+reference points and targets is a step towards ensuring that rebuilding is
+inclusive of Nations’ ontologies, including their definitions for ‘healthy’
+and ‘rebuilt’. First Nations have a precedence of knowledge that includes
+generations of place-based observations that cannot be recreated, or
+necessarily measured quantitatively. This project, partnered with the Ha’oom
+Fisheries Society, will explore how to include this alongside or within
+Western science ideas of status assessment and rebuilding. Methods will be co-
+created with First Nations partners; we anticipate that they will include a
+combination of interviews, facilitated discussions, literature reviews, and
+meta-analyses. In particular, we will identify what levels and attributes are
+considered ‘healthy’ or ‘rebuilt’ for salmon populations and where ‘serious
+harm’ is expected to occur, including life-history, distributional, and
+habitat characteristics.
+
+The project will be co-led with the Five Nations (Ahousaht, Ehattesaht,
+Mowachaht/Muchalaht, Hesquiaht and Tla-o-qui-aht First Nations) that are
+represented by the Ha’oom Fisheries Society, with a focus on relationship
+building and addressing Indigenous needs and values. Bringing Indigenous
+knowledge systems and Western science together will lead to more equitable and
+inclusive outcomes, supporting the aims of reconciliation and furthering the
+capacity for Indigenous self governance. Achieving sustainability of salmon
+fisheries cannot be achieved through a Western scientific lens alone;
+incorporating Indigenous Knowledge Systems and a broader perspective on what
+is considered healthy and serious harm in salmon ecosystems will be essential.
+The costs in year 1 will be supported in part by Five Nations Funding through
+DFO’s Treaties and Reconciliation Agreements Program.
+
+
 
 [⬅ Back to Home](../index.qmd)

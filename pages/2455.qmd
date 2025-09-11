@@ -7,9 +7,12 @@ title: "YTRA TBR Weather Stations"
 **Lead(s):** sean stark  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
-**Location:**   
+**Location:** N/A  
+**Status:** Complete  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
-
+No description available.
 
 [⬅ Back to Home](../index.qmd)

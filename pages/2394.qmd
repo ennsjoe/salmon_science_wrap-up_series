@@ -7,9 +7,36 @@ title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region gr
 **Lead(s):** Cory Lagasse  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Salmon Assessment  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Fisheries Monitoring  
+**PSSI Pillar:** 3-Harvest transformation  
 
 **Overview:**  
-Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.
+The Pacific Region groundfish trawl fishery likely represents the largest
+source of Pacific salmon catch in a non-salmon directed commercial fishery.
+While all Pacific salmon species are prohibited in groundfish trawl and cannot
+be sold or traded, salmon bycatch in trawl fisheries experience high mortality
+rates and there have been no management measures in place to monitor or
+mitigate risks to stocks of concern. This sampling program was designed in
+collaboration between DFO Science, Fisheries Management, industry and
+monitoring service providers to provide accurate estimates of salmon bycatch
+by species in the trawl fishery and representative information on Chinook
+stock composition and indicator stocks.
+
+Initial discussions led to the following four objectives being adopted to
+guide development of the program: 1\. Accurately estimate the catch in numbers
+of fish of each salmon species; 2\. Ensure sufficiently accurate and
+representative CWT sampling to quantify the fishery mortality for Chinook
+indicator stocks; 3\. Use genetic stock identification (i.e. DNA) where
+feasible to identify the stock composition of Chinook catch, including for
+populations that do not have CWT indicator stocks; and 4\. Estimate the
+spatial and temporal distribution of Chinook catch to determine when and where
+exploitation on stocks of concern may be occurring.
+
+The program was initiated across for all option A groundfish trawl vessels in
+September 2022, and will be continued during the 2023/24 fiscal year.
+
+
 
 [⬅ Back to Home](../index.qmd)

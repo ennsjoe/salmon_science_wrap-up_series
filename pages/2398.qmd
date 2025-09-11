@@ -8,8 +8,29 @@ title: "WCVI Sediment Transport and Redd Scour Assessment"
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** South Coast Area Salmon Stock Assessment  
 **Location:** ["Tranquil Creek"]  
+**Status:** Ongoing  
+**Theme:** Salmon Monitoring  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.
+1. West Coast Vancouver Island (WCVI) Chinook salmon (Oncorhynchus tschwatcha) populations declined precipitously after the 1990s. Survival rates for naturally spawning WCVI Chinook are now below replacement levels. In 2020, WCVI Chinook was listed as "Threatened" by Canada's Committee on the Status of Endangered Wildlife triggering the Chinook Rebuilding Plan and the marine and freshwater risk assessment (FWRA) processes. Results from the FWRA, highlighted that across the region the incubation life history phase was extremely data deficient. High incubation mortality can reduce productivity and limit the recovery of Chinook salmon populations. A small change in survival during this life history phase can have significant implications on production. Redd scour was identified as a high priority data gap in the indicator watersheds throughout WCVI. The purpose of this study is to evaluate redd scour, sediment transport, and hydrological conditions in three indicator watersheds in Area 23 and Area 24. This study will be important for developing a standard methodology to address this data gap, and for characterizing the scale of the issue. The results will be vital for developing indicators and benchmarks, and to inform restoration, enhancement, and rebuilding measures for WCVI Chinook.
+
+  2. The outcomes of the redd scour study are to: A. Develop a robust methodology to measure redd scour that can be repeated in indicator watersheds across the region; B. Estimate what percentage of redds are scoured at different flow thresholds and how that impacts salmonid mortality during incubation; and, C. Understand what effect more frequent and higher peak flows in a changing climate will have on redd scour and salmonid mortality in the future.
+
+The methodology for the study has three components: I. The installation of a
+hydrometric station that is calibrated to provide a continuous discharge
+record for Tranquil Creek and implement a pilot methodology in Tranquil Creek
+(completed 2022). II. Field surveys in spawning locations that includes cross-
+sections and sediment size measurements, and the installation of PIT tagged
+accelerometer scour chains at surveyed locations to measure redd scour;
+(planned for Sarita [externally funded] and Tranquil in 2023 and Bedwell
+2024). III. Pairing bed disturbance data with a 2D hydraulic model to estimate
+the spatial extent of bed disturbance at a reach scale in key Chinook and chum
+spawning areas. (Planned for 2023 in Sarita [externally funded] and 2024
+Bedwell).
+
+  1. The results from this study will be important for characterizing the scale of the issue and will be vital for developing restoration prescriptions and can inform indicator development, enhancement, and rebuilding strategies in the region. In particular, for the Bedwell and Sarita Rivers, a rotary screw trap provides a total abundance estimate, which facilities that calculation of the egg-fry survival rate. Developing a relationship between over-winter egg-fry survival and redd scour and sediment movement, will be important for understanding the scale of the issue in watersheds across WVCI and the urgency needed to address this issue.
+
+
 
 [⬅ Back to Home](../index.qmd)

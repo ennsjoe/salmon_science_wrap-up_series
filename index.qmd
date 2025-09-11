@@ -1,5 +1,5 @@
 ---
-title: "PSSI Salmon Science Speaker Series"
+title: "Pacific Salmon Science Speaker Series"
 ---
 
 ## 🧪 Salmon Science Projects
@@ -9,58 +9,123 @@ Explore projects grouped by section below.
 ### 📁 Applied Technology
 
 [Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station](pages/2439.qmd){.button .outline}
+[Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station](pages/2439.qmd){.button .outline}
+[Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station](pages/2439.qmd){.button .outline}
 
 ### 📁 Aquatic Animal Health
 
 [Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.](pages/2400.qmd){.button .outline}
+[Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.](pages/2400.qmd){.button .outline}
+[Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.](pages/2400.qmd){.button .outline}
 [Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon](pages/2401.qmd){.button .outline}
+[Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon](pages/2401.qmd){.button .outline}
+[Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon](pages/2401.qmd){.button .outline}
+[Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd){.button .outline}
+[Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd){.button .outline}
 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd){.button .outline}
 [Modeling interactions of environmental, biological and infectious factors with respect to production of Pacific salmon (Oncorhynchus spp.) at the Quinsam River hatchery](pages/2494.qmd){.button .outline}
 
-### 📁 Ecology and Biogeochemistry 
+### 📁 Ecology and Biogeochemistry
 
 [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd){.button .outline}
+[Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd){.button .outline}
+[Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd){.button .outline}
+[Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd){.button .outline}
+[Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd){.button .outline}
 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd){.button .outline}
 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd){.button .outline}
+[Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd){.button .outline}
+[Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd){.button .outline}
+[Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/2422.qmd){.button .outline}
+[Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/2422.qmd){.button .outline}
 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/2422.qmd){.button .outline}
 [Salish Sea plankton and oceanography](pages/2427.qmd){.button .outline}
+[Salish Sea plankton and oceanography](pages/2427.qmd){.button .outline}
+[Salish Sea plankton and oceanography](pages/2427.qmd){.button .outline}
+[Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd){.button .outline}
+[Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd){.button .outline}
 [Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd){.button .outline}
 [Integrated Salish Sea acoustic monitoring of salmon and salmon prey](pages/2433.qmd){.button .outline}
+[Integrated Salish Sea acoustic monitoring of salmon and salmon prey](pages/2433.qmd){.button .outline}
+[Integrated Salish Sea acoustic monitoring of salmon and salmon prey](pages/2433.qmd){.button .outline}
+[Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat](pages/2504.qmd){.button .outline}
+[Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat](pages/2504.qmd){.button .outline}
 [Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat](pages/2504.qmd){.button .outline}
 [Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/2513.qmd){.button .outline}
+[Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/2513.qmd){.button .outline}
+[Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/2513.qmd){.button .outline}
+[Understanding the impact of Arctic outflow winds on British Columbia fjords.](pages/2534.qmd){.button .outline}
 [Understanding the impact of Arctic outflow winds on British Columbia fjords.](pages/2534.qmd){.button .outline}
 
 ### 📁 Fishery and Assessment Data
 
 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/2546.qmd){.button .outline}
+[Fishery & Assessment Data Section - Data Stewardship Unit](pages/2546.qmd){.button .outline}
+[Fishery & Assessment Data Section - Data Stewardship Unit](pages/2546.qmd){.button .outline}
+[Fishery & Assessment Data Section - Knowledge Mobilization Unit](pages/2547.qmd){.button .outline}
+[Fishery & Assessment Data Section - Knowledge Mobilization Unit](pages/2547.qmd){.button .outline}
 [Fishery & Assessment Data Section - Knowledge Mobilization Unit](pages/2547.qmd){.button .outline}
 [A data pipeline to support more rapid calculation of Proportionate Natural Influence](pages/3124.qmd){.button .outline}
 
 ### 📁 Fraser and Interior Area Salmon Stock Assessment
 
 [Feasibility of Estimating Chilko River Smolt Abundance Using Upward- and Side-Looking SONAR Methods](pages/2430.qmd){.button .outline}
+[Feasibility of Estimating Chilko River Smolt Abundance Using Upward- and Side-Looking SONAR Methods](pages/2430.qmd){.button .outline}
+[Feasibility of Estimating Chilko River Smolt Abundance Using Upward- and Side-Looking SONAR Methods](pages/2430.qmd){.button .outline}
 [Mat-37 Improvements to the evaluation of abundance and stock composition for Fraser River Juvenile Salmon](pages/2440.qmd){.button .outline}
 [Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system](pages/2442.qmd){.button .outline}
+[Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system](pages/2442.qmd){.button .outline}
+[Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system](pages/2442.qmd){.button .outline}
 [Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake](pages/2443.qmd){.button .outline}
+[Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake](pages/2443.qmd){.button .outline}
+[Assessment of the distribution and abundance of juvenile Chinook salmon in the lower Thompson River basin.](pages/2444.qmd){.button .outline}
+[Assessment of the distribution and abundance of juvenile Chinook salmon in the lower Thompson River basin.](pages/2444.qmd){.button .outline}
 [Assessment of the distribution and abundance of juvenile Chinook salmon in the lower Thompson River basin.](pages/2444.qmd){.button .outline}
 
 ### 📁 Freshwater Ecosystems
 
 [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd){.button .outline}
+[Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd){.button .outline}
+[Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd){.button .outline}
 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/2425.qmd){.button .outline}
+[Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/2425.qmd){.button .outline}
+[Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/2425.qmd){.button .outline}
+[Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd){.button .outline}
+[Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd){.button .outline}
 [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd){.button .outline}
 
 ### 📁 Molecular Genetics
 
 [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd){.button .outline}
+[SHERLOCK assay for rapid genotyping applications](pages/2434.qmd){.button .outline}
+[SHERLOCK assay for rapid genotyping applications](pages/2434.qmd){.button .outline}
+[Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd){.button .outline}
+[Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd){.button .outline}
 [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd){.button .outline}
 [Chum whole genome sequencing for improved stock delineation](pages/2436.qmd){.button .outline}
+[Chum whole genome sequencing for improved stock delineation](pages/2436.qmd){.button .outline}
+[Chum whole genome sequencing for improved stock delineation](pages/2436.qmd){.button .outline}
+[Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd){.button .outline}
+[Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd){.button .outline}
 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd){.button .outline}
 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd){.button .outline}
+[Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd){.button .outline}
+[Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd){.button .outline}
+[Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd){.button .outline}
+[Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd){.button .outline}
 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd){.button .outline}
 [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd){.button .outline}
+[Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd){.button .outline}
+[Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd){.button .outline}
+[Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd){.button .outline}
+[Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd){.button .outline}
 [Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd){.button .outline}
 [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd){.button .outline}
+[Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd){.button .outline}
+[Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd){.button .outline}
+[Genetics Stock Identification and Parentage Based Tagging of Pacific salmon](pages/2545.qmd){.button .outline}
+[Genetics Stock Identification and Parentage Based Tagging of Pacific salmon](pages/2545.qmd){.button .outline}
+[Genetics Stock Identification and Parentage Based Tagging of Pacific salmon](pages/2545.qmd){.button .outline}
 [Genetics Stock Identification and Parentage Based Tagging of Pacific salmon](pages/2545.qmd){.button .outline}
 [Drivers and functional consequences of hatchery epigenetic variation](pages/3103.qmd){.button .outline}
 [Genomic consequences of stray hatchery introgression](pages/3119.qmd){.button .outline}
@@ -70,33 +135,62 @@ Explore projects grouped by section below.
 ### 📁 Nearshore Ecosystems
 
 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd){.button .outline}
+[Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd){.button .outline}
+[Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd){.button .outline}
+[Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd){.button .outline}
+[Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/2412.qmd){.button .outline}
+[Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/2412.qmd){.button .outline}
 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/2412.qmd){.button .outline}
 [A Decision Support Framework for Identifying and Characterizing the Non-fishing Threats to Pacific Salmon](pages/2415.qmd){.button .outline}
+[A Decision Support Framework for Identifying and Characterizing the Non-fishing Threats to Pacific Salmon](pages/2415.qmd){.button .outline}
+[A Decision Support Framework for Identifying and Characterizing the Non-fishing Threats to Pacific Salmon](pages/2415.qmd){.button .outline}
 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd){.button .outline}
+[Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd){.button .outline}
+[Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd){.button .outline}
+[Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd){.button .outline}
+[Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd){.button .outline}
 [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd){.button .outline}
 [Pilot skills study of new hatchery tray configuration.](pages/2419.qmd){.button .outline}
 [Assessing Salinity Alteration of Nursery Conditions for Salmon Smolts following Construction of Roberts Bank Terminal-2](pages/2572.qmd){.button .outline}
+[Assessing Salinity Alteration of Nursery Conditions for Salmon Smolts following Construction of Roberts Bank Terminal-2](pages/2572.qmd){.button .outline}
+[Establishing a feed assessment program in Pacific salmon enhancement hatcheries](pages/3104.qmd){.button .outline}
 [Establishing a feed assessment program in Pacific salmon enhancement hatcheries](pages/3104.qmd){.button .outline}
 
 ### 📁 Ocean Modelling and Prediction
 
 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd){.button .outline}
+[Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd){.button .outline}
+[Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd){.button .outline}
+[Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd){.button .outline}
+[Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd){.button .outline}
 [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd){.button .outline}
 
 ### 📁 Quantitative Assessment Methods
 
 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd){.button .outline}
+[Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd){.button .outline}
+[Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd){.button .outline}
+[A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/2449.qmd){.button .outline}
+[A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/2449.qmd){.button .outline}
 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/2449.qmd){.button .outline}
 
 ### 📁 Regional Director's Office
 
 [Risk Assessment Method for Salmon – Development for Regional Implementation](pages/2399.qmd){.button .outline}
+[Risk Assessment Method for Salmon – Development for Regional Implementation](pages/2399.qmd){.button .outline}
 
 ### 📁 Regional Ecosystems Effects on Fish and Fisheries
 
 [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd){.button .outline}
+[Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd){.button .outline}
+[Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd){.button .outline}
+[Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd){.button .outline}
+[Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd){.button .outline}
 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd){.button .outline}
 [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd){.button .outline}
+[Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd){.button .outline}
+[Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd){.button .outline}
+[Kim Hyatt’s Legacy Data: Juvenile Sockeye Biosample Data and Summary Metrics for B.C. Study Lakes, 1977-present](pages/2454.qmd){.button .outline}
 [Kim Hyatt’s Legacy Data: Juvenile Sockeye Biosample Data and Summary Metrics for B.C. Study Lakes, 1977-present](pages/2454.qmd){.button .outline}
 [Explanation for the Collapse of the Commercial Chum Salmon Fishery in British Columbia](pages/2522.qmd){.button .outline}
 [PSSI High Seas Salmon Research - West Coast Vancouver Island (and transition to ONE juvenile program)](pages/2560.qmd){.button .outline}
@@ -104,27 +198,48 @@ Explore projects grouped by section below.
 [Salmon Marine Interactions - SMI - COE Section](pages/1261.qmd){.button .outline}
 [Salmon Scanner and composite status data sets](pages/2563.qmd){.button .outline}
 [Climate Change Vulnerability Assessments](pages/2562.qmd){.button .outline}
+[Climate Change Vulnerability Assessments](pages/2562.qmd){.button .outline}
+[Scenario Planning: improving the adaptability of Pacific salmon hatchery planning and implementation to current and future climate changes](pages/3107.qmd){.button .outline}
 [Scenario Planning: improving the adaptability of Pacific salmon hatchery planning and implementation to current and future climate changes](pages/3107.qmd){.button .outline}
 
 ### 📁 Salmon Assessment
 
 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd){.button .outline}
+[Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd){.button .outline}
+[Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd){.button .outline}
+[Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd){.button .outline}
 
 ### 📁 South Coast Area Salmon Stock Assessment
 
 [WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd){.button .outline}
+[WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd){.button .outline}
+[WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd){.button .outline}
+[San Juan River Adult and Juvenile Assessment Program](pages/2403.qmd){.button .outline}
+[San Juan River Adult and Juvenile Assessment Program](pages/2403.qmd){.button .outline}
 [San Juan River Adult and Juvenile Assessment Program](pages/2403.qmd){.button .outline}
 [Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/2407.qmd){.button .outline}
+[Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/2407.qmd){.button .outline}
+[Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/2407.qmd){.button .outline}
 [South Coast freshwater ecological indicator pilot](pages/2414.qmd){.button .outline}
+[South Coast freshwater ecological indicator pilot](pages/2414.qmd){.button .outline}
+[South Coast freshwater ecological indicator pilot](pages/2414.qmd){.button .outline}
+[Sakinaw Sockeye Juvenile Research on Measures to Increase Marine Survival](pages/2426.qmd){.button .outline}
+[Sakinaw Sockeye Juvenile Research on Measures to Increase Marine Survival](pages/2426.qmd){.button .outline}
 [Sakinaw Sockeye Juvenile Research on Measures to Increase Marine Survival](pages/2426.qmd){.button .outline}
 
 ### 📁 State of the Ocean
 
 [Complementing British Columbia’s coasts longest Sea Surface Temperature and Salinity records with 21st century technology to monitor a changing climate.](pages/2423.qmd){.button .outline}
+[Complementing British Columbia’s coasts longest Sea Surface Temperature and Salinity records with 21st century technology to monitor a changing climate.](pages/2423.qmd){.button .outline}
+[Complementing British Columbia’s coasts longest Sea Surface Temperature and Salinity records with 21st century technology to monitor a changing climate.](pages/2423.qmd){.button .outline}
+[Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecasts](pages/2540.qmd){.button .outline}
+[Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecasts](pages/2540.qmd){.button .outline}
 [Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecasts](pages/2540.qmd){.button .outline}
 
 ### 📁 Yukon/Transboundary Rivers Area Salmon Stock Assessment
 
+[Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd){.button .outline}
+[Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd){.button .outline}
 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd){.button .outline}
 [YTRA TBR Weather Stations](pages/2455.qmd){.button .outline}
 

@@ -7,9 +7,12 @@ title: "Kim Hyatt’s Legacy Data: Juvenile Sockeye Biosample Data and Summary M
 **Lead(s):** Athena Ogden, Patrick Thompson, Michelle Charbonneau  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**Location:**   
+**Location:** N/A  
+**Status:** Not funded  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
-
+No description available.
 
 [⬅ Back to Home](../index.qmd)

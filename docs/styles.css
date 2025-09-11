@@ -1,33 +1,41 @@
-/* css styles */
+/* Global styles */
 body {
   font-family: 'Georgia', serif;
   background-color: #f9f9f9;
+  color: #333;
 }
 
+/* Navbar styling */
 .navbar {
   background-color: #006779;
   color: white;
 }
 
 .navbar a {
-  color: #ffffff; /* or any color you prefer */
-}
-.navbar a:hover {
-  color: #ffcc00; /* or any hover color you prefer */
+  color: #ffffff;
+  text-decoration: none;
 }
 
+.navbar a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+/* Sidebar styling */
 .sidebar {
-  background-color: #006F79; /* Deep teal */
+  background-color: #006F79;
   color: white;
+  padding: 1rem;
+  border-right: 2px solid #004f5a;
 }
 
 .sidebar a {
-  color: #black;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .sidebar a:hover {
-  color: #ffcc00; /* Bright yellow on hover */
+  color: #ffcc00;
   text-decoration: underline;
 }
 
@@ -36,9 +44,21 @@ body {
   color: #00ffcc;
 }
 
-.sidebar {
-  padding: 1rem;
-  border-right: 2px solid #006F79;
+/* Button styling for index.qmd links */
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.3em 0.3em 0.6em 0;
+  border: 2px solid #006779;
+  border-radius: 6px;
+  background-color: white;
+  color: #006779;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-
+.button:hover {
+  background-color: #006779;
+  color: white;
+}

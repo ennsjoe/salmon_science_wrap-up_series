@@ -5,11 +5,38 @@ title: "Genomic consequences of stray hatchery introgression"
 ## 🧬 Project Summary
 
 **Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Division:**   
+**Division:** N/A  
 **Section:** Molecular Genetics  
-**Location:**   
+**Location:** N/A  
+**Status:** New  
+**Theme:** Unspecified  
+**PSSI Pillar:** Unspecified  
 
 **Overview:**  
+The objective of this project is to assess and understand the genetic
+consequences of interbreeding of hatchery strays into non-native populations
+of Chinook Salmon. Pacific salmon populations are known to display local
+adaptation, such that native spawners are typically better suited to their
+local habitat than non-native spawners. This can be exacerbated for strays
+from populations that are integrated with hatchery enhancement, because
+hatchery adaptation can further reduce fitness in natural environments.
+Previous work on West Coast Vancouver Island (WCVI) Chinook Salmon has
+demonstrated that strays from several major production facilities have
+interbreed with natural populations in other rivers, resulting in
+introgression of hatchery genetic variation and homogenization of population-
+level variation. This work was conducted in the mid-2010s and utilized only
+~12-15 genetic biomarkers, providing low density estimates of this
+introgression. Low density estimates may mischaracterize the extent of
+introgression, and cannot inform either the repeatability of introgression, or
+the potential maladaptive consequences across different genomics regions. In
+this project, we propose to update the estimates of introgression from
+Robertson Creek and Conuma River Hatcheries among WCVI Chinook Salmon
+populations, and to assess introgression with a high-density genomic
+sequencing strategy to provide high resolution estimates of hatchery
+introgression. The results of this work will inform advice processes regarding
+management of hatchery strays and adaptive influences at levels above
+individual populations (e.g., conservations units).
+
 
 
 [⬅ Back to Home](../index.qmd)

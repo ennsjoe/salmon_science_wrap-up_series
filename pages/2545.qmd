@@ -7,9 +7,19 @@ title: "Genetics Stock Identification and Parentage Based Tagging of Pacific sal
 **Lead(s):** Eric Rondeau  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Innovation & Diagnostics  
+**PSSI Pillar:** 2-Salmon enhancement  
 
 **Overview:**  
+Genetic identification of samples on both a rapid (daily or intraweek) and
+regular (annual) basis on for domestic and international fisheries management
+and commitments under the PST and NPAFC – Genetic identification of organisms
+at the species, stock and individual level in partnered research applications
+– Genome-level genotyping for Parental based tagging (PBT) and other
+applications.
+
 
 
 [⬅ Back to Home](../index.qmd)

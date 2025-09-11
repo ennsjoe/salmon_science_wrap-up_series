@@ -7,9 +7,53 @@ title: "Graduate Research into 1) habitat use by juvenile Chinook Salmon in the 
 **Lead(s):** Lauren Weir  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fraser and Interior Area Salmon Stock Assessment  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Threat Assessment and Mitigation  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging.
+Okanagan Chinook are the only remaining Columbia River Chinook Salmon
+population in Canada. Their abundance is very low, currently less than a
+couple hundred spawners, but their abundance was likely in the high thousands
+before the Canadian Okanagan and Columbia River were developed for
+Agriculture, Flood Control, and Hydro-power Generation, resulting in physical
+exclusion from spawning and rearing habitats. Fishing rates have also been
+high through history, with recent (2009-2018) exploitation rates around 60%.
+The population in the U.S. section of the Okanagan River has recently ranged
+from 7,000-14,000 spawners.
+
+COSEWIC has identified this single river Designatable Unit as ENGANGERED, and
+it is currently undergoing review for listing under the Species at Risk Act.
+Additionally, this stock is part of Batch 1 for the Fish Stock Provisions
+under the Fisheries Act. The DFO has considerable engagement with First
+Nations, the Okanagan Water Management Board, the Okanagan River Restoration
+Initiative, as well as the Colville Confederated Tribes, the Columbia River
+Inter-Tribal Fish Commission, the Washington Department of Fish and Wildlife,
+the Oregon Department of Fish and Wildlife and the Pacific Salmon Commission.
+Rebuilding the abundance of Okanagan Chinook is a priority for First Nations
+and local, provincial, and national fisheries agencies on both sides of the
+boarder.
+
+Recently, the Pacific Salmon Commission conducted a series of 5 workshops with
+fisheries professionals and First Nations which examined threats, impediments
+to survival, and mitigation approaches to increase the abundance of Okanagan
+Chinook. Similarly, a Recovery Potential Assessment (DFO Pacific Region CSAS)
+and DFO Risk Assessment Methods (RAMS) have been applied and also identified
+threats and mitigations. Among the issues identified in these assessments, the
+key ones include Climate Change and its influence on the thermal and
+hydrological regime of the Okanagan, channelization and the disconnection of
+the main river channels from the historic and off-channel stream habitats, and
+predation by invasive fish species. Two of the data gaps that were highlighted
+from this work are the juvenile habitat use in the Okanagan, which has been
+highly disturbed and degraded, and the level of predation on juvenile Chinook
+salmon by native and non-native fishes. To enable rebuilding it will be
+essential to have information on habitat use and to understand the threat
+posed by predation. Graduate students provide the most efficient way to answer
+these critical research questions. The use of graduate students will allow for
+targeted and timely research while building capacity and knowledge for when
+they enter the workforce.
+
+
 
 [⬅ Back to Home](../index.qmd)

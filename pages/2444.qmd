@@ -8,8 +8,39 @@ title: "Assessment of the distribution and abundance of juvenile Chinook salmon 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fraser and Interior Area Salmon Stock Assessment  
 **Location:** ["Thompson","Nicola River"]  
+**Status:** Ongoing  
+**Theme:** Salmon Monitoring  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
-Historic flooding in 2021 impacted salmon spawning and rearing habitat throughout the lower Thompson River and tributaries. This salmon population monitoring study counts juvenile Chinook (night snorkel surveys) in the lower Thompson mainstem and tributaries and compare to previous years to assess the population and habitat recovery.
+The overall objective of the project is to obtain annual estimates of fall
+(October) standing stock for chinook fry in principal spawning tributaries and
+the mainstem of the lower Thompson River, and to describe, quantitatively, the
+uncertainty associated with these estimates. The work will be completed by an
+independent contractor who conducted similar studies previously (200-2012) and
+is familiar with the area and study design.
+
+The field work will consist of calibrated night snorkeling surveys (Hagen et
+al. 2010) in the Lower Thompson River System including all major spawning
+tributaries (Nicola, Coldwater, Spius, Deadman, Criss, Bonaparte, and Thompson
+River mainstem) and subsequent data analysis and reporting over the winter
+months. It will draw closely on the previous steelhead and Chinook juvenile
+assessments completed by the contractor in the lower Thompson River system for
+both the design of field and analysis methods. Results from this work will
+contribute to the time series of juvenile abundance gathered over 10 years
+from 2001 to 2012 and the subsequent analysis.
+
+This information will contribute to an assessment of ongoing impacts of the
+historic 2021 flood on Nicola 42 Chinook egg-to-fry survival and recruitment
+and will lead to a better understanding of the impacts of catastrophic
+flooding on salmonids generally and provide specific insights into Nicola
+recruitment and juvenile use of the post flood system. This information may
+provide insights into management decisions as well as on prioritizing
+watershed restoration activities. Additionally, this project could build on
+the previous fry assessment work to provide useful information about stock
+productivity and carrying capacity, and aid in developing escapement goals and
+recovery planning.
+
+
 
 [⬅ Back to Home](../index.qmd)

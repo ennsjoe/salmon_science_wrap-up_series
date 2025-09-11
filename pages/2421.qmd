@@ -8,8 +8,76 @@ title: "Measurement of stress hormones in scales and its application for the ide
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **Location:** ["PBS Nanaimo"]  
+**Status:** Ongoing  
+**Theme:** Innovation & Diagnostics  
+**PSSI Pillar:** 2-Salmon enhancement  
 
 **Overview:**  
-Chronic stress impacts fish health and can be measured in salmon by sampling hormone (cortisol) and enzyme deposits in scales. This lab and hatchery study gathers coho and Chinook scale samples from broodstock surveys to develop methods of measuring chronic and acute stress hormone levels that could be expanded to monitor salmon health responses to stressors including climate change. 
+Exposure of fish to stressors can elicit physiological changes at multiple
+levels of animal organization, these alterations are collectively known as the
+stress response. The hypothalamic-pituitary-interrenal (HPI) axis which is
+activated in response to most forms of stress in fish, initiates and regulates
+the stress response. In fish cortisol is the predominant glucocorticoid
+released as part of the primary stress response, and is critical for mediating
+adaptive metabolic, physiological, and behavioral adjustments. However,
+prolonged elevation of cortisol, due to extended or repeated exposure to
+stressors, can negatively affect fish behavior, growth, reproduction and
+immune functions (reviewed in Schreck and Tort, 2016).
+
+The analysis of circulating (serum/plasma) cortisol is the most common method
+used in stress response assessments in fish. This method works well under
+controlled situations, where fish can be caught and rapidly sampled (within
+minutes to avoid the rapid increase in cortisol which occurs in response to
+capture stress) and it provides information on the acute stress response at
+the time of collection (immediate state of stress). However, to understand
+chronic stress the past cortisol history of individuals needs to be
+understood. Fish scales have been recently recognized as a biomaterial that
+accumulates cortisol, and other physiologically important hormones including
+cortisone, over long periods of time. Moreover, scale cortisol levels are not
+affected by stress associated with capture (reviewed in Laberge et al. 2019;
+Kennedy and Janz, 2023).
+
+Cortisol is released from the interrenals in fish as a biologically active
+steroid hormone. At the tissue level, the enzyme 11β-hydroxysteroid
+dehydrogenase type 2 (11βhsd2) converts cortisol into its biologically
+inactive metabolite, cortisone. Importantly, this step is irreversible in
+fish, highlighting the importance of 11βhsd2 in the regulation of cortisol
+levels in teleosts (Tsachaki et al. 2017). Since 11βhsd2 is present in fish
+skin, assessing the expression of this enzyme in the skin during chronic
+stress, and measuring both cortisol and cortisone content will provide
+critical context for scale cortisol deposition and clearance, and further
+validate the use of scales as an indicator of chronic stress in fish.
+
+We are proposing the use of levels of stress hormones (cortisol, cortisone) in
+scales as a tool for routine monitoring of chronic stress in different life
+history stages of Pacific salmon. As an example, this tool could be used to
+examine individual and population effects of external stressors encountered
+during migration on cortisol dynamics, which has implications with respect to
+population resilience to stressors such as climate change. The use of scales
+is minimally invasive and therefore suitable for use in populations of
+conservation concern. However, to interpret values obtained from scales we
+first need to understand the temporal profile of stress hormone accumulation
+and rates of clearance in scales under different environmental conditions for
+the different species of Pacific Salmon.
+
+In this project we will conduct laboratory and hatchery-based studies to
+determine/optimize: 1) sampling methods (e.g. study spatial heterogeneity of
+scale stress hormone content (SSHC)), 2) effects of acute vs. chronic stress
+on SSHC, 3) relationship between plasma and SSHC, 4) individual, stock and
+temporal variability in SSHC, including changes associated with
+smoltification, and 5) effects of unpredictable chronic stress on plasma and
+SSHC. We will use, and modify, if necessary, analytical methods for SSHC that
+have been used in studies of goldfish and rainbow trout (Laberge et al. 2019;
+Kennedy and Janz, 2023).
+
+Literature Cited Herrera M. et al. 2019. Front. Endocrinol. 10:447. doi:
+10.3389/fendo.2019.00447 Laberge et al. 2019. Conserv Physiol 7(1): coz052;
+doi:10.1093/conphys/coz052 Kennedy EKC and Janz DM 2023. Comp. Biochem.
+Physiol. Part A 276 111352 Schreck CB and Tort L 2016. Fish Physiol. 35: 1-34.
+doi: 10.1016/B978-0-12-802728-8.00001-1 Tsachaki et al. 2017. J Endocrinol
+232(2):323-335. doi: 10.1530/JOE-16-0495 Uren Webster TM et al. 2020. Front.
+Microbiol. 11:1621. doi: 10.3389/fmicb.2020.01621
+
+
 
 [⬅ Back to Home](../index.qmd)

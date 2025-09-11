@@ -7,9 +7,24 @@ title: "Fishery & Assessment Data Section - Data Stewardship Unit"
 **Lead(s):** Shelee Hamilton  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
-**Location:**   
+**Location:** N/A  
+**Status:** Ongoing  
+**Theme:** Data Management  
+**PSSI Pillar:** 1-Conservation and stewardship  
 
 **Overview:**  
+Vision: All DFO-owned data relating to pacific salmon are appropriately
+managed through their life cycle, made accessible internally and externally as
+data assets and are regularly used to generate additional research,
+operational and outreach products.  
+Strategy: In the current business of Salmon research and management, data are
+treated as a by-product of a decision or research process. Our strategy
+focuses on building the value of data created in DFO by reducing the burden of
+managing those data through its life cycle, improving the accessibility and
+interoperability of those data, and increasing the opportunity for existing
+data to add value in new contexts. Easier to complete/share data requests,
+easier to maintain/find data.
+
 
 
 [⬅ Back to Home](../index.qmd)
