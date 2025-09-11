@@ -1,40 +1,49 @@
-/* Global styles */
+/* ===============================
+   Global Styles
+   =============================== */
 body {
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   background-color: #f9f9f9;
   color: #333;
+  line-height: 1.6;
 }
 
-/* Navbar styling */
+/* ===============================
+   Navbar Styling
+   =============================== */
 .navbar {
   background-color: #006779;
-  color: white;
+  color: #fff;
 }
 
 .navbar a {
-  color: #ffffff;
+  color: #black;
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a:focus {
   color: #ffcc00;
   text-decoration: underline;
 }
 
-/* Sidebar styling */
+/* ===============================
+   Sidebar Styling
+   =============================== */
 .sidebar {
   background-color: #006F79;
-  color: white;
+  color: #fff;
   padding: 1rem;
   border-right: 2px solid #004f5a;
 }
 
 .sidebar a {
-  color: #ffffff;
+  color: #black;
   text-decoration: none;
 }
 
-.sidebar a:hover {
+.sidebar a:hover,
+.sidebar a:focus {
   color: #ffcc00;
   text-decoration: underline;
 }
@@ -44,21 +53,41 @@ body {
   color: #00ffcc;
 }
 
-/* Button styling for index.qmd links */
+/* ===============================
+   Button Styling (for index.qmd links)
+   =============================== */
 .button {
   display: inline-block;
   padding: 0.5em 1em;
   margin: 0.3em 0.3em 0.6em 0;
   border: 2px solid #006779;
   border-radius: 6px;
-  background-color: white;
+  background-color: #fff;
   color: #006779;
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #006779;
-  color: white;
+  color: #fff;
+}
+
+/* ===============================
+   Responsive Enhancements
+   =============================== */
+@media (max-width: 768px) {
+  .sidebar {
+    padding: 0.5rem;
+    border-right: none;
+    border-bottom: 2px solid #004f5a;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
