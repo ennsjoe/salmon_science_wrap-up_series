@@ -11,7 +11,8 @@ title: "Characterizing and monitoring priority contaminants of concern in WCVI j
 **Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
-Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.
+Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.   
+
 **Activities:**  
 • Continue collecting contaminant data in WCVI juvenile Chinook salmon and their habitat in partnership with follow the fish;
 • Complete a risk-based evaluation to assess for priority pollutants of concern for WCVI juvenile salmon and their habitat;

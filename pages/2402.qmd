@@ -11,7 +11,8 @@ title: "Quantifying Yukon Chinook migration mortality and its implications for f
 **Speaker Theme:** Salmon population monitoring and assessment  
 
 **Overview:**  
-Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.
+Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.   
+
 **Activities:**  
 1. Track up to 500 tagged Chinook salmon from mouth of Yukon River to headwater spawning areas using up to 13 fixed radiotelemetry towers and up to 20 aerial overflights 
 2. use data acquired from #1 to estimate migration speed, timing, and en-route mortality of Canadian-origin Yukon Chinook, by Conservation Unit and river section, in relation to freshwater environmental conditions; and

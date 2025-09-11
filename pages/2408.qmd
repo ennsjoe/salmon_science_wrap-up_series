@@ -11,7 +11,8 @@ title: "Improvement, Expansion and Modernization of Salmonid Health Diagnostic S
 **Speaker Theme:** Fish health and disease  
 
 **Overview:**  
-Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.
+Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.   
+
 **Activities:**  
 **Objective 1. Optimization and validation of non-lethal screening methods for detection of *Renibacterium salmoninarum* in Chinook Salmon broodstock.** Development of a protocol for non-lethal detection of *Renibacterium salmoninarum* in broodstock was initiated in Year 2. For this work, non-lethal samples (anal fin, gill clip, mucus, and anal swab) as well as kidney were collected from Chinook salmon broodstock in Fall 2024. Samples are currently being screened by qPCR and ELISA (kidney only) with results expected by the end of this fiscal year. In Year 3, we will analyze these results to determine assay agreement and which non-lethal sample is most appropriate. 
 

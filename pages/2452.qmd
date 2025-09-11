@@ -11,7 +11,8 @@ title: "Genetic associations with age of return in male Canadian Chinook Salmon"
 **Speaker Theme:** Genetics and adaptation  
 
 **Overview:**  
-Jacks (males that return a year early) are a natural source of genetic diversity for Chinook, but too many jacks in a population can have limited breeding success and reduce the body size of the population. Hatchery breeding increases the number of jacks, and hatchery staff screen out jacks by body size, which is uncertain. This genetic monitoring study samples male Chinook tissues from the Chilliwack, Puntledge, and Qualicum rivers to sequence the genes, compare the y-chromosome haplotypes specific to jacks, and develop a rapid screening test for broodstock selection.
+Jacks (males that return a year early) are a natural source of genetic diversity for Chinook, but too many jacks in a population can have limited breeding success and reduce the body size of the population. Hatchery breeding increases the number of jacks, and hatchery staff screen out jacks by body size, which is uncertain. This genetic monitoring study samples male Chinook tissues from the Chilliwack, Puntledge, and Qualicum rivers to sequence the genes, compare the y-chromosome haplotypes specific to jacks, and develop a rapid screening test for broodstock selection.   
+
 **Activities:**  
 1) Analyze genotype-phenotype associations between genetic variants and the age of return among Atnarko River Chinook Salmon.
 2) Analyze sex chromosome haplotypes in female Chinook salmon from the Atnarko, Chilliwack, Puntledge and Qualicum Rivers to confirm sex-specific haplotypes. 

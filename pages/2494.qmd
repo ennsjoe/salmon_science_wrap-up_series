@@ -11,7 +11,8 @@ title: "Modeling interactions of environmental, biological and infectious factor
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
-No description available.
+No description available.   
+
 **Activities:**  
 Validate diagnostic assay for Tetracapsuloides bryosalmonae (Tbryo)
 Collect tissue samples from pink salmon, chinook salmon, coho salmon

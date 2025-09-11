@@ -11,7 +11,8 @@ title: "Identifying and characterizing tire-related chemical (6PPD-quinone) toxi
 **Speaker Theme:** Freshwater ecosystems and stressors  
 
 **Overview:**  
-Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas.
+Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas.   
+
 **Activities:**  
 • Continue generating 6PPD-q data for the 6 (perhaps just 2 this final year) green infrastructure sites;
 • Compare all data to laboratory exposure concentrations known to elicit toxic injury and death to salmon species;

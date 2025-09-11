@@ -11,7 +11,8 @@ title: "Risk Assessment Method for Salmon – Development for Regional Implement
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
-Researchers in 2010 developed a tool called the Risk Assessment Method for Salmon that uses population and ecosystem information to identify and prioritize salmon population bottlenecks at different life stages. The tool constantly evolves, but currently uses awkward technology and lacks marine information. This stock management support project updates regional salmon information including marine and freshwater life stage information and converts the old Excel program to a more visual and user-friendly R programming design.
+Researchers in 2010 developed a tool called the Risk Assessment Method for Salmon that uses population and ecosystem information to identify and prioritize salmon population bottlenecks at different life stages. The tool constantly evolves, but currently uses awkward technology and lacks marine information. This stock management support project updates regional salmon information including marine and freshwater life stage information and converts the old Excel program to a more visual and user-friendly R programming design.   
+
 **Activities:**  
 1. Complete publication of RAMS Guidance Paper 1: Development and Implementation (Deliverable 1)
 2. Complete updates of the Regional Salmon Tables (freshwater sections) (Deliverable 2)

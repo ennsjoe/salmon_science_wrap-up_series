@@ -11,7 +11,8 @@ title: "WCVI Sediment Transport and Redd Scour Assessment"
 **Speaker Theme:** Freshwater ecosystems and stressors  
 
 **Overview:**  
-Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.
+Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.   
+
 **Activities:**  
 II.	Field surveys in spawning locations that includes cross-sections and sediment size measurements, and the installation of PIT tagged accelerometer scour chains at surveyed locations to measure redd scour in Tranquil Creek in 2025.
 III.	Pairing bed disturbance data with a 2D hydraulic model to estimate the spatial extent of bed disturbance at a reach scale in key Chinook and chum spawning areas.

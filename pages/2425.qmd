@@ -11,7 +11,8 @@ title: "Development of geospatial tools for large-scale freshwater salmon habita
 **Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
-Identifying individual and cumulative threats to salmon and their habitat is critical for effective management and restoration actions. This project estimates and maps nine human activities and landscape disturbance-based threats and four climate change-based threats for the stream network in the Fraser Basin. Results identify threat levels across salmon Conservation Units and the human activities and land uses that contributed most to threats.
+Identifying individual and cumulative threats to salmon and their habitat is critical for effective management and restoration actions. This project estimates and maps nine human activities and landscape disturbance-based threats and four climate change-based threats for the stream network in the Fraser Basin. Results identify threat levels across salmon Conservation Units and the human activities and land uses that contributed most to threats.   
+
 **Activities:**  
 (1) Conduct the next phase of the program's cumulative effect assessment on freshwater salmon habitat in the Fraser River Basin by incorporating stressor response curves and life cycle models for salmon population productivity estimates based on stressor levels.
 (2) Extend geospatial threat assessment to other watersheds in the North Coast of BC to help guide restoration actions for salmon habitat. Conduct field-based site assessments using remote sensing tools (i.e. drones) to provide further information on restoration needs.

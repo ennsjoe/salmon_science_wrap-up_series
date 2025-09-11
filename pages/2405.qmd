@@ -11,7 +11,8 @@ title: "Biological models to support prioritizing salmon stocks under future cli
 **Speaker Theme:** Salmon in a changing climate  
 
 **Overview:**  
-Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.
+Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.   
+
 **Activities:**  
 1.     Fit statistical models to estimate functional relationships between salmon productivity and environmental covariates.
 2.     Develop simulations to determine a) how data-rich stocks can inform data-poor using a hierarchical framework and b) how qualitative analyses of climate change vulnerability assessments can inform quantitative frameworks (e.g. informative priors on functional relationships in Bayesian models)

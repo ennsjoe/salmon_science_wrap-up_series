@@ -12,7 +12,8 @@ title: "Assessment of SEP Chinook and Coho broodstock ELISA screening data by mo
 
 **Overview:**  
 Screening salmon brood stock for bacterial kidney disease has allowed hatcheries to reduce the disease in young salmon and returning adults. Hatcheries now have 16 years of disease test data along with genetic (parentage) information. This hatchery study collects disease data and genetics from Chinook and coho at the Spius, Puntledge, and Nitinat hatcheries
- to model variables that could improve hatchery methods.
+ to model variables that could improve hatchery methods.   
+
 **Activities:**  
 __Objective 1. Identification of potential BKD predictor values in juvenile salmon.__
 For this objective, we will analyze the DFAT prevalence of yearling stocks prior to release to identify potential predictor variables. Known risk factors for infection (faecal-oral route) include circular tanks versus raceways; surface water versus ground water; winter water temperatures; antibiotic treatment, and whether ELISA based screening for yearling program is used or not.

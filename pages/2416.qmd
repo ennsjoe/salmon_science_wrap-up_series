@@ -12,7 +12,8 @@ title: "Monitoring and predicting the exposure of Pacific salmon to harmful alga
 
 **Overview:**  
 Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
-We are comparing biotoxin levels with environmental conditions and indicators of fish health.
+We are comparing biotoxin levels with environmental conditions and indicators of fish health.   
+
 **Activities:**  
 (1) Continue environmental monitoring, taxonomic analysis of phytoplankton, and biotoxin analysis of seawater collected in key habitat for WCVI Chinook salmon until November 2025.
 (2) Continue working with DFO colleagues to collect salmon tissue samples and record the condition of salmon (including any observations of illness or mortality) in these areas until November 2025. 

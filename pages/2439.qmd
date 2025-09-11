@@ -11,7 +11,8 @@ title: "Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application f
 **Speaker Theme:** Innovative tools and assessments  
 
 **Overview:**  
-Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.
+Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.   
+
 **Activities:**  
 1. Continue familiarization of OPUS Labs spectral software and continued training of new BI02 on the scanning and modeling age predictions. 
 2. Create protocols and standardize use of the FT-NIR Tango spectrometer

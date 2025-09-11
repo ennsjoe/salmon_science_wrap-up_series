@@ -11,7 +11,8 @@ title: "A Decision Support Framework for Identifying and Characterizing the Non-
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
-No description available.
+No description available.   
+
 **Activities:**  
 Year 3: Based on the results of the first two years of the project, the third year will specifically develop decision support tools that will aid managers in how best to incorporate non-fishing threats across an array of DFO management and policy decision making processes, including, but not limited to Fisheries Management, SARA recovery planning, SEP restoration activities, and FFHPP integrated planning processes. Further, by developing this in conjunction with First Nations, it will expand on existing DFO’s efforts on Reconciliation.
 

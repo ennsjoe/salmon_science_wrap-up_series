@@ -11,7 +11,8 @@ title: "Development and application of laser ablation-inductively coupled plasma
 **Speaker Theme:** Innovative tools and assessments  
 
 **Overview:**  
-Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.
+Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.   
+
 **Activities:**  
 1. LA-ICP-MS analysis of the San Juan juvenile and adult samples. 
 

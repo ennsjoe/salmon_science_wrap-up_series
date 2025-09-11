@@ -11,7 +11,8 @@ title: "South Coast freshwater ecological indicator pilot"
 **Speaker Theme:** Freshwater ecosystems and stressors  
 
 **Overview:**  
-Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates.
+Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates.   
+
 **Activities:**  
 Maintain the hydromet system and coordinate water quality  and discharge measurements to fill remaining gaps.  Repeat the drone flights from last year and expand to addtional systems to monitor large scale year to year changes in habitat.
 

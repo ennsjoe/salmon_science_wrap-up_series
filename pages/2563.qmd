@@ -11,7 +11,8 @@ title: "Salmon Scanner and composite status data sets"
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
-No description available.
+No description available.   
+
 **Activities:**  
 DFO's Salmon Scanner is an interactive data visualization tool for Pacific Salmon status and trends information. It displays data in a mapping and figure interface, and includes built in user reports and access to underlying data. On-going contracting support is required to maintain the Scanner, expand data sets, and transition consulting work over to internal staff.
 

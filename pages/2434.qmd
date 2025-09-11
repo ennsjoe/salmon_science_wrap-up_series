@@ -11,7 +11,8 @@ title: "SHERLOCK assay for rapid genotyping applications"
 **Speaker Theme:** Genetics and adaptation  
 
 **Overview:**  
-Hatchery staff use genetic markers to tell the difference between summer and fall runs of Chinook in the Puntledge River to preserve genetic integrity. However, genetic tests can often be slow and only applied later. This salmon genetics pilot project assesses rapid, in-season testing where genetic marker information could be provided in under an hour.
+Hatchery staff use genetic markers to tell the difference between summer and fall runs of Chinook in the Puntledge River to preserve genetic integrity. However, genetic tests can often be slow and only applied later. This salmon genetics pilot project assesses rapid, in-season testing where genetic marker information could be provided in under an hour.   
+
 **Activities:**  
 The specific objectives of this year are to 1) complete testing of multiplex assay to determine feasibility, 2) complete on-site testing of assay at Puntledge Hatchery, and 3) assess feasibility of handling and genotyping fish continuously throughout the spawning season.
 
