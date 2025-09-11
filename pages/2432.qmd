@@ -11,3 +11,5 @@ title: "Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salm
 
 **Overview:**  
 Acoustic tools can provide important information on salmon ecology (food web) and salmon survival in marine areas. These salmon habitat and abundance monitoring studies use multi-frequency echosounders from mooring stations and mobile units in West Coast Vancouver Island sounds and the Salish sea to measure aspects of salmon forage species (zooplankton, krill, and Pacific herring) and count juvenile and adult salmon along their migration.
+
+[⬅ Back to Home](../index.qmd)

@@ -12,3 +12,5 @@ title: "Assessment of SEP Chinook and Coho broodstock ELISA screening data by mo
 **Overview:**  
 Screening salmon brood stock for bacterial kidney disease has allowed hatcheries to reduce the disease in young salmon and returning adults. Hatcheries now have 16 years of disease test data along with genetic (parentage) information. This hatchery study collects disease data and genetics from Chinook and coho at the Spius, Puntledge, and Nitinat hatcheries
  to model variables that could improve hatchery methods.
+
+[⬅ Back to Home](../index.qmd)

@@ -11,3 +11,5 @@ title: "Understanding the impact of Arctic outflow winds on British Columbia fjo
 
 **Overview:**  
 Arctic air masses move from the interior to coastal inlets, cooling and adding oxygen to the marine habitat. Fjords where this cooling occurs can become a marine refuge for salmon. This project monitors climate conditions in BC mainland fjords to measure the impact on salmon habitat and study how these factors may impact other coastal inlets. 
+
+[⬅ Back to Home](../index.qmd)

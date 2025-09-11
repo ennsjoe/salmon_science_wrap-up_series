@@ -11,3 +11,5 @@ title: "Convergent tracks: a tagging study to quantify salmon predation by sea l
 
 **Overview:**  
 Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.
+
+[⬅ Back to Home](../index.qmd)

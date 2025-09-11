@@ -11,3 +11,5 @@ title: "Characterizing and monitoring priority contaminants of concern in WCVI j
 
 **Overview:**  
 Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.
+
+[⬅ Back to Home](../index.qmd)

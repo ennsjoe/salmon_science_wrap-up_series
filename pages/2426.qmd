@@ -11,3 +11,5 @@ title: "Sakinaw Sockeye Juvenile Research on Measures to Increase Marine Surviva
 
 **Overview:**  
 Marine survival is a limiting factor for the endangered Sakinaw Lake sockeye smolts who migrate past hundreds of harbour seals at Hodgson Islands in the Strait of Georgia every spring. This salmon tracking study traps and PIT tags up to 2,500 sockeye smolts at a smolt fence, then transports the sockeye by boat past the seal colony and compares the survival rate of transported sockeye to naturally migrating smolts.
+
+[⬅ Back to Home](../index.qmd)
