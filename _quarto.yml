@@ -6,9 +6,6 @@ render:
   - index.qmd
   - pages/*.qmd  # Automatically render all project pages
 
-resources:
-  - CNAME
-
 website:
   title: "PSSI Salmon Science Speaker Series"
   sidebar:
