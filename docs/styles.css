@@ -11,24 +11,34 @@ body {
 /* ===============================
    Navbar Styling
    =============================== */
-.navbar {
-  background-color: #006779;
-  color: #fff;
+nav.navbar,
+.navbar,
+.navbar-dark,
+.navbar-light {
+  background-color: #006779 !important;
+  color: #fff !important;
 }
 
-.navbar a {
-  color: #black;
+.navbar a,
+.navbar span,
+.navbar div {
+  color: #ffffff !important;
   text-decoration: none;
 }
 
 .navbar a:hover,
 .navbar a:focus {
-  color: #ffcc00;
+  color: #ffcc00 !important;
   text-decoration: underline;
 }
 
+.navbar .active > a {
+  font-weight: bold;
+  color: #00ffcc !important;
+}
+
 /* ===============================
-   Sidebar Styling
+   Sidebar Styling (if used)
    =============================== */
 .sidebar {
   background-color: #006F79;
@@ -38,7 +48,7 @@ body {
 }
 
 .sidebar a {
-  color: #black;
+  color: black;
   text-decoration: none;
 }
 
@@ -90,4 +100,16 @@ body {
     width: 100%;
     text-align: center;
   }
+}
+
+/* ===============================
+   Accessibility Enhancements
+   =============================== */
+a:focus-visible {
+  outline: 2px dashed #ffcc00;
+  outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
