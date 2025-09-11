@@ -7,34 +7,12 @@ title: "Drivers and functional consequences of hatchery epigenetic variation"
 **Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
 **Division:** N/A  
 **Section:** Molecular Genetics  
-**Location:** N/A  
-**Status:** New  
-**Theme:** Unspecified  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Hatchery science  
 
 **Overview:**  
-The objective of this work is to determine which hatchery environmental
-factors have the greatest potential to explain DNA methylation differences
-between hatchery and natural origin salmon. We will accomplish this by
-experimentally manipulating rearing conditions at PSEC to link aspects of
-hatchery rearing environments with epigenetic patterns and assess downstream
-functional consequences (gene expression). Specifically, we have reared Coho
-Salmon in contrasting environmental conditions in the lab trying to isolate
-various factors that differ between hatchery and natural environments. The
-three treatment factors are water source (well vs. untreated creek water),
-feed (standard aquaculture pellets vs. simulated natural food (mysis and
-bloodworms)), and tank environment (unenriched tanks vs. semi-natural stream
-tanks with gravel substrate and vegetation). All possible combinations of
-factors are represented. We will conduct whole epigenome sequencing of samples
-collected from all treatment groups to identify which experimental factors
-have the greatest influence on DNA methylation. We will compare the specific
-regions that are differentially methylated among our experimental treatments
-with differences observed between hatchery and natural origin fish. The
-research will provide information on which aspects of hatchery environments
-may be most effective to manipulate to reduce divergence between hatchery and
-natural origin fish.
-
-
+No description available.
+**Activities:**  
+1) collect and preserve tissues from ongoing experiments at PSEC, 2) Perform nucleic acid extractions, 3) submit samples for sequencing, 4) analyze data to identify regions of the genome differentially methylated between different treatment groups.
 
 [⬅ Back to Home](../index.qmd)

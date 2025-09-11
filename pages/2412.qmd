@@ -7,39 +7,12 @@ title: "Investigation of the impacts of singular and coinciding acute climate st
 **Lead(s):** Chris Pearce  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
-**Location:** ["PBS Nanaimo","PSEC West Vancouver"]  
-**Status:** Ongoing  
-**Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
-In recent years, the Northeast Pacific has experienced regular heatwaves and
-upwelling events (i.e. movement of waters, often acidified, from depth to
-coastal shallows). These acute stressor events are predicted to increase in
-both duration and frequency due to climate change (Frölicher et al., 2018).
-The proposed project will examine the impacts of warming and upwelling events
-(with acidified water) on the nutritional status of Limacina helicina, a cold-
-water pteropod that serves as an important dietary item for juvenile Pacific
-salmon species in the Northern Pacific (Brodeur et al., 2007; Doubleday &amp;
-Hopcroft, 2015; Sturdevant et al., 2012). For example, dietary analyses of
-juvenile pink salmon and sockeye salmon within the Gulf of Alaska have shown a
-predominance of L. helicina (Brodeur et al., 2007; Doubleday &amp; Hopcroft, 2015;
-Sturdevant et al., 2012). Research has demonstrated that shell development,
-growth, and survival of L. helicina are all highly susceptible to warming and
-ocean acidification (Manno et al., 2017), but there has been limited
-investigation of impacts to pteropod nutritional quality (i.e. composition)
-under the context of acute stressor events. Prey nutritional quality is a key
-aspect of feeding ecology that directly contributes to the survival of higher
-trophic species (Ahlgren et al., 2005; Daly et al., 2010). In salmon,
-variation in invertebrate prey quantity and quality may influence growth and
-survival, especially during early marine residence (Litz et al., 2019).
-Altered dietary lipid levels, for example, have been linked to changes in fish
-growth, fat deposition, and digestive enzyme activity (Pelusio et al., 2021).
-Consequently, we propose that any change in the nutritive status of L.
-helicina under climate stressor conditions could have carry-over impacts to
-juvenile salmon growth, health, and survival.
-
-
+Ocean warming and acidic upwelling changes the zooplankton food web for young salmon in the Northeast Pacific. This project measures the survival and nutritional value of pteropods (zooplankton) under different temperatures and acidic conditions in a lab. Researchers then compare lab findings to natural zooplankton conditions.
+**Activities:**  
+Journal article preparation and submission will be the priority for this fiscal year.
 
 [⬅ Back to Home](../index.qmd)

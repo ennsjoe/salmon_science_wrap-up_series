@@ -7,43 +7,12 @@ title: "Optimization of feeds used in the hatchery production of Pacific Salmon.
 **Lead(s):** Ian Forster, Cher LaCoste  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
-**Location:** N/A  
-**Status:** Ongoing  
-**Theme:** Hatchery Science  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Hatchery science  
 
 **Overview:**  
-To date, much of the recent research on salmonid diets and formulation of
-nutritionally complete commercial feeds has focused on rainbow trout and
-Atlantic salmon (NRC 2011, Hardy and Kaushik 2021). These feeds are not
-formulated for Pacific salmon, which require a specific balance of nutrients
-and other diet constituents to assure egg and juvenile quality, parr-smolt
-transformation and subsequent performance in seawater (Hanson et al. 2016,
-Perry et al. 2006, Jutfelt et al. 2007), as well as to limit the stress
-response following seawater introduction (Herrera et al. 2019). To this end,
-we propose to formulate and test new diets specific for the production of
-Pacific salmon, especially Chinook and coho, optimized to SEP hatcheries.
-
-The data collected in Year 1 will help us to select diets for use in feeding
-trials to be conducted at SEP facilities rearing Coho and Chinook salmon in
-Years 2 and 3. Collectively, these data will support the future formulation of
-improved diets for Pacific salmon.
-
-Feeding trials will be conducted at SEP hatcheries in Years 2 and 3 on
-juvenile ocean-type Chinook and Coho salmon. The diets to be compared will be
-selected based upon the results of Year 1 and agreed upon by the research team
-and SEP staff. Dr. Forster, the project lead, has extensive experience in
-conducting and peer-review publishing comparative feeding trials in salmon.
-Other team members have extensive experience in the assessment of
-physiological, immunological and health status of salmon.
-
-Ultimately, this project will provide science-based advice to SEP facilities
-on the use of supplemented or specially formulated diets to better meet the
-needs of Pacific salmon and specifically address management concerns as to
-whether current industry-formulated feeds administered to juvenile ocean-type
-Chinook and Coho are sufficiently optimized.
-
-
+Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.
+**Activities:**  
+Feeding trials will be conducted at SEP hatcheries in Years 2 and 3 on juvenile ocean-type Chinook and Coho salmon.  The diets to be compared will be selected based upon the results of Year 1 and agreed upon by the research team and SEP staff. Dr. Forster, the project lead, has extensive experience in conducting and peer-review publishing comparative feeding trials in salmon.  Other team members have extensive experience in the assessment of physiological, immunological and health status of salmon.
 
 [⬅ Back to Home](../index.qmd)

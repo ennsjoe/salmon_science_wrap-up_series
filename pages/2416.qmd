@@ -7,29 +7,19 @@ title: "Monitoring and predicting the exposure of Pacific salmon to harmful alga
 **Lead(s):** Andrew Ross  
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
-**Location:** ["Barkley Sound"]  
-**Status:** Ongoing  
-**Theme:** Threat Assessment and Mitigation  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
-Biotoxins produced by harmful algae are known to cause illness and mortality
-in marine animals including planktivorous fish (Starr et al., 2017). Regular
-monitoring of harmful algal biotoxins in BC coastal waters since 2020 has
-revealed significant correlations between climate variables (e.g. water
-temperature) and the concentrations of these toxins in areas known to be
-frequented by Pacific salmon, including WCVI Chinook for which harmful algae
-have been identified as a high future risk (PSSI Risk Assessment Workshop #3).
-The goal of this project is to build upon our Biotoxin Monitoring Program (DFO
-Fieldnote #24) by adapting established analytical methods and procedures to
-measure harmful algal biotoxins in Pacific salmon, their prey and habitat.
-This information will be combined with environmental and taxonomic (plankton)
-data, and assessments of the health and condition of sampled fish, to help
-predict the effects of climate change and related processes on the exposure of
-Pacific salmon to these toxins, and potential impacts on their health and
-survival.
-
-
+Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
+We are comparing biotoxin levels with environmental conditions and indicators of fish health.
+**Activities:**  
+(1) Continue environmental monitoring, taxonomic analysis of phytoplankton, and biotoxin analysis of seawater collected in key habitat for WCVI Chinook salmon until November 2025.
+(2) Continue working with DFO colleagues to collect salmon tissue samples and record the condition of salmon (including any observations of illness or mortality) in these areas until November 2025. 
+(3) Use adapted methodology to measure biotoxins in salmon tissues (gill, liver).
+(4) Measure biotoxins in filtered water and plankton samples collected in Year 3.
+(6) Compare results for water, plankton and fish tissues to relate biotoxin exposure and uptake in juvenile WCVI Chinook. 
+(7) Synthesize biotoxin data with environmental, taxonomic/eDNA, observational and gene expression data to identify drivers and impacts of toxic algal blooms and related biotoxins in WCVI Chinook.
+(8) Compare synthesized data with otolith microchemical data on salmon migration and identify strategies (e.g. timing of hatchery releases) to reduce biotoxin exposure and impacts in WCVI Chinook.
 
 [⬅ Back to Home](../index.qmd)

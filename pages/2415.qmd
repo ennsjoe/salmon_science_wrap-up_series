@@ -7,72 +7,12 @@ title: "A Decision Support Framework for Identifying and Characterizing the Non-
 **Lead(s):** Thomas Therriault, Cher LaCoste  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
-**Location:** N/A  
-**Status:** Not funded  
-**Theme:** Unspecified  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
-There is little doubt that commercial, recreational, and FSC fisheries have
-contributed to the decline of several Pacific salmon stocks in British
-Columbia (BC). However, there are a multitude of non-fishing threats facing BC
-salmon that have not been fully identified nor characterized including Aquatic
-Invasive Species (AIS), harmful algal blooms (HABs), disease and pathogens,
-persistent organic pollutants, heavy metals, etc. Further, many of these
-stressors can interact such that the cumulative effect of these stressors is
-likely greater than the sum of individual stressors. However, these stressors
-are unlikely evenly distributed across the Pacific such that different stocks
-will face different stressors and may respond differently. Thus, spatial and
-stock considerations will be critical. Finally, these stressors are affecting
-BC salmon at different life history stages across the freshwater, estuarine,
-and marine systems they utilize to complete their life cycle with climate
-change exacerbating the problem. By developing a decision support framework it
-will be possible to identify and characterize the individual and multiple
-stressors affecting salmon productivity or recovery in a standardized way
-among Pacific salmon stocks. This will allow managers to better incorporate
-and mitigate these non-fishing stressors most impacting salmon in decision
-making. Not only will this conveying a more complete understanding of stock
-status and threats to industry, stakeholders, and First Nations it will
-facilitate the inclusion of this information in fisheries management plans and
-SARA recovery plans. Further, this approach will allow targeting limited
-resources to those stressors that can best be managed with a clearer
-understanding of how salmon may be expected to respond when these threats are
-mitigated.  
-Based on the non-fishing threats identified in the previous year, along with
-their expected impacts on BC salmon stocks, we will develop a geospatial
-dataset of these threats that can then be attributed to individual stocks. By
-developing an interaction matrix it will be possible to specify the stock-
-specific threats facing BC salmon and clearly indicate which management
-decision making processes need to include this information (e.g., fishing
-plan, recovery plan).
-
-At the Nov 2022 workshop our breakout group identified a number of known
-stressors and in some cases we were able to identify specific threats to
-salmon. However, we had a much longer list of potential stressors for which we
-did not have subject matter experts. Thus, the first step will be to hire a
-dedicated BI-02 who will undertake a literature review, including Fisheries
-Management Plans, CSAS Advisory Documents, SARA Recovery Potential Assessments
-and Recovery Plans, to identify a range of non-fishing stressors affecting
-salmon and how DFO currently considers/doesn’t consider them in decision
-making. The second step will be to talk to subject matter experts both withing
-and outside DFO to fill information gaps that are identified during the
-initial review. This preliminary list will then be used in the third step,
-targeted workshops, where the experts will work to identify the causal
-mechanisms behind these stressors (e.g., life history stage affected, type of
-impact, duration, intensity, magnitude, recovery, etc.) and how they can be
-better considered in DFO decision making. This dual approach of literature
-review and expert opinions has been used previously to identify stressors
-impacting kelp recovery in the Salish Sea (Hollarsmith et al. 2022).
-
-Based on the results of the first two years of the project, the third year
-will specifically develop decision support tools that will aid managers in how
-best to incorporate non-fishing threats across an array of DFO management and
-policy decision making processes, including, but not limited to Fisheries
-Management, SARA recovery planning, SEP restoration activities, and FFHPP
-integrated planning processes. Further, by developing this in conjunction with
-First Nations, it will expand on existing DFO’s efforts on Reconciliation.
-
-
+No description available.
+**Activities:**  
+Year 3: Based on the results of the first two years of the project, the third year will specifically develop decision support tools that will aid managers in how best to incorporate non-fishing threats across an array of DFO management and policy decision making processes, including, but not limited to Fisheries Management, SARA recovery planning, SEP restoration activities, and FFHPP integrated planning processes. Further, by developing this in conjunction with First Nations, it will expand on existing DFO’s efforts on Reconciliation.
 
 [⬅ Back to Home](../index.qmd)

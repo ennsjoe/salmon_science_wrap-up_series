@@ -7,25 +7,36 @@ title: "Fishery & Assessment Data Section - Data Stewardship Unit"
 **Lead(s):** Shelee Hamilton  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
-**Location:** N/A  
-**Status:** Ongoing  
-**Theme:** Data Management  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Modelling and decision support  
 
 **Overview:**  
-Vision: All DFO-owned data relating to pacific salmon are appropriately
-managed through their life cycle, made accessible internally and externally as
-data assets and are regularly used to generate additional research,
-operational and outreach products.  
-Strategy: In the current business of Salmon research and management, data are
-treated as a by-product of a decision or research process. Our strategy
-focuses on building the value of data created in DFO by reducing the burden of
-managing those data through its life cycle, improving the accessibility and
-interoperability of those data, and increasing the opportunity for existing
-data to add value in new contexts. Easier to complete/share data requests,
-easier to maintain/find data.
-
-
+No description available.
+**Activities:**  
+### Interoperable & Integrated Salmon Data Systems
+- **Salmon Population Summary Repository**
+    - Develop and populate a regional repository for key salmon population index data that support FSARs
+    - Enable regional and area staff to contribute harmonized data for priority SMUs
+- **Sample Tracking and Management to Link Biodata and Genetic Stock ID Results**
+    - Work with CDOS on the development of an enterprise level Sample Tracking and Management Platform (STAMP)
+    - Support sample providers, Labs, and staff in the submission and processing of samples and sharing of results
+    - Centralize fragmented GSI data to support traceability, governance, and integration
+- **Salmon Biodata, Genetics, and Environment Integration**
+    - Coordinate data integration linking fish biodata, genetics, and environmental data sources
+
+### Data Governance, Standards & Lifecycle Management
+- **Salmon Science Data Standards**
+    - Framework for defining and publishing shared terms, metadata fields, and controlled vocabularies
+    - Publication of salmon demographic unit standards as well as population level indices standards
+- **Data Lifecycle Governance Framework**
+    - Processes to coordinate production of reproducible data products
+- **Data Strategy & Implementation**
+    - Develop a cross-branch Salmon Science Data Strategy and Implementation Plan
+
+### Self-Serve Infrastructure & Tooling Support
+- **PSSI Self-Serve Infrastructure Rollout**
+    - Enable staff use of Azure Lakehouse, storage containers, and other modern tools
+- **DM Apps Project Planning Tool Enhancements**
+    - Recommend improvements to better link funding, data product outcomes, and stewardship roles
 
 [⬅ Back to Home](../index.qmd)

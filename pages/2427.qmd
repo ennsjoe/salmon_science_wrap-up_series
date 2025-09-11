@@ -7,38 +7,17 @@ title: "Salish Sea plankton and oceanography"
 **Lead(s):** Akash Sastri, Kelly Young  
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
-**Location:** ["Strait of Georgia","Salish Sea"]  
-**Status:** Ongoing  
-**Theme:** Ecosystem Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
-A recent study [Perry et al. 2021, PLOS ONE] identified key physical and
-biological (total zooplankton, euphausiid, amphipod, and decapod larvae
-biomass) factors describing juvenile chinook and coho survival in the Strait
-of Georgia (SoG). This analysis was used to develop a predictive model of
-survival. The current sampling frequency is monthly. Increased frequency,
-particularly in the spring and fall will allow better resolution of physical
-processes and on match-mismatch between juvenile salmon and they prey in the
-Strait. Further, increased sampling frequency will improve resolution of
-physical measurements which benefit both statistical power and model
-prediction. The project expands upon the current monthly SoG plankton survey
-program (22 stations) to include additional biweekly surveys starting mid-
-February through to mid-April and then again late August through end of
-September. These additional surveys would target a key subset of stations
-with: 1) sampling focused on the plankton component of juvenile salmon diets
-(krill, amphipods, and decapod larvae); 2) biochemical measurements of
-zooplankton production rates and photochemical measurements of phytoplankton
-production rates; and 3) ancillary measurements required for estimates of food
-web energy transfer efficiency. The primary objective is to measure the
-quantity, quality, and production rate of a key dietary component as well as
-the entire zooplankton community. Variation of zooplankton production rates
-are more sensitive than biomass to environmental variation occurring on
-timescales relevant to juvenile salmon foraging. Community-level productivity
-estimates will be used to measure ecological efficiency; the amount of energy
-available to consumers of zooplankton.
-
-
+Zooplankton monitoring in the Strait of Georgia is important to understand the food web and juvenile salmon survival, but the current monthly sampling timing is too low for confident statistics and modelling. This food web monitoring study collects zooplankton and ocean conditions on bi-weekly surveys in the spring and fall to more confidently model salmon diet and health.
+**Activities:**  
+This is a continuation of a multi-year monitoring program.
+2025-26 priorities:
+•	Biweekly (spring) and monthly plankton surveys: February-October
+•	Monthly community-level plankton productivity and phytoplankton-zooplankton transfer efficiency measurements in the Central SoG
+•	Zooplankton sample enumeration and analysis of temporal patterns of plankton biomass, productivity, transfer efficiency, and oceanography in the Central SoG 
+•	Prepare and complete reports/presentations for annual State of the Ocean Meeting.
 
 [⬅ Back to Home](../index.qmd)

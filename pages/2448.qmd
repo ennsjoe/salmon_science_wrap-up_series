@@ -7,87 +7,16 @@ title: "Developing a proactive, modernized, holistic approach to ensure optimal 
 **Lead(s):** Kristi Miller-Saunders  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
-**Location:** ["Robertson Creek","Nitinat"]  
-**Status:** Ongoing  
-**Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Fish health and disease  
 
 **Overview:**  
-This research is the second year of a proof of concept level adoption of a
-modernized approach to conduct proactive holistic assessments of salmon health
-and infectious agents in two SEP hatcheries: Robertson Creek and Nitinat.
-Holistic health will be monitored with the innovative salmon Fit-Chip
-technology developed by Dr. Miller’s laboratory. Fit-Chips can simultaneously
-monitor pathogen RNA and host biomarkers predictive of specific stressor
-(thermal, osmotic, oxygen), disease (viral disease, inflammatory response,
-immune activation, imminent mortality), and developmental (pre-smolt, smolt,
-de-smolt) states in salmon based on profiling from non-lethal (in smolt-size
-fish) gill biopsy samples. This study will continue to collaboratively develop
-a purpose-built SEP Fit-Chip that incorporates the biomarker panels with
-assays to key pathogens of interest to SEP.
-
-OBJECTIVE 1: We will apply Fit-Chip technology proactively, establishing
-baseline data from the two hatcheries where Chinook tanks/ponds will be
-sampled and immediately analyzed monthly post hatch until release. Where
-issues with animal welfare arise, more frequent sampling can be undertaken
-(see objective 4). With these data, we can assess shifts in health status over
-time, identify potential physiological factors, stressors or pathogens
-associated with elevated mortality, and measure physiological outcomes of
-mitigation steps or shifts in husbandry practices. Fit-Chips will also be
-applied to stage smolt readiness to minimize osmotic stress and maximize
-survivorship upon release. Fit-Chips will also be applied to fish held in sea
-pens (live and moribund where possible) to assess adaptation post-release and
-to identify factors contributing to physiological shifts in moribund fish.
-Post-release from sea pens, a sister project integrated with the WCVI “Follow
-the Fish” (FtF) PSSI research team will fund application of Fit-Chips to
-monitor shifts in health status over the 2-3 months Chinook spend in river and
-estuarine environments (removed from the budget herein), and the first year of
-marine rearing. Importantly, the imminent mortality biomarker panel, which can
-predict natural mortality within 72 hours, will provide a means to assess
-shifts in survival during post-release rearing.
-
-OBJECTIVE 2: At the same time that fish are being collected in hatchery,
-replicate filtered water samples will be collected for environmental (e)RNA
-assessments using the same Fit-Chip technology. eRNA has already proven to be
-highly useful for (live) pathogen monitoring, but we will also explore if
-shifts in the health of fish in tanks and net-pens can be observed at a
-population level by the shed salmon RNA comparable to the established
-assessment of individuals. If this were the case, eRNA assessments would
-provide a completely non-invasive tool to track health and condition of
-cultured fish. For net pen samples (and post-release samples funded in the
-sister FtF PSSI project [removed from budget herein], eDNA/RNA will be
-collected and metabarcode sequencing will be applied to identify the species
-compositions (salmon spp., prey, competitors, predators, pathogens) that
-comprise the natural environments for Nitinat and Robertson Creek smolt
-releases. Note that results from the first year are just coming in on the eRNA
-objective, and look quite promising. To increase sensitivity, however, we are
-doubling the eRNA filters to collect water samples as due to constant feeding
-towards the end of production, we were unable to get a full 5L filtrate for
-each filter, which reduced the sensitivity to detect fish RNA. We will work
-with hatcheries to try to reduce feeding the hour before sampling and double
-up on filters to resolve this issue.
-
-OBJECTIVE 3: In order to maximize the relevance of the holistic health
-assessments, production, husbandry, and environmental data will need to be
-provided by SEP to facilitate association-based analysis of the Fit-Chip and
-eRNA data. In the first year, we began the development of a purpose-built SEP
-Genomic database and starting writing R-Markdown scripts to automatically
-produce the data graphics for reporting back. We did not have salary for this
-objective in the budget in the first year, which slowed progress, so this year
-we are adding 1 month for database support (Llewellyn) and 1 month for
-analytical support (Bass) to ensure time is dedicated to this task so that
-rapid turn-around for Fit-Chip results back to hatchery managers (&lt;2 weeks if
-no urgent event, &lt;1week for responsive sampling (e.g. mortalities, release
-decisions). “eRNA” technology can also include swab sampling to find sources
-of live pathogens if a particular infectious disease outbreak occurs. Given
-the potential to introduce new pathogens/parasites with transitions from
-ground to natural river/lake water sources, eRNA will be collected prior to
-transitioning to conduct a thorough assessment of infective agents that may be
-introduced; those detected will be added to Fit-Chip panels thereafter to
-assess whether hatchery fish become infected (myxozoans present the highest
-risk of introduction).
-
-
+A proactive holistic health monitoring approach based on high throughput molecular technologies has been validated for utility in two salmon enhancement hatcheries, and is now ready for minimally invasive application in hatcheries culturing conservation stocks. The technical approach revealed annual shifts in stress, infection, and timing of smolt readiness. Future monitoring of pathogens in hatchery source water is crucial to minimize infection potential and maximize post-release survival in stocks of conservation concern.
+**Activities:**  
+1.Conduct bi-monthly sampling at hatcheries from January (using last fiscal funds to March 31) through final release in June of 2025, followed by brood fish returning in 2025, and hatchlings under culture from January to March 31 2026.  Because this third year we are expanding the breadth of hatcheries and stocks for proactive health monitoring, collections will be led by the hatchery biologists, rather than the molecular team, who will be provided training and equipment in early January 2025.  Hatchery staff will collect gill clips from moribund and recently dead Chinook and filtered water samples from each rearing pond and all incoming water sources to the hatcheries.  They may also opportunistically sample water from the watershed where fish will be ultimately released.   
+2. Apply custom hatchery Fit-Chip to gill tissue, and a custom pathogen chip to eRNA/DNA samples bi-weekly as samples come in (combining samples for multiple hatcheries to meet the minimum 80 samples required to run the analysis).  All collection and sample processing data will be housed in the DFO Genomics SQL database, and semi-automated reports generated and sent back to the hatcheries within two weeks after samples are received. 
+3. Conduct additional hatchery monitoring, where required, when mortality events or other concerns to hatchery managers occur. 
+4. Gather husbandry data from the hatcheries that will ultimately support analysis of Fit-Chip and eRNA data to identify practices that may increase incidence of stress and pathogen exposure within hatcheries.
+4. Provide an annual report back on spring sampling to hatchery managers.
 
 [⬅ Back to Home](../index.qmd)

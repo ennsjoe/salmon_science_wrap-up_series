@@ -7,30 +7,15 @@ title: "Changing coastal productivity: Using sediment cores, water properties an
 **Lead(s):** Sophia Johannessen  
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
-**Location:** N/A  
-**Status:** Ongoing  
-**Theme:** Climate Vulnerability  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Salmon in a changing climate  
 
 **Overview:**  
-The project will investigate whether the type of primary productivity has
-changed in BC coastal waters (e.g. a change from a short, diatom-based food
-chain to a longer food chain based on smaller phytoplankton), as a consequence
-of climate change. Such a change is thought to have occurred in Puget Sound,
-with negative effects on the early marine survival of juvenile salmon. The
-proposed collaboration, involving a geochemical oceanographer (SJ) and
-biological oceanographers from Canada (AS) and the United States (CK), will
-permit a multidisciplinary approach to the research question. The project
-leverages existing samples, data and monitoring programs. It combines data
-from new and existing sediment and seawater samples with a trend analysis of
-archived taxonomic data. It will expand the geographic and temporal overage of
-existing data, while adding new biomarker analysis (sterols and fatty acids).
-It is crucial for managers to understand the causes of trends and variability
-in salmon populations in order to set catch limits. This project will
-determine whether a change in primary productivity (“carrying capacity”) could
-be responsible for observed long-term declines in some species of salmon.
-
-
+Has climate change reduced the amount of plankton at the bottom of the food web in BC waters, reducing the carrying capacity for salmon? Have smaller phytoplankton replaced diatoms, lengthening the food chain and making food less nutritious for salmon? This study uses chemical markers in sediment cores and water samples to investigate food web changes in BC coastal inlets.
+**Activities:**  
+•	Analyze biomarkers in existing sediment core samples 
+•	Collect and analyze one additional sediment core from Juan Perez Sound, Haida Gwai (ship-time approved: Mooring cruise, August 2025)
+•	Quality control of data for archiving
+- Interpret all inlet sediment cores: sedimentation rates, carbon accumulation rates, proportions of marine and terrigenous organic matter, determine whether marine and/or terrigenous flux has changed over time
 
 [⬅ Back to Home](../index.qmd)

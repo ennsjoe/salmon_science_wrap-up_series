@@ -7,53 +7,18 @@ title: "Biological models to support prioritizing salmon stocks under future cli
 **Lead(s):** Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**Location:** ["Pacific Biological Station","PSEC West Vancouver","IOS Sidney"]  
-**Status:** Ongoing  
-**Theme:** Climate Vulnerability  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Salmon in a changing climate  
 
 **Overview:**  
-There is widespread recognition that Pacific salmon populations will be
-heavily impacted by climate change. These impacts are, however, expected to
-vary in space and time as well as across species and life stages. As a result,
-quantifying stock-specific risks of environmental change is critical for
-prioritizing DFO management actions. We propose to develop a data-driven
-analytical framework to quantify functional responses to climate variables
-across the salmon life cycle and make projections for how stocks will respond
-to climate change. Our approach will be sufficiently flexible to incorporate
-information from stocks that span a broad range of data quality.
-
-Our multi-year proposal involves two components: In component 1, we will pair
-existing data on Pacific salmon population dynamics with readily available
-freshwater and marine environmental data to estimate the effect of variables
-such as temperature, flow, and food availability on salmon productivity (e.g.
-recruits per spawner). We will quantify life stage-specific effects on
-survival for stocks, including those with estimates of both juvenile and adult
-abundance. The focal stocks for initial modeling of data-rich stocks will be
-determined in year 1, with the goal of including stocks representing different
-species, geographic areas and status assessments relative to Wild Salmon
-Policy benchmarks. Ultimately, we will develop a hierarchical modeling
-framework which will allow us to leverage relationships in data-rich systems
-to estimate effects on data-limited stocks. In component 2, we will couple
-this modelling framework with downscaled climate models to project stock-
-specific responses under future climate scenarios. The projected biological
-status of different stocks, and associated uncertainty in them, will provide a
-scientifically defensible foundation upon which management interventions can
-be prioritized.
-
-We are requesting funds to hire two term Research Scientists to develop the
-modelling framework. We expect that if only one RES were funded (or one RES
-and a BI2) that they could develop an initial model and demonstrate its
-application to a small number of case studies. However, to achieve the goal of
-developing a data-driven framework that is ready to be applied to stocks
-throughout the Pacific region, including those with medium or low data
-availability, two RES positions are necessary. Although the two researchers
-would work collaboratively, one position is focused on fitting models to
-estimate functional relationships for data-rich stock while the other will use
-simulations to develop methods for leveraging information from data-rich
-stocks to data-poor and provide decision criteria for broader implementation.
-
-
+Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.
+**Activities:**  
+1.     Fit statistical models to estimate functional relationships between salmon productivity and environmental covariates.
+2.     Develop simulations to determine a) how data-rich stocks can inform data-poor using a hierarchical framework and b) how qualitative analyses of climate change vulnerability assessments can inform quantitative frameworks (e.g. informative priors on functional relationships in Bayesian models)
+3.     Make projections of salmon productivity under multiple future climate scenarios. 
+5.	Strengthen collaborations with DFO programs across Science branches and external organizations conducting climate change vulnerability assessments (ongoing throughout the project).
+6.    Write and submit manuscript 1 - focused on estimating relationships between salmon productivity and climate conditions in data rich and data poor sockeye stocks.
+7.    Write and submit manuscript 2 - focused on projecting sockeye salmon CU productivity and survival under future climate scenarios.
+8.	Produce year 2 summary report.
 
 [⬅ Back to Home](../index.qmd)

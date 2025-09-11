@@ -7,41 +7,17 @@ title: "Assessment of SEP Chinook and Coho broodstock ELISA screening data by mo
 **Lead(s):** Amy Long  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
-**Location:** ["Spius Creek","Puntledge River","Nitinat"]  
-**Status:** Ongoing  
-**Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Hatchery science  
 
 **Overview:**  
-Renibacterium salmoninarum, the causative agent of bacterial kidney disease
-(BKD), is endemic to the Pacific Northwest. Infection with this bacterial
-pathogen can result in significant morbidity and mortality in cultured
-juvenile Pacific salmon most notably Chinook salmon. The current strategy for
-disease avoidance is screening brood stock to exclude eggs from highly
-infected brood females using an enzyme-linked immunosorbent assay (ELISA) with
-a predetermined positive-negative threshold optical density value. The current
-guidelines for control of BKD have significantly reduced the incidence of
-disease in both hatchery-reared juveniles and returning adult fish.
-
-The Salmonid Enhancement Program (SEP) has 16 years of ELISA data for many
-Vancouver Island and mainland Coho and Chinook stocks, providing thirteen
-3-year cycle for Chinook and fourteen 3-year cycle for Coho salmon. In
-addition, SEP also has direct fluorescent antibody technique (DFAT) semi-
-quantitative prevalence pre-release data for many of the stocks with ELISA
-broodstock data. Epidemiological analysis of this data will provide valuable
-information for identification of potential explanatory variables for BKD
-prevalence in stocks of concern. Furthermore, the ELISA database can be linked
-to the Parental Based Tagging (PBT) database.
-
-The objectives of this project are as follows: \- Analysis of the ELISA data
-to identify potential explanatory variables and magnitude of effect as
-hatchery level management measures. \- Use simulation to model effect of
-increasing the positive-negative culling threshold optical density value \-
-Analysis of the DFAT prevalence for yearling stocks prior to release to
-identify potential predictor variables. \- Link PBT data with ELISA data
-analysis from the first objective.
-
-
+Screening salmon brood stock for bacterial kidney disease has allowed hatcheries to reduce the disease in young salmon and returning adults. Hatcheries now have 16 years of disease test data along with genetic (parentage) information. This hatchery study collects disease data and genetics from Chinook and coho at the Spius, Puntledge, and Nitinat hatcheries
+ to model variables that could improve hatchery methods.
+**Activities:**  
+__Objective 1. Identification of potential BKD predictor values in juvenile salmon.__
+For this objective, we will analyze the DFAT prevalence of yearling stocks prior to release to identify potential predictor variables. Known risk factors for infection (faecal-oral route) include circular tanks versus raceways; surface water versus ground water; winter water temperatures; antibiotic treatment, and whether ELISA based screening for yearling program is used or not.
+
+**Objective 2. Evaluate effect of raising ELISA threshold values.** 
+A simulation model will be used to model the effect of increasing the positive-negative threshold optical density value. This would involve use of the diagnostic sensitivity and specificity for ELISA given in the literature, and existing ELISA data where the positive-negative threshold optical density value were increased. The current threshold used by SEP is <0.1 which may lead to exclusion of uninfected females hence the desire to model threshold value changes.
 
 [⬅ Back to Home](../index.qmd)

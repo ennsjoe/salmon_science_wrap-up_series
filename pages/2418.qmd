@@ -7,38 +7,12 @@ title: "Prediction of reproductive success of Chinook salmon based on Thiamine c
 **Lead(s):** Ian Forster, Cher LaCoste  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
-**Location:** ["Albion Test Fishery"]  
-**Status:** Ongoing  
-**Theme:** Fish Health  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Fish health and disease  
 
 **Overview:**  
-What is being proposed: Thiamine (vitamin B1) deficiency complex (TDC) is an
-emerging issue of concern for Chinook salmon, Oncorhynchus tshawytscha, in the
-North Pacific. Thiamine is an essential vitamin for all organisms, that is
-derived from their diet. Deficiency is most overtly expressed in salmonids as
-early mortality of fry, but secondary effects impact all life stages. TDC was
-first observed in the North Pacific in 2014 when up to 70% of Chinook from the
-Yukon River, a system which has experienced declines in Chinook productivity,
-were found to have limiting levels of egg thiamine (Larson and Howard 2019;
-Honeyfield et al. 2016). In 2020, TDC was diagnosed for the first time in
-California Chinook and found responsible for excessive fry mortality. Despite
-its presence both north and south of BC, to date, only a single study has
-measured thiamine levels in BC salmon and this included just two Chinook
-(Welch et al. 2018). TDC may already be an important driver of BC Chinook
-salmon population declines, and is expected to be an increasingly important
-issue as oceans warm and prey communities change. Significantly, when TDC is
-diagnosed there are effective treatment strategies to mitigate the effects
-which can be applied in hatcheries to limit fry mortality. Assessment and
-monitoring, of Thiamine deficiency can be used by SEP and StAD to inform
-planning decisions for stocks where expectations of reduced spawning
-performance may be expected, e.g., SEP could use this information to focus egg
-collection efforts, or remediation actions such as Thiamine injection / baths,
-on stocks that may be at greater risk of low spawning success. StAD could use
-this information to improve their assessment of the current status and health
-of salmon stocks.
-
-
+Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to warming oceans and changing food webs. The nutrient deficiency lowers the survival rate for salmon fry and has been observed in Yukon and California Chinook, but hasn’t been studied well in BC. This fish health monitoring study gathers Chinook tissue samples from the Albion test fishery and hatcheries to measure thiamine, fatty acids, and other health parameters to help predict and monitor vulnerable stocks.
+**Activities:**  
+Year 3 – manuscript writing, CSAS advisory document, workshop to report back to Clients, final data package release.
 
 [⬅ Back to Home](../index.qmd)

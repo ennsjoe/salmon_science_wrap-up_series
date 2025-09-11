@@ -7,31 +7,16 @@ title: "Barkley Sound and Clayoquot Sound Krill Monitoring"
 **Lead(s):** Akash Sastri, Kelly Young  
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
-**Location:** ["Barkley Sound","Clayoquot Sound"]  
-**Status:** Ongoing  
-**Theme:** Ecosystem Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Marine ecosystems and stressors  
 
 **Overview:**  
-Barkley Sound and the adjacent continental shelf region is rich in marine life
-and has been established as a critical habitat area by DFO. Multiple species
-designated as either &quot;Endangered&quot; or &quot;Special Concern&quot; use the productive
-waters of Barkley Sound and adjacent shelf for all or part of their life
-histories. Zooplankton are a foundational component of the area&#39;s marine food
-webs, with the zooplankton taxon known as &quot;krill&quot; or &quot;euphausiids&quot; of critical
-importance for the survival of several SARA-listed species including chinook.
-Thus, the fortunes of krill populations are inextricably tied to those of the
-taxa that depend on them. This proposal aims to build on previous studies in
-the region to take a deep dive into the status and interannual trends of krill
-populations and examine how ocean conditions influence interannual trends and
-the seasonal cycle of krill distribution and abundance. Armed with an improved
-awareness of the dynamics of krill populations, we will better be able to
-anticipate and adapt to the associated variation of the taxa that depend on
-them. Generally speaking, our work aims to fill the knowledge gap regarding
-krill as an important prey item for juvenile salmon in both Barkley and
-Clayoquot Sounds.
-
-
+Krill, a type of zooplankton, are a critical component of the marine food webs and important part of juvenile salmon diets. This ecosystem monitoring program collects krill on a monthly basis in two key feeding areas for early marine juvenile salmon along the west coast of Vancouver Island. We are monitoring how the amount and nutritional value (fats, protein and total energy) of krill varies with season and ocean conditions (temperature, salinity, and oxygen).
+**Activities:**  
+•	Monthly (February-November) oceanographic (including collection of biotoxin samples for Dr Ross' PSSI program) and zooplankton sampling in Barkley Sound and continue surveys of established stations in Clayoquot Sound   
+•	Collect and analyze krill samples for total lipid, protein, and energy density measurements: 
+•	 Zooplankton sample enumeration; analysis and QAQC of phytoplankton, chlorophyll-a, salinity and nutrient samples, and CTD data
+•	Annual analysis of seasonal development of the two key euphausiid species in Barkley and Clayoquot Sounds
+•	Present results at the annual State of the Ocean Meeting
 
 [⬅ Back to Home](../index.qmd)

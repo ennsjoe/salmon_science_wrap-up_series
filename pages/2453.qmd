@@ -7,75 +7,16 @@ title: "Epigenetic variation between hatchery- and natural-origin Canadian Chino
 **Lead(s):** Eric Rondeau, Tim Healy, Kyle Wellband  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
-**Location:** ["Sarita River","Chilliwack River","Nicola River","Quinsam River","Atnarko River","Thompson"]  
-**Status:** Ongoing  
-**Theme:** Hatchery Science  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Genetics and adaptation  
 
 **Overview:**  
-Enhancement of Pacific salmon through hatchery production is a key component
-of supporting wild salmon populations. Objectives of hatchery enhancement span
-conserving at-risk stocks, rebuilding lower abundance stocks, providing
-harvest opportunities and increasing public awareness through outreach and
-education. However, there are also risks associated with hatchery enhancement;
-differences between a hatchery and a natural habitat affect both the genetic
-and environmental factors that shape the performance and fitness of salmon.
-Consequently, hatchery-origin salmon may be less suited to wild habitats than
-their natural-origin counterparts, and the presence of hatchery-origin fish on
-a natural spawning ground may reduce the fitness of a population overall.
-Despite the known risks and consequences of hatchery enhancement, major
-genetic differences between hatchery-origin and natural-origin salmonids as a
-result of hatchery-mediated selection or relaxed selection have generally not
-been observed in integrated populations. In contrast, substantial epigenetic
-differences have been detected between hatchery-origin and natural-origin
-Pacific salmonids. Epigenetic variants are structural changes to DNA without a
-change in the DNA sequence itself. For example, DNA methylation is a commonly
-studied epigenetic mechanism in which a methyl group (-CH3) is covalently
-added to a cytosine residue. These modifications to DNA can alter the function
-of the genome, particularly through the regulation of gene expression. Given
-the extent of variation in epigenetic signatures between hatchery-origin and
-natural-origin salmon, the functional effects of epigenetic variants are
-excellent candidates to underlie the fitness consequences associated with
-hatchery enhancement. Additionally, it is possible for hatchery epigenetic
-variants to be inherited by the offspring of hatchery-origin fish, which
-aligns with the potential for long-term reductions in population fitness as
-hatchery-origin fish spawn in natural habitats. The study of epigenetic
-variation in Pacific salmonids is relatively in its infancy, but epigenetic
-biomarkers are a promising tool to facilitate managing hatchery enhancement
-specifically and salmon fisheries generally. A critical knowledge gap in the
-generation of these tools is that epigenetic differences between hatchery- and
-natural-origin Chinook Salmon have not been well-characterized within enhanced
-populations or across populations enhanced by the Fisheries and Oceans Canada
-Salmonid Enhancement Program (SEP). Therefore, a comprehensive examination of
-DNA methylation between hatchery- and natural-origin Canadian Chinook Salmon
-is a high priority, which will be followed by the development of epigenetic
-biomarkers and tools for monitoring and management. The first-year objectives
-of the study are: 1) Identify hatchery- and natural-origin Chinook Salmon in
-broodstock from five SEP hatcheries through assignments of parentage-based
-tags (confirmed hatchery lines: Nicola River, Quinsam River, Sarita River,
-Atnarko River Upper, Chilliwack River Fall, Chilliwack River Summer). 2)
-Utilize enzymatic methyl sequencing to assess DNA methylation patterns among
-female and male hatchery- and natural-origin Chinook Salmon across difference
-age classes of return. 3) Determine hatchery-origin epigenetic variants that
-are: common across all hatcheries studied, specific to individual hatcheries,
-associated with physiological performance, associated with sex, or associated
-with age of return. 4) Identify candidate epigenomic biomarkers for use in
-high-throughput molecular tools to support monitoring and management
-decisions. The long-term objectives of the study are: 5) Develop high-
-throughput molecular tools to screen epigenetic biomarkers in Chinook Salmon
-(e.g. pyrosequencing, eDNA methylation sequencing) 6) Expand the regional
-coverage of hatchery lines assessed to confirm generality of hatchery-origin
-variants across SEP programming. 7) Fully assess and resolve regional and
-hatchery specific epigenetic differences between hatchery- and natural-origin
-Chinook Salmon to support high-resolution targeted monitoring efforts. 8)
-Investigate the temporal and environmental sensitivity of hatchery-origin
-epigenetic variants, and the extent to which hatchery-origin epigenetic
-variants occur across tissue types. 9) Examine the establishment of hatchery-
-origin epigenetic variants through stages of hatchery production. 10) Assess
-epigenomic patterns that could be used to indicate the age of hatchery-origin
-Chinook Salmon in SEP enhancement lines.
-
-
+There are few genetic differences between hatchery-bred and natural salmon in populations enhanced by the Salmonid Enhancement Program (SEP), but structural modifications to genes may affect gene expression and impact salmon fitness in the wild. This genetic sequencing study gathers Chinook samples from hatcheries at the Nicola, Quinsam, Sarita, Atnarko, and Chilliwack rivers to compare epigenetic (methylation) differences between hatchery and wild Chinook to better monitor the proportion of hatchery salmon in a river.
+**Activities:**  
+1) Complete analysis of DNA methylation difference between hatchery- and natural-origin Chinook salmon from year two of the project.
+2) Collect data to confirm a lack of genetic differentiation between hatchery- and natural-origin Chinook salmon for hatcheries with epigenetic data from year one or two of the project.
+3) Collect data to assess DNA methylation differences between hatchery- and natural-origin salmon across species produced from the same hatchery.
+4) Assess the development of differences in DNA methylation and genetic variants associated with captive-brood hatchery production.
+5) Identify candidate epigenomic biomarkers for use in high-throughput molecular tools to support monitoring and management decisions, and develop molecular tools to screen for any identified biomarkers (e.g. pyrosequencing assays, eDNA methylation sequencing assays).
 
 [⬅ Back to Home](../index.qmd)

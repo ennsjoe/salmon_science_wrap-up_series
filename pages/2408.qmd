@@ -7,30 +7,25 @@ title: "Improvement, Expansion and Modernization of Salmonid Health Diagnostic S
 **Lead(s):** Amy Long  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
-**Location:** ["Pacific Biological Station","Fulton Hatchery","Nadina Spawning Channels","Chehalis River Hatchery","Quinsam River","Inch Creek Hatchery","Nanaimo River Hatchery","Big Qualicum River Hatchery"]  
-**Status:** Ongoing  
-**Theme:** Hatchery Science  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Fish health and disease  
 
 **Overview:**  
-Historically, DFO’s Salmonid Enhancement Program (SEP) has collaborated with
-the Science Branch’s Aquatic Animal Health (AAH) Section to successfully
-implement disease monitoring and mitigation programs across SEP facilities
-with the goal of ameliorating endemic diseases in salmonid hatcheries. With
-the continual depletion of funds available for salmon health research in both
-SEP and Science Branch, diagnostic capacity of the finfish diagnostic
-laboratory (FDL) at the Pacific Biological Station (PBS) has not kept pace
-with new technologies, and there is limited technology transfer between
-Science Branch and SEP. The anticipated outcomes of this project are to re-
-establish the linkage between SEP and the Science Branch and to use the
-expertise of the Science Branch to improve, expand, and modernize the FDL. In
-doing so, this will provide SEP with the information necessary to provide
-long-term support for the enhanced capacity of the FDL. This multi-year
-project will result in a proactive approach to optimizing salmonid hatchery
-health management and will be accomplished through the completion of the
-following objectives.
-
-
+Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.
+**Activities:**  
+**Objective 1. Optimization and validation of non-lethal screening methods for detection of *Renibacterium salmoninarum* in Chinook Salmon broodstock.** Development of a protocol for non-lethal detection of *Renibacterium salmoninarum* in broodstock was initiated in Year 2. For this work, non-lethal samples (anal fin, gill clip, mucus, and anal swab) as well as kidney were collected from Chinook salmon broodstock in Fall 2024. Samples are currently being screened by qPCR and ELISA (kidney only) with results expected by the end of this fiscal year. In Year 3, we will analyze these results to determine assay agreement and which non-lethal sample is most appropriate. 
+
+Assay validation, including determination of diagnostic sensitivity and specificity, will be completed in Year 3. To do so, samples will be collected from apparently healthy salmon held in the Brett Aquarium at PBS, spiked with *R. salmoninarum* nucleic acid, and diagnostic specificity and sensitivity determined. In Fall 2025, we will screen broodstock samples from multiple stocks at three to four facilities and compare molecular and ELISA results. 
+
+If the non-lethal samples lack sensitivity as compared to ELISA (the gold standard), then a meeting will be held with SEP managers to determine the needs of the organization with regards to non-lethal sampling (diagnostic thresholds, invasiveness, etc.) and potential avenues for further research. 
+
+The results of this work will be provided to SEP in the form of a report as well as a presentation if desired.
+
+**Objective 2. Continued longitudinal surveillance of select stocks.** Targeted screening of healthy and diseased fish from SEP hatcheries and/or spawning channels will continue in Year 3. Pathogens of interest include *Flavobacterium columnare*, *Ichthyophthirius multifiliis*, *Tetracapsuloides bryosalmonae*, *R. salmoninarum*, and *F. psychrophilum*. The majority of the testing effort will focus on the latter two as these are enzootic bacteria that have a significant negative impact on salmonid health. At the end of Year 3, an internal report on pathogen distribution, prevalence, and infection level will be prepared for distribution to SEP. Additionally, as all samples being screened for *R. salmoninarum* by our qPCR assay are also being screened by ELISA, a preliminary estimate of assay agreement will be prepared. 
+
+**Objective 3. Implementation of next generation sequencing pipelines for identification of unknown microorganisms.** 
+Samples (whole fish, tissue, or ovarian fluid) submitted to FDL are screened for pathogens using traditional diagnostic techniques (histology and bacterial/viral culture) or molecular assays. However, it is not uncommon to re-isolate microorganisms that cannot be identified using standard methodologies. In Year 3, we will use Oxford Nanopore Technologies (ONT), a next generation sequencing (NGS) platform, to identify archived unknown agents of interest. For bacterial agents, the raw 16S ribosomal DNA sequences obtained from the Nanopore platform will be analyzed by the wf-16s pipeline in the EPI2ME program curated by ONT. For viral agents, the Virology Program at AAH has developed a pipeline for analysis and identification of agents. 
+
+As noted in Objective 2, we have been routinely surveilling spawning broodstock for *F. psychrophilum*. We have re-isolated yellow-pigmented bacterial (YPB) from these fish on numerous occasions. Although morphologically similar to *F. psychrophilum*, a validated qPCR assay for *F. psychrophilum* has confirmed these isolates are not *F. psychrophilum*. These isolates are of particular interest as YPB have been recognized as possible emergent fish pathogens in salmonids. YPB isolated from salmonids in both California and the Laurentian Great Lakes have been identified as members of the *Chryseobacterium* genus of which there are several species that have been shown to cause disease in experimentally infected salmonids. In using NGS technologies to identify our YPB isolates, we will determine if *Chryseobacterium* spp. are present in enhanced salmon in British Columba. The results of this work will provide vital information to SEP on potential bacterial agents of concern.
 
 [⬅ Back to Home](../index.qmd)

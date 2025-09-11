@@ -7,20 +7,19 @@ title: "Genetics Stock Identification and Parentage Based Tagging of Pacific sal
 **Lead(s):** Eric Rondeau  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
-**Location:** N/A  
-**Status:** Ongoing  
-**Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
-Genetic identification of samples on both a rapid (daily or intraweek) and
-regular (annual) basis on for domestic and international fisheries management
-and commitments under the PST and NPAFC – Genetic identification of organisms
-at the species, stock and individual level in partnered research applications
-– Genome-level genotyping for Parental based tagging (PBT) and other
-applications.
-
-
+No description available.
+**Activities:**  
+PSSI funding was proposed to cover:
+31,000 Brood genotypes to support PBT (Chinook and Coho); 
+31,000 South Coast Stock Assessment samples for analysis; 
+9,000 North Coast Stock Assessment samples for analysis; 
+8,000 Yukon Transboundary Stock Assessment samples for analysis; 
+3,500-5,000 Fraser Interior Stock Assessment samples for analysis; 
+5,000 baseline samples; 
+5,000 JOT head recovery (sample and genotyping);
 
 [⬅ Back to Home](../index.qmd)

@@ -7,61 +7,18 @@ title: "Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application f
 **Lead(s):** stephen wischniowski  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Applied Technology  
-**Location:** ["Pacific Biological Station"]  
-**Status:** Ongoing  
-**Theme:** Innovation & Diagnostics  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Innovative tools and assessments  
 
 **Overview:**  
-The Application of Fourier Transform-Near Infrared Spectroscopy (FT-NIR) for
-Fish Ageing.
-
-Demographic information such as age is critical for conservation management of
-commercially and ecologically important fishes (Ricker1975; Hilborn and
-Walters 1992; Campana and Thorrold 2001). Traditional fish age estimations are
-determined by microscopically counting growth zones in a number of different
-hard structures including scales and otoliths, a highly specialized skill that
-requires years of training (Campana, 1992; Hesler et al., 2019). DFO Science
-Sclerochronology lab provides internal and external DFO clients with age
-estimates for numerous species of groundfish, pelagics, shellfish and salmon
-including chinook, coho, chum and sockeye. This information contributes to
-internal stock assessments and international treaties such as The Pacific
-Salmon Treaty. The Sclerochronology lab is currently transitioning from a team
-consisting of more senior agers to junior agers, a transition that will reduce
-the lab output capacity. As such, the Sclerochronology lab is investigating
-new methodologies with the potential of increasing fish ageing capacity and
-efficiency. Fourier Transform-Near Infrared Spectroscopy (FT-NIRS) has
-recently been applied to rapidly predict fish age, gaining attention among
-fisheries managers as a potential alternative to timely and costly production
-ageing of managed species (Passerotti et al., 2020). Age prediction capability
-of FT-NIRS has been tested on the otoliths of chinook salmon (Claiborne et
-al., 2019), walleye pollock (Hesler et al., 2019), red snapper (Passerotti et
-al., 2020), barramundi (Wright et al., 2021), Pacific cod (Healy et al.,
-2021), longnose skate (Arrington et al., 2021) as well as the vertebrae of two
-shark species (Rigby et al. 2014, 2016), with potentially promising results.
-Studies on eastern Bering Sea walleye pollock (Gadus chalcogrammus) have shown
-that ages derived from FT-NIRS are not only precise but may demonstrate less
-bias than traditional ageing methods (Helser et al., 2018).
-
-Studies conducted by collaborators at NOAA have indicated that FT-NIRS has the
-capacity to increase age outputs of walleye pollock from 35 ages per day to
-360 ages per day (Hesler et al., 2019). If successful, new applications of FT-
-NIRS technology will provide a promising approach to consolidate research
-tools, operationalize timely data collection methods for age determination
-directly benefiting fisheries researchers and managers, as well as other
-research projects led by StAR, SEP, and Indigenous communities.
-
-The overall objective of the proposed work is a proof of concept to establish
-that the FT-NIRS can be used to precisely estimate the age of fishes regularly
-assessed by the Sclerochronology lab, including the routinely aged salmon
-species of chinook, coho, chum, and sockeye. Since salmon are aged using scale
-structures, our research will first focus on fish species that are aged by
-otoliths. Once we are familiar with the equipment and techniques and have
-successfully passed the proof-of-concept phase, a range of new research
-questions can be investigated such as determining whether salmon scales can be
-scanned for precise age estimation.
-
-
+Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.
+**Activities:**  
+1. Continue familiarization of OPUS Labs spectral software and continued training of new BI02 on the scanning and modeling age predictions. 
+2. Create protocols and standardize use of the FT-NIR Tango spectrometer
+3. Present groundfish with a Pacific Ocean Perch coastwide age prediction model.  Based on attributes of Infrared Scans, Otolith Shape Analysis and Otolith Weight. 
+4. Create calibration and reference chronologies for S. ruberrimus and babcocki
+5. Scan three new species of groundfish, species yet to be determined.
+6. Continue working with Pacific States Marnie Fisheries Commission in the development of Chumputer Vision, a python algorithm predicting chum salmon scale ages from imaged scales. 
+7. Setup the new high speed Leica automated imaging camera specifically design for high volume scale image capture and image ~20K Chum and ~25K chinook scales for Scale Predictive Ageing Program
 
 [⬅ Back to Home](../index.qmd)

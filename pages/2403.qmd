@@ -7,89 +7,16 @@ title: "San Juan River Adult and Juvenile Assessment Program"
 **Lead(s):** Katie Davidson  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** South Coast Area Salmon Stock Assessment  
-**Location:** ["San Juan River","Port San Juan","4 Mile Creek"]  
-**Status:** Ongoing  
-**Theme:** Salmon Monitoring  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Salmon population monitoring and assessment  
 
 **Overview:**  
-The San Juan River is major watershed on southwest Vancouver Island (near Port
-Renfrew, BC) that supports distinct populations of Chinook, Coho and Chum,
-with Chinook enhanced annually at the 4 Mile Hatchery. Although logging
-throughout the watershed has resulted in considerable gravel deposition and
-bank erosion along the spawning reaches of the river, there is still an
-extensive intact estuary connecting the San Juan and Gordon Rivers that
-provides valuable rearing habitat for juvenile salmon. The San Juan River
-empties into Port San Juan (PFMA 20-2).
-
-Pacheedaht First Nation’s Salmon Stewardship Program conducts monitoring and
-restoration work in and around the San Juan-Gordon watersheds to mitigate
-logging effects and rebuild salmon stocks. Their monitoring work spans the
-salmon lifecycle and includes investigating impacts of redd scour on egg-to-
-fry survival, documenting juvenile salmon habitat use in the estuary, and
-conducting adult spawner surveys. Recently, they have also launched a pilot
-Chinook mass-marking program with the 4 Mile Hatchery to reduce the impacts of
-hatchery genetics on the wild Chinook population through selective removals of
-adipose-clipped Chinook in terminal fisheries (community/FSC, and potentially
-sport).
-
-These activities all inform the San Juan Chinook Rebuilding Plan currently in
-development by Pacheedaht, which will feed into the broader WCVI Chinook
-Rebuilding Plan in development by DFO (required under the Fish Stock
-Provisions Act for naturally-produced WCVI Chinook, due March 2024) (DFO 2022;
-Minister of Justice 2022). However, the recent WCVI Chinook Risk Assessment
-process identified several knowledge gaps, mostly related to early freshwater
-and marine life cycle stages. For San Juan Chinook specifically, juvenile data
-from these life stages (and interactions between hatchery and wild juveniles)
-are sparse, and spawner abundance data are limited in scope not only for
-Chinook, but also Coho and Chum.
-
-These reasons make the San Juan River a good candidate to develop an
-integrated life history monitoring program in alignment with the larger Follow
-The Fish program. We propose to continue work initiated in 2022-2023 that
-collected data across four life stages of San Juan Chinook, thus complementing
-Pacheedaht’s established programs. First, we will implement a rotary screw
-trap to intercept naturally-produced out-migrating juveniles (all species, but
-focused on spring juvenile Chinook migration timing), allowing us to compare
-natural migration timing to hatchery release timing and to gather baseline
-biological traits relative to hatchery releases (e.g., size, condition). If
-funding and resources permit, a feasibility mark-recapture to obtain a
-relative abundance estimate for naturally-produced juvenile Chinook will be
-implemented. Second, we will conduct biweekly purse seining in Port San Juan
-during summer months (~May-August) to collect mixed-stock information,
-including hatchery/natural-origin of juvenile Chinook, stock ID, biological
-traits, environmental stress responses (through gill clips), relative
-abundance, and information on other species schooling with Chinook (e.g.,
-Coho, Pacific Herring). Third, we will continue winter microtrolling work in
-Port San Juan that began in 2021 as part of the Follow The Fish project, which
-will collect detailed biological information (similar to purse seining data)
-on overwintering juvenile Chinook and Coho. We will also calibrate
-microtrolling and purse seining methods through simultaneous sampling events.
-Fourth, we will deploy a Garmin LiveScope hydroacoustic fish-finder in the San
-Juan River to enumerate early, mid and late run salmon. Pairing the LiveScope
-with species composition data from the 4 Mile Hatchery fence and snorkel
-surveys will allow us to compare methods and potentially calibrate escapement
-estimates. Most of Pacheedaht’s community/Food, Social and Ceremonial (FSC)
-salmon harvest is directed at Coho due to prolonged low returns of Chinook;
-improved adult Coho enumeration (Late-run Coho in particular) has been
-identified by Pacheedaht as critical in order to sustainably manage their
-community Coho fishery.
-
-We focus on Chinook due to the reasons mentioned previously (e.g., Rebuilding
-Plans) and for linkages to other programs currently funded under PSSI Pillar
-1.1 such as Follow The Fish (DM Apps Project ID 2407) and Ecological
-Indicators (DM Apps Project ID 2414). Our budget reflects costs for expanding
-feasibility studies in Year 1 (2022-2023), including technician time to
-support not only San Juan work but also Ecological Indicators and occasionally
-Follow The Fish (we plan to share technician resources among all projects as
-much as possible). However, our work will also provide data on other salmon
-species in the San Juan watershed of interest to DFO and Pacheedaht.
-Pacheedaht employ a team of highly skilled technicians and biologists, and are
-well placed to eventually lead much of this work in future, following a brief
-period of investment, capacity building, and project development supported by
-DFO.
-
-
+Pacheedaht First Nation (PFN) have extensive monitoring and restoration projects underway in the San Juan Watershed, but some data gaps for San Juan Chinook still exist, and more detailed biological sampling is required. DFO Salmon Stock Assessment and PFN developed a holistic lifecycle monitoring program for San Juan Chinook through operation of a freshwater rotary screw trap, marine purse seining, and microtrolling, allowing researchers to monitor Chinook across all life stages and compare traits of natural and hatchery origin.
+**Activities:**  
+Year 1 (2023-2024): Freshwater juvenile RST feasibility, nearshore marine purse seine feasibility, continue microtrolling marine winter, potential adult fence upgrades and sampling methods development.
+
+Year 2 (2024-2025):  Continue RST and attempt to expand to more days, including mark-recapture trials for trap efficiency; continue nearshore marine purse seining at established sites from Year 1; continue microtrolling durnig first marine winter; extend Garmin LiveScope is deployed for adult enumeration provided cost-effective alternative power source can be identified. Trial deadpitch sampling. Analyze any outstanding lab samples from Year 1.
+
+**Year 3 (2025-2026)**: Intensive RST mark-recapture and sampling; intensive purse seining and sampling; opportunistic collection of biological samples from natural spawners; sample analysis (otoliths, stomachs, DNA); reporting.
 
 [⬅ Back to Home](../index.qmd)

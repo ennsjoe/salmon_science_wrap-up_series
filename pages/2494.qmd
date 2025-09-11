@@ -7,13 +7,14 @@ title: "Modeling interactions of environmental, biological and infectious factor
 **Lead(s):** Simon Jones  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
-**Location:** N/A  
-**Status:** Complete  
-**Theme:** Unspecified  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Uncategorized  
 
 **Overview:**  
 No description available.
+**Activities:**  
+Validate diagnostic assay for Tetracapsuloides bryosalmonae (Tbryo)
+Collect tissue samples from pink salmon, chinook salmon, coho salmon
+Screen tissue samples for Tbryo
 
 [⬅ Back to Home](../index.qmd)
