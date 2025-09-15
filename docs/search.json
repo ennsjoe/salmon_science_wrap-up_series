@@ -266,11 +266,25 @@
     "text": "🧬 Project Summary\nLead(s): Chrys Neville, Michelle Charbonneau\nDivision: Ecosystem Sciences (ESD)\nSection: Regional Ecosystems Effects on Fish and Fisheries\nPSSI Pillar: Unspecified\nSpeaker Theme: Uncategorized\nOverview:\nNo description available.\nActivities:\n- conduct annual trawl surveys in the Strait of Georgia July and September - analyze data collected in 2020 and 2021 - Generate reports on condition of juvenile salmon in 2021 - Sample adult returning coho, chinook and sockeye salmon for comparison with juveniles collected in prior years - Update database with new data and with errors identified in coding - Transfer survey catch data from standard survey to data platform for access to other researchers (2010-2016 years) - Publish paper on factors regulating coho and chinook survival in the Strait of Georgia.\n⬅ Back to Home"
   },
   {
-    "objectID": "index.html#example-speaker-series-calendar",
-    "href": "index.html#example-speaker-series-calendar",
+    "objectID": "index.html#speaker-series-calendar",
+    "href": "index.html#speaker-series-calendar",
     "title": "Pacific Salmon Science Speaker Series",
-    "section": "🗓️Example Speaker Series Calendar",
-    "text": "🗓️Example Speaker Series Calendar\n\n\n\n\n\nToday"
+    "section": "🗓️ Speaker Series Calendar",
+    "text": "🗓️ Speaker Series Calendar\nThis calendar is shown below."
+  },
+  {
+    "objectID": "index.html#full-calendar",
+    "href": "index.html#full-calendar",
+    "title": "Pacific Salmon Science Speaker Series",
+    "section": "📅 Full Calendar",
+    "text": "📅 Full Calendar\n\n\n\n\n\nToday"
+  },
+  {
+    "objectID": "index.html#salmon-science-projects",
+    "href": "index.html#salmon-science-projects",
+    "title": "Pacific Salmon Science Speaker Series",
+    "section": "🐟 Salmon Science Projects",
+    "text": "🐟 Salmon Science Projects\n{include: project_list.md}"
   },
   {
     "objectID": "pages/2394.html#project-summary",

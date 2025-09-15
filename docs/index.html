@@ -5635,7 +5635,7 @@ flex: 0 0 auto;
 
 
 
-<style type="text/css">body {font-family: Georgia, serif;background-color: #f9f9f9;color: #333;line-height: 1.6;margin: 0;padding: 0;}html {scroll-behavior: smooth;}.navbar,.navbar-dark,.navbar-light {background-color: #006779 !important;color: #fff !important;padding: 0.75rem 1rem;}.navbar a,.navbar span,.navbar div {color: #ffffff !important;text-decoration: none;}.navbar a:hover,.navbar a:focus {color: #ffcc00 !important;text-decoration: underline;}.navbar .active > a {font-weight: bold;color: #00ffcc !important;}.panel-sidebar {background-color: #006F79;color: #fff;padding: 1rem;border-right: 2px solid #004f5a;position: sticky;top: 0;height: 100vh;overflow-y: auto;box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);z-index: 1;}.panel-sidebar h2,.panel-sidebar h3 {color: #ffcc00;margin-top: 0;}.panel-sidebar a {color: #ffffff;text-decoration: none;}.panel-sidebar a:hover,.panel-sidebar a:focus {color: #ffcc00;text-decoration: underline;}.panel-sidebar .active > a {font-weight: bold;color: #00ffcc;}.quarto-layout-panel .panel-main {padding: 2rem;}@media (min-width: 992px) {.quarto-layout-panel {display: flex;}.panel-sidebar {flex: 0 0 280px;}.panel-main {flex: 1;}}@media (max-width: 768px) {.panel-sidebar {position: relative;height: auto;border-right: none;border-bottom: 2px solid #004f5a;padding: 0.5rem;}.quarto-layout-panel .panel-main {padding: 1rem;}}.toastui-calendar {width: 100%;max-height: 600px;overflow-y: auto;background-color: #ffffff;border-radius: 8px;padding: 0.5rem;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}.toastui-calendar .toastui-calendar-event {background-color: #0077b6;color: #fff;border-radius: 4px;padding: 2px 6px;font-size: 0.85em;}.button {display: inline-block;padding: 0.5em 1em;margin: 0.3em 0.3em 0.6em 0;border: 2px solid #006779;border-radius: 6px;background-color: #fff;color: #006779;font-weight: bold;text-decoration: none;transition: background-color 0.2s ease, color 0.2s ease;}.button:hover,.button:focus {background-color: #006779;color: #fff;}a:focus-visible {outline: 2px dashed #ffcc00;outline-offset: 2px;}</style>
+<style type="text/css">body {font-family: Georgia, serif;background-color: #f9f9f9;color: #333;line-height: 1.6;margin: 0;padding: 0;}html {scroll-behavior: smooth;}.navbar,.navbar-dark,.navbar-light {background-color: #006779 !important;color: #fff !important;padding: 0.75rem 1rem;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}.navbar a,.navbar span,.navbar div {color: #ffffff !important;text-decoration: none;}.navbar a:hover,.navbar a:focus {color: #ffcc00 !important;text-decoration: underline;}.navbar .active > a {font-weight: bold;color: #00ffcc !important;}.panel-sidebar {background-color: #006F79;color: #fff;padding: 1rem;border-right: 2px solid #004f5a;position: sticky;top: 0;height: 100vh;overflow-y: auto;box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);z-index: 1;}.panel-sidebar h2,.panel-sidebar h3 {color: #ffcc00;margin-top: 0;}.panel-sidebar a {color: #ffffff;text-decoration: none;}.panel-sidebar a:hover,.panel-sidebar a:focus {color: #ffcc00;text-decoration: underline;}.panel-sidebar .active > a {font-weight: bold;color: #00ffcc;}.quarto-layout-panel {display: flex;flex-wrap: nowrap;}.panel-main {flex: 1;padding: 2rem;background-color: #ffffff;}@media (max-width: 992px) {.quarto-layout-panel {flex-direction: column;}.panel-sidebar {position: relative;height: auto;border-right: none;border-bottom: 2px solid #004f5a;padding: 0.75rem;}.panel-main {padding: 1rem;}}.toastui-calendar {width: 100%;max-height: 600px;overflow-y: auto;background-color: #ffffff;border-radius: 8px;padding: 0.5rem;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}.toastui-calendar .toastui-calendar-event {background-color: #0077b6;color: #fff;border-radius: 4px;padding: 2px 6px;font-size: 0.85em;}.button {display: inline-block;padding: 0.5em 1em;margin: 0.3em 0.3em 0.6em 0;border: 2px solid #006779;border-radius: 6px;background-color: #fff;color: #006779;font-weight: bold;text-decoration: none;transition: background-color 0.2s ease, color 0.2s ease;}.button:hover,.button:focus {background-color: #006779;color: #fff;}a:focus-visible {outline: 2px dashed #ffcc00;outline-offset: 2px;}</style>
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -5702,54 +5702,40 @@ flex: 0 0 auto;
 </header>
 
 
-<section id="example-speaker-series-calendar" class="level2 card bg-light p-2 g-col-24 g-col-lg-7">
-<h2 data-anchor-id="example-speaker-series-calendar">🗓️Example Speaker Series Calendar</h2>
+<section id="speaker-series-calendar" class="level2 card bg-light p-2 g-col-24 g-col-lg-7">
+<h2 data-anchor-id="speaker-series-calendar">🗓️ Speaker Series Calendar</h2>
+<p>This calendar is shown below.</p>
+</section>
+<section id="full-calendar" class="level2">
+<h2 data-anchor-id="full-calendar">📅 Full Calendar</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div class="toastui-calendar calendar html-widget html-fill-item" style="width:100%;height:600px;">
-<div id="htmlwidget-9c7795efe43994cd87a4_menu">
-<span id="htmlwidget-9c7795efe43994cd87a4_menu_navi">
-<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-9c7795efe43994cd87a4_today">Today</button>
-<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-9c7795efe43994cd87a4_prev">
+<div id="htmlwidget-c7c6a85bc154acd7b4bb_menu">
+<span id="htmlwidget-c7c6a85bc154acd7b4bb_menu_navi">
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-c7c6a85bc154acd7b4bb_today">Today</button>
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-c7c6a85bc154acd7b4bb_prev">
 <i class="fa fa-chevron-left"></i>
 </button>
-<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-9c7795efe43994cd87a4_next">
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-c7c6a85bc154acd7b4bb_next">
 <i class="fa fa-chevron-right"></i>
 </button>
 </span>
-<span id="htmlwidget-9c7795efe43994cd87a4_renderRange" class="render-range"></span>
+<span id="htmlwidget-c7c6a85bc154acd7b4bb_renderRange" class="render-range"></span>
 </div>
 <br>
-<div id="htmlwidget-9c7795efe43994cd87a4" style="width:100%;height:600px;" class="calendar html-widget" width="100%" height="600px"></div>
+<div id="htmlwidget-c7c6a85bc154acd7b4bb" style="width:100%;height:600px;" class="calendar html-widget" width="100%" height="600px"></div>
 </div>
-<script type="application/json" data-for="htmlwidget-9c7795efe43994cd87a4">{"x":{"options":{"defaultView":"month","useDetailPopup":true,"useFormPopup":false,"isReadOnly":true,"usageStatistics":false,"month":{"startDayOfWeek":1},"calendars":[{"id":"science","name":"Speaker Series","color":"#ffffff","bgColor":"#0077b6"}]},"schedules":[{"category":"time","dueDateClass":"","id":"1","calendarId":"science","title":"Dr. Jane Salmon – Migration Talk","start":"2025-09-20 10:00:00","end":"2025-09-20 11:00:00"},{"category":"time","dueDateClass":"","id":"2","calendarId":"science","title":"Dr. Alex River – Sockeye Genetics","start":"2025-09-22 14:00:00","end":"2025-09-22 15:00:00"},{"category":"time","dueDateClass":"","id":"3","calendarId":"science","title":"Dr. Maya Stream – Habitat Restoration","start":"2025-09-25 09:30:00","end":"2025-09-25 10:30:00"}],"navigation":false,"events":[],"navigationOptions":{"today_label":"Today","prev_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z\"><\/path>\n  <title>caret-left-light<\/title>\n<\/svg>","next_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z\"><\/path>\n  <title>caret-right-light<\/title>\n<\/svg>","class":" bttn-bordered bttn-sm bttn-primary","fmt_date":"YYYY-MM-DD","sep_date":" ~ "}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-c7c6a85bc154acd7b4bb">{"x":{"options":{"defaultView":"month","useDetailPopup":true,"useFormPopup":false,"isReadOnly":true,"usageStatistics":false,"month":{"startDayOfWeek":1},"calendars":[{"id":"science","name":"Speaker Series","color":"#ffffff","bgColor":"#0077b6"}]},"schedules":[{"category":"time","dueDateClass":"","id":"1","calendarId":"science","title":"Dr. Jane Salmon – Migration Talk","start":"2025-09-20 10:00:00","end":"2025-09-20 11:00:00"},{"category":"time","dueDateClass":"","id":"2","calendarId":"science","title":"Dr. Alex River – Sockeye Genetics","start":"2025-09-22 14:00:00","end":"2025-09-22 15:00:00"},{"category":"time","dueDateClass":"","id":"3","calendarId":"science","title":"Dr. Maya Stream – Habitat Restoration","start":"2025-09-25 09:30:00","end":"2025-09-25 10:30:00"}],"navigation":false,"events":[],"navigationOptions":{"today_label":"Today","prev_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z\"><\/path>\n  <title>caret-left-light<\/title>\n<\/svg>","next_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z\"><\/path>\n  <title>caret-right-light<\/title>\n<\/svg>","class":" bttn-bordered bttn-sm bttn-primary","fmt_date":"YYYY-MM-DD","sep_date":" ~ "}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>here() starts at C:/Users/ennsj/Documents/2. PSSI/Salmon Science Wrap-up Series/salmon_science_wrap-up_series</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: &#39;dplyr&#39;</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from &#39;package:stats&#39;:
-
-    filter, lag</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from &#39;package:base&#39;:
-
-    intersect, setdiff, setequal, union</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>✅ Quarto pages and project list markdown generated successfully.</code></pre>
-</div>
-</div>
+<section id="salmon-science-projects" class="level2">
+<h2 data-anchor-id="salmon-science-projects">🐟 Salmon Science Projects</h2>
+<p><code>{include: project_list.md}</code></p>
 
 
+</section>
 
 
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,7 +7,12 @@ page-layout: custom
 ---
 
 ::: {.panel-sidebar}
-## 🗓️Example Speaker Series Calendar
+## 🗓️ Speaker Series Calendar
+
+This calendar is shown below.
+:::
+
+## 📅 Full Calendar
 
 ```{r, echo=FALSE}
 library(toastui)
@@ -34,9 +39,7 @@ calendar(calendar_events) %>%
   ))
 ```
 
-:::
+## 🐟 Salmon Science Projects
 
-```{r, echo=FALSE}
-library(here)
-source(here("quarto_project_pages.R"))
+```{include: project_list.md}
 ```
