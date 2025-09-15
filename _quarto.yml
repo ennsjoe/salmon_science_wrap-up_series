@@ -14,18 +14,12 @@ website:
     left: "© 2025 PSSI Implementation Team"
     right: "[Contact Us](mailto:Joe.Enns@dfo-mpo.gc.ca)"
 
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - text: Themes
-        menu:
-          - href: pages/*.qmd
-            text: All Projects
-    right:
-      - icon: github
-        href: https://github.com/your-org/salmon-science
-        aria-label: GitHub
+navbar:
+  left:
+    - href: index.qmd
+      text: Home
+    - href: pages/themes.qmd
+      text: Themes
 
 format:
   html:
