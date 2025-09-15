@@ -10,7 +10,7 @@ page-layout: custom
 ::: {.panel-sidebar}
 ## 🗓️ Speaker Series Calendar
 
-```{r}
+```{r, echo=FALSE}
 library(toastui)
 
 calendar_events <- data.frame(

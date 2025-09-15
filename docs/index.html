@@ -23,40 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -187,46 +153,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="speaker-series-calendar" class="level2 card bg-light p-2 g-col-24 g-col-lg-7">
 <h2 data-anchor-id="speaker-series-calendar">🗓️ Speaker Series Calendar</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(toastui)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>calendar_events <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="fu">c</span>(</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dr. Jane Salmon – Migration Talk"</span>,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dr. Alex River – Sockeye Genetics"</span>,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dr. Maya Stream – Habitat Restoration"</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  ),</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">start =</span> <span class="fu">c</span>(<span class="st">"2025-09-20 10:00:00"</span>, <span class="st">"2025-09-22 14:00:00"</span>, <span class="st">"2025-09-25 09:30:00"</span>),</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">end   =</span> <span class="fu">c</span>(<span class="st">"2025-09-20 11:00:00"</span>, <span class="st">"2025-09-22 15:00:00"</span>, <span class="st">"2025-09-25 10:30:00"</span>),</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">calendarId =</span> <span class="fu">c</span>(<span class="st">"science"</span>, <span class="st">"science"</span>, <span class="st">"science"</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">calendar</span>(calendar_events) <span class="sc">%&gt;%</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cal_month_options</span>(<span class="at">startDayOfWeek =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cal_props</span>(<span class="fu">data.frame</span>(</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">id =</span> <span class="st">"science"</span>,</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">name =</span> <span class="st">"Speaker Series"</span>,</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#ffffff"</span>,</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">bgColor =</span> <span class="st">"#0077b6"</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  ))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="toastui-calendar calendar html-widget html-fill-item" style="width:100%;height:600px;">
-<div id="htmlwidget-d6ee664addb89d7fc7eb_menu">
-<span id="htmlwidget-d6ee664addb89d7fc7eb_menu_navi">
-<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-d6ee664addb89d7fc7eb_today">Today</button>
-<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-d6ee664addb89d7fc7eb_prev">
+<div id="htmlwidget-e741fbf07f1a4fe8d3f8_menu">
+<span id="htmlwidget-e741fbf07f1a4fe8d3f8_menu_navi">
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-e741fbf07f1a4fe8d3f8_today">Today</button>
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-e741fbf07f1a4fe8d3f8_prev">
 <i class="fa fa-chevron-left"></i>
 </button>
-<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-d6ee664addb89d7fc7eb_next">
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-e741fbf07f1a4fe8d3f8_next">
 <i class="fa fa-chevron-right"></i>
 </button>
 </span>
-<span id="htmlwidget-d6ee664addb89d7fc7eb_renderRange" class="render-range"></span>
+<span id="htmlwidget-e741fbf07f1a4fe8d3f8_renderRange" class="render-range"></span>
 </div>
 <br>
-<div id="htmlwidget-d6ee664addb89d7fc7eb" style="width:100%;height:600px;" class="calendar html-widget" width="100%" height="600px"></div>
+<div id="htmlwidget-e741fbf07f1a4fe8d3f8" style="width:100%;height:600px;" class="calendar html-widget" width="100%" height="600px"></div>
 </div>
-<script type="application/json" data-for="htmlwidget-d6ee664addb89d7fc7eb">{"x":{"options":{"defaultView":"month","useDetailPopup":true,"useFormPopup":false,"isReadOnly":true,"usageStatistics":false,"month":{"startDayOfWeek":1},"calendars":[{"id":"science","name":"Speaker Series","color":"#ffffff","bgColor":"#0077b6"}]},"schedules":[{"category":"time","dueDateClass":"","id":"1","calendarId":"science","title":"Dr. Jane Salmon – Migration Talk","start":"2025-09-20 10:00:00","end":"2025-09-20 11:00:00"},{"category":"time","dueDateClass":"","id":"2","calendarId":"science","title":"Dr. Alex River – Sockeye Genetics","start":"2025-09-22 14:00:00","end":"2025-09-22 15:00:00"},{"category":"time","dueDateClass":"","id":"3","calendarId":"science","title":"Dr. Maya Stream – Habitat Restoration","start":"2025-09-25 09:30:00","end":"2025-09-25 10:30:00"}],"navigation":false,"events":[],"navigationOptions":{"today_label":"Today","prev_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z\"><\/path>\n  <title>caret-left-light<\/title>\n<\/svg>","next_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z\"><\/path>\n  <title>caret-right-light<\/title>\n<\/svg>","class":" bttn-bordered bttn-sm bttn-primary","fmt_date":"YYYY-MM-DD","sep_date":" ~ "}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-e741fbf07f1a4fe8d3f8">{"x":{"options":{"defaultView":"month","useDetailPopup":true,"useFormPopup":false,"isReadOnly":true,"usageStatistics":false,"month":{"startDayOfWeek":1},"calendars":[{"id":"science","name":"Speaker Series","color":"#ffffff","bgColor":"#0077b6"}]},"schedules":[{"category":"time","dueDateClass":"","id":"1","calendarId":"science","title":"Dr. Jane Salmon – Migration Talk","start":"2025-09-20 10:00:00","end":"2025-09-20 11:00:00"},{"category":"time","dueDateClass":"","id":"2","calendarId":"science","title":"Dr. Alex River – Sockeye Genetics","start":"2025-09-22 14:00:00","end":"2025-09-22 15:00:00"},{"category":"time","dueDateClass":"","id":"3","calendarId":"science","title":"Dr. Maya Stream – Habitat Restoration","start":"2025-09-25 09:30:00","end":"2025-09-25 10:30:00"}],"navigation":false,"events":[],"navigationOptions":{"today_label":"Today","prev_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z\"><\/path>\n  <title>caret-left-light<\/title>\n<\/svg>","next_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z\"><\/path>\n  <title>caret-right-light<\/title>\n<\/svg>","class":" bttn-bordered bttn-sm bttn-primary","fmt_date":"YYYY-MM-DD","sep_date":" ~ "}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
