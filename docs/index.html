@@ -23,6 +23,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -69,6 +103,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/calendar-binding-0.4.0/calendar.js"></script>
+
 
 
 <link rel="stylesheet" href="styles.css">
@@ -103,12 +143,10 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -146,11 +184,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="speaker-series-calendar" class="level2 card bg-light p-2 g-col-24 g-col-lg-7">
+<h2 data-anchor-id="speaker-series-calendar">🗓️ Speaker Series Calendar</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(toastui)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>calendar_events <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="fu">c</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dr. Jane Salmon – Migration Talk"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dr. Alex River – Sockeye Genetics"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dr. Maya Stream – Habitat Restoration"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">start =</span> <span class="fu">c</span>(<span class="st">"2025-09-20 10:00:00"</span>, <span class="st">"2025-09-22 14:00:00"</span>, <span class="st">"2025-09-25 09:30:00"</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">end   =</span> <span class="fu">c</span>(<span class="st">"2025-09-20 11:00:00"</span>, <span class="st">"2025-09-22 15:00:00"</span>, <span class="st">"2025-09-25 10:30:00"</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">calendarId =</span> <span class="fu">c</span>(<span class="st">"science"</span>, <span class="st">"science"</span>, <span class="st">"science"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">calendar</span>(calendar_events) <span class="sc">%&gt;%</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cal_month_options</span>(<span class="at">startDayOfWeek =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cal_props</span>(<span class="fu">data.frame</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">id =</span> <span class="st">"science"</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">name =</span> <span class="st">"Speaker Series"</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#ffffff"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">bgColor =</span> <span class="st">"#0077b6"</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  ))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="toastui-calendar calendar html-widget html-fill-item" style="width:100%;height:600px;">
+<div id="htmlwidget-d6ee664addb89d7fc7eb_menu">
+<span id="htmlwidget-d6ee664addb89d7fc7eb_menu_navi">
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-d6ee664addb89d7fc7eb_today">Today</button>
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-d6ee664addb89d7fc7eb_prev">
+<i class="fa fa-chevron-left"></i>
+</button>
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-d6ee664addb89d7fc7eb_next">
+<i class="fa fa-chevron-right"></i>
+</button>
+</span>
+<span id="htmlwidget-d6ee664addb89d7fc7eb_renderRange" class="render-range"></span>
+</div>
+<br>
+<div id="htmlwidget-d6ee664addb89d7fc7eb" style="width:100%;height:600px;" class="calendar html-widget" width="100%" height="600px"></div>
+</div>
+<script type="application/json" data-for="htmlwidget-d6ee664addb89d7fc7eb">{"x":{"options":{"defaultView":"month","useDetailPopup":true,"useFormPopup":false,"isReadOnly":true,"usageStatistics":false,"month":{"startDayOfWeek":1},"calendars":[{"id":"science","name":"Speaker Series","color":"#ffffff","bgColor":"#0077b6"}]},"schedules":[{"category":"time","dueDateClass":"","id":"1","calendarId":"science","title":"Dr. Jane Salmon – Migration Talk","start":"2025-09-20 10:00:00","end":"2025-09-20 11:00:00"},{"category":"time","dueDateClass":"","id":"2","calendarId":"science","title":"Dr. Alex River – Sockeye Genetics","start":"2025-09-22 14:00:00","end":"2025-09-22 15:00:00"},{"category":"time","dueDateClass":"","id":"3","calendarId":"science","title":"Dr. Maya Stream – Habitat Restoration","start":"2025-09-25 09:30:00","end":"2025-09-25 10:30:00"}],"navigation":false,"events":[],"navigationOptions":{"today_label":"Today","prev_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z\"><\/path>\n  <title>caret-left-light<\/title>\n<\/svg>","next_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z\"><\/path>\n  <title>caret-right-light<\/title>\n<\/svg>","class":" bttn-bordered bttn-sm bttn-primary","fmt_date":"YYYY-MM-DD","sep_date":" ~ "}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
 <section id="salmon-science-projects" class="level2">
-<h2 class="anchored" data-anchor-id="salmon-science-projects">🐟 Salmon Science Projects</h2>
+<h2 data-anchor-id="salmon-science-projects">🐟 Salmon Science Projects</h2>
 <p>Explore projects grouped by speaker theme below.</p>
 <section id="fish-health-and-disease" class="level3">
-<h3 class="anchored" data-anchor-id="fish-health-and-disease">Fish health and disease</h3>
+<h3 data-anchor-id="fish-health-and-disease">Fish health and disease</h3>
 <ul>
 <li><a href="./pages/2401.html">Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon</a></li>
 <li><a href="./pages/2408.html">Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.</a></li>
@@ -160,13 +244,13 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="fisheries-monitoring-and-harvest-transformation" class="level3">
-<h3 class="anchored" data-anchor-id="fisheries-monitoring-and-harvest-transformation">Fisheries monitoring and harvest transformation</h3>
+<h3 data-anchor-id="fisheries-monitoring-and-harvest-transformation">Fisheries monitoring and harvest transformation</h3>
 <ul>
 <li><a href="./pages/2394.html">Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery</a></li>
 </ul>
 </section>
 <section id="freshwater-ecosystems-and-stressors" class="level3">
-<h3 class="anchored" data-anchor-id="freshwater-ecosystems-and-stressors">Freshwater ecosystems and stressors</h3>
+<h3 data-anchor-id="freshwater-ecosystems-and-stressors">Freshwater ecosystems and stressors</h3>
 <ul>
 <li><a href="./pages/2398.html">WCVI Sediment Transport and Redd Scour Assessment</a></li>
 <li><a href="./pages/2414.html">South Coast freshwater ecological indicator pilot</a></li>
@@ -177,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="genetics-and-adaptation" class="level3">
-<h3 class="anchored" data-anchor-id="genetics-and-adaptation">Genetics and adaptation</h3>
+<h3 data-anchor-id="genetics-and-adaptation">Genetics and adaptation</h3>
 <ul>
 <li><a href="./pages/2434.html">SHERLOCK assay for rapid genotyping applications</a></li>
 <li><a href="./pages/2435.html">Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon</a></li>
@@ -187,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="hatchery-science" class="level3">
-<h3 class="anchored" data-anchor-id="hatchery-science">Hatchery science</h3>
+<h3 data-anchor-id="hatchery-science">Hatchery science</h3>
 <ul>
 <li><a href="./pages/2400.html">Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.</a></li>
 <li><a href="./pages/2417.html">Optimization of feeds used in the hatchery production of Pacific Salmon.</a></li>
@@ -200,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="innovative-tools-and-assessments" class="level3">
-<h3 class="anchored" data-anchor-id="innovative-tools-and-assessments">Innovative tools and assessments</h3>
+<h3 data-anchor-id="innovative-tools-and-assessments">Innovative tools and assessments</h3>
 <ul>
 <li><a href="./pages/2422.html">Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.</a></li>
 <li><a href="./pages/2439.html">Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station</a></li>
@@ -208,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="marine-ecosystems-and-stressors" class="level3">
-<h3 class="anchored" data-anchor-id="marine-ecosystems-and-stressors">Marine ecosystems and stressors</h3>
+<h3 data-anchor-id="marine-ecosystems-and-stressors">Marine ecosystems and stressors</h3>
 <ul>
 <li><a href="./pages/2404.html">Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon</a></li>
 <li><a href="./pages/2409.html">Convergent tracks: a tagging study to quantify salmon predation by sea lions</a></li>
@@ -224,7 +308,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="modelling-and-decision-support" class="level3">
-<h3 class="anchored" data-anchor-id="modelling-and-decision-support">Modelling and decision support</h3>
+<h3 data-anchor-id="modelling-and-decision-support">Modelling and decision support</h3>
 <ul>
 <li><a href="./pages/2397.html">Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi</a></li>
 <li><a href="./pages/2410.html">Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future</a></li>
@@ -235,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="salmon-in-a-changing-climate" class="level3">
-<h3 class="anchored" data-anchor-id="salmon-in-a-changing-climate">Salmon in a changing climate</h3>
+<h3 data-anchor-id="salmon-in-a-changing-climate">Salmon in a changing climate</h3>
 <ul>
 <li><a href="./pages/2405.html">Biological models to support prioritizing salmon stocks under future climates</a></li>
 <li><a href="./pages/2406.html">Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters</a></li>
@@ -244,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="salmon-population-monitoring-and-assessment" class="level3">
-<h3 class="anchored" data-anchor-id="salmon-population-monitoring-and-assessment">Salmon population monitoring and assessment</h3>
+<h3 data-anchor-id="salmon-population-monitoring-and-assessment">Salmon population monitoring and assessment</h3>
 <ul>
 <li><a href="./pages/2402.html">Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act</a></li>
 <li><a href="./pages/2403.html">San Juan River Adult and Juvenile Assessment Program</a></li>
@@ -259,7 +343,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

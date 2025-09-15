@@ -3,7 +3,38 @@ title: "Pacific Salmon Science Speaker Series"
 description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."
 author: "Pacific Salmon Science Initiative"
 keywords: ["salmon science", "marine biology", "conservation", "Canada", "PSSI"]
+format: html
+page-layout: custom
 ---
+
+::: {.panel-sidebar}
+## 🗓️ Speaker Series Calendar
+
+```{r}
+library(toastui)
+
+calendar_events <- data.frame(
+  id = 1:3,
+  title = c(
+    "Dr. Jane Salmon – Migration Talk",
+    "Dr. Alex River – Sockeye Genetics",
+    "Dr. Maya Stream – Habitat Restoration"
+  ),
+  start = c("2025-09-20 10:00:00", "2025-09-22 14:00:00", "2025-09-25 09:30:00"),
+  end   = c("2025-09-20 11:00:00", "2025-09-22 15:00:00", "2025-09-25 10:30:00"),
+  calendarId = c("science", "science", "science")
+)
+
+calendar(calendar_events) %>%
+  cal_month_options(startDayOfWeek = 1) %>%
+  cal_props(data.frame(
+    id = "science",
+    name = "Speaker Series",
+    color = "#ffffff",
+    bgColor = "#0077b6"
+  ))
+```
+:::
 
 ## 🐟 Salmon Science Projects
 
