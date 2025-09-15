@@ -1,10 +1,20 @@
 /* ===============================
    Global Styles
    =============================== */
+:root {
+  --primary-color: #006779;
+  --accent-color: #ffcc00;
+  --text-color: #333;
+  --bg-color: #f9f9f9;
+  --sidebar-bg: #006F79;
+  --sidebar-border: #004f5a;
+  --calendar-event-bg: #0077b6;
+}
+
 body {
   font-family: Georgia, serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -20,7 +30,7 @@ html {
 .navbar,
 .navbar-dark,
 .navbar-light {
-  background-color: #006779 !important;
+  background-color: var(--primary-color) !important;
   color: #fff !important;
   padding: 0.75rem 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -35,7 +45,7 @@ html {
 
 .navbar a:hover,
 .navbar a:focus {
-  color: #ffcc00 !important;
+  color: var(--accent-color) !important;
   text-decoration: underline;
 }
 
@@ -48,10 +58,10 @@ html {
    Sidebar Styling (.panel-sidebar)
    =============================== */
 .panel-sidebar {
-  background-color: #006F79;
+  background-color: var(--sidebar-bg);
   color: #fff;
   padding: 1rem;
-  border-right: 2px solid #004f5a;
+  border-right: 2px solid var(--sidebar-border);
   position: sticky;
   top: 0;
   height: 100vh;
@@ -62,7 +72,7 @@ html {
 
 .panel-sidebar h2,
 .panel-sidebar h3 {
-  color: #ffcc00;
+  color: var(--accent-color);
   margin-top: 0;
 }
 
@@ -73,7 +83,7 @@ html {
 
 .panel-sidebar a:hover,
 .panel-sidebar a:focus {
-  color: #ffcc00;
+  color: var(--accent-color);
   text-decoration: underline;
 }
 
@@ -90,12 +100,25 @@ html {
   flex-wrap: nowrap;
 }
 
+.quarto-layout-panel .panel-main,
 .panel-main {
   flex: 1;
   padding: 2rem;
   background-color: #ffffff;
 }
 
+.panel-main a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.panel-main a:hover {
+  color: var(--calendar-event-bg);
+}
+
+/* ===============================
+   Responsive Layout
+   =============================== */
 @media (max-width: 992px) {
   .quarto-layout-panel {
     flex-direction: column;
@@ -105,12 +128,12 @@ html {
     position: relative;
     height: auto;
     border-right: none;
-    border-bottom: 2px solid #004f5a;
-    padding: 0.75rem;
+    border-bottom: 2px solid var(--sidebar-border);
+    padding: 1rem;
   }
 
   .panel-main {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 }
 
@@ -128,7 +151,7 @@ html {
 }
 
 .toastui-calendar .toastui-calendar-event {
-  background-color: #0077b6;
+  background-color: var(--calendar-event-bg);
   color: #fff;
   border-radius: 4px;
   padding: 2px 6px;
@@ -142,10 +165,10 @@ html {
   display: inline-block;
   padding: 0.5em 1em;
   margin: 0.3em 0.3em 0.6em 0;
-  border: 2px solid #006779;
+  border: 2px solid var(--primary-color);
   border-radius: 6px;
   background-color: #fff;
-  color: #006779;
+  color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -153,7 +176,7 @@ html {
 
 .button:hover,
 .button:focus {
-  background-color: #006779;
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -161,6 +184,6 @@ html {
    Accessibility Enhancements
    =============================== */
 a:focus-visible {
-  outline: 2px dashed #ffcc00;
+  outline: 2px dashed var(--accent-color);
   outline-offset: 2px;
 }

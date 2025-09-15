@@ -270,21 +270,21 @@
     "href": "index.html#speaker-series-calendar",
     "title": "Pacific Salmon Science Speaker Series",
     "section": "🗓️ Speaker Series Calendar",
-    "text": "🗓️ Speaker Series Calendar\nThis calendar is shown below."
+    "text": "🗓️ Speaker Series Calendar\nExplore upcoming talks and themes in the calendar below."
   },
   {
-    "objectID": "index.html#full-calendar",
-    "href": "index.html#full-calendar",
+    "objectID": "index.html#calendar-of-events",
+    "href": "index.html#calendar-of-events",
     "title": "Pacific Salmon Science Speaker Series",
-    "section": "📅 Full Calendar",
-    "text": "📅 Full Calendar\n\n\n\n\n\nToday"
+    "section": "📅 Calendar of Events",
+    "text": "📅 Calendar of Events\n\n\n\n\n\nToday"
   },
   {
     "objectID": "index.html#salmon-science-projects",
     "href": "index.html#salmon-science-projects",
     "title": "Pacific Salmon Science Speaker Series",
     "section": "🐟 Salmon Science Projects",
-    "text": "🐟 Salmon Science Projects\n{include: project_list.md}"
+    "text": "🐟 Salmon Science Projects\nExplore projects grouped by speaker theme below.\n{include: project_list.md}"
   },
   {
     "objectID": "pages/2394.html#project-summary",

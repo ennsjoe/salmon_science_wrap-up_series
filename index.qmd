@@ -9,10 +9,10 @@ page-layout: custom
 ::: {.panel-sidebar}
 ## 🗓️ Speaker Series Calendar
 
-This calendar is shown below.
+Explore upcoming talks and themes in the calendar below.
 :::
 
-## 📅 Full Calendar
+## 📅 Calendar of Events
 
 ```{r, echo=FALSE}
 library(toastui)
@@ -39,7 +39,11 @@ calendar(calendar_events) %>%
   ))
 ```
 
+---
+
 ## 🐟 Salmon Science Projects
+
+Explore projects grouped by speaker theme below.
 
 ```{include: project_list.md}
 ```

@@ -69,3 +69,7 @@ for (table_name in tables) {
 
 # Disconnect
 dbDisconnect(con)
+
+# ✅ Generate Quarto pages and project list
+cat("\n📝 Generating Quarto pages and project list...\n")
+source(here("quarto_project_pages.R"))

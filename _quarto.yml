@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  pre-render:
+    - Rscript quarto_project_pages.R
 
 render:
   - index.qmd
