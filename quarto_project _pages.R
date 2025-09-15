@@ -121,3 +121,4 @@ verification_file <- here(glue("{verification_token}.html"))
 writeLines(glue("google-site-verification: {verification_token}.html"), verification_file)
 
 cat("✅ Quarto pages and project list markdown generated successfully.\n")
+
