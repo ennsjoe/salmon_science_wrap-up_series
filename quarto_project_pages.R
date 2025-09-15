@@ -96,10 +96,9 @@ index_md <- c(
   'description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."',
   'author: "PSSI Implementation Team"',
   'format: html',
-  'page-layout: custom',
+  'toc: false',
   "---",
   "",
-  '::: {.panel-sidebar}',
   "## 🗓️ Upcoming Talks",
   "",
   "- **Sept 20, 2025** – Dr. Jane Salmon: *Migration Talk*",
@@ -109,11 +108,8 @@ index_md <- c(
   "- **Oct 9, 2025** – Dr. Nina Estuary: *Estuarine Ecology*",
   "",
   "Explore the full project list grouped by speaker themes below.",
-  ":::",
   "",
   "## 🐟 Salmon Science Projects",
-  "",
-  "Explore projects grouped by speaker theme below.",
   ""
 )
 
