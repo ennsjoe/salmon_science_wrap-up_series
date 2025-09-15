@@ -2,10 +2,9 @@
 title: "Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat"
 description: "Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas."
 author: "Lisa Loseto"
-keywords: ["salmon science", "1-Conservation and stewardship", "Freshwater ecosystems and stressors", "Ocean Sciences (OSD)", "Ecology and Biogeochemistry"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Lisa Loseto  
 **Division:** Ocean Sciences (OSD)  

@@ -2,10 +2,9 @@
 title: "Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage."
 description: "Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program."
 author: "Andrew Ross, Xiangjun Liao, Nicole LaForge"
-keywords: ["salmon science", "1-Conservation and stewardship", "Innovative tools and assessments", "Ocean Sciences (OSD)", "Ecology and Biogeochemistry"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Andrew Ross, Xiangjun Liao, Nicole LaForge  
 **Division:** Ocean Sciences (OSD)  

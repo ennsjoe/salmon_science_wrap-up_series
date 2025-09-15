@@ -2,10 +2,9 @@
 title: "Barkley Sound and Clayoquot Sound Krill Monitoring"
 description: "Krill, a type of zooplankton, are a critical component of the marine food webs and important part of juvenile salmon diets. This ecosystem monitoring program collects krill on a monthly basis in two key feeding areas for early marine juvenile salmon along the west coast of Vancouver Island. We are monitoring how the amount and nutritional value (fats, protein and total energy) of krill varies with season and ocean conditions (temperature, salinity, and oxygen)."
 author: "Akash Sastri, Kelly Young"
-keywords: ["salmon science", "1-Conservation and stewardship", "Marine ecosystems and stressors", "Ocean Sciences (OSD)", "Ecology and Biogeochemistry"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Akash Sastri, Kelly Young  
 **Division:** Ocean Sciences (OSD)  

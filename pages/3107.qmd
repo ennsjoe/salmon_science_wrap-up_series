@@ -2,10 +2,9 @@
 title: "Scenario Planning: improving the adaptability of Pacific salmon hatchery planning and implementation to current and future climate changes"
 description: "No description available."
 author: "Sue Grant, Bronwyn MacDonald, Lenora Turcotte, David Willis"
-keywords: ["salmon science", "Unspecified", "Uncategorized", "N/A", "Regional Ecosystems Effects on Fish and Fisheries"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Sue Grant, Bronwyn MacDonald, Lenora Turcotte, David Willis  
 **Division:** N/A  

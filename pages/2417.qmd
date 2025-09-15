@@ -2,10 +2,9 @@
 title: "Optimization of feeds used in the hatchery production of Pacific Salmon."
 description: "Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials."
 author: "Ian Forster, Cher LaCoste"
-keywords: ["salmon science", "2-Salmon enhancement", "Hatchery science", "Ecosystem Sciences (ESD)", "Nearshore Ecosystems"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Ian Forster, Cher LaCoste  
 **Division:** Ecosystem Sciences (ESD)  

@@ -2,10 +2,9 @@
 title: "Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi"
 description: "Indigenous knowledge includes countless generations of place-based Pacific salmon experience that cannot be recreated or measured. Guided by the Eptuaptmumk (“Two-Eyed Seeing”) framework, we are partnering with First Nations on the West coast of Vancouver Island (WCVI) and University of Victoria to identify rebuilding targets and reference points for Chinook salmon that pair Indigenous Knowledge Systems with Western Science, based on interviews and focus groups with Indigenous Knowledge holders and a review of assessment literature."
 author: "Carrie Holt"
-keywords: ["salmon science", "1-Conservation and stewardship", "Modelling and decision support", "Stock Assessment and Research (StAR)", "Quantitative Assessment Methods"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Carrie Holt  
 **Division:** Stock Assessment and Research (StAR)  

@@ -2,10 +2,9 @@
 title: "Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system"
 description: "Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging."
 author: "Lauren Weir"
-keywords: ["salmon science", "1-Conservation and stewardship", "Salmon population monitoring and assessment", "Stock Assessment and Research (StAR)", "Fraser and Interior Area Salmon Stock Assessment"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Lauren Weir  
 **Division:** Stock Assessment and Research (StAR)  

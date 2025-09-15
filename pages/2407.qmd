@@ -2,10 +2,9 @@
 title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island"
 description: "Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival."
 author: "Jessy Bokvist"
-keywords: ["salmon science", "1-Conservation and stewardship", "Salmon population monitoring and assessment", "Stock Assessment and Research (StAR)", "South Coast Area Salmon Stock Assessment"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Jessy Bokvist  
 **Division:** Stock Assessment and Research (StAR)  

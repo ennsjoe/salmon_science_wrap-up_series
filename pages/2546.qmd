@@ -2,10 +2,9 @@
 title: "Fishery & Assessment Data Section - Data Stewardship Unit"
 description: "No description available."
 author: "Shelee Hamilton"
-keywords: ["salmon science", "1-Conservation and stewardship", "Modelling and decision support", "Stock Assessment and Research (StAR)", "Fishery and Assessment Data"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Shelee Hamilton  
 **Division:** Stock Assessment and Research (StAR)  

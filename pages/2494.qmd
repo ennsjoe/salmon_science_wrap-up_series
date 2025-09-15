@@ -2,10 +2,9 @@
 title: "Modeling interactions of environmental, biological and infectious factors with respect to production of Pacific salmon (Oncorhynchus spp.) at the Quinsam River hatchery"
 description: "No description available."
 author: "Simon Jones"
-keywords: ["salmon science", "Unspecified", "Uncategorized", "Aquatic Diagnostics, Genomics and Technology (ADGT)", "Aquatic Animal Health"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Simon Jones  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  

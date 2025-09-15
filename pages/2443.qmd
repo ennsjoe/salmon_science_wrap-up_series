@@ -2,10 +2,9 @@
 title: "Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake"
 description: "Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan."
 author: "Daniel Doutaz"
-keywords: ["salmon science", "1-Conservation and stewardship", "Freshwater ecosystems and stressors", "Stock Assessment and Research (StAR)", "Fraser and Interior Area Salmon Stock Assessment"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Daniel Doutaz  
 **Division:** Stock Assessment and Research (StAR)  

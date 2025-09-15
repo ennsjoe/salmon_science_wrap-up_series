@@ -2,10 +2,9 @@
 title: "Pilot skills study of new hatchery tray configuration."
 description: "No description available."
 author: "Cher LaCoste, Noel Collier"
-keywords: ["salmon science", "Unspecified", "Uncategorized", "Ecosystem Sciences (ESD)", "Nearshore Ecosystems"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Cher LaCoste, Noel Collier  
 **Division:** Ecosystem Sciences (ESD)  

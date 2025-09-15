@@ -2,10 +2,9 @@
 title: "YTRA TBR Weather Stations"
 description: "No description available."
 author: "sean stark"
-keywords: ["salmon science", "Unspecified", "Uncategorized", "Stock Assessment and Research (StAR)", "Yukon/Transboundary Rivers Area Salmon Stock Assessment"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** sean stark  
 **Division:** Stock Assessment and Research (StAR)  

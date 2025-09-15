@@ -2,10 +2,9 @@
 title: "Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon"
 description: "Long-term monitoring of the salmonid virus “infectious hematopoietic necrosis virus,” which can be deadly for sockeye, shows annual and geographic fluctuations between stocks, but for unknown reasons. This study examines IHNV prevalence across different watersheds, sockeye stocks, and environmental conditions in an effort to identify those factors responsible for driving IHNV prevalence and/or influencing disease within sockeye salmon populations."
 author: "Kyle Garver"
-keywords: ["salmon science", "2-Salmon enhancement", "Fish health and disease", "Aquatic Diagnostics, Genomics and Technology (ADGT)", "Aquatic Animal Health"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Kyle Garver  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  

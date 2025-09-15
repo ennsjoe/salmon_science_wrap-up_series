@@ -2,10 +2,9 @@
 title: "Kim Hyatt’s Legacy Data: Juvenile Sockeye Biosample Data and Summary Metrics for B.C. Study Lakes, 1977-present"
 description: "No description available."
 author: "Athena Ogden, Patrick Thompson, Michelle Charbonneau"
-keywords: ["salmon science", "Unspecified", "Uncategorized", "Ecosystem Sciences (ESD)", "Regional Ecosystems Effects on Fish and Fisheries"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Athena Ogden, Patrick Thompson, Michelle Charbonneau  
 **Division:** Ecosystem Sciences (ESD)  

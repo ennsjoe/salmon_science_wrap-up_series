@@ -2,10 +2,9 @@
 title: "South Coast freshwater ecological indicator pilot"
 description: "Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates."
 author: "Diana McHugh"
-keywords: ["salmon science", "1-Conservation and stewardship", "Freshwater ecosystems and stressors", "Stock Assessment and Research (StAR)", "South Coast Area Salmon Stock Assessment"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Diana McHugh  
 **Division:** Stock Assessment and Research (StAR)  

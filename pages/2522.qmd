@@ -2,10 +2,9 @@
 title: "Explanation for the Collapse of the Commercial Chum Salmon Fishery in British Columbia"
 description: "No description available."
 author: "Chrys Neville"
-keywords: ["salmon science", "Unspecified", "Uncategorized", "Ecosystem Sciences (ESD)", "Regional Ecosystems Effects on Fish and Fisheries"]
 ---
 
-## 🧬 Project Summary
+## 📋 Project Summary
 
 **Lead(s):** Chrys Neville  
 **Division:** Ecosystem Sciences (ESD)  
