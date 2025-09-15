@@ -1,12 +1,15 @@
 project:
   type: website
   output-dir: docs
-  pre-render:
-    - Rscript quarto_project_pages.R
 
+# Automatically run the R script that builds index.qmd and pages/*.qmd
+pre-render:
+  - Rscript quarto_project_pages.R
+
+# Render all generated content
 render:
   - index.qmd
-  - pages/*.qmd  # Automatically render all project pages
+  - pages/*.qmd
 
 website:
   title: "Pacific Salmon Science"
@@ -21,4 +24,4 @@ format:
     css: styles.css
     toc: false            # Disable TOC on index page if sidebar is used
     page-layout: custom   # Enables sidebar layout globally
-    embed-resources: true # Ensures calendar widget and styles are bundled
+    embed-resources: true # Ensures styles and widgets are bundled

@@ -9,6 +9,7 @@
   --sidebar-bg: #006F79;
   --sidebar-border: #004f5a;
   --calendar-event-bg: #0077b6;
+  --link-hover-color: #0099cc;
 }
 
 body {
@@ -60,7 +61,7 @@ html {
 .panel-sidebar {
   background-color: var(--sidebar-bg);
   color: #fff;
-  padding: 1rem;
+  padding: 1.25rem;
   border-right: 2px solid var(--sidebar-border);
   position: sticky;
   top: 0;
@@ -74,6 +75,7 @@ html {
 .panel-sidebar h3 {
   color: var(--accent-color);
   margin-top: 0;
+  font-weight: 600;
 }
 
 .panel-sidebar a {
@@ -107,13 +109,20 @@ html {
   background-color: #ffffff;
 }
 
+.panel-main h2,
+.panel-main h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
 .panel-main a {
   color: var(--primary-color);
   text-decoration: underline;
 }
 
 .panel-main a:hover {
-  color: var(--calendar-event-bg);
+  color: var(--link-hover-color);
 }
 
 /* ===============================
