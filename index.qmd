@@ -1,11 +1,11 @@
 ---
-title: "🐟 Pacific Salmon Science Speaker Series"
+title: "Pacific Salmon Science Speaker Series"
 description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."
 author: "Pacific Salmon Science Initiative"
 keywords: ["salmon science", "marine biology", "conservation", "Canada", "PSSI"]
 ---
 
-## :fish: Salmon Science Projects
+## 🐟 Salmon Science Projects
 
 Explore projects grouped by speaker theme below.
 
