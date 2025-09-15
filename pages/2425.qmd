@@ -1,5 +1,8 @@
 ---
 title: "Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program"
+description: "Identifying individual and cumulative threats to salmon and their habitat is critical for effective management and restoration actions. This project estimates and maps nine human activities and landscape disturbance-based threats and four climate change-based threats for the stream network in the Fraser Basin. Results identify threat levels across salmon Conservation Units and the human activities and land uses that contributed most to threats."
+author: "Josie Iacarella"
+keywords: ["salmon science", "1-Conservation and stewardship", "Modelling and decision support", "Ecosystem Sciences (ESD)", "Freshwater Ecosystems"]
 ---
 
 ## 🧬 Project Summary

@@ -1,5 +1,8 @@
 ---
 title: "Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecasts"
+description: "No description available."
+author: "Stephen Page, Richard Thomson"
+keywords: ["salmon science", "Unspecified", "Uncategorized", "Ocean Sciences (OSD)", "State of the Ocean"]
 ---
 
 ## 🧬 Project Summary

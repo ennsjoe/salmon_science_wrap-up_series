@@ -1,5 +1,8 @@
 ---
 title: "Salmon Marine Interactions - SMI - COE Section"
+description: "No description available."
+author: "Chrys Neville, Michelle Charbonneau"
+keywords: ["salmon science", "Unspecified", "Uncategorized", "Ecosystem Sciences (ESD)", "Regional Ecosystems Effects on Fish and Fisheries"]
 ---
 
 ## 🧬 Project Summary

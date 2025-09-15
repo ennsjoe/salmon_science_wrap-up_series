@@ -1,5 +1,8 @@
 ---
 title: "Assessing Salinity Alteration of Nursery Conditions for Salmon Smolts following Construction of Roberts Bank Terminal-2"
+description: "No description available."
+author: "Terri Sutherland"
+keywords: ["salmon science", "Unspecified", "Uncategorized", "Ecosystem Sciences (ESD)", "Nearshore Ecosystems"]
 ---
 
 ## 🧬 Project Summary

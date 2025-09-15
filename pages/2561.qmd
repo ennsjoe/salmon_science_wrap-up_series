@@ -1,5 +1,8 @@
 ---
 title: "State of Pacific Salmon Report 2024-2025"
+description: "No description available."
+author: "Sue Grant"
+keywords: ["salmon science", "Unspecified", "Uncategorized", "Ecosystem Sciences (ESD)", "Regional Ecosystems Effects on Fish and Fisheries"]
 ---
 
 ## 🧬 Project Summary

@@ -1,5 +1,8 @@
 ---
 title: "Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon."
+description: "Chronic stress impacts fish health and can be measured in salmon by sampling hormone (cortisol) and enzyme deposits in scales. This lab and hatchery study gathers coho and Chinook scale samples from broodstock surveys to develop methods of measuring chronic and acute stress hormone levels that could be expanded to monitor salmon health responses to stressors including climate change."
+author: "Stewart Johnson"
+keywords: ["salmon science", "2-Salmon enhancement", "Fish health and disease", "Ecosystem Sciences (ESD)", "Regional Ecosystems Effects on Fish and Fisheries"]
 ---
 
 ## 🧬 Project Summary

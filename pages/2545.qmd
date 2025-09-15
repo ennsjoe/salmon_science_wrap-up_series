@@ -1,5 +1,8 @@
 ---
 title: "Genetics Stock Identification and Parentage Based Tagging of Pacific salmon"
+description: "No description available."
+author: "Eric Rondeau"
+keywords: ["salmon science", "2-Salmon enhancement", "Uncategorized", "Aquatic Diagnostics, Genomics and Technology (ADGT)", "Molecular Genetics"]
 ---
 
 ## 🧬 Project Summary

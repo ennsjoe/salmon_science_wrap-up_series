@@ -1,5 +1,8 @@
 ---
 title: "Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon"
+description: "Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions."
+author: "Lisa Loseto"
+keywords: ["salmon science", "1-Conservation and stewardship", "Marine ecosystems and stressors", "Ocean Sciences (OSD)", "Ecology and Biogeochemistry"]
 ---
 
 ## 🧬 Project Summary

@@ -1,5 +1,8 @@
 ---
 title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery"
+description: "Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern."
+author: "Cory Lagasse"
+keywords: ["salmon science", "3-Harvest transformation", "Fisheries monitoring and harvest transformation", "Stock Assessment and Research (StAR)", "Salmon Assessment"]
 ---
 
 ## 🧬 Project Summary

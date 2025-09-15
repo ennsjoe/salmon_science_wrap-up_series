@@ -1,5 +1,8 @@
 ---
 title: "Establishing a feed assessment program in Pacific salmon enhancement hatcheries"
+description: "No description available."
+author: "Ian Forster"
+keywords: ["salmon science", "Unspecified", "Hatchery science", "N/A", "Nearshore Ecosystems"]
 ---
 
 ## 🧬 Project Summary

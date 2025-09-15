@@ -1,5 +1,8 @@
 ---
 title: "Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments"
+description: "Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions."
+author: "David Patterson, Douglas Braun"
+keywords: ["salmon science", "1-Conservation and stewardship", "Freshwater ecosystems and stressors", "Ecosystem Sciences (ESD)", "Freshwater Ecosystems"]
 ---
 
 ## 🧬 Project Summary

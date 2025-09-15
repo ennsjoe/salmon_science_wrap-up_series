@@ -1,5 +1,8 @@
 ---
 title: "Fishery & Assessment Data Section - Knowledge Mobilization Unit"
+description: "No description available."
+author: "Shelee Hamilton, Tom Bird"
+keywords: ["salmon science", "Unspecified", "Modelling and decision support", "Stock Assessment and Research (StAR)", "Fishery and Assessment Data"]
 ---
 
 ## 🧬 Project Summary
