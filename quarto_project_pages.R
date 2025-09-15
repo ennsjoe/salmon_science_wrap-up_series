@@ -88,16 +88,30 @@ if (!"speaker_themes" %in% colnames(projects)) {
 
 projects_by_theme <- split(projects, projects[["speaker_themes"]])
 
-# Build index.qmd with site-wide metadata
+# Build index.qmd
+cat("🧭 Building index.qmd...\n")
 index_md <- c(
   "---",
-  'title: "Pacific Salmon Science Speaker Series"',
+  'title: "🌊 Pacific Salmon Science Speaker Series"',
   'description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."',
-  'author: "Pacific Salmon Science Initiative"',
-  'keywords: ["salmon science", "marine biology", "conservation", "Canada", "PSSI"]',
+  'author: "PSSI Implementation Team"',
+  'format: html',
+  'page-layout: custom',
   "---",
   "",
-  "## 🧪 Salmon Science Projects",
+  '::: {.panel-sidebar}',
+  "## 🗓️ Upcoming Talks",
+  "",
+  "- **Sept 20, 2025** – Dr. Jane Salmon: *Migration Talk*",
+  "- **Sept 22, 2025** – Dr. Alex River: *Sockeye Genetics*",
+  "- **Sept 25, 2025** – Dr. Maya Stream: *Habitat Restoration*",
+  "- **Oct 2, 2025** – Dr. Leo Waters: *Climate Impacts on Salmon*",
+  "- **Oct 9, 2025** – Dr. Nina Estuary: *Estuarine Ecology*",
+  "",
+  "Explore the full project list grouped by speaker themes below.",
+  ":::",
+  "",
+  "## 🐟 Salmon Science Projects",
   "",
   "Explore projects grouped by speaker theme below.",
   ""
@@ -121,10 +135,5 @@ for (theme_name in names(projects_by_theme)) {
 }
 
 writeLines(index_md, here("index.qmd"))
-
-# Optional: Create Google Search Console verification file
-verification_token <- "google1234567890abcdef"  # Replace with your actual token
-verification_file <- here(glue("{verification_token}.html"))
-writeLines(glue("google-site-verification: {verification_token}.html"), verification_file)
 
 cat("✅ Quarto pages, index.qmd, and verification file generated successfully.\n")

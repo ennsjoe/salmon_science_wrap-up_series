@@ -2,26 +2,36 @@ project:
   type: website
   output-dir: docs
 
-# Automatically run the R script that builds index.qmd and pages/*.qmd
-pre-render:
-  - Rscript quarto_project_pages.R
-
-# Render all generated content
+# Automatically render all generated content
 render:
   - index.qmd
   - pages/*.qmd
 
 website:
-  title: "Pacific Salmon Science"
+  title: "🌊 Pacific Salmon Science"
+  search: true                      # Enables site-wide search
+  page-footer:
+    left: "© 2025 PSSI Implementation Team"
+    right: "[Contact Us](mailto:Joe.Enns@dfo-mpo.gc.ca)"
+
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - text: Themes
+        menu:
+          - href: pages/*.qmd
+            text: All Projects
+    right:
+      - icon: github
+        href: https://github.com/your-org/salmon-science
+        aria-label: GitHub
 
 format:
   html:
     theme: default
     css: styles.css
-    toc: false            # Disable TOC on index page if sidebar is used
-    page-layout: custom   # Enables sidebar layout globally
-    embed-resources: true # Ensures styles and widgets are bundled
+    toc: false              # Disable TOC on index page if sidebar is used
+    page-layout: custom     # Enables sidebar layout globally
+    embed-resources: true   # Bundles styles and widgets for portability
+    smooth-scroll: true     # Improves navigation experience

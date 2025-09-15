@@ -1,6 +1,10 @@
-/* ===============================
-   Global Styles
-   =============================== */
+/* ============================================================
+   🌊 Pacific Salmon Science Website Styles
+   ============================================================ */
+
+/* ------------------------------
+   Root Variables for Easy Theming
+   ------------------------------ */
 :root {
   --primary-color: #006779;
   --accent-color: #ffcc00;
@@ -10,10 +14,20 @@
   --sidebar-border: #004f5a;
   --calendar-event-bg: #0077b6;
   --link-hover-color: #0099cc;
+  --max-content-width: 1200px;
+  --font-serif: Georgia, "Times New Roman", Times, serif;
+  --font-sans: "Segoe UI", Roboto, sans-serif;
+}
+
+/* ------------------------------
+   Base Styles
+   ------------------------------ */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: var(--font-serif);
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -21,13 +35,9 @@ body {
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* ===============================
+/* ------------------------------
    Navbar Styling
-   =============================== */
+   ------------------------------ */
 .navbar,
 .navbar-dark,
 .navbar-light {
@@ -42,6 +52,7 @@ html {
 .navbar div {
   color: #ffffff !important;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .navbar a:hover,
@@ -55,9 +66,20 @@ html {
   color: #00ffcc !important;
 }
 
-/* ===============================
-   Sidebar Styling (.panel-sidebar)
-   =============================== */
+/* ------------------------------
+   Layout Container
+   ------------------------------ */
+.quarto-layout-panel {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ------------------------------
+   Sidebar Styling
+   ------------------------------ */
 .panel-sidebar {
   background-color: var(--sidebar-bg);
   color: #fff;
@@ -69,6 +91,7 @@ html {
   overflow-y: auto;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
   z-index: 1;
+  min-width: 280px;
 }
 
 .panel-sidebar h2,
@@ -81,6 +104,7 @@ html {
 .panel-sidebar a {
   color: #ffffff;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .panel-sidebar a:hover,
@@ -94,15 +118,9 @@ html {
   color: #00ffcc;
 }
 
-/* ===============================
+/* ------------------------------
    Main Content Styling
-   =============================== */
-.quarto-layout-panel {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.quarto-layout-panel .panel-main,
+   ------------------------------ */
 .panel-main {
   flex: 1;
   padding: 2rem;
@@ -119,18 +137,20 @@ html {
 .panel-main a {
   color: var(--primary-color);
   text-decoration: underline;
+  transition: color 0.2s ease;
 }
 
 .panel-main a:hover {
   color: var(--link-hover-color);
 }
 
-/* ===============================
+/* ------------------------------
    Responsive Layout
-   =============================== */
+   ------------------------------ */
 @media (max-width: 992px) {
   .quarto-layout-panel {
     flex-direction: column;
+    padding: 1rem;
   }
 
   .panel-sidebar {
@@ -139,6 +159,7 @@ html {
     border-right: none;
     border-bottom: 2px solid var(--sidebar-border);
     padding: 1rem;
+    min-width: unset;
   }
 
   .panel-main {
@@ -146,9 +167,9 @@ html {
   }
 }
 
-/* ===============================
+/* ------------------------------
    ToastUI Calendar Styling
-   =============================== */
+   ------------------------------ */
 .toastui-calendar {
   width: 100%;
   max-height: 600px;
@@ -167,9 +188,9 @@ html {
   font-size: 0.85em;
 }
 
-/* ===============================
+/* ------------------------------
    Button Styling
-   =============================== */
+   ------------------------------ */
 .button {
   display: inline-block;
   padding: 0.5em 1em;
@@ -180,6 +201,7 @@ html {
   color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
+  cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -189,10 +211,24 @@ html {
   color: #fff;
 }
 
-/* ===============================
+/* ------------------------------
    Accessibility Enhancements
-   =============================== */
+   ------------------------------ */
 a:focus-visible {
   outline: 2px dashed var(--accent-color);
   outline-offset: 2px;
+}
+
+/* ------------------------------
+   Print Styles
+   ------------------------------ */
+@media print {
+  .navbar,
+  .panel-sidebar {
+    display: none;
+  }
+
+  .panel-main {
+    padding: 0;
+  }
 }
