@@ -115,10 +115,5 @@ for (theme_name in names(projects_by_theme)) {
 
 writeLines(project_list_md, here("project_list.md"))
 
-# Optional: Create Google Search Console verification file
-verification_token <- "google1234567890abcdef"  # Replace with your actual token
-verification_file <- here(glue("{verification_token}.html"))
-writeLines(glue("google-site-verification: {verification_token}.html"), verification_file)
-
 cat("✅ Quarto pages and project list markdown generated successfully.\n")
 
