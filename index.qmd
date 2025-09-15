@@ -38,5 +38,5 @@ calendar(calendar_events) %>%
 
 ```{r, echo=FALSE}
 library(here)
-source(here("quarto_project _pages.R"))
+source(here("quarto_project_pages.R"))
 ```
