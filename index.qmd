@@ -1,24 +1,11 @@
 ---
 title: "Pacific Salmon Science Speaker Series"
-description: "A curated collection of salmon science projects grouped by speaker themes..."
+description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."
 author: "Pacific Salmon Science Initiative"
-format: html
-page-layout: custom
+keywords: ["salmon science", "marine biology", "conservation", "Canada", "PSSI"]
 ---
 
-::: {.panel-sidebar}
-## 🗓️ Upcoming Talks
-
-- **Sept 20, 2025** – Dr. Jane Salmon: *Migration Talk*
-- **Sept 22, 2025** – Dr. Alex River: *Sockeye Genetics*
-- **Sept 25, 2025** – Dr. Maya Stream: *Habitat Restoration*
-- **Oct 2, 2025** – Dr. Leo Waters: *Climate Impacts on Salmon*
-- **Oct 9, 2025** – Dr. Nina Estuary: *Estuarine Ecology*
-
-Explore the full project list grouped by speaker themes below.
-:::
-
-## 🐟 Salmon Science Projects
+## 🧪 Salmon Science Projects
 
 Explore projects grouped by speaker theme below.
 

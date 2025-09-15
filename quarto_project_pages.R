@@ -1,29 +1,26 @@
 ################################################################################
-# Title: Generate Quarto Pages and Homepage from Science PSSI Tables
-# Description: Joins overview, detail, and theme tables by 'project_id',
-#              generates individual project pages, and builds full index.qmd
+# Title: Generate Quarto Pages from Joined Science PSSI Tables
+# Description: Joins overview, detail, and theme tables by 'project_id' and builds site
 ################################################################################
 
-# Load libraries
 library(here)
 library(DBI)
 library(RSQLite)
 library(dplyr)
 library(fs)
 library(glue)
-library(janitor)
 
 # Connect to SQLite database
 db_path <- here("science_projects.sqlite")
 con <- dbConnect(SQLite(), dbname = db_path)
 
-# Validate required tables
+# Check required tables
 required_tables <- c("Science.PSSI.Projects", "project.export..long.", "speaker_themes")
 available_tables <- dbListTables(con)
 missing_tables <- setdiff(required_tables, available_tables)
 
 if (length(missing_tables) > 0) {
-  stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}"))
+  stop(glue("Missing required tables: {paste(missing_tables, collapse = ', ')}"))
 }
 
 # Load tables
@@ -38,15 +35,14 @@ projects <- overview %>%
   left_join(themes, by = "project_id") %>%
   filter(!is.na(project_id), project_id != "")
 
-# Create output directory for pages
+# Create output directory
 pages_dir <- here("pages")
 dir_create(pages_dir)
 
 # Helper: sanitize filenames
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
-# Generate individual .qmd pages
-cat("📄 Generating project pages...\n")
+# Generate individual .qmd pages with SEO metadata
 for (i in seq_len(nrow(projects))) {
   row <- projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
@@ -60,7 +56,7 @@ for (i in seq_len(nrow(projects))) {
   section  <- ifelse(is.na(row[["section.x"]]), "N/A", row[["section.x"]])
   summary  <- ifelse(is.na(row[["project_overview_jde"]]), "No description available.", row[["project_overview_jde"]])
   pillar   <- ifelse(is.na(row[["pssi_pillar"]]), "Unspecified", row[["pssi_pillar"]])
-  theme    <- ifelse(is.na(row[["speaker_themes"]]), "Uncategorized", row[["speaker_themes"]])
+  speaker_themes <- ifelse(is.na(row[["speaker_themes"]]), "Uncategorized", row[["speaker_themes"]])
   activities <- ifelse(is.na(row[["year_specific_priorities"]]), "Not Listed", row[["year_specific_priorities"]])
   
   page_content <- glue(
@@ -68,14 +64,14 @@ for (i in seq_len(nrow(projects))) {
     "title: \"{title}\"\n",
     "description: \"{summary}\"\n",
     "author: \"{lead}\"\n",
-    "keywords: [\"salmon science\", \"{pillar}\", \"{theme}\", \"{division}\", \"{section}\"]\n",
+    "keywords: [\"salmon science\", \"{pillar}\", \"{speaker_themes}\", \"{division}\", \"{section}\"]\n",
     "---\n\n",
     "## 🧬 Project Summary\n\n",
     "**Lead(s):** {lead}  \n",
     "**Division:** {division}  \n",
     "**Section:** {section}  \n",
     "**PSSI Pillar:** {pillar}  \n",
-    "**Speaker Theme:** {theme}  \n\n",
+    "**Speaker Theme:** {speaker_themes}  \n\n",
     "**Overview:**  \n{summary}   \n\n",
     "**Activities:**  \n{activities}\n\n",
     "[⬅ Back to Home](../index.qmd)\n"
@@ -84,33 +80,24 @@ for (i in seq_len(nrow(projects))) {
   writeLines(page_content, file_path)
 }
 
-# Group projects by theme
+# Group by speaker_themes
+if (!"speaker_themes" %in% colnames(projects)) {
+  print(colnames(projects))
+  stop("Column 'speaker_themes' not found.")
+}
+
 projects_by_theme <- split(projects, projects[["speaker_themes"]])
 
-# Build full index.qmd
-cat("🧭 Building index.qmd...\n")
+# Build index.qmd with site-wide metadata
 index_md <- c(
   "---",
   'title: "Pacific Salmon Science Speaker Series"',
-  'description: "A curated collection of salmon science projects grouped by speaker themes..."',
+  'description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."',
   'author: "Pacific Salmon Science Initiative"',
-  'format: html',
-  'page-layout: custom',
+  'keywords: ["salmon science", "marine biology", "conservation", "Canada", "PSSI"]',
   "---",
   "",
-  '::: {.panel-sidebar}',
-  "## 🗓️ Upcoming Talks",
-  "",
-  "- **Sept 20, 2025** – Dr. Jane Salmon: *Migration Talk*",
-  "- **Sept 22, 2025** – Dr. Alex River: *Sockeye Genetics*",
-  "- **Sept 25, 2025** – Dr. Maya Stream: *Habitat Restoration*",
-  "- **Oct 2, 2025** – Dr. Leo Waters: *Climate Impacts on Salmon*",
-  "- **Oct 9, 2025** – Dr. Nina Estuary: *Estuarine Ecology*",
-  "",
-  "Explore the full project list grouped by speaker themes below.",
-  ":::",
-  "",
-  "## 🐟 Salmon Science Projects",
+  "## 🧪 Salmon Science Projects",
   "",
   "Explore projects grouped by speaker theme below.",
   ""
@@ -126,6 +113,7 @@ for (theme_name in names(projects_by_theme)) {
     row <- theme_projects[i, ]
     file_id <- sanitize_filename(row[["project_id"]])
     title   <- ifelse(is.na(row[["title.x"]]), "Untitled Project", row[["title.x"]])
+    
     index_md <- c(index_md, glue("- [{title}](pages/{file_id}.qmd)"))
   }
   
@@ -134,4 +122,9 @@ for (theme_name in names(projects_by_theme)) {
 
 writeLines(index_md, here("index.qmd"))
 
-cat("✅ Site build complete: index.qmd and project pages generated.\n")
+# Optional: Create Google Search Console verification file
+verification_token <- "google1234567890abcdef"  # Replace with your actual token
+verification_file <- here(glue("{verification_token}.html"))
+writeLines(glue("google-site-verification: {verification_token}.html"), verification_file)
+
+cat("✅ Quarto pages, index.qmd, and verification file generated successfully.\n")
