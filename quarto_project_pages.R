@@ -131,4 +131,9 @@ for (theme_name in names(projects_by_theme)) {
 
 writeLines(index_md, here("index.qmd"))
 
+# Write CNAME file for GitHub Pages custom domain
+writeLines("https://www.pacificsalmonscience.ca", "CNAME")
+
+system("quarto render")
+
 cat("✅ Quarto pages, index.qmd, and verification file generated successfully.\n")
