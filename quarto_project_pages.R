@@ -92,7 +92,7 @@ cat("🧭 Building index.qmd...\n")
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Speaker Series"',
-  'description: "A curated collection of salmon science projects grouped by speaker themes, supporting conservation and research in British Columbia."',
+  'description: "A curated collection of salmon science projects grouped by speaker themes, supporting salmon conservation and research in British Columbia."',
   'author: "PSSI Implementation Team"',
   'format: html',
   'toc: false',
