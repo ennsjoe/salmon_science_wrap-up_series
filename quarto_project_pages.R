@@ -164,6 +164,8 @@ dbDisconnect(con)
 
 # Join with project titles and IDs
 presentations <- themes_raw %>%
+  group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
+  summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
   left_join(projects %>% select(project_id, title.x), by = "project_id") %>%
   mutate(
     presentation_date = as.Date(presentation_date),
@@ -178,10 +180,7 @@ presentations <- themes_raw %>%
                           glue("- [{title.x}](pages/{file_id}.qmd)"),
                           "")
   ) %>%
-  arrange(presentation_date, presentation_time) %>%
-  distinct(project_id, .keep_all = TRUE)  # 👈 This line removes duplicates
-
-presentations_by_theme <- split(presentations, presentations$speaker_themes)
+  arrange(presentation_date, presentation_time)
 
 for (theme_name in names(presentations_by_theme)) {
   theme_presentations <- presentations_by_theme[[theme_name]]
