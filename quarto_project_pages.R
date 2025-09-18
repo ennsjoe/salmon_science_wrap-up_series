@@ -142,7 +142,7 @@ for (i in seq_len(nrow(projects))) {
 }
 
 # Build index.qmd
-cat("🧭 Building index.qmd grouped by date...\n")
+cat("🧭 Building index.qmd grouped by date and theme...\n")
 
 index_md <- c(
   "---",
@@ -182,10 +182,9 @@ presentations <- themes_raw %>%
   distinct(project_id, speaker_themes, session, presentation_date, presentation_time, .keep_all = TRUE) %>%
   left_join(project_titles, by = "project_id") %>%
   mutate(
-    datetime = paste(format(presentation_date, "%B %d, %Y"), presentation_time),
     file_id = sanitize_filename(project_id),
     project_link = ifelse(!is.na(title.x),
-                          glue("- [{title.x}](pages/{file_id}.qmd)"),
+                          glue("[{title.x}](pages/{file_id}.qmd)"),
                           "")
   ) %>%
   arrange(presentation_date, presentation_time)
@@ -200,25 +199,22 @@ for (date_key in sort(names(presentations_by_date))) {
   
   index_md <- c(index_md, glue("## 📅 {format(as.Date(date_key), '%B %d, %Y')}"), "")
   
-  # Group by theme within date
-  themes_within_date <- split(date_presentations, date_presentations$speaker_themes)
+  # Group by theme + session within date
+  date_presentations <- date_presentations %>%
+    mutate(theme_session = glue("{speaker_themes} | Session {session}")) %>%
+    group_by(theme_session) %>%
+    group_split()
   
-  for (theme_name in names(themes_within_date)) {
-    theme_presentations <- themes_within_date[[theme_name]]
+  for (group in date_presentations) {
+    theme_session <- unique(group$theme_session)
+    index_md <- c(index_md, glue("### 🎯 {theme_session}"), "")
     
-    index_md <- c(index_md, glue("### 🎯 {theme_name}"), "")
-    
-    for (i in seq_len(nrow(theme_presentations))) {
-      row <- theme_presentations[i, ]
-      session <- row$session
-      presenters <- row$presenters
-      datetime <- row$datetime
+    for (i in seq_len(nrow(group))) {
+      row <- group[i, ]
       project_link <- row$project_link
+      presenters <- row$presenters
       
-      index_md <- c(index_md, glue("- **{datetime}** (Session {session}) – {presenters}"))
-      if (project_link != "") {
-        index_md <- c(index_md, glue("  {project_link}"))
-      }
+      index_md <- c(index_md, glue("- {project_link} | {presenters}"))
     }
     
     index_md <- c(index_md, "")
@@ -226,6 +222,7 @@ for (date_key in sort(names(presentations_by_date))) {
 }
 
 writeLines(index_md, here("index.qmd"))
+
 
 # Write CNAME file for GitHub Pages custom domain
 writeLines("www.pacificsalmonscience.ca", "CNAME")
