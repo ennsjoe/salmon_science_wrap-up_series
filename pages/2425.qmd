@@ -11,8 +11,8 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Freshwater Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Modelling and Decision Support / Data Stewardship  
-**Presentation:** December 10, 2025 at 01:00 AM  
+**Speaker Theme:** Uncategorized  
+**Presentation:** TBD  
 
 **Overview:**  
 Identifying individual and cumulative threats to salmon and their habitat is critical for effective management and restoration actions. This project estimates and maps nine human activities and landscape disturbance-based threats and four climate change-based threats for the stream network in the Fraser Basin. Results identify threat levels across salmon Conservation Units and the human activities and land uses that contributed most to threats.   

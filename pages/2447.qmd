@@ -12,7 +12,7 @@ toc: true
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Follow the Fish: Life Cycle Monitoring of WCVI Chinook  
-**Presentation:** December 03, 2025 at 05:00 AM  
+**Presentation:** TBD  
 
 **Overview:**  
 Salmon experience a variety of physiological stressors and pathogens over migration which can be monitored non-lethally using Fit-Chip technology. Chinook salmon will expose themselves to potentially impactful stressors to avail feeding opportunities, enhancing vulnerability to cumulative stressors. eDNA data resolves habitat usage for Chinook salmon and demonstrating they associate with high biomass areas (prey availability), including aquaculture facilities, and avoid harmful algae. Models addressing the cumulative and synergistic interplay between factors will inform which levers under human control will result in strongest outcomes for salmon.   

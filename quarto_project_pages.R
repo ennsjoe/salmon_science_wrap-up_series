@@ -12,7 +12,6 @@ library(readr)
 library(tools)
 library(glue)
 library(janitor)
-library(lubridate)
 library(stringr)
 library(fs)
 
@@ -51,12 +50,7 @@ if (file.exists(speaker_themes_path)) {
   speaker_themes <- read_csv(speaker_themes_path, show_col_types = FALSE) %>%
     janitor::clean_names() %>%
     mutate(
-      presentation_time = case_when(
-        str_to_upper(presentation_time) == "AM" ~ "09:00",
-        str_to_upper(presentation_time) == "PM" ~ "13:00",
-        TRUE ~ presentation_time
-      ),
-      datetime = suppressWarnings(ymd_hm(paste(presentation_date, presentation_time)))
+      presentation_time = as.character(presentation_time)
     )
   
   dbWriteTable(con, "speaker_themes", speaker_themes, overwrite = TRUE)
@@ -147,7 +141,7 @@ cat("🧭 Building index.qmd grouped by date and theme...\n")
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Speaker Series"',
-  'description: "Chronological schedule of salmon science presentations grouped by date and theme."',
+  'description: "40+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
   'author: "PSSI Implementation Team"',
   'format: html',
   'toc: false',
@@ -171,11 +165,7 @@ project_titles <- projects %>%
 presentations <- themes_raw %>%
   mutate(
     presentation_date = as.Date(presentation_date),
-    presentation_time = case_when(
-      str_to_upper(presentation_time) == "AM" ~ "09:00 AM",
-      str_to_upper(presentation_time) == "PM" ~ "01:00 PM",
-      TRUE ~ presentation_time
-    )
+    presentation_time = as.character(presentation_time)
   ) %>%
   group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
   summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
@@ -207,14 +197,15 @@ for (date_key in sort(names(presentations_by_date))) {
   
   for (group in date_presentations) {
     theme_session <- unique(group$theme_session)
-    index_md <- c(index_md, glue("### 🎯 {theme_session}"), "")
+    index_md <- c(index_md, glue("### 🐟 {theme_session}"), "")
     
     for (i in seq_len(nrow(group))) {
       row <- group[i, ]
       project_link <- row$project_link
       presenters <- row$presenters
+      time_display <- row$presentation_time
       
-      index_md <- c(index_md, glue("- {project_link} | {presenters}"))
+      index_md <- c(index_md, glue("- {project_link} | {presenters} at {time_display}"))
     }
     
     index_md <- c(index_md, "")
@@ -222,7 +213,6 @@ for (date_key in sort(names(presentations_by_date))) {
 }
 
 writeLines(index_md, here("index.qmd"))
-
 
 # Write CNAME file for GitHub Pages custom domain
 writeLines("www.pacificsalmonscience.ca", "CNAME")
