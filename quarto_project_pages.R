@@ -184,22 +184,50 @@ presentations <- themes_raw %>%
   ) %>%
   arrange(presentation_date, presentation_time)
 
-# Split by theme after sorting
+# Prepare distinct project titles
+project_titles <- projects %>%
+  select(project_id, title.x) %>%
+  distinct(project_id, .keep_all = TRUE)  # ✅ Only one title per project
+
+# Group by unique presentation and join project titles
+presentations <- themes_raw %>%
+  mutate(
+    presentation_date = as.Date(presentation_date),
+    presentation_time = case_when(
+      str_to_upper(presentation_time) == "AM" ~ "09:00 AM",
+      str_to_upper(presentation_time) == "PM" ~ "01:00 PM",
+      TRUE ~ presentation_time
+    )
+  ) %>%
+  group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
+  summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
+  distinct(project_id, speaker_themes, session, presentation_date, presentation_time, .keep_all = TRUE) %>%  # ✅ Remove duplicate presentations
+  left_join(project_titles, by = "project_id") %>%
+  mutate(
+    datetime = paste(format(presentation_date, "%B %d, %Y"), presentation_time),
+    file_id = sanitize_filename(project_id),
+    project_link = ifelse(!is.na(title.x),
+                          glue("- [{title.x}](pages/{file_id}.qmd)"),
+                          "")
+  ) %>%
+  arrange(presentation_date, presentation_time)  # ✅ Global sort
+
+# Split by theme
 presentations_by_theme <- split(presentations, presentations$speaker_themes)
 
 # Build index content
 for (theme_name in names(presentations_by_theme)) {
   theme_presentations <- presentations_by_theme[[theme_name]] %>%
-    arrange(presentation_date, presentation_time)  # Ensure sorting within theme
+    arrange(presentation_date, presentation_time)  # ✅ Sort within theme
   
   index_md <- c(index_md, glue("### {theme_name}"), "")
   
   for (i in seq_len(nrow(theme_presentations))) {
     row <- theme_presentations[i, ]
-    session <- row[["session"]]
-    presenters <- row[["presenters"]]
-    datetime <- row[["datetime"]]
-    project_link <- row[["project_link"]]
+    session <- row$session
+    presenters <- row$presenters
+    datetime <- row$datetime
+    project_link <- row$project_link
     
     index_md <- c(index_md, glue("- **{datetime}** (Session {session}) – {presenters}"))
     if (project_link != "") {
