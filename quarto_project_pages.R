@@ -162,7 +162,7 @@ con <- dbConnect(SQLite(), dbname = db_path)
 themes_raw <- dbReadTable(con, "speaker_themes")
 dbDisconnect(con)
 
-# Join with project titles and IDs
+# Join with project titles and IDs, group by presentation
 presentations <- themes_raw %>%
   group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
   summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
@@ -182,6 +182,10 @@ presentations <- themes_raw %>%
   ) %>%
   arrange(presentation_date, presentation_time)
 
+# Split by theme after sorting
+presentations_by_theme <- split(presentations, presentations$speaker_themes)
+
+# Build index content
 for (theme_name in names(presentations_by_theme)) {
   theme_presentations <- presentations_by_theme[[theme_name]]
   
@@ -198,27 +202,6 @@ for (theme_name in names(presentations_by_theme)) {
     if (project_link != "") {
       index_md <- c(index_md, glue("  {project_link}"))
     }
-  }
-  
-  index_md <- c(index_md, "")
-}
-
-# Group projects by speaker theme
-projects_by_theme <- split(projects, projects[["speaker_themes"]])
-index_md <- c(index_md, "## 🐟 Salmon Science Projects", "")
-
-for (theme_name in names(projects_by_theme)) {
-  theme_projects <- projects_by_theme[[theme_name]] %>%
-    distinct(project_id, title.x, .keep_all = TRUE)
-  
-  index_md <- c(index_md, glue("### {theme_name}"), "")
-  
-  for (i in seq_len(nrow(theme_projects))) {
-    row <- theme_projects[i, ]
-    file_id <- sanitize_filename(row[["project_id"]])
-    title   <- ifelse(is.na(row[["title.x"]]), "Untitled Project", row[["title.x"]])
-    
-    index_md <- c(index_md, glue("- [{title}](pages/{file_id}.qmd)"))
   }
   
   index_md <- c(index_md, "")
