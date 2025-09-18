@@ -162,18 +162,20 @@ con <- dbConnect(SQLite(), dbname = db_path)
 themes_raw <- dbReadTable(con, "speaker_themes")
 dbDisconnect(con)
 
-# Join with project titles and IDs, group by presentation
+# Group by unique presentation and join project titles
 presentations <- themes_raw %>%
-  group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
-  summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
-  left_join(projects %>% select(project_id, title.x), by = "project_id") %>%
   mutate(
     presentation_date = as.Date(presentation_date),
     presentation_time = case_when(
       str_to_upper(presentation_time) == "AM" ~ "09:00 AM",
       str_to_upper(presentation_time) == "PM" ~ "01:00 PM",
       TRUE ~ presentation_time
-    ),
+    )
+  ) %>%
+  group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
+  summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
+  left_join(projects %>% select(project_id, title.x), by = "project_id") %>%
+  mutate(
     datetime = paste(format(presentation_date, "%B %d, %Y"), presentation_time),
     file_id = sanitize_filename(project_id),
     project_link = ifelse(!is.na(title.x),
@@ -187,7 +189,8 @@ presentations_by_theme <- split(presentations, presentations$speaker_themes)
 
 # Build index content
 for (theme_name in names(presentations_by_theme)) {
-  theme_presentations <- presentations_by_theme[[theme_name]]
+  theme_presentations <- presentations_by_theme[[theme_name]] %>%
+    arrange(presentation_date, presentation_time)  # Ensure sorting within theme
   
   index_md <- c(index_md, glue("### {theme_name}"), "")
   
