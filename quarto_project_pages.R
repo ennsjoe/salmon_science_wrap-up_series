@@ -162,7 +162,9 @@ con <- dbConnect(SQLite(), dbname = db_path)
 themes_raw <- dbReadTable(con, "speaker_themes")
 dbDisconnect(con)
 
+# Join with project titles and IDs
 presentations <- themes_raw %>%
+  left_join(projects %>% select(project_id, title.x), by = "project_id") %>%
   mutate(
     presentation_date = as.Date(presentation_date),
     presentation_time = case_when(
@@ -170,7 +172,11 @@ presentations <- themes_raw %>%
       str_to_upper(presentation_time) == "PM" ~ "01:00 PM",
       TRUE ~ presentation_time
     ),
-    datetime = paste(format(presentation_date, "%B %d, %Y"), presentation_time)
+    datetime = paste(format(presentation_date, "%B %d, %Y"), presentation_time),
+    file_id = sanitize_filename(project_id),
+    project_link = ifelse(!is.na(title.x),
+                          glue("- [{title.x}](pages/{file_id}.qmd)"),
+                          "")
   ) %>%
   arrange(presentation_date, presentation_time)
 
@@ -186,8 +192,12 @@ for (theme_name in names(presentations_by_theme)) {
     session <- row[["session"]]
     presenters <- row[["presenters"]]
     datetime <- row[["datetime"]]
+    project_link <- row[["project_link"]]
     
     index_md <- c(index_md, glue("- **{datetime}** (Session {session}) – {presenters}"))
+    if (project_link != "") {
+      index_md <- c(index_md, glue("  {project_link}"))
+    }
   }
   
   index_md <- c(index_md, "")
