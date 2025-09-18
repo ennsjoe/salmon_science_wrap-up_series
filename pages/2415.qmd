@@ -2,6 +2,7 @@
 title: "A Decision Support Framework for Identifying and Characterizing the Non-fishing Threats to Pacific Salmon"
 description: "No description available."
 author: "Thomas Therriault, Cher LaCoste"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Thomas Therriault, Cher LaCoste"
 **Section:** Nearshore Ecosystems  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Uncategorized  
+**Presentation:** TBD  
 
 **Overview:**  
 No description available.   

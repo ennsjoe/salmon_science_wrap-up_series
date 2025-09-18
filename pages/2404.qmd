@@ -2,6 +2,7 @@
 title: "Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon"
 description: "Low-oxygen (hypoxia) conditions have been observed near the surface in salmon migration inlets on west coast Vancouver Island. The ecosystem monitoring component of this study measures salinity, temperature, and oxygen at different depths in Clayoquot Sound fjords in collaboration with Indigenous groups to establish present-day baseline conditions. The modelling component helps understand the drivers of hypoxia and how they may change in the future. Will salmon have to face more or less hypoxic conditions while migrating?"
 author: "Laura Bianucci"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Laura Bianucci"
 **Section:** Ocean Modelling and Prediction  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Marine ecosystems and stressors  
+**Presentation:** December 03, 2025 at 01:00 AM  
 
 **Overview:**  
 Low-oxygen (hypoxia) conditions have been observed near the surface in salmon migration inlets on west coast Vancouver Island. The ecosystem monitoring component of this study measures salinity, temperature, and oxygen at different depths in Clayoquot Sound fjords in collaboration with Indigenous groups to establish present-day baseline conditions. The modelling component helps understand the drivers of hypoxia and how they may change in the future. Will salmon have to face more or less hypoxic conditions while migrating?   

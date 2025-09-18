@@ -2,6 +2,7 @@
 title: "Salmon Marine Interactions - SMI - COE Section"
 description: "No description available."
 author: "Chrys Neville, Michelle Charbonneau"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Chrys Neville, Michelle Charbonneau"
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Uncategorized  
+**Presentation:** TBD  
 
 **Overview:**  
 No description available.   

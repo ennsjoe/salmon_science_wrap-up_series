@@ -2,6 +2,7 @@
 title: "South Coast freshwater ecological indicator pilot"
 description: "Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates."
 author: "Diana McHugh"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Diana McHugh"
 **Section:** South Coast Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Freshwater ecosystems and stressors  
+**Presentation:** December 02, 2025 at 05:00 AM  
 
 **Overview:**  
 Streamflow, water quality, and aquatic insect information is useful when assessing salmon habitat at risk. This freshwater ecosystem monitoring project expands the range of data collection to include between five to 14 more Chinook habitat systems where researchers sample streamflow, temperature, dissolved oxygen, pH, and benthic macroinvertebrates.   

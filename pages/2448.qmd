@@ -2,6 +2,7 @@
 title: "Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production"
 description: "A proactive holistic health monitoring approach based on high throughput molecular technologies has been validated for utility in two salmon enhancement hatcheries, and is now ready for minimally invasive application in hatcheries culturing conservation stocks. The technical approach revealed annual shifts in stress, infection, and timing of smolt readiness. Future monitoring of pathogens in hatchery source water is crucial to minimize infection potential and maximize post-release survival in stocks of conservation concern."
 author: "Kristi Miller-Saunders"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "Kristi Miller-Saunders"
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Fish health and disease  
+**Speaker Theme:** Fish health  
+**Presentation:** December 09, 2025 at 01:00 AM  
 
 **Overview:**  
 A proactive holistic health monitoring approach based on high throughput molecular technologies has been validated for utility in two salmon enhancement hatcheries, and is now ready for minimally invasive application in hatcheries culturing conservation stocks. The technical approach revealed annual shifts in stress, infection, and timing of smolt readiness. Future monitoring of pathogens in hatchery source water is crucial to minimize infection potential and maximize post-release survival in stocks of conservation concern.   

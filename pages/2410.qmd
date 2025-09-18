@@ -2,6 +2,7 @@
 title: "Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future"
 description: "Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans."
 author: "Thomas Therriault, Cher LaCoste"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "Thomas Therriault, Cher LaCoste"
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Modelling and decision support  
+**Speaker Theme:** Modelling and Decision Support / Data Stewardship  
+**Presentation:** December 10, 2025 at 01:00 AM  
 
 **Overview:**  
 Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.   

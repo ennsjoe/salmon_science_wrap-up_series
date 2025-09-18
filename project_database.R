@@ -1,7 +1,7 @@
 ################################################################################
 # Title: Load CSVs into SQLite, Clean Column Names & List Table Structures
 # Description: Writes all CSVs from 'data/' folder to DB, cleans column names,
-#              and prints table schemas. Also handles Speaker Themes.csv.
+#              parses time in Speaker Themes.csv, and prints table schemas.
 ################################################################################
 
 # Load libraries
@@ -13,6 +13,8 @@ library(readr)
 library(tools)
 library(glue)
 library(janitor)
+library(lubridate)
+library(stringr)
 
 # Define path to the database
 db_path <- here("science_projects.sqlite")
@@ -47,11 +49,21 @@ if (file.exists(speaker_themes_path)) {
   cat(glue("\n📥 Loading 'Speaker Themes.csv' into table 'speaker_themes'...\n"))
   
   speaker_themes <- read_csv(speaker_themes_path, show_col_types = FALSE) %>%
-    janitor::clean_names()
+    janitor::clean_names() %>%
+    mutate(
+      # Standardize time strings
+      presentation_time = case_when(
+        str_to_upper(presentation_time) == "AM" ~ "09:00",
+        str_to_upper(presentation_time) == "PM" ~ "13:00",
+        TRUE ~ presentation_time
+      ),
+      # Combine into datetime
+      datetime = ymd_hm(paste(presentation_date, presentation_time))
+    )
   
   dbWriteTable(con, "speaker_themes", speaker_themes, overwrite = TRUE)
   
-  cat("✅ Table 'speaker_themes' written to database with cleaned column names.\n")
+  cat("✅ Table 'speaker_themes' written to database with cleaned column names and parsed datetime.\n")
 } else {
   cat("⚠️ 'Speaker Themes.csv' not found in data directory.\n")
 }

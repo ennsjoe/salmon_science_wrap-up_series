@@ -2,6 +2,7 @@
 title: "Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity"
 description: "Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure."
 author: "Sean Naman"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Sean Naman"
 **Section:** Freshwater Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Freshwater ecosystems and stressors  
+**Presentation:** December 02, 2025 at 05:00 AM  
 
 **Overview:**  
 Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.   

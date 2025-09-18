@@ -1,57 +1,57 @@
-﻿Project Id,Speaker Themes
-2394,Fisheries monitoring and harvest transformation
-2397,Modelling and decision support
-2398,Freshwater ecosystems and stressors
-2400,Hatchery science
-2401,Fish health and disease
-2402,Salmon population monitoring and assessment
-2403,Salmon population monitoring and assessment
-2404,Marine ecosystems and stressors
-2405,Salmon in a changing climate
-2406,Salmon in a changing climate
-2407,Salmon population monitoring and assessment
-2408,Fish health and disease
-2409,Marine ecosystems and stressors
-2410,Modelling and decision support
-2412,Marine ecosystems and stressors
-2413,Marine ecosystems and stressors
-2414,Freshwater ecosystems and stressors
-2416,Marine ecosystems and stressors
-2417,Hatchery science
-2418,Fish health and disease
-2421,Fish health and disease
-2422,Innovative tools and assessments
-2424,Freshwater ecosystems and stressors
-2425,Modelling and decision support
-2426,Marine ecosystems and stressors
-2427,Marine ecosystems and stressors
-2430,Salmon population monitoring and assessment
-2432,Marine ecosystems and stressors
-2433,Marine ecosystems and stressors
-2434,Genetics and adaptation
-2435,Genetics and adaptation
-2436,Genetics and adaptation
-2437,Salmon in a changing climate
-2439,Innovative tools and assessments
-2442,Salmon population monitoring and assessment
-2443,Freshwater ecosystems and stressors
-2444,Salmon population monitoring and assessment
-2447,Innovative tools and assessments
-2448,Fish health and disease
-2449,Modelling and decision support
-2451,Hatchery science
-2452,Genetics and adaptation
-2453,Genetics and adaptation
-2493,Freshwater ecosystems and stressors
-2504,Freshwater ecosystems and stressors
-2513,Marine ecosystems and stressors
-2534,Marine ecosystems and stressors
-2539,Salmon in a changing climate
-2546,Modelling and decision support
-2547,Modelling and decision support
-2560,Salmon population monitoring and assessment
-3103,Hatchery science
-3104,Hatchery science
-3119,Hatchery science
-3120,Hatchery science
-3121,Hatchery science
+﻿Project Id,Speaker Themes,session,presentation_date,presentation_time,presenters
+2394,Population monitoring and harvest methods,D,2025-12-10,PM,Cory Lagasse
+2397,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,Cary Holt
+2398,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,Diana McHugh
+2400,Fish health,C,2025-12-09,AM,Amy Long
+2401,Fish health,C,2025-12-09,AM,Kyle Garver
+2402,Modelling and Decision Support / Data Stewardship,D,2025-12-10,AM,"Brendan Connors, Adam O'Dell"
+2403,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,Katie Davidson
+2404,Marine ecosystems and stressors,B,2025-12-03,AM,Laura Bianucci
+2405,Salmon in a changing climate,A,2025-12-02,AM,"Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, "
+2406,Salmon in a changing climate,A,2025-12-02,AM,Sophia Johannessen
+2407,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,Jessy Bokvist
+2408,Fish health,C,2025-12-09,AM,Amy Long
+2409,Marine ecosystems and stressors,B,2025-12-03,AM,"Strahan Tucker, Cameron Freshwater"
+2410,Modelling and Decision Support / Data Stewardship,D,2025-12-10,AM,"Thomas Therriault, Cher LaCoste"
+2412,Marine ecosystems and stressors,B,2025-12-03,AM,Chris Pearce
+2413,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,"Akash Sastri, Kelly Young"
+2414,Freshwater ecosystems and stressors,A,2025-12-02,PM,Diana McHugh
+2416,Marine ecosystems and stressors,B,2025-12-03,AM,Andrew Ross
+2417,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Ian Forster, Cher LaCoste"
+2418,Fish health,C,2025-12-09,AM,"Ian Forster, Cher LaCoste"
+2421,Fish health,C,2025-12-09,AM,Stewart Johnson
+2422,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,"Andrew Ross, Xiangjun Liao, Nicole LaForge"
+2424,Freshwater ecosystems and stressors,A,2025-12-02,PM,Sean Naman
+2425,Modelling and Decision Support / Data Stewardship,D,2025-12-10,AM,Josie Iacarella
+2426,Marine ecosystems and stressors,B,2025-12-03,AM,"Kevin Pellett, Nicolette Watson, Karalea Filipovic"
+2427,Marine ecosystems and stressors,B,2025-12-03,AM,"Akash Sastri, Kelly Young"
+2430,Population monitoring and harvest methods,D,2025-12-10,PM,Daniel Doutaz
+2432,Marine ecosystems and stressors,B,2025-12-03,AM,Stephane Gauthier
+2433,Marine ecosystems and stressors,B,2025-12-03,AM,Stephane Gauthier
+2434,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2435,Freshwater ecosystems and stressors,A,2025-12-02,PM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2436,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2437,Salmon in a changing climate,A,2025-12-02,AM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2439,Population monitoring and harvest methods,D,2025-12-10,PM,Stephen Wischniowski
+2442,Population monitoring and harvest methods,D,2025-12-10,PM,Lauren Weir
+2443,Freshwater ecosystems and stressors,A,2025-12-02,PM,Daniel Doutaz
+2444,Population monitoring and harvest methods,D,2025-12-10,PM,Lauren Weir
+2447,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,Kristi Miller-Saunders
+2448,Fish health,C,2025-12-09,AM,Kristi Miller-Saunders
+2449,Modelling and Decision Support / Data Stewardship,D,2025-12-10,AM,"Carrie Holt, Brendan Connors, Catarina Wor"
+2451,Freshwater ecosystems and stressors,A,2025-12-02,PM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2452,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2453,Salmon in a changing climate,A,2025-12-02,AM,"Eric Rondeau, Tim Healy, Kyle Wellband"
+2493,Freshwater ecosystems and stressors,A,2025-12-02,PM,"David Patterson, Douglas Braun"
+2504,Freshwater ecosystems and stressors,A,2025-12-02,PM,Lisa Loseto
+2513,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,B,2025-12-03,PM,Lisa Loseto
+2534,Marine ecosystems and stressors,B,2025-12-03,AM,Jennifer Jackson
+2539,Salmon in a changing climate,A,2025-12-02,AM,Stephen Wischniowski
+2546,Modelling and Decision Support / Data Stewardship,D,2025-12-10,AM,Shelee Hamilton
+2547,Modelling and Decision Support / Data Stewardship,D,2025-12-10,AM,"Shelee Hamilton, Tom Bird"
+2560,Population monitoring and harvest methods,D,2025-12-10,PM,"Jackie King, Michelle Charbonneau"
+3103,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Timothy Healy, Kyle Wellband"
+3104,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,Ian Forster
+3119,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Timothy Healy, Kyle Wellband"
+3120,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Timothy Healy, Kyle Wellband"
+3121,Genetics/ Adaptation related to Hatcheries,C,2025-12-09,PM,"Eric Rondeau, Timothy Healy, Kyle Wellband"

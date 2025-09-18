@@ -2,6 +2,7 @@
 title: "Optimization of feeds used in the hatchery production of Pacific Salmon."
 description: "Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials."
 author: "Ian Forster, Cher LaCoste"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "Ian Forster, Cher LaCoste"
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Hatchery science  
+**Speaker Theme:** Genetics/ Adaptation related to Hatcheries  
+**Presentation:** December 09, 2025 at 05:00 AM  
 
 **Overview:**  
 Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.   

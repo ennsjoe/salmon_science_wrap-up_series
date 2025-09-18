@@ -2,6 +2,7 @@
 title: "A data pipeline to support more rapid calculation of Proportionate Natural Influence"
 description: "No description available."
 author: "Tom Bird"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Tom Bird"
 **Section:** Fishery and Assessment Data  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Uncategorized  
+**Presentation:** TBD  
 
 **Overview:**  
 No description available.   

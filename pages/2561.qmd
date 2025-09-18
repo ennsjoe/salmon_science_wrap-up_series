@@ -2,6 +2,7 @@
 title: "State of Pacific Salmon Report 2024-2025"
 description: "No description available."
 author: "Sue Grant"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Sue Grant"
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **PSSI Pillar:** Unspecified  
 **Speaker Theme:** Uncategorized  
+**Presentation:** TBD  
 
 **Overview:**  
 No description available.   

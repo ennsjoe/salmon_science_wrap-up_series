@@ -2,6 +2,7 @@
 title: "Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management."
 description: "Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory."
 author: "Amy Long"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "Amy Long"
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Fish health and disease  
+**Speaker Theme:** Fish health  
+**Presentation:** December 09, 2025 at 01:00 AM  
 
 **Overview:**  
 Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.   

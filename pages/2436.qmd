@@ -2,6 +2,7 @@
 title: "Chum whole genome sequencing for improved stock delineation"
 description: "Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution."
 author: "Eric Rondeau, Tim Healy, Kyle Wellband"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "Eric Rondeau, Tim Healy, Kyle Wellband"
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Genetics and adaptation  
+**Speaker Theme:** Genetics/ Adaptation related to Hatcheries  
+**Presentation:** December 09, 2025 at 05:00 AM  
 
 **Overview:**  
 Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution.   

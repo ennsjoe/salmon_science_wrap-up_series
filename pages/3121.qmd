@@ -2,6 +2,7 @@
 title: "Impact of genetic divergence on outbreeding depression in Chinook Salmon"
 description: "No description available."
 author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 **Division:** N/A  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** Unspecified  
-**Speaker Theme:** Hatchery science  
+**Speaker Theme:** Genetics/ Adaptation related to Hatcheries  
+**Presentation:** December 09, 2025 at 05:00 AM  
 
 **Overview:**  
 No description available.   

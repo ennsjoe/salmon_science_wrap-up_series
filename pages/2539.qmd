@@ -2,6 +2,7 @@
 title: "Climate Downscaling for salmon conservation in Marine Ecosystems"
 description: "Ocean and climate conditions influence salmon numbers and health. While efforts have been made to model future climate conditions, these models are broad in scope which creates a scale gap when applying projections to salmon habitat. This modelling project downscales broader global climate models to include coastal environments and salmon species distribution."
 author: "Di Wan, James Christian"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Di Wan, James Christian"
 **Section:** Ocean Modelling and Prediction  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Salmon in a changing climate  
+**Presentation:** December 02, 2025 at 01:00 AM  
 
 **Overview:**  
 Ocean and climate conditions influence salmon numbers and health. While efforts have been made to model future climate conditions, these models are broad in scope which creates a scale gap when applying projections to salmon habitat. This modelling project downscales broader global climate models to include coastal environments and salmon species distribution.   

@@ -2,6 +2,7 @@
 title: "Genetics Stock Identification and Parentage Based Tagging of Pacific salmon"
 description: "No description available."
 author: "Eric Rondeau"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Eric Rondeau"
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Uncategorized  
+**Presentation:** TBD  
 
 **Overview:**  
 No description available.   

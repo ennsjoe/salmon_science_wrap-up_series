@@ -2,6 +2,7 @@
 title: "Biological models to support prioritizing salmon stocks under future climates"
 description: "Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios."
 author: "Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -11,6 +12,7 @@ author: "Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Speaker Theme:** Salmon in a changing climate  
+**Presentation:** December 02, 2025 at 01:00 AM  
 
 **Overview:**  
 Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.   

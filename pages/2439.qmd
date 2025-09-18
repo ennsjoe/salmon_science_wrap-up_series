@@ -2,6 +2,7 @@
 title: "Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station"
 description: "Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks."
 author: "stephen wischniowski"
+toc: true
 ---
 
 ## 📋 Project Summary
@@ -10,7 +11,8 @@ author: "stephen wischniowski"
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Applied Technology  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Innovative tools and assessments  
+**Speaker Theme:** Population monitoring and harvest methods  
+**Presentation:** December 10, 2025 at 05:00 AM  
 
 **Overview:**  
 Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.   

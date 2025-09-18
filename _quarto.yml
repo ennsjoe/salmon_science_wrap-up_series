@@ -12,6 +12,11 @@ website:
     left:
       - href: index.qmd
         text: Home
+  search: true  # Enable search functionality
+  page-footer:
+    left: "© 2025 Pacific Salmon Science Initiative"
+    right: "Built with Quarto"
+
 
 format:
   html:
