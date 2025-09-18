@@ -178,7 +178,8 @@ presentations <- themes_raw %>%
                           glue("- [{title.x}](pages/{file_id}.qmd)"),
                           "")
   ) %>%
-  arrange(presentation_date, presentation_time)
+  arrange(presentation_date, presentation_time) %>%
+  distinct(project_id, .keep_all = TRUE)  # 👈 This line removes duplicates
 
 presentations_by_theme <- split(presentations, presentations$speaker_themes)
 
