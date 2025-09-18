@@ -1,29 +1,48 @@
 ---
 title: "🌊 Pacific Salmon Science Speaker Series"
-description: "A curated collection of salmon science projects grouped by speaker themes, supporting salmon conservation and research in British Columbia."
+description: "Chronological schedule of salmon science presentations grouped by date and theme."
 author: "PSSI Implementation Team"
 format: html
 toc: false
 ---
 
-## 🗓️ Upcoming Talks by Theme
+## 🗓️ Upcoming Talks by Date
 
-### Fish health
+## 📅 December 02, 2025
 
-- **December 09, 2025 09:00** (Session C) – Amy Long
-  - [Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.](pages/2400.qmd)
-- **December 09, 2025 09:00** (Session C) – Kyle Garver
-  - [Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon](pages/2401.qmd)
-- **December 09, 2025 09:00** (Session C) – Amy Long
-  - [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd)
-- **December 09, 2025 09:00** (Session C) – Ian Forster, Cher LaCoste
-  - [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd)
-- **December 09, 2025 09:00** (Session C) – Stewart Johnson
-  - [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd)
-- **December 09, 2025 09:00** (Session C) – Kristi Miller-Saunders
-  - [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd)
+### 🎯 Freshwater ecosystems and stressors
 
-### Follow the Fish: Life Cycle Monitoring of WCVI Chinook
+- **December 02, 2025 13:00** (Session A) – Diana McHugh
+  - [South Coast freshwater ecological indicator pilot](pages/2414.qmd)
+- **December 02, 2025 13:00** (Session A) – Sean Naman
+  - [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd)
+- **December 02, 2025 13:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd)
+- **December 02, 2025 13:00** (Session A) – Daniel Doutaz
+  - [Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake](pages/2443.qmd)
+- **December 02, 2025 13:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd)
+- **December 02, 2025 13:00** (Session A) – David Patterson, Douglas Braun
+  - [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd)
+- **December 02, 2025 13:00** (Session A) – Lisa Loseto
+  - [Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat](pages/2504.qmd)
+
+### 🎯 Salmon in a changing climate
+
+- **December 02, 2025 09:00** (Session A) – Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,
+  - [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd)
+- **December 02, 2025 09:00** (Session A) – Sophia Johannessen
+  - [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd)
+- **December 02, 2025 09:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd)
+- **December 02, 2025 09:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd)
+- **December 02, 2025 09:00** (Session A) – Stephen Wischniowski
+  - [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd)
+
+## 📅 December 03, 2025
+
+### 🎯 Follow the Fish: Life Cycle Monitoring of WCVI Chinook
 
 - **December 03, 2025 13:00** (Session B) – Cary Holt
   - [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd)
@@ -42,45 +61,7 @@ toc: false
 - **December 03, 2025 13:00** (Session B) – Lisa Loseto
   - [Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/2513.qmd)
 
-### Freshwater ecosystems and stressors
-
-- **December 02, 2025 13:00** (Session A) – Diana McHugh
-  - [South Coast freshwater ecological indicator pilot](pages/2414.qmd)
-- **December 02, 2025 13:00** (Session A) – Sean Naman
-  - [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd)
-- **December 02, 2025 13:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd)
-- **December 02, 2025 13:00** (Session A) – Daniel Doutaz
-  - [Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake](pages/2443.qmd)
-- **December 02, 2025 13:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd)
-- **December 02, 2025 13:00** (Session A) – David Patterson, Douglas Braun
-  - [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd)
-- **December 02, 2025 13:00** (Session A) – Lisa Loseto
-  - [Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat](pages/2504.qmd)
-
-### Genetics/ Adaptation related to Hatcheries
-
-- **December 09, 2025 13:00** (Session C) – Ian Forster, Cher LaCoste
-  - [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [Chum whole genome sequencing for improved stock delineation](pages/2436.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
-  - [Drivers and functional consequences of hatchery epigenetic variation](pages/3103.qmd)
-- **December 09, 2025 13:00** (Session C) – Ian Forster
-  - [Establishing a feed assessment program in Pacific salmon enhancement hatcheries](pages/3104.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
-  - [Genomic consequences of stray hatchery introgression](pages/3119.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
-  - [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd)
-- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
-  - [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd)
-
-### Marine ecosystems and stressors
+### 🎯 Marine ecosystems and stressors
 
 - **December 03, 2025 09:00** (Session B) – Laura Bianucci
   - [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd)
@@ -101,7 +82,47 @@ toc: false
 - **December 03, 2025 09:00** (Session B) – Jennifer Jackson
   - [Understanding the impact of Arctic outflow winds on British Columbia fjords.](pages/2534.qmd)
 
-### Modelling and Decision Support / Data Stewardship
+## 📅 December 09, 2025
+
+### 🎯 Fish health
+
+- **December 09, 2025 09:00** (Session C) – Amy Long
+  - [Assessment of SEP Chinook and Coho broodstock ELISA screening data by modelling for explanatory variables, and yearling DFAT prevalence data by modelling for predictive variables.](pages/2400.qmd)
+- **December 09, 2025 09:00** (Session C) – Kyle Garver
+  - [Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon](pages/2401.qmd)
+- **December 09, 2025 09:00** (Session C) – Amy Long
+  - [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd)
+- **December 09, 2025 09:00** (Session C) – Ian Forster, Cher LaCoste
+  - [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd)
+- **December 09, 2025 09:00** (Session C) – Stewart Johnson
+  - [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd)
+- **December 09, 2025 09:00** (Session C) – Kristi Miller-Saunders
+  - [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd)
+
+### 🎯 Genetics/ Adaptation related to Hatcheries
+
+- **December 09, 2025 13:00** (Session C) – Ian Forster, Cher LaCoste
+  - [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [Chum whole genome sequencing for improved stock delineation](pages/2436.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Tim Healy, Kyle Wellband
+  - [Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
+  - [Drivers and functional consequences of hatchery epigenetic variation](pages/3103.qmd)
+- **December 09, 2025 13:00** (Session C) – Ian Forster
+  - [Establishing a feed assessment program in Pacific salmon enhancement hatcheries](pages/3104.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
+  - [Genomic consequences of stray hatchery introgression](pages/3119.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
+  - [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd)
+- **December 09, 2025 13:00** (Session C) – Eric Rondeau, Timothy Healy, Kyle Wellband
+  - [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd)
+
+## 📅 December 10, 2025
+
+### 🎯 Modelling and Decision Support / Data Stewardship
 
 - **December 10, 2025 09:00** (Session D) – Brendan Connors, Adam O'Dell
   - [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd)
@@ -116,7 +137,7 @@ toc: false
 - **December 10, 2025 09:00** (Session D) – Shelee Hamilton, Tom Bird
   - [Fishery & Assessment Data Section - Knowledge Mobilization Unit](pages/2547.qmd)
 
-### Population monitoring and harvest methods
+### 🎯 Population monitoring and harvest methods
 
 - **December 10, 2025 13:00** (Session D) – Cory Lagasse
   - [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd)
@@ -130,17 +151,4 @@ toc: false
   - [Assessment of the distribution and abundance of juvenile Chinook salmon in the lower Thompson River basin.](pages/2444.qmd)
 - **December 10, 2025 13:00** (Session D) – Jackie King, Michelle Charbonneau
   - [PSSI High Seas Salmon Research - West Coast Vancouver Island (and transition to ONE juvenile program)](pages/2560.qmd)
-
-### Salmon in a changing climate
-
-- **December 02, 2025 09:00** (Session A) – Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,
-  - [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd)
-- **December 02, 2025 09:00** (Session A) – Sophia Johannessen
-  - [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd)
-- **December 02, 2025 09:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd)
-- **December 02, 2025 09:00** (Session A) – Eric Rondeau, Tim Healy, Kyle Wellband
-  - [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd)
-- **December 02, 2025 09:00** (Session A) – Stephen Wischniowski
-  - [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd)
 
