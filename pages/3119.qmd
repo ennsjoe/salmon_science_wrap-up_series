@@ -1,6 +1,6 @@
 ---
 title: "Genomic consequences of stray hatchery introgression"
-description: "No description available."
+description: "NA"
 author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 toc: true
 ---
@@ -8,14 +8,14 @@ toc: true
 ## 📋 Project Summary
 
 **Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Division:** N/A  
+**Division:** NA  
 **Section:** Molecular Genetics  
-**PSSI Pillar:** Unspecified  
+**PSSI Pillar:** NA  
 **Speaker Theme:** Genetic insights into adaptation  
-**Presentation:** TBD  
+**Presentation:** December 09, 2025  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 1) Collaboratively with the SEP-Science genetics working group establish a highly relevant sampling strategy / sample set for analysis in the project, 2) sequence reference samples for native variation among chosen hatchery and natural populations of WCVI Chinook Salmon, 3) re-sequence a subset of representative samples from the previous work using high-density genetic markers, and 4) sequence an initial set of contemporary samples to assess genome-level hatchery introgression in WCVI Chinook populations.

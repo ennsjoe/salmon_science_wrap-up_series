@@ -1,6 +1,6 @@
 ---
 title: "Drivers and functional consequences of hatchery epigenetic variation"
-description: "No description available."
+description: "NA"
 author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 toc: true
 ---
@@ -8,14 +8,14 @@ toc: true
 ## 📋 Project Summary
 
 **Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Division:** N/A  
+**Division:** NA  
 **Section:** Molecular Genetics  
-**PSSI Pillar:** Unspecified  
+**PSSI Pillar:** NA  
 **Speaker Theme:** Genetic insights into adaptation  
-**Presentation:** TBD  
+**Presentation:** December 09, 2025  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 1) collect and preserve tissues from ongoing experiments at PSEC, 2) Perform nucleic acid extractions, 3) submit samples for sequencing, 4) analyze data to identify regions of the genome differentially methylated between different treatment groups.

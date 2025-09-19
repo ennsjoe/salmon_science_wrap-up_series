@@ -1,6 +1,6 @@
 ---
 title: "Impact of genetic divergence on outbreeding depression in Chinook Salmon"
-description: "No description available."
+description: "NA"
 author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 toc: true
 ---
@@ -8,14 +8,14 @@ toc: true
 ## 📋 Project Summary
 
 **Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Division:** N/A  
+**Division:** NA  
 **Section:** Molecular Genetics  
-**PSSI Pillar:** Unspecified  
+**PSSI Pillar:** NA  
 **Speaker Theme:** Genetic insights into adaptation  
-**Presentation:** TBD  
+**Presentation:** December 09, 2025  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 1) Collaboratively identify an appropriate and feasible set of four Chinook populations for the study, 2) obtain gametes from the four populations, and 3) conduct the within- and between-population crosses. Hatching success and physiological performance will be assessed in the following fiscal year.

@@ -1,6 +1,6 @@
 ---
 title: "Fishery & Assessment Data Section - Knowledge Mobilization Unit"
-description: "No description available."
+description: "NA"
 author: "Shelee Hamilton, Tom Bird"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Shelee Hamilton, Tom Bird  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 ## Data digitization work

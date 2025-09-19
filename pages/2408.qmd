@@ -12,7 +12,7 @@ toc: true
 **Section:** Aquatic Animal Health  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Speaker Theme:** Fish health  
-**Presentation:** TBD  
+**Presentation:** December 09, 2025  
 
 **Overview:**  
 Salmon disease testing methods have greatly expanded in the last decade resulting in increased accuracy and decreased turnaround time; implementation of these tests will increase the Finfish Diagnostic Laboratory’s diagnostic capacity. This hatchery lab project collects tissue samples from broodstock and young salmon to confirm new methods are sensitive and specific to pathogens of interest. Once validated, these tests will be used by the Finfish Diagnostic Laboratory.   

@@ -8,7 +8,7 @@ toc: false
 
 ## 🗓️ Upcoming Talks by Date
 
-## 📅 February 20, 0012
+## 📅 December 02, 2025
 
 ### 🐟 Genetic insights into adaptation | Session A
 
@@ -23,7 +23,7 @@ toc: false
 - [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd) | Di Wan, James Christian
 
-## 📅 March 20, 0012
+## 📅 December 03, 2025
 
 ### 🐟 Follow the Fish: Life Cycle Monitoring of WCVI Chinook | Session B
 
@@ -42,7 +42,7 @@ toc: false
 - [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd) | NA
 - [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd) | NA
 
-## 📅 September 20, 0012
+## 📅 December 09, 2025
 
 ### 🐟 Fish health | Session C
 
@@ -62,7 +62,7 @@ toc: false
 - [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
 - [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
 
-## 📅 October 20, 0012
+## 📅 December 10, 2025
 
 ### 🐟 Fisheries monitoring and harvest methods | Session D
 

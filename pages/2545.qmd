@@ -1,6 +1,6 @@
 ---
 title: "Genetics Stock Identification and Parentage Based Tagging of Pacific salmon"
-description: "No description available."
+description: "NA"
 author: "Eric Rondeau"
 toc: true
 ---
@@ -11,11 +11,11 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Uncategorized  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 PSSI funding was proposed to cover:

@@ -1,6 +1,6 @@
 ---
 title: "Salmon Scanner and composite status data sets"
-description: "No description available."
+description: "NA"
 author: "Sue Grant"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Sue Grant  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 DFO's Salmon Scanner is an interactive data visualization tool for Pacific Salmon status and trends information. It displays data in a mapping and figure interface, and includes built in user reports and access to underlying data. On-going contracting support is required to maintain the Scanner, expand data sets, and transition consulting work over to internal staff.

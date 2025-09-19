@@ -1,6 +1,6 @@
 ---
 title: "Modeling interactions of environmental, biological and infectious factors with respect to production of Pacific salmon (Oncorhynchus spp.) at the Quinsam River hatchery"
-description: "No description available."
+description: "NA"
 author: "Simon Jones"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Simon Jones  
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 Validate diagnostic assay for Tetracapsuloides bryosalmonae (Tbryo)

@@ -1,6 +1,6 @@
 ---
 title: "Salmon Marine Interactions - SMI - COE Section"
-description: "No description available."
+description: "NA"
 author: "Chrys Neville, Michelle Charbonneau"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Chrys Neville, Michelle Charbonneau  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 - conduct annual trawl surveys in the Strait of Georgia July and September

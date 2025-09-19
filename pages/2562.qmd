@@ -1,6 +1,6 @@
 ---
 title: "Climate Change Vulnerability Assessments"
-description: "No description available."
+description: "NA"
 author: "Sue Grant"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Sue Grant  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 Year 2: Complete First Case Study of Pacific Salmon CUs 

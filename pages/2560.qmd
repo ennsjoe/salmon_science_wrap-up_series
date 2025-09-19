@@ -1,6 +1,6 @@
 ---
 title: "PSSI High Seas Salmon Research - West Coast Vancouver Island (and transition to ONE juvenile program)"
-description: "No description available."
+description: "NA"
 author: "Jackie King, Michelle Charbonneau"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Jackie King, Michelle Charbonneau  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 RE: Coastal juvenile salmon surveys

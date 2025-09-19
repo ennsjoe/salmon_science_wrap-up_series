@@ -1,6 +1,6 @@
 ---
 title: "Establishing a feed assessment program in Pacific salmon enhancement hatcheries"
-description: "No description available."
+description: "NA"
 author: "Ian Forster"
 toc: true
 ---
@@ -8,14 +8,14 @@ toc: true
 ## 📋 Project Summary
 
 **Lead(s):** Ian Forster  
-**Division:** N/A  
+**Division:** NA  
 **Section:** Nearshore Ecosystems  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 9.2 = Science to Support Hatcheries. Establishment and execution of collection and assessment of feeds used by SEP hatcheries in Pacific Region.

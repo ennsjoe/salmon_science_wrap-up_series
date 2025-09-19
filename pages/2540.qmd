@@ -1,6 +1,6 @@
 ---
 title: "Modelling to Support Annual Fraser River Sockeye and Pink Salmon Forecasts"
-description: "No description available."
+description: "NA"
 author: "Stephen Page, Richard Thomson"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Stephen Page, Richard Thomson  
 **Division:** Ocean Sciences (OSD)  
 **Section:** State of the Ocean  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 1.	Update salmon data from Pacific Salmon Commission

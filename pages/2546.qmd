@@ -1,6 +1,6 @@
 ---
 title: "Fishery & Assessment Data Section - Data Stewardship Unit"
-description: "No description available."
+description: "NA"
 author: "Shelee Hamilton"
 toc: true
 ---
@@ -11,11 +11,11 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 ### Interoperable & Integrated Salmon Data Systems

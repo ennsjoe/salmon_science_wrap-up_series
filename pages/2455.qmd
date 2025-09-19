@@ -1,6 +1,6 @@
 ---
 title: "YTRA TBR Weather Stations"
-description: "No description available."
+description: "NA"
 author: "sean stark"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** sean stark  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 purchasing and potential installation of weather monitoring stations in the Alsek and Stikine drainages

@@ -1,6 +1,6 @@
 ---
 title: "Assessing Salinity Alteration of Nursery Conditions for Salmon Smolts following Construction of Roberts Bank Terminal-2"
-description: "No description available."
+description: "NA"
 author: "Terri Sutherland"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Terri Sutherland  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 2024, Jan-March: Purchase materials and supplies for diatom growout and salinity trials.

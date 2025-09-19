@@ -1,6 +1,6 @@
 ---
 title: "Explanation for the Collapse of the Commercial Chum Salmon Fishery in British Columbia"
-description: "No description available."
+description: "NA"
 author: "Chrys Neville"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Chrys Neville  
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 1. DNA analysis of approximately 10,000 chum salmon collected over 20 years of trawl surveys in the early summer and fall in the Strait of Georgia and associated waters.

@@ -1,6 +1,6 @@
 ---
 title: "Scenario Planning: improving the adaptability of Pacific salmon hatchery planning and implementation to current and future climate changes"
-description: "No description available."
+description: "NA"
 author: "Sue Grant, Bronwyn MacDonald, Lenora Turcotte, David Willis"
 toc: true
 ---
@@ -8,14 +8,14 @@ toc: true
 ## 📋 Project Summary
 
 **Lead(s):** Sue Grant, Bronwyn MacDonald, Lenora Turcotte, David Willis  
-**Division:** N/A  
+**Division:** NA  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 Through individual and group calls and workshops, we will run the full-scale scenario planning process defined in Year 1. This will include participation from internal experts representing science, hatchery management, and other sectors, as well as First Nations and other relevant external experts. Through this process we will a) uncover and document key uncertainties with respect to the target question; b) create plausible scenarios; c) develop insights on potential management actions to address the target question; d) share and integrate knowledge across participants; and e) expand our capacity for scenario planning through practice.

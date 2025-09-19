@@ -1,6 +1,6 @@
 ---
 title: "A data pipeline to support more rapid calculation of Proportionate Natural Influence"
-description: "No description available."
+description: "NA"
 author: "Tom Bird"
 toc: true
 ---
@@ -10,12 +10,12 @@ toc: true
 **Lead(s):** Tom Bird  
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
-**PSSI Pillar:** Unspecified  
-**Speaker Theme:** Uncategorized  
+**PSSI Pillar:** NA  
+**Speaker Theme:** NA  
 **Presentation:** TBD  
 
 **Overview:**  
-No description available.   
+NA   
 
 **Activities:**  
 Priority 1: Broodstock PBT database: Routine access to PBT results is a known barrier for SEP staff. This project component will develop methods for enabling SEP to access them in a timely manner and suitable format. 
