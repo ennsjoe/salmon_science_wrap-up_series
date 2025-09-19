@@ -12,59 +12,59 @@ toc: false
 
 ### 🐟 Genetic insights into adaptation | Session A
 
-- [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at AM
-- [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at PM
-- [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at PM
+- [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 
 ### 🐟 Salmon in a changing climate | Session A
 
-- [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, at AM
-- [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd) | Sophia Johannessen at AM
-- [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at AM
-- [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd) | Di Wan, James Christian at AM
+- [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,
+- [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd) | Sophia Johannessen
+- [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd) | Di Wan, James Christian
 
 ## 📅 March 20, 0012
 
 ### 🐟 Follow the Fish: Life Cycle Monitoring of WCVI Chinook | Session B
 
-- [Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd) | Stephane Gauthier at AM
-- [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd) | Carrie Holt at PM
-- [WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd) | Diana McHugh at PM
-- [Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/2407.qmd) | Jessy Bokvist at PM
-- [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/2422.qmd) | Andrew Ross, Xiangjun Liao, Nicole LaForge at PM
-- [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd) | Kristi Miller-Saunders at PM
+- [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd) | Carrie Holt
+- [WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd) | Diana McHugh
+- [Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/2407.qmd) | Jessy Bokvist
+- [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/2422.qmd) | Andrew Ross, Xiangjun Liao, Nicole LaForge
+- [Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd) | Stephane Gauthier
+- [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd) | Kristi Miller-Saunders
 
 ### 🐟 Marine ecosystems and stressors | Session B
 
-- [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd) | NA at AM
-- [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd) | NA at AM
-- [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/2412.qmd) | NA at AM
-- [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd) | NA at AM
-- [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd) | NA at PM
+- [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd) | NA
+- [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd) | NA
+- [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/2412.qmd) | NA
+- [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd) | NA
+- [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd) | NA
 
 ## 📅 September 20, 0012
 
 ### 🐟 Fish health | Session C
 
-- [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd) | Amy Long at AM
-- [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd) | Ian Forster, Cher LaCoste at AM
-- [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd) | Stewart Johnson at AM
-- [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders at AM
-- [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd) | Ian Forster, Cher LaCoste at PM
-- [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at PM
+- [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd) | Amy Long
+- [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd) | Ian Forster, Cher LaCoste
+- [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd) | Ian Forster, Cher LaCoste
+- [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd) | Stewart Johnson
+- [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
 
 ### 🐟 Genetic insights into adaptation | Session C
 
-- [Chum whole genome sequencing for improved stock delineation](pages/2436.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at PM
-- [Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband at PM
-- [Drivers and functional consequences of hatchery epigenetic variation](pages/3103.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband at PM
-- [Genomic consequences of stray hatchery introgression](pages/3119.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband at PM
-- [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband at PM
-- [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband at PM
+- [Chum whole genome sequencing for improved stock delineation](pages/2436.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- [Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- [Drivers and functional consequences of hatchery epigenetic variation](pages/3103.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- [Genomic consequences of stray hatchery introgression](pages/3119.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
 
 ## 📅 October 20, 0012
 
 ### 🐟 Fisheries monitoring and harvest methods | Session D
 
-- [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd) | Cory Lagasse at PM
+- [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd) | Cory Lagasse
 

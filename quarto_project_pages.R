@@ -167,9 +167,9 @@ presentations <- themes_raw %>%
     presentation_date = as.Date(presentation_date),
     presentation_time = as.character(presentation_time)
   ) %>%
-  group_by(project_id, speaker_themes, session, presentation_date, presentation_time) %>%
+  group_by(project_id, speaker_themes, session, presentation_date) %>%
   summarise(presenters = paste(unique(presenters), collapse = ", "), .groups = "drop") %>%
-  distinct(project_id, speaker_themes, session, presentation_date, presentation_time, .keep_all = TRUE) %>%
+  distinct(project_id, speaker_themes, session, presentation_date, .keep_all = TRUE) %>%
   left_join(project_titles, by = "project_id") %>%
   mutate(
     file_id = sanitize_filename(project_id),
@@ -177,15 +177,14 @@ presentations <- themes_raw %>%
                           glue("[{title.x}](pages/{file_id}.qmd)"),
                           "")
   ) %>%
-  arrange(presentation_date, presentation_time)
+  arrange(presentation_date)
 
 # Group by date
 presentations_by_date <- split(presentations, presentations$presentation_date)
 
 # Build index content
 for (date_key in sort(names(presentations_by_date))) {
-  date_presentations <- presentations_by_date[[date_key]] %>%
-    arrange(presentation_time)
+  date_presentations <- presentations_by_date[[date_key]]
   
   index_md <- c(index_md, glue("## 📅 {format(as.Date(date_key), '%B %d, %Y')}"), "")
   
@@ -203,9 +202,8 @@ for (date_key in sort(names(presentations_by_date))) {
       row <- group[i, ]
       project_link <- row$project_link
       presenters <- row$presenters
-      time_display <- row$presentation_time
       
-      index_md <- c(index_md, glue("- {project_link} | {presenters} at {time_display}"))
+      index_md <- c(index_md, glue("- {project_link} | {presenters}"))
     }
     
     index_md <- c(index_md, "")
