@@ -14,6 +14,7 @@ library(tools)
 library(glue)
 library(janitor)
 library(stringr)
+library(lubridate)
 
 # Define path to the database
 db_path <- here("science_projects.sqlite")
@@ -42,7 +43,8 @@ for (csv_path in csv_files) {
   cat(glue("✅ Table '{table_name}' written to database with cleaned column names.\n"))
 }
 
-# Explicitly handle Speaker Themes.csv if not already included
+
+# Explicitly handle Speaker Themes.csv
 speaker_themes_path <- file.path(data_dir, "Speaker Themes.csv")
 if (file.exists(speaker_themes_path)) {
   cat(glue("\n📥 Loading 'Speaker Themes.csv' into table 'speaker_themes'...\n"))
@@ -50,7 +52,7 @@ if (file.exists(speaker_themes_path)) {
   speaker_themes <- read_csv(speaker_themes_path, show_col_types = FALSE) %>%
     janitor::clean_names() %>%
     mutate(
-      # Keep presentation_time as character, no parsing
+      presentation_date = mdy(presentation_date),
       presentation_time = as.character(presentation_time)
     )
   

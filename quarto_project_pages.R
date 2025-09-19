@@ -14,6 +14,7 @@ library(glue)
 library(janitor)
 library(stringr)
 library(fs)
+library(lubridate)
 
 # Define path to the database
 db_path <- here("science_projects.sqlite")
@@ -135,23 +136,10 @@ for (i in seq_len(nrow(projects))) {
   writeLines(page_content, file_path)
 }
 
-# Build index.qmd
+# 🧭 Build index.qmd grouped by date and theme
 cat("🧭 Building index.qmd grouped by date and theme...\n")
 
-index_md <- c(
-  "---",
-  'title: "🌊 Pacific Salmon Science Speaker Series"',
-  'description: "40+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
-  'author: "PSSI Implementation Team"',
-  'format: html',
-  'toc: false',
-  "---",
-  "",
-  "## 🗓️ Upcoming Talks by Date",
-  ""
-)
-
-# Load speaker themes again
+# Reconnect to database to fetch latest speaker themes
 con <- dbConnect(SQLite(), dbname = db_path)
 themes_raw <- dbReadTable(con, "speaker_themes")
 dbDisconnect(con)
@@ -161,7 +149,7 @@ project_titles <- projects %>%
   select(project_id, title.x) %>%
   distinct(project_id, .keep_all = TRUE)
 
-# Group by unique presentation
+# Prepare presentation metadata
 presentations <- themes_raw %>%
   mutate(
     presentation_date = as.Date(presentation_date),
@@ -175,20 +163,35 @@ presentations <- themes_raw %>%
     file_id = sanitize_filename(project_id),
     project_link = ifelse(!is.na(title.x),
                           glue("[{title.x}](pages/{file_id}.qmd)"),
-                          "")
+                          "Untitled Project")
   ) %>%
   arrange(presentation_date)
 
-# Group by date
+# Initialize index content
+index_md <- c(
+  "---",
+  'title: "🌊 Pacific Salmon Science Speaker Series"',
+  'description: "40+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
+  'author: "PSSI Implementation Team"',
+  'format: html',
+  'toc: false',
+  "---",
+  "",
+  "## 🗓️ Upcoming Talks by Date",
+  ""
+)
+
+# Group presentations by date
 presentations_by_date <- split(presentations, presentations$presentation_date)
 
-# Build index content
+# Build index content by date and theme
 for (date_key in sort(names(presentations_by_date))) {
   date_presentations <- presentations_by_date[[date_key]]
+  formatted_date <- format(as.Date(date_key), "%B %d, %Y")
   
-  index_md <- c(index_md, glue("## 📅 {format(as.Date(date_key), '%B %d, %Y')}"), "")
+  index_md <- c(index_md, glue("## 📅 {formatted_date}"), "")
   
-  # Group by theme + session within date
+  # Group by theme + session
   date_presentations <- date_presentations %>%
     mutate(theme_session = glue("{speaker_themes} | Session {session}")) %>%
     group_by(theme_session) %>%
@@ -210,6 +213,7 @@ for (date_key in sort(names(presentations_by_date))) {
   }
 }
 
+# Write index.qmd
 writeLines(index_md, here("index.qmd"))
 
 # Write CNAME file for GitHub Pages custom domain
