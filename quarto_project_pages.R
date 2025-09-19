@@ -163,12 +163,12 @@ presentations <- themes_raw %>%
   mutate(
     presentation_date = as.Date(presentation_date)
   ) %>%
-  group_by(project_id, speaker_themes, session, presentation_date) %>%
+  group_by(project_id, speaker_themes, presentation_date) %>%
   summarise(
     presenters = paste(unique(presenters), collapse = ", "),
     .groups = "drop"
   ) %>%
-  distinct(project_id, speaker_themes, session, presentation_date, .keep_all = TRUE) %>%
+  distinct(project_id, speaker_themes, presentation_date, .keep_all = TRUE) %>%
   left_join(project_titles, by = "project_id") %>%
   mutate(
     file_id = sanitize_filename(project_id),
@@ -204,9 +204,9 @@ for (date_key in sort(names(presentations_by_date))) {
   
   index_md <- c(index_md, glue("## 📅 {formatted_date}"), "")
   
-  # 🎨 Group by theme + session
+  # 🎨 Group by theme
   date_presentations <- date_presentations %>%
-    mutate(theme_session = glue("{speaker_themes} | Session {session}")) %>%
+    mutate(theme_session = glue("{speaker_themes}")) %>%
     group_by(theme_session) %>%
     group_split()
   
@@ -237,7 +237,7 @@ system("quarto render")
 
 # Automate Git commit and push
 system("git add .")
-system("git commit -m \"Auto-update site content\"")
+system("git commit -m \"Removed session column\"")
 system("git push origin main")
 
 cat("✅ Quarto pages, index.qmd, and verification file generated successfully.\n")

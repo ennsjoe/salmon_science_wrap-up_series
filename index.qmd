@@ -10,13 +10,13 @@ toc: false
 
 ## 📅 December 02, 2025
 
-### 🐟 Genetic insights into adaptation | Session A
+### 🐟 Genetic insights into adaptation
 
 - [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 
-### 🐟 Salmon in a changing climate | Session A
+### 🐟 Salmon in a changing climate
 
 - [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,
 - [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd) | Sophia Johannessen
@@ -25,7 +25,7 @@ toc: false
 
 ## 📅 December 03, 2025
 
-### 🐟 Follow the Fish: Life Cycle Monitoring of WCVI Chinook | Session B
+### 🐟 Follow the Fish: Life Cycle Monitoring of WCVI Chinook
 
 - [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd) | Carrie Holt
 - [WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd) | Diana McHugh
@@ -34,7 +34,7 @@ toc: false
 - [Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd) | Stephane Gauthier
 - [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd) | Kristi Miller-Saunders
 
-### 🐟 Marine ecosystems and stressors | Session B
+### 🐟 Marine ecosystems and stressors
 
 - [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd) | NA
 - [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd) | NA
@@ -44,7 +44,7 @@ toc: false
 
 ## 📅 December 09, 2025
 
-### 🐟 Fish health | Session C
+### 🐟 Fish health
 
 - [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd) | Amy Long
 - [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd) | Ian Forster, Cher LaCoste
@@ -53,7 +53,7 @@ toc: false
 - [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
 
-### 🐟 Genetic insights into adaptation | Session C
+### 🐟 Genetic insights into adaptation
 
 - [Chum whole genome sequencing for improved stock delineation](pages/2436.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - [Genetic associations with age of return in male Canadian Chinook Salmon](pages/2452.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
@@ -64,7 +64,7 @@ toc: false
 
 ## 📅 December 10, 2025
 
-### 🐟 Fisheries monitoring and harvest methods | Session D
+### 🐟 Fisheries monitoring and harvest methods
 
 - [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd) | Cory Lagasse
 
