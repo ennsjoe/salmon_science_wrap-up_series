@@ -49,10 +49,16 @@ for (csv_path in csv_files) {
       data <- data %>% mutate(session = as.character(session))
     }
     
-    # ⏱️ Parse date column for session_info
     if (tolower(file_name) == "session_info.csv" && "date" %in% names(data)) {
-      data <- data %>%
-        mutate(date = mdy(date))
+      if (is.numeric(data$date)) {
+        # Excel-style serial numbers
+        data <- data %>%
+          mutate(date = as.Date(date, origin = "1899-12-30"))
+      } else {
+        # Text-formatted dates like "12/03/2025"
+        data <- data %>%
+          mutate(date = mdy(date))
+      }
     }
     
     # Write to database

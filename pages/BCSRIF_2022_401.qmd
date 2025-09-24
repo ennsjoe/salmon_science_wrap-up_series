@@ -1,0 +1,25 @@
+---
+title: "NA"
+description: "NA"
+author: "NA"
+toc: true
+---
+
+## 📋 Project Summary
+
+**Lead(s):** NA  
+**Division:** NA  
+**Section:** NA  
+**PSSI Pillar:** NA  
+**Session:** salmon in a changing climate  
+**Presentation Date:** December 01, 1955  
+**Speakers:** Katrina Connors  
+**Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
+
+**Overview:**  
+NA   
+
+**Activities:**  
+Not Listed
+
+[⬅ Back to Home](../index.qmd)

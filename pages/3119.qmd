@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Genomic consequences of stray hatchery introgression"
 description: "NA"
-author: "N/A"
+author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
+**Division:** NA  
+**Section:** Molecular Genetics  
 **PSSI Pillar:** NA  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** hatcheries  
+**Presentation Date:** December 08, 1955  
+**Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
+**Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
 
 **Overview:**  
 NA   

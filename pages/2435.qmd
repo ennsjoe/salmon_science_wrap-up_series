@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon"
 description: "Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods."
-author: "N/A"
+author: "Eric Rondeau, Tim Healy, Kyle Wellband"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Eric Rondeau, Tim Healy, Kyle Wellband  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** hatcheries  
+**Presentation Date:** December 08, 1955  
+**Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
+**Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
 
 **Overview:**  
 Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods.   

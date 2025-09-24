@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage."
 description: "Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program."
-author: "N/A"
+author: "Andrew Ross, Xiangjun Liao, Nicole LaForge"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Andrew Ross, Xiangjun Liao, Nicole LaForge  
+**Division:** Ocean Sciences (OSD)  
+**Section:** Ecology and Biogeochemistry  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** follow the fish  
+**Presentation Date:** December 02, 1955  
+**Speakers:** Andrew Ross, Xiangjun Liao, Nicole LaForge  
+**Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
 
 **Overview:**  
 Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.   

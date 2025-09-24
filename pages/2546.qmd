@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Fishery & Assessment Data Section - Data Stewardship Unit"
 description: "NA"
-author: "N/A"
+author: "Shelee Hamilton"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Shelee Hamilton  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Fishery and Assessment Data  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** data and modelling to support decision making  
+**Presentation Date:** December 09, 1955  
+**Speakers:** Shelee Hamilton  
+**Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
 NA   

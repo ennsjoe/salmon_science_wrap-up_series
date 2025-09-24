@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey"
 description: "Acoustic tools can provide important information on salmon ecology (food web) and salmon survival in marine areas. These salmon habitat and abundance monitoring studies use multi-frequency echosounders from mooring stations and mobile units in West Coast Vancouver Island sounds and the Salish sea to measure aspects of salmon forage species (zooplankton, krill, and Pacific herring) and count juvenile and adult salmon along their migration."
-author: "N/A"
+author: "Stephane Gauthier"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Stephane Gauthier  
+**Division:** Ocean Sciences (OSD)  
+**Section:** Ecology and Biogeochemistry  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** follow the fish  
+**Presentation Date:** December 02, 1955  
+**Speakers:** Stephane Gauthier  
+**Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
 
 **Overview:**  
 Acoustic tools can provide important information on salmon ecology (food web) and salmon survival in marine areas. These salmon habitat and abundance monitoring studies use multi-frequency echosounders from mooring stations and mobile units in West Coast Vancouver Island sounds and the Salish sea to measure aspects of salmon forage species (zooplankton, krill, and Pacific herring) and count juvenile and adult salmon along their migration.   

@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations"
 description: "Salmon bred from a hatchery are often less fit in wild environments than naturally bred salmon. However, this situation can change using different hatchery methods. This genetic study compares DNA samples from returning hatchery Chinook to natural Chinook in Sarita River to see if hatchery methods improve the spawning success of hatchery Chinook."
-author: "N/A"
+author: "Eric Rondeau, Tim Healy, Kyle Wellband"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Eric Rondeau, Tim Healy, Kyle Wellband  
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** hatcheries  
+**Presentation Date:** December 08, 1955  
+**Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
+**Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
 
 **Overview:**  
 Salmon bred from a hatchery are often less fit in wild environments than naturally bred salmon. However, this situation can change using different hatchery methods. This genetic study compares DNA samples from returning hatchery Chinook to natural Chinook in Sarita River to see if hatchery methods improve the spawning success of hatchery Chinook.   

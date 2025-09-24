@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act"
 description: "Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing."
-author: "N/A"
+author: "Brendan Connors, Adam O'Dell"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Brendan Connors, Adam O'Dell  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** freshwater stressors  
+**Presentation Date:** December 01, 1955  
+**Speakers:** Brendan Connors, Adam O'Dell  
+**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
 Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.   

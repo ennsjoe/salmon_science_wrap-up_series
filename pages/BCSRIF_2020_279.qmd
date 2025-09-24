@@ -1,0 +1,25 @@
+---
+title: "NA"
+description: "NA"
+author: "NA"
+toc: true
+---
+
+## 📋 Project Summary
+
+**Lead(s):** NA  
+**Division:** NA  
+**Section:** NA  
+**PSSI Pillar:** NA  
+**Session:** data and modelling to support decision making  
+**Presentation Date:** December 09, 1955  
+**Speakers:** Katrina Connors  
+**Hosts:** Ann-Marie Huang; Carrie Holt;  
+
+**Overview:**  
+NA   
+
+**Activities:**  
+Not Listed
+
+[⬅ Back to Home](../index.qmd)

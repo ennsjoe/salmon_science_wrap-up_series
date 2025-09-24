@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon"
 description: "Resource managers rely on decision modelling tool and programs to predict the outcomes from different actions. For salmon management, often these tools fail to include hatchery or habitat parameters. This decision-support project develops an open source, single-population prototype model that can be applied to West Coast Vancouver Island Chinook as a case study, including hatchery and habitat levers, as well as, uncertainty and risk."
-author: "N/A"
+author: "Carrie Holt, Brendan Connors, Catarina Wor"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Carrie Holt, Brendan Connors, Catarina Wor  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Quantitative Assessment Methods  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** data and modelling to support decision making  
+**Presentation Date:** December 09, 1955  
+**Speakers:** Carrie Holt, Brendan Connors, Catarina Wor  
+**Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
 Resource managers rely on decision modelling tool and programs to predict the outcomes from different actions. For salmon management, often these tools fail to include hatchery or habitat parameters. This decision-support project develops an open source, single-population prototype model that can be applied to West Coast Vancouver Island Chinook as a case study, including hatchery and habitat levers, as well as, uncertainty and risk.   

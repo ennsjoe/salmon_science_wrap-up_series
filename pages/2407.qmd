@@ -1,20 +1,20 @@
 ---
-title: "Untitled Project"
+title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island"
 description: "Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival."
-author: "N/A"
+author: "Jessy Bokvist"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** N/A  
-**Division:** N/A  
-**Section:** N/A  
+**Lead(s):** Jessy Bokvist  
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** South Coast Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Uncategorized  
-**Presentation Date:** TBD  
-**Speakers:** Presenters TBD  
-**Hosts:** Hosts TBD  
+**Session:** follow the fish  
+**Presentation Date:** December 02, 1955  
+**Speakers:** Jessy Bokvist  
+**Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
 
 **Overview:**  
 Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival.   
