@@ -38,7 +38,7 @@ normalize_session <- function(x) {
 }
 
 ################################################################################
-# Load and clean tables
+# Load and clean tables----
 projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
   mutate(project_id = as.character(project_id))
 
@@ -46,7 +46,10 @@ speakers <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id), session = str_trim(tolower(as.character(session))))
 
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(session = str_trim(tolower(as.character(session))), date = mdy(date))
+  mutate(
+    session = str_trim(tolower(as.character(session))),
+    date = as.Date(date, origin = "1899-12-30")  # Excel's origin date
+  )
 
 # Join speakers to sessions
 speaker_sessions <- speakers %>%
@@ -67,6 +70,10 @@ session_projects <- speaker_sessions %>%
   filter(!is.na(project_id), project_id != "") %>%
   arrange(presentation_date)
 ################################################################################
+sessions_raw <- dbReadTable(con, "session_info")
+str(sessions_raw$date)
+print(sessions_raw$date)
+###############################################################################
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)
@@ -79,7 +86,7 @@ dir_create(pages_dir)
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
 ################################################################################
-# 📝 Generate individual .qmd pages
+# 📝 Generate individual .qmd pages----
 for (i in seq_len(nrow(projects))) {
   row <- projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
@@ -137,6 +144,7 @@ cat("🔍 Number of session_projects rows:", nrow(session_projects), "\n")
 print(session_projects %>% select(session, project_id, title, presentation_date) %>% head())
 
 ################################################################################
+# 🧭 Building index.qmd----
 cat("🧭 Building index.qmd grouped by date and session...\n")
 
 # 🔄 Reconnect to database to fetch latest session info and speaker links
@@ -149,7 +157,10 @@ speakers <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id), session = str_trim(tolower(as.character(session))))
 
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(session = str_trim(tolower(as.character(session))), date = mdy(date))
+  mutate(
+    session = str_trim(tolower(as.character(session))),
+    date = as.Date(date, origin = "1899-12-30")  # Excel serial date fix
+  )
 
 dbDisconnect(con)
 
@@ -169,7 +180,8 @@ session_projects <- speakers %>%
   ) %>%
   arrange(presentation_date)
 
-# 🧱 Initialize index content
+################################################################################
+# 🧱 Initialize index content----
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Speaker Series"',

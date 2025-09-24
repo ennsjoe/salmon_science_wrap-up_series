@@ -8,7 +8,7 @@ toc: false
 
 ## 🗓️ Upcoming Talks by Date
 
-## 📅 February 04, 2024
+## 📅 December 01, 1955
 
 ### 🐟 freshwater stressors
 _Hosted by: Joe Enns; Dave Patterson; Sean Naman_
@@ -33,7 +33,7 @@ _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 - Untitled Project | NA
 - Untitled Project | NA
 
-## 📅 February 04, 2025
+## 📅 December 02, 1955
 
 ### 🐟 follow the fish
 _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist_
@@ -59,7 +59,7 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; S
 - Untitled Project | NA
 - Untitled Project | NA
 
-## 📅 February 04, 2031
+## 📅 December 08, 1955
 
 ### 🐟 hatcheries
 _Hosted by: Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband_
@@ -85,7 +85,7 @@ _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alis
 - [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
 - Untitled Project | NA
 
-## 📅 February 04, 2032
+## 📅 December 09, 1955
 
 ### 🐟 data and modelling to support decision making
 _Hosted by: Ann-Marie Huang; Carrie Holt;_
