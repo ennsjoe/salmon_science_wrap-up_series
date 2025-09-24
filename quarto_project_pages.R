@@ -126,7 +126,10 @@ con <- dbConnect(SQLite(), dbname = db_path)
 themes_raw <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id), session = as.character(session))
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(session = as.character(session), date = mdy(date))
+  mutate(
+    session = as.character(session),
+    date = suppressWarnings(mdy(as.character(date)))
+  )
 dbDisconnect(con)
 
 # 📌 Prepare distinct project titles
@@ -209,5 +212,5 @@ writeLines("www.pacificsalmonscience.ca", "CNAME")
 # 🚀 Render the Quarto site and push to GitHub
 system("quarto render")
 system("git add .")
-system("git commit -m \"Updated site from existing database\"")
+system("git commit -m \"Debugging date formatting\"")
 system("git push origin main")
