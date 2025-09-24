@@ -121,38 +121,28 @@ for (i in seq_len(nrow(projects))) {
 # 🧭 Build index.qmd grouped by date and session
 cat("🧭 Building index.qmd grouped by date and session...\n")
 
-# 🔄 Reconnect to database to fetch latest speaker themes and session info
+# 🔄 Reconnect to database to fetch latest session info and project metadata
 con <- dbConnect(SQLite(), dbname = db_path)
-themes_raw <- dbReadTable(con, "Speaker.Themes") %>%
-  mutate(project_id = as.character(project_id), session = as.character(session))
 sessions <- dbReadTable(con, "session_info") %>%
   mutate(
     session = as.character(session),
     hosts = as.character(hosts),
-    date_raw = trimws(as.character(date)),
-    date = suppressWarnings(mdy(date_raw))
+    date = mdy(date)
   )
+overview <- dbReadTable(con, "Science.PSSI.Projects") %>%
+  mutate(project_id = as.character(project_id), session = as.character(session))
 dbDisconnect(con)
 
-# 📌 Prepare distinct project titles
-project_titles <- projects %>%
-  select(project_id, title.x) %>%
-  distinct(project_id, .keep_all = TRUE)
-
-# 🧠 Prepare presentation metadata
-presentations <- themes_raw %>%
-  left_join(sessions, by = "session") %>%
+# 🔗 Join sessions to projects
+session_projects <- sessions %>%
+  left_join(overview, by = "session") %>%
+  filter(!is.na(project_id), project_id != "") %>%
   mutate(
     presentation_date = as.Date(date),
-    presenters = speakers,
-    hosts = hosts
-  ) %>%
-  left_join(project_titles, by = "project_id") %>%
-  mutate(
     file_id = sanitize_filename(project_id),
     project_link = ifelse(
-      !is.na(title.x),
-      glue("[{title.x}](pages/{file_id}.qmd)"),
+      !is.na(title),
+      glue("[{title}](pages/{file_id}.qmd)"),
       "Untitled Project"
     )
   ) %>%
@@ -173,7 +163,7 @@ index_md <- c(
 )
 
 # 📆 Group presentations by date
-presentations_by_date <- split(presentations, presentations$presentation_date)
+presentations_by_date <- split(session_projects, session_projects$presentation_date)
 
 # 🧩 Build index content by date and session
 for (date_key in sort(names(presentations_by_date))) {
@@ -196,7 +186,7 @@ for (date_key in sort(names(presentations_by_date))) {
     for (i in seq_len(nrow(group))) {
       row <- group[i, ]
       project_link <- row$project_link
-      presenters <- row$presenters %||% "Presenters TBD"
+      presenters <- row$project_leads %||% "Presenters TBD"
       
       index_md <- c(index_md, glue("- {project_link} | {presenters}"))
     }
