@@ -128,7 +128,9 @@ themes_raw <- dbReadTable(con, "Speaker.Themes") %>%
 sessions <- dbReadTable(con, "session_info") %>%
   mutate(
     session = as.character(session),
-    date = suppressWarnings(mdy(as.character(date)))
+    hosts = as.character(hosts),
+    date_raw = trimws(as.character(date)),
+    date = suppressWarnings(mdy(date_raw))
   )
 dbDisconnect(con)
 
