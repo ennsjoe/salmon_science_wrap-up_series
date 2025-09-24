@@ -43,7 +43,7 @@ themes <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id), session = as.character(session))
 
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(session = as.character(session), date = mdy(date))
+  mutate(session = as.character(session), date = as.Date(date))
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)

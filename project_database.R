@@ -49,9 +49,10 @@ for (csv_path in csv_files) {
       data <- data %>% mutate(session = as.character(session))
     }
     
-    # Parse date for session_info
+    # ⏱️ Parse date column for session_info
     if (tolower(file_name) == "session_info.csv" && "date" %in% names(data)) {
-      data <- data %>% mutate(date = mdy(date))
+      data <- data %>%
+        mutate(date = mdy(date))
     }
     
     # Write to database
