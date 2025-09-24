@@ -39,7 +39,7 @@ overview <- dbReadTable(con, "Science.PSSI.Projects") %>%
 details <- dbReadTable(con, "project.export..long.") %>%
   mutate(project_id = as.character(project_id), session = as.character(session))
 
-themes <- dbReadTable(con, "Speaker.Themes") %>%
+speakers <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id), session = as.character(session))
 
 sessions <- dbReadTable(con, "session_info") %>%
@@ -51,7 +51,7 @@ dbDisconnect(con)
 # 🔗 Join all project data
 projects <- overview %>%
   left_join(details, by = "project_id") %>%
-  left_join(themes, by = "project_id") %>%
+  left_join(speakers, by = "project_id") %>%
   left_join(sessions, by = "session") %>%
   filter(!is.na(project_id), project_id != "")
 
