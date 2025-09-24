@@ -137,24 +137,26 @@ cat("🔍 Number of session_projects rows:", nrow(session_projects), "\n")
 print(session_projects %>% select(session, project_id, title, presentation_date) %>% head())
 
 ################################################################################
-# 🧭 Build index.qmd grouped by date and session
 cat("🧭 Building index.qmd grouped by date and session...\n")
 
-# 🔄 Reconnect to database to fetch latest session info and project metadata
+# 🔄 Reconnect to database to fetch latest session info and speaker links
 con <- dbConnect(SQLite(), dbname = db_path)
+
+projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
+  mutate(project_id = as.character(project_id))
+
+speakers <- dbReadTable(con, "Speaker.Themes") %>%
+  mutate(project_id = as.character(project_id), session = str_trim(tolower(as.character(session))))
+
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(
-    session = as.character(session),
-    hosts = as.character(hosts),
-    date = mdy(date)
-  )
-overview <- dbReadTable(con, "Science.PSSI.Projects") %>%
-  mutate(project_id = as.character(project_id), session = as.character(session))
+  mutate(session = str_trim(tolower(as.character(session))), date = mdy(date))
+
 dbDisconnect(con)
 
-# 🔗 Join sessions to projects
-session_projects <- sessions %>%
-  left_join(overview, by = "session") %>%
+# 🔗 Join speakers to sessions, then to project metadata
+session_projects <- speakers %>%
+  left_join(sessions, by = "session") %>%
+  left_join(projects, by = "project_id") %>%
   filter(!is.na(project_id), project_id != "") %>%
   mutate(
     presentation_date = as.Date(date),
