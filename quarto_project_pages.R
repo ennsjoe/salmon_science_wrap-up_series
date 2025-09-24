@@ -1,6 +1,7 @@
 ################################################################################
-# Title: Load CSVs into SQLite, Clean Column Names & Generate Quarto Pages
-# Description: Ingests CSVs, parses dates, joins project data, and builds pages
+# Title: Query SQLite Tables & Generate Quarto Pages
+# Description: Connects to SQLite, validates tables, joins project data,
+#              and builds Quarto pages and index.
 ################################################################################
 
 # 📦 Load libraries
@@ -21,41 +22,6 @@ db_path <- here("science_projects.sqlite")
 
 # 🔌 Connect to the database
 con <- dbConnect(SQLite(), dbname = db_path)
-
-# 📁 Read all CSV files from the 'data' folder
-data_dir <- here("data")
-csv_files <- list.files(data_dir, pattern = "\\.csv$", full.names = TRUE)
-
-cat("📂 Found CSV files:\n")
-print(csv_files)
-
-# 📤 Write each CSV to the database with cleaned column names
-for (csv_path in csv_files) {
-  file_name <- basename(csv_path)
-  table_name <- file_path_sans_ext(file_name) %>% make.names()
-  
-  cat(glue("\n📥 Loading '{file_name}' into table '{table_name}'...\n"))
-  
-  tryCatch({
-    data <- read_csv(csv_path, show_col_types = FALSE) %>%
-      janitor::clean_names() %>%
-      mutate(
-        project_id = if ("project_id" %in% names(.)) as.character(project_id) else project_id,
-        session = if ("session" %in% names(.)) as.character(session) else session
-      )
-    
-    # ⏱️ Parse date column for session_info
-    if (tolower(file_name) == "session_info.csv" && "date" %in% names(data)) {
-      data <- data %>% mutate(date = mdy(date))
-    }
-    
-    dbWriteTable(con, table_name, data, overwrite = TRUE)
-    
-    cat(glue("✅ Table '{table_name}' written to database.\n"))
-  }, error = function(e) {
-    cat(glue("❌ Error loading '{file_name}': {e$message}\n"))
-  })
-}
 
 # 📌 Validate required tables
 required_tables <- c("Science.PSSI.Projects", "project.export..long.", "Speaker.Themes", "session_info")
@@ -237,16 +203,11 @@ for (date_key in sort(names(presentations_by_date))) {
 # 📝 Write index.qmd to disk
 writeLines(index_md, here("index.qmd"))
 
-################################################################################
-
 # 🌐 Write CNAME file for GitHub Pages custom domain
 writeLines("www.pacificsalmonscience.ca", "CNAME")
 
-################################################################################
-# Render the Quarto site
+# 🚀 Render the Quarto site and push to GitHub
 system("quarto render")
-
-# Automate Git commit and push
 system("git add .")
-system("git commit -m \"Changed csv schema\"")
+system("git commit -m \"Updated site from existing database\"")
 system("git push origin main")

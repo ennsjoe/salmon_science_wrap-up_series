@@ -14,7 +14,7 @@ toc: true
 **Session:** Data and modelling to support decision making  
 **Presentation Date:** February 04, 2032  
 **Speakers:** Carrie Holt, Brendan Connors, Catarina Wor  
-**Hosts:** Carrie Holt  
+**Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
 Resource managers rely on decision modelling tool and programs to predict the outcomes from different actions. For salmon management, often these tools fail to include hatchery or habitat parameters. This decision-support project develops an open source, single-population prototype model that can be applied to West Coast Vancouver Island Chinook as a case study, including hatchery and habitat levers, as well as, uncertainty and risk.   

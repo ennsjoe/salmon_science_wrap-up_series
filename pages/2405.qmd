@@ -14,7 +14,7 @@ toc: true
 **Session:** Salmon in a changing climate  
 **Presentation Date:** February 04, 2024  
 **Speakers:** Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,  
-**Hosts:** Patrick Thompson  
+**Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
 
 **Overview:**  
 Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.   

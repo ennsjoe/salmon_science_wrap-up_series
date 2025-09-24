@@ -14,7 +14,7 @@ toc: true
 **Session:** Fisheries monitoring and harvest methods  
 **Presentation Date:** February 04, 2032  
 **Speakers:** Cory Lagasse  
-**Hosts:** Erin Rechisky  
+**Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 
 **Overview:**  
 Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.   

@@ -14,7 +14,7 @@ toc: true
 **Session:** Data and modelling to support decision making  
 **Presentation Date:** February 04, 2032  
 **Speakers:** Shelee Hamilton  
-**Hosts:** Carrie Holt  
+**Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
 NA   

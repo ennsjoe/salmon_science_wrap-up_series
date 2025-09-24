@@ -14,7 +14,7 @@ toc: true
 **Session:** Data and modelling to support decision making  
 **Presentation Date:** February 04, 2032  
 **Speakers:** Thomas Therriault, Cher LaCoste  
-**Hosts:** Carrie Holt  
+**Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
 Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.   

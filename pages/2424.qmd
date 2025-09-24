@@ -14,7 +14,7 @@ toc: true
 **Session:** Freshwater stressors  
 **Presentation Date:** February 04, 2024  
 **Speakers:** Sean Naman  
-**Hosts:** Sean Naman  
+**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
 Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.   
