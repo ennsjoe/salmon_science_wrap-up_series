@@ -11,8 +11,8 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Genetic insights into adaptation  
-**Presentation:** December 02, 2025  
+**Speaker Theme:** Uncategorized  
+**Presentation:** December 09, 2025  
 
 **Overview:**  
 Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods.   

@@ -1,32 +1,61 @@
-﻿Project Id,Speaker Themes,presentation_date,presenters
-2408,Fish health,12/9/2025,Amy Long
-2417,Fish health,12/9/2025,"Ian Forster, Cher LaCoste"
-2418,Fish health,12/9/2025,"Ian Forster, Cher LaCoste"
-2421,Fish health,12/9/2025,Stewart Johnson
-2434,Fish health,12/9/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-2448,Fish health,12/9/2025,Kristi Miller-Saunders
-2394,Fisheries monitoring and harvest methods,12/10/2025,Cory Lagasse
-2397,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,12/3/2025,Carrie Holt
-2398,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,12/3/2025,Diana McHugh
-2407,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,12/3/2025,Jessy Bokvist
-2422,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,12/3/2025,"Andrew Ross, Xiangjun Liao, Nicole LaForge"
-2432,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,12/3/2025,Stephane Gauthier
-2447,Follow the Fish: Life Cycle Monitoring of WCVI Chinook,12/3/2025,Kristi Miller-Saunders
-2435,Genetic insights into adaptation,12/2/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-2436,Genetic insights into adaptation,12/9/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-2451,Genetic insights into adaptation,12/2/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-2452,Genetic insights into adaptation,12/9/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-2453,Genetic insights into adaptation,12/2/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-3103,Genetic insights into adaptation,12/9/2025,"Eric Rondeau, Timothy Healy, Kyle Wellband"
-3119,Genetic insights into adaptation,12/9/2025,"Eric Rondeau, Timothy Healy, Kyle Wellband"
-3120,Genetic insights into adaptation,12/9/2025,"Eric Rondeau, Timothy Healy, Kyle Wellband"
-3121,Genetic insights into adaptation,12/9/2025,"Eric Rondeau, Timothy Healy, Kyle Wellband"
-2404,Marine ecosystems and stressors,12/3/2025,
-2409,Marine ecosystems and stressors,12/3/2025,
-2412,Marine ecosystems and stressors,12/3/2025,
-2413,Marine ecosystems and stressors,12/3/2025,
-2416,Marine ecosystems and stressors,12/3/2025,
-2405,Salmon in a changing climate,12/2/2025,"Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, "
-2406,Salmon in a changing climate,12/2/2025,Sophia Johannessen
-2437,Salmon in a changing climate,12/2/2025,"Eric Rondeau, Tim Healy, Kyle Wellband"
-2539,Salmon in a changing climate,12/2/2025,"Di Wan, James Christian"
+﻿Project Id,source,Title,Project leads,session
+2394,DFO,Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery,Cory Lagasse,Fisheries monitoring and harvest methods
+2397,DFO,Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi,Carrie Holt,Follow the Fish
+2398,DFO,WCVI Sediment Transport and Redd Scour Assessment,Diana McHugh,Follow the Fish
+2402,DFO,Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act,"Brendan Connors, Adam O'Dell",Freshwater stressors
+2404,DFO,"Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon",Laura Bianucci,Marine stressors
+2405,DFO,Biological models to support prioritizing salmon stocks under future climates,"Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, ",Salmon in a changing climate
+2406,DFO,"Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters",Sophia Johannessen,Salmon in a changing climate
+2407,DFO,Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island,Jessy Bokvist,Follow the Fish
+2408,DFO,"Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.",Amy Long,Salmon Health
+2409,DFO,Convergent tracks: a tagging study to quantify salmon predation by sea lions,"Strahan Tucker, Cameron Freshwater",Marine stressors
+2410,DFO,Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future,"Thomas Therriault, Cher LaCoste",Data and modelling to support decision making
+2412,DFO,"Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species",Chris Pearce,Marine stressors
+2413,DFO,Barkley Sound and Clayoquot Sound Krill Monitoring,"Akash Sastri, Kelly Young",Marine stressors
+2416,DFO,Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins,Andrew Ross,Marine stressors
+2417,DFO,Optimization of feeds used in the hatchery production of Pacific Salmon.,"Ian Forster, Cher LaCoste",Salmon Health
+2418,DFO,Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.,"Ian Forster, Cher LaCoste",Salmon Health
+2421,DFO,Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.,Stewart Johnson,Salmon Health
+2422,DFO,Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.,"Andrew Ross, Xiangjun Liao, Nicole LaForge",Follow the Fish
+2424,DFO,Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity,Sean Naman,Freshwater stressors
+2425,DFO,Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program,Josie Iacarella,Freshwater stressors
+2432,DFO,Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey,Stephane Gauthier,Follow the Fish
+2434,DFO,SHERLOCK assay for rapid genotyping applications,"Eric Rondeau, Tim Healy, Kyle Wellband",Salmon Health
+2435,DFO,Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon,"Eric Rondeau, Tim Healy, Kyle Wellband",Hatcheries
+2437,DFO,Adaptive genetic variation and climate change resilience in Canadian Pacific salmon,"Eric Rondeau, Tim Healy, Kyle Wellband",Salmon in a changing climate
+2443,DFO,Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake,Daniel Doutaz,Freshwater stressors
+2447,DFO,Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA,Kristi Miller-Saunders,Follow the Fish
+2448,DFO,"Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production",Kristi Miller-Saunders,Salmon Health
+2449,DFO,"A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon","Carrie Holt, Brendan Connors, Catarina Wor",Data and modelling to support decision making
+2451,DFO,Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations,"Eric Rondeau, Tim Healy, Kyle Wellband",Hatcheries
+2453,DFO,Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon,"Eric Rondeau, Tim Healy, Kyle Wellband",Hatcheries
+2493,DFO,Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments,"David Patterson, Douglas Braun",Freshwater stressors
+2539,DFO,Climate Downscaling for salmon conservation in Marine Ecosystems,"Di Wan, James Christian",Salmon in a changing climate
+2546,DFO,Fishery & Assessment Data Section - Data Stewardship Unit,Shelee Hamilton,Data and modelling to support decision making
+3103,DFO,Drivers and functional consequences of hatchery epigenetic variation,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
+3119,DFO,Genomic consequences of stray hatchery introgression,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
+3120,DFO,Genetic and epigenetic consequences of hatchery adaptation,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
+3121,DFO,Impact of genetic divergence on outbreeding depression in Chinook Salmon,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
+BCSRIF_2019_040-136D,BCSRIF,Salish Sea Salmon Action Plan - Bottlenecks Limiting Juvenile Salmon Production,Samantha James,Marine stressors
+BCSRIF_2019_045,BCSRIF,Innovation for community-run terminal fisheries – scientific foundations for adaptive management of salmon ,Will Atlas,Fisheries monitoring and harvest methods
+BCSRIF_2019_058,BCSRIF,Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology,Scott Hinch,Fisheries monitoring and harvest methods
+BCSRIF_2019_136,BCSRIF,Salish Sea Salmon Action Plan - Effectiveness of Enhanced Salmon Production,Jason Hwang,Hatcheries
+BCSRIF_2020_217,BCSRIF,Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations,Jordan Rosenfeld,Freshwater stressors
+BCSRIF_2020_239,BCSRIF,Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon,Francis Juanes,Hatcheries
+BCSRIF_2020_279,BCSRIF,Supporting the Ongoing Use and Development of the Pacific Salmon Explorer,Katrina Connors,Data and modelling to support decision making
+BCSRIF_2020_292,BCSRIF,First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast,Megan Adams,Fisheries monitoring and harvest methods
+BCSRIF_2020_311,BCSRIF,The application of nanopore technology for the rapid detection and characterization of pathogenic organisms ,Ahmed Siah,Salmon Health
+BCSRIF_2022_332,BCSRIF,Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding,Christine Gruman,Follow the Fish
+BCSRIF_2022_334,BCSRIF,"First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay",Marian Ngo,Freshwater stressors
+BCSRIF_2022_337,BCSRIF,Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds,Timothy Sobey,Follow the Fish
+BCSRIF_2022_347,BCSRIF,Selective Fishing Using a Salmon Trap in the Campbell River Estuary,Derek Leboeuf,Fisheries monitoring and harvest methods
+BCSRIF_2022_358,BCSRIF,Determining the mechanisms of impacts of a changing climate on zooplankton in the Salish Sea using models and observations,,Marine stressors
+BCSRIF_2022_384,BCSRIF,Development of High-resolution Climate Change Freshwater Hazard Data for BC,Francis Zwiers,Salmon in a changing climate
+BCSRIF_2022_399,BCSRIF,"Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks.",Ellen Petticrew,Salmon in a changing climate
+BCSRIF_2022_401,BCSRIF,Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems,Katrina Connors,Salmon in a changing climate
+BCSRIF_2022_415,BCSRIF,Restoring freshwater connectivity for Pacific salmon,,Data and modelling to support decision making
+BCSRIF_2022_442,BCSRIF,Identifying factors that influence early marine survival of WCVI Chinook salmon,Andrew Bateman,Follow the Fish
+BCSRIF_2022_449,BCSRIF,Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across coastal BC.,Amy Kamarainen,Freshwater stressors
+BCSRIF_2022_454,BCSRIF,FRIM – Short term mortality holding and respirometry studies,,Fisheries monitoring and harvest methods
+101,DFO,Streamlining stock assessments for Pacific salmon: Fisheries Science Advisory Reports,Ann-Marie Huang; Diana Dobson,Data and modelling to support decision making
+102,DFO,Enhanced Monitoring of Chinook Salmon Mark Selective Fishery (MSF),"Phil Lemp, Erin Rechisky",Fisheries monitoring and harvest methods

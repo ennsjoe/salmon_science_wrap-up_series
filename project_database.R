@@ -1,7 +1,7 @@
 ################################################################################
 # Title: Load CSVs into SQLite, Clean Column Names & List Table Structures
 # Description: Ingests all CSVs from 'data/' folder into SQLite DB, cleans
-#              column names, parses dates, and prints table schemas.
+#              column names, parses dates where applicable, and prints schemas.
 ################################################################################
 
 # 📦 Load libraries
@@ -31,42 +31,26 @@ print(csv_files)
 
 # 📤 Write each CSV to the database with cleaned column names
 for (csv_path in csv_files) {
-  table_name <- file_path_sans_ext(basename(csv_path)) %>% make.names()
+  file_name <- basename(csv_path)
+  table_name <- file_path_sans_ext(file_name) %>% make.names()
   
-  cat(glue("\n📥 Loading '{basename(csv_path)}' into table '{table_name}'...\n"))
+  cat(glue("\n📥 Loading '{file_name}' into table '{table_name}'...\n"))
   
   tryCatch({
     data <- read_csv(csv_path, show_col_types = FALSE) %>%
       janitor::clean_names()
     
+    # ⏱️ Parse date columns for known files
+    if (tolower(file_name) == "session_info.csv" && "date" %in% names(data)) {
+      data <- data %>% mutate(date = mdy(date))
+    }
+    
     dbWriteTable(con, table_name, data, overwrite = TRUE)
     
-    cat(glue("✅ Table '{table_name}' written to database with cleaned column names.\n"))
+    cat(glue("✅ Table '{table_name}' written to database.\n"))
   }, error = function(e) {
-    cat(glue("❌ Error loading '{basename(csv_path)}': {e$message}\n"))
+    cat(glue("❌ Error loading '{file_name}': {e$message}\n"))
   })
-}
-
-# 🎯 Explicitly handle 'Speaker Themes.csv'
-speaker_themes_path <- file.path(data_dir, "Speaker Themes.csv")
-if (file.exists(speaker_themes_path)) {
-  cat(glue("\n📥 Loading 'Speaker Themes.csv' into table 'speaker_themes'...\n"))
-  
-  tryCatch({
-    speaker_themes <- read_csv(speaker_themes_path, show_col_types = FALSE) %>%
-      janitor::clean_names() %>%
-      mutate(
-        presentation_date = mdy(presentation_date)  # ⏱️ Parse date only
-      )
-    
-    dbWriteTable(con, "speaker_themes", speaker_themes, overwrite = TRUE)
-    
-    cat("✅ Table 'speaker_themes' written to database with parsed presentation_date.\n")
-  }, error = function(e) {
-    cat(glue("❌ Error processing 'Speaker Themes.csv': {e$message}\n"))
-  })
-} else {
-  cat("⚠️ 'Speaker Themes.csv' not found in data directory.\n")
 }
 
 # 📋 List all tables and their columns

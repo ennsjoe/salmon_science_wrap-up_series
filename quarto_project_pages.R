@@ -3,6 +3,10 @@
 # Description: Ingests CSVs, parses dates, joins project data, and builds pages
 ################################################################################
 
+################################################################################
+# Title: Load CSVs into SQLite, Clean Column Names & Prepare Joined Project Data
+################################################################################
+
 # 📦 Load libraries
 library(here)
 library(DBI)
@@ -37,41 +41,27 @@ for (csv_path in csv_files) {
   
   tryCatch({
     data <- read_csv(csv_path, show_col_types = FALSE) %>%
-      janitor::clean_names()
+      janitor::clean_names() %>%
+      mutate(
+        project_id = if ("project_id" %in% names(.)) as.character(project_id) else project_id,
+        session = if ("session" %in% names(.)) as.character(session) else session
+      )
+    
+    # Special handling for session_info date parsing
+    if (table_name == "session_info" && "date" %in% names(data)) {
+      data <- data %>% mutate(date = mdy(date))
+    }
     
     dbWriteTable(con, table_name, data, overwrite = TRUE)
     
-    cat(glue("✅ Table '{table_name}' written to database with cleaned column names.\n"))
+    cat(glue("✅ Table '{table_name}' written to database.\n"))
   }, error = function(e) {
     cat(glue("❌ Error loading '{basename(csv_path)}': {e$message}\n"))
   })
 }
 
-# 🎯 Explicitly handle 'Speaker Themes.csv'
-speaker_themes_path <- file.path(data_dir, "Speaker Themes.csv")
-if (file.exists(speaker_themes_path)) {
-  cat(glue("\n📥 Loading 'Speaker Themes.csv' into table 'speaker_themes'...\n"))
-  
-  tryCatch({
-    speaker_themes <- read_csv(speaker_themes_path, show_col_types = FALSE) %>%
-      janitor::clean_names() %>%
-      mutate(
-        presentation_date = mdy(presentation_date),
-        datetime = presentation_date  # Use date only
-      )
-    
-    dbWriteTable(con, "speaker_themes", speaker_themes, overwrite = TRUE)
-    
-    cat("✅ Table 'speaker_themes' written to database with parsed presentation_date.\n")
-  }, error = function(e) {
-    cat(glue("❌ Error processing 'Speaker Themes.csv': {e$message}\n"))
-  })
-} else {
-  cat("⚠️ 'Speaker Themes.csv' not found in data directory.\n")
-}
-
-# 📌 Load and join project data
-required_tables <- c("Science.PSSI.Projects", "project.export..long.", "speaker_themes")
+# 📌 Validate required tables
+required_tables <- c("Science.PSSI.Projects", "project.export..long.", "speaker_themes", "session_info")
 available_tables <- dbListTables(con)
 missing_tables <- setdiff(required_tables, available_tables)
 
@@ -79,14 +69,28 @@ if (length(missing_tables) > 0) {
   stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}"))
 }
 
-overview <- dbReadTable(con, "Science.PSSI.Projects")
-details  <- dbReadTable(con, "project.export..long.")
-themes   <- dbReadTable(con, "speaker_themes")
+# 📦 Load and coerce key columns
+overview <- dbReadTable(con, "Science.PSSI.Projects") %>%
+  mutate(project_id = as.character(project_id))
+
+details <- dbReadTable(con, "project.export..long.") %>%
+  mutate(project_id = as.character(project_id))
+
+themes <- dbReadTable(con, "speaker_themes") %>%
+  mutate(project_id = as.character(project_id),
+         session = as.character(session))
+
+sessions <- dbReadTable(con, "session_info") %>%
+  mutate(session = as.character(session))
+
+# 🔌 Disconnect from the database
 dbDisconnect(con)
 
+# 🔗 Join all project data
 projects <- overview %>%
   left_join(details, by = "project_id") %>%
   left_join(themes, by = "project_id") %>%
+  left_join(sessions, by = "session") %>%
   filter(!is.na(project_id), project_id != "")
 
 # 📂 Create output directory
@@ -96,6 +100,7 @@ dir_create(pages_dir)
 # 🧼 Helper: sanitize filenames
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
+################################################################################
 # 📝 Generate individual .qmd pages
 for (i in seq_len(nrow(projects))) {
   row <- projects[i, ]
@@ -114,14 +119,16 @@ for (i in seq_len(nrow(projects))) {
   activities <- row[["year_specific_priorities"]] %||% "Not Listed"
   
   presentation <- tryCatch({
-    if (is.na(row[["datetime"]])) {
+    if (is.na(row[["date"]])) {
       "TBD"
     } else {
-      format(as.Date(row[["datetime"]]), "%B %d, %Y")
+      format(as.Date(row[["date"]]), "%B %d, %Y")
     }
   }, error = function(e) {
     "TBD"
   })
+  
+  presenters <- row[["leads"]] %||% "Presenters TBD"
   
   page_content <- glue(
     "---\n",
@@ -145,12 +152,16 @@ for (i in seq_len(nrow(projects))) {
   writeLines(page_content, file_path)
 }
 
-# 🧭 Build index.qmd grouped by date and theme
-cat("🧭 Building index.qmd grouped by date and theme...\n")
+################################################################################
+# 🧭 Build index.qmd grouped by date and session
+cat("🧭 Building index.qmd grouped by date and session...\n")
 
-# 🔄 Reconnect to database to fetch latest speaker themes
+# 🔄 Reconnect to database to fetch latest speaker themes and session info
 con <- dbConnect(SQLite(), dbname = db_path)
-themes_raw <- dbReadTable(con, "speaker_themes")
+themes_raw <- dbReadTable(con, "speaker_themes") %>%
+  mutate(project_id = as.character(project_id), session = as.character(session))
+sessions <- dbReadTable(con, "session_info") %>%
+  mutate(session = as.character(session), date = mdy(date))
 dbDisconnect(con)
 
 # 📌 Prepare distinct project titles
@@ -160,15 +171,11 @@ project_titles <- projects %>%
 
 # 🧠 Prepare presentation metadata
 presentations <- themes_raw %>%
+  left_join(sessions, by = "session") %>%
   mutate(
-    presentation_date = as.Date(presentation_date)
+    presentation_date = as.Date(date),
+    presenters = leads
   ) %>%
-  group_by(project_id, speaker_themes, presentation_date) %>%
-  summarise(
-    presenters = paste(unique(presenters), collapse = ", "),
-    .groups = "drop"
-  ) %>%
-  distinct(project_id, speaker_themes, presentation_date, .keep_all = TRUE) %>%
   left_join(project_titles, by = "project_id") %>%
   mutate(
     file_id = sanitize_filename(project_id),
@@ -197,22 +204,21 @@ index_md <- c(
 # 📆 Group presentations by date
 presentations_by_date <- split(presentations, presentations$presentation_date)
 
-# 🧩 Build index content by date and theme
+# 🧩 Build index content by date and session
 for (date_key in sort(names(presentations_by_date))) {
   date_presentations <- presentations_by_date[[date_key]]
   formatted_date <- format(as.Date(date_key), "%B %d, %Y")
   
   index_md <- c(index_md, glue("## 📅 {formatted_date}"), "")
   
-  # 🎨 Group by theme
+  # 🎨 Group by session
   date_presentations <- date_presentations %>%
-    mutate(theme_session = glue("{speaker_themes}")) %>%
-    group_by(theme_session) %>%
+    group_by(session) %>%
     group_split()
   
   for (group in date_presentations) {
-    theme_session <- unique(group$theme_session)
-    index_md <- c(index_md, glue("### 🐟 {theme_session}"), "")
+    session_title <- unique(group$session)
+    index_md <- c(index_md, glue("### 🐟 {session_title}"), "")
     
     for (i in seq_len(nrow(group))) {
       row <- group[i, ]
@@ -229,17 +235,14 @@ for (date_key in sort(names(presentations_by_date))) {
 # 📝 Write index.qmd to disk
 writeLines(index_md, here("index.qmd"))
 
-# Write CNAME file for GitHub Pages custom domain
+# Write CNAME file for GitHub Pages custom domain----
 writeLines("www.pacificsalmonscience.ca", "CNAME")
 
+################################################################################
 # Render the Quarto site
 system("quarto render")
 
 # Automate Git commit and push
 system("git add .")
-system("git commit -m \"Removed session column\"")
+system("git commit -m \"Changed csv schema\"")
 system("git push origin main")
-
-cat("✅ Quarto pages, index.qmd, and verification file generated successfully.\n")
-cat("🔗 Remember to check the GitHub repository to ensure changes are reflected.\n")
-cat("🌐 Visit https://www.pacificsalmonscience.ca to see the updated site!\n")
