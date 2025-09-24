@@ -1,57 +1,25 @@
 ---
-title: "Fishery & Assessment Data Section - Knowledge Mobilization Unit"
+title: "Untitled Project"
 description: "NA"
-author: "Shelee Hamilton, Tom Bird"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Shelee Hamilton, Tom Bird  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fishery and Assessment Data  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-## Data digitization work
-#### OCR SIL project
-in 2024-25, we developed a working pipeline for extracting and correcting data from paper forms.  We will work on deploying this technology with field-based area staff to learn how we can reduce the amount of time and effort devoted to keypunching and data validation. In 2025-26, we have cloud support from Shared services Canada and planned engagements with all areas to pilot implementation of the OCR extraction work during the 2025 escapement season. This work will allow us to 1) evaluate the potential time savings of reducing keypunch time on SILs, 2) allow us to engage directly with ARea staff on ways to improve their working data models and forms, 3) begin storing operational escapement data directly into the STREAM platform.
-
-#### BC16s extraction
-We will also continue the work of rescuing data from historical BC16s, to capture important historical and ecological data and make it accessible to area biologists and the public. We are working with the PSSI top 1) get these data published the data portal and 2) push the data extraction tools into a DFO-owned production environment for use with other data types. 
-
-## Continued development of CDOS-built digital infrastructure
-#### Pilot implementation of OCR for other datasets 
-Having built an MVP data entry tool and data model for a modern escapement data management system,  we will pilot the deployment of this tool to support other data rescue initiatives.
-
-#### Standardization of escapement data between NC, SC, Fraser and Yukon staff
-Based on our engagement with NC, SC staff on building a streamlined data entry system, and with Fraser Interior Area staff on automating data entry of stream inspections, we will work on standardizing and harmonizing the types of data being captured during escapement observations each year.
-
-#### Develop planning and reporting tools for escapement data
-With the structure of the SIL data entry system in place, we will work with CDOS to develop planning and reporting tools for escapement data systems, and to apply these tools and concepts beyond escapement data
-
-#### Develop enterprise salmon data model
-During the development of the STREAM platform, we will begin the development of a PoC enterprise data model for salmon data. 
-
-## Knowledge modeling with Large Language Models
-#### Salmon data mobilization Working group
-With partners in the UK, Alaska, Washington, Atlantic Canada and Oregon, we have built a working group aimed at supporting mobilization of salmon data between diverse research and monitoring entities.  Through this working group, we will develop global tools and standards that will support data exchange, shared best practices and interoperability of diverse datasets.
-
-#### CSAS knowledge Graph
-In partnership with the UBC Cloud innovation Center and the DFO's Integrated Science Advice System, we will explore use of AI to build a semantic search tool that will support easy discovery and usage of DFO's research document catalogue. 
-
-#### Methods metadata catalogue
-In partnership with the Pacific NorthWest Aquatic Monitoring Partnership, we will continue exploration and development of a monitoring methods catalogue that can eventually link up with the STREAM escapement monitoring tool. 
-
-## Data strategy Leadership
-#### Science Data strategy
-In engaging with the PSSI on Pacific Salmon Renewal submission to the treasury board,  we will work with Scientists and Science clients in the region to develop a strategy and roadmap for how Science will  aim to mature its approach to adapt to the growing challenges of climate change, environmental assessments and other complex challenges. We will do this through a Science-based working group over 2024-25, with the goal of delivering a strategy document by the end of FY2026.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

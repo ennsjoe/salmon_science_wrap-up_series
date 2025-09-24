@@ -1,31 +1,25 @@
 ---
-title: "Fournier Transfer Near Infrared (FT-NIR) Spectroscopy; its application for rapid fish age estimation within the Sclerochronology Lab at the Pacific Biological Station"
+title: "Untitled Project"
 description: "Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks."
-author: "stephen wischniowski"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** stephen wischniowski  
-**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
-**Section:** Applied Technology  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.   
 
 **Activities:**  
-1. Continue familiarization of OPUS Labs spectral software and continued training of new BI02 on the scanning and modeling age predictions. 
-2. Create protocols and standardize use of the FT-NIR Tango spectrometer
-3. Present groundfish with a Pacific Ocean Perch coastwide age prediction model.  Based on attributes of Infrared Scans, Otolith Shape Analysis and Otolith Weight. 
-4. Create calibration and reference chronologies for S. ruberrimus and babcocki
-5. Scan three new species of groundfish, species yet to be determined.
-6. Continue working with Pacific States Marnie Fisheries Commission in the development of Chumputer Vision, a python algorithm predicting chum salmon scale ages from imaged scales. 
-7. Setup the new high speed Leica automated imaging camera specifically design for high volume scale image capture and image ~20K Chum and ~25K chinook scales for Scale Predictive Ageing Program
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

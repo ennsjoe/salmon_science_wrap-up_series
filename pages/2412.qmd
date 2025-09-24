@@ -1,25 +1,25 @@
 ---
-title: "Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species"
+title: "Untitled Project"
 description: "Ocean warming and acidic upwelling changes the zooplankton food web for young salmon in the Northeast Pacific. This project measures the survival and nutritional value of pteropods (zooplankton) under different temperatures and acidic conditions in a lab. Researchers then compare lab findings to natural zooplankton conditions."
-author: "Chris Pearce"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Chris Pearce  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Marine stressors  
-**Presentation Date:** December 03, 2025  
-**Speakers:** Chris Pearce  
-**Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Ocean warming and acidic upwelling changes the zooplankton food web for young salmon in the Northeast Pacific. This project measures the survival and nutritional value of pteropods (zooplankton) under different temperatures and acidic conditions in a lab. Researchers then compare lab findings to natural zooplankton conditions.   
 
 **Activities:**  
-Journal article preparation and submission will be the priority for this fiscal year.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

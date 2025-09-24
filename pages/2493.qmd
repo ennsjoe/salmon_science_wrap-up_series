@@ -1,33 +1,25 @@
 ---
-title: "Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments"
+title: "Untitled Project"
 description: "Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions."
-author: "David Patterson, Douglas Braun"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** David Patterson, Douglas Braun  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Freshwater Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Freshwater stressors  
-**Presentation Date:** December 02, 2025  
-**Speakers:** David Patterson, Douglas Braun  
-**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions.   
 
 **Activities:**  
-1) Continue to publish on multi-factor condition work
-
-2) Execute field experiments based on the 2023/24 and 24/25 projects related to knowledge gaps on cumulative effects in salmon
-
-3) Conduct and plan lab/field experiments to test key combinations of cumulative stressors on salmon; including: low DO and temperature range; food availability, temperature, and growth/survival; with preference/avoidance behaviour studies; and temperature and migratory stressors on in-river survival Sockeye/Chinook/Coho.
-
-4) Continue to develop a pragmatic guide for mechanistic cumulative effects investigations., based on synthesis of the information gleaned from our literature review, and field and lab study results to develop a pragmatic guide for initiating mechanistic cumulative effects investigations.
-
-5) Meeting and collaborating with habitat, fisheries, and restoration managers to incorporate key concerns related to cumulative effects on salmon habitat
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

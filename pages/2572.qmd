@@ -1,29 +1,25 @@
 ---
-title: "Assessing Salinity Alteration of Nursery Conditions for Salmon Smolts following Construction of Roberts Bank Terminal-2"
+title: "Untitled Project"
 description: "NA"
-author: "Terri Sutherland"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Terri Sutherland  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-2024, Jan-March: Purchase materials and supplies for diatom growout and salinity trials.
-
-2024 - 2025: Purchase materials and supplies for diatom growout and salinity trials if not completed in January - March, 2024. Determine effect of salinity on diatom production and the generation of LC-PUFAs. These effects will be determined at lag growth phase (initial), exponential phase (maximum growth), and stationary phase (decline). Acquire chemicals and supplies for analyses.
-
-2025 - 2026: Generate manuscript and submit to Journal. Develop plain-language report.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

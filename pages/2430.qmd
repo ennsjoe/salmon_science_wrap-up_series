@@ -1,25 +1,25 @@
 ---
-title: "Feasibility of Estimating Chilko River Smolt Abundance Using Upward- and Side-Looking SONAR Methods"
+title: "Untitled Project"
 description: "Chilko Lake sockeye smolts are counted each spring from a fish-counting weir, and these counts inform broader Fraser River fisheries management decisions. However, with earlier spring freshets due to the warming climate, crews must remove the weir more often before the smolts are counted. This salmon monitoring project tests upward-looking and side-looking SONAR units that can be used during high flows, and compares the results to the weir counts."
-author: "Daniel Doutaz"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Daniel Doutaz  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Chilko Lake sockeye smolts are counted each spring from a fish-counting weir, and these counts inform broader Fraser River fisheries management decisions. However, with earlier spring freshets due to the warming climate, crews must remove the weir more often before the smolts are counted. This salmon monitoring project tests upward-looking and side-looking SONAR units that can be used during high flows, and compares the results to the weir counts.   
 
 **Activities:**  
-Estimate of the number of sockeye smolts outmigrating from Chilko Lake in 2024 (Apr-May) using up- and side-looking SONAR methods. SONAR-derived estimates will be compared to abundance estimates obtained at the Chilko River smolt counting weir (SONAR analysis completed in Oct-Dec), and a report summarizing the results will be produced (Jan-Feb).
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

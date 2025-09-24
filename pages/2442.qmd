@@ -1,25 +1,25 @@
 ---
-title: "Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system"
+title: "Untitled Project"
 description: "Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging."
-author: "Lauren Weir"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Lauren Weir  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging.   
 
 **Activities:**  
-Final year which will be used to produce final technical reports to summarize the work completed in the last two FY and highlight the interesting results from the field work that took place in 2024-2025.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

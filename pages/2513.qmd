@@ -1,29 +1,25 @@
 ---
-title: "Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon"
+title: "Untitled Project"
 description: "Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions."
-author: "Lisa Loseto"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Lisa Loseto  
-**Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.   
 
 **Activities:**  
-• Continue collecting contaminant data in WCVI juvenile Chinook salmon and their habitat in partnership with follow the fish;
-• Complete a risk-based evaluation to assess for priority pollutants of concern for WCVI juvenile salmon and their habitat;
-• Determine the most likely pathway(s) of exposure to contaminants of most concern in WCVI juvenile Chinook;
-• Carry out a detailed molecular / omics based assessment to assess contaminant related health effects in WCVI juvenile salmon deemed to be of highest concern;
-• Provide enabling information to PSSI and fisheries managers pertaining to exposure and health effects to key WCVI salmon populations that will assist with recovery of these populations.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

@@ -32,28 +32,44 @@ if (length(missing_tables) > 0) {
   stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}"))
 }
 
-# 📦 Load and coerce key columns
-overview <- dbReadTable(con, "Science.PSSI.Projects") %>%
-  mutate(project_id = as.character(project_id), session = as.character(session))
+# 🧼 Helper: normalize session names for consistent joins
+normalize_session <- function(x) {
+  x %>% tolower() %>% str_trim()
+}
 
-details <- dbReadTable(con, "project.export..long.") %>%
-  mutate(project_id = as.character(project_id), session = as.character(session))
+################################################################################
+# Load and clean tables
+projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
+  mutate(project_id = as.character(project_id))
 
 speakers <- dbReadTable(con, "Speaker.Themes") %>%
-  mutate(project_id = as.character(project_id), session = as.character(session))
+  mutate(project_id = as.character(project_id), session = str_trim(tolower(as.character(session))))
 
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(session = as.character(session), date = as.Date(date))
+  mutate(session = str_trim(tolower(as.character(session))), date = mdy(date))
+
+# Join speakers to sessions
+speaker_sessions <- speakers %>%
+  left_join(sessions, by = "session")
+
+# Join to project metadata
+session_projects <- speaker_sessions %>%
+  left_join(projects, by = "project_id") %>%
+  mutate(
+    presentation_date = as.Date(date),
+    file_id = sanitize_filename(project_id),
+    project_link = ifelse(
+      !is.na(title),
+      glue("[{title}](pages/{file_id}.qmd)"),
+      "Untitled Project"
+    )
+  ) %>%
+  filter(!is.na(project_id), project_id != "") %>%
+  arrange(presentation_date)
+################################################################################
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)
-
-# 🔗 Join all project data
-projects <- overview %>%
-  left_join(details, by = "project_id") %>%
-  left_join(speakers, by = "project_id") %>%
-  left_join(sessions, by = "session") %>%
-  filter(!is.na(project_id), project_id != "")
 
 # 📂 Create output directory
 pages_dir <- here("pages")
@@ -116,6 +132,9 @@ for (i in seq_len(nrow(projects))) {
   
   writeLines(page_content, file_path)
 }
+
+cat("🔍 Number of session_projects rows:", nrow(session_projects), "\n")
+print(session_projects %>% select(session, project_id, title, presentation_date) %>% head())
 
 ################################################################################
 # 🧭 Build index.qmd grouped by date and session

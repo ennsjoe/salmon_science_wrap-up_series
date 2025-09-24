@@ -1,25 +1,25 @@
 ---
-title: "A Decision Support Framework for Identifying and Characterizing the Non-fishing Threats to Pacific Salmon"
+title: "Untitled Project"
 description: "NA"
-author: "Thomas Therriault, Cher LaCoste"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Thomas Therriault, Cher LaCoste  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-Year 3: Based on the results of the first two years of the project, the third year will specifically develop decision support tools that will aid managers in how best to incorporate non-fishing threats across an array of DFO management and policy decision making processes, including, but not limited to Fisheries Management, SARA recovery planning, SEP restoration activities, and FFHPP integrated planning processes. Further, by developing this in conjunction with First Nations, it will expand on existing DFO’s efforts on Reconciliation.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

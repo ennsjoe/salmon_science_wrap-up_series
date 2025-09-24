@@ -1,25 +1,25 @@
 ---
-title: "Chum whole genome sequencing for improved stock delineation"
+title: "Untitled Project"
 description: "Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution."
-author: "Eric Rondeau, Tim Healy, Kyle Wellband"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Eric Rondeau, Tim Healy, Kyle Wellband  
-**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
-**Section:** Molecular Genetics  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution.   
 
 **Activities:**  
-The main objectives of year 3 are to examine population structure and differentiation over the Chum salmon Canadian range and investigate the genomic basis of run timing differentiation, with a focus in and around the Central Coast populations (CSAS cross-applicability request ID: 1743). Specifically, 1) we will complete selection of existing samples from the ADGT/MG tissue archive and any new collections of Chum salmon from key stocks from across its Canadian range that have not been investigated in years 1 and 2; 2) generate low-coverage whole genome sequencing data for the selected populations at an external sequencing centre; and ) use these whole genome data to investigate population structure and differentiation, and genomic basis of run timing differentiation. Genetic markers displaying strong differentiation associated with population structure and run timing will be included in an improved SNP panel for Genetic Stock Identification, especially in the South Coast region. We will disseminate results through reports and peer-reviewed publications.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

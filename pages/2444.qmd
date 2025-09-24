@@ -1,25 +1,25 @@
 ---
-title: "Assessment of the distribution and abundance of juvenile Chinook salmon in the lower Thompson River basin."
+title: "Untitled Project"
 description: "Historic flooding in 2021 impacted salmon spawning and rearing habitat throughout the lower Thompson River and tributaries. This salmon population monitoring study counts juvenile Chinook (night snorkel surveys) in the lower Thompson mainstem and tributaries and compare to previous years to assess the population and habitat recovery."
-author: "Lauren Weir"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Lauren Weir  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Historic flooding in 2021 impacted salmon spawning and rearing habitat throughout the lower Thompson River and tributaries. This salmon population monitoring study counts juvenile Chinook (night snorkel surveys) in the lower Thompson mainstem and tributaries and compare to previous years to assess the population and habitat recovery.   
 
 **Activities:**  
-Hiring of a consultant for night snorkel surveys in the Lower Thompson watershed in October to assess juvenile Chinook abundance. Collection of water samples and otoliths to further understand the juvenile Chinook life history in the Lower Thompson and augment the value of the juvenile standing stock surveys. Processing and analyzing water samples and otoliths to determine juvenile distribution in the Fraser Watershed. Writing a technical report summarizing the findings of the whole project.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

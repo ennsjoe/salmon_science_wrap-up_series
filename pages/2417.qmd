@@ -1,25 +1,25 @@
 ---
-title: "Optimization of feeds used in the hatchery production of Pacific Salmon."
+title: "Untitled Project"
 description: "Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials."
-author: "Ian Forster, Cher LaCoste"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Ian Forster, Cher LaCoste  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** Salmon Health  
-**Presentation Date:** December 09, 2025  
-**Speakers:** Ian Forster, Cher LaCoste  
-**Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.   
 
 **Activities:**  
-Feeding trials will be conducted at SEP hatcheries in Years 2 and 3 on juvenile ocean-type Chinook and Coho salmon.  The diets to be compared will be selected based upon the results of Year 1 and agreed upon by the research team and SEP staff. Dr. Forster, the project lead, has extensive experience in conducting and peer-review publishing comparative feeding trials in salmon.  Other team members have extensive experience in the assessment of physiological, immunological and health status of salmon.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

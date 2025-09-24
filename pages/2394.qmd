@@ -1,38 +1,25 @@
 ---
-title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery"
+title: "Untitled Project"
 description: "Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern."
-author: "Cory Lagasse"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Cory Lagasse  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Salmon Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 3-Harvest transformation  
-**Session:** Fisheries monitoring and harvest methods  
-**Presentation Date:** December 10, 2025  
-**Speakers:** Cory Lagasse  
-**Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.   
 
 **Activities:**  
-For the 2025/26 year, the project will continue sampling of Chinook salmon bycatch and evaluate options and priorities for future monitoring after PSSI funding is no longer available.  
-
-PSSI total approved funding for 2025-2026 is 214.5K. Total allocation reduced by 30K in May 2025.
-Allocation of 42K to GMU for electronic monitoring review by independent consultants.
-Allocation reduced to 142.5K to Science as described within this project.
-
-Deliverables for the 2025/26 year are:
-1. Estimate and report on catch of salmon by species for the 2025/26 groundfish year using independent validation of all trawl salmon bycatch
-2. estimate stock composition and catch by stock of Chinook salmon catch using CWT and GSI results  
-3. estimate CWT recoveries for Canadian Chinook salmon exploitation rate indicator stocks based on representative collection of CWTs from salmon bycatch
-4. summarize and report on results from the 2025/26 groundfish year and across all years of the enhanced monitoring program in a data report or manuscript report
-5. evaluate options and needs for continued monitoring of Chinook salmon bycatch via evaluation of existing information and discussions with managers and industry
-
-Reporting and analytic methods have been fully described in published manuscript reports. Updated results from the monitoring program will be summarized and published for public availability using similar methods and format to those already established.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

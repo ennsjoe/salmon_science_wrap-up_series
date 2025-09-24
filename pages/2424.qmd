@@ -1,28 +1,25 @@
 ---
-title: "Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity"
+title: "Untitled Project"
 description: "Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure."
-author: "Sean Naman"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Sean Naman  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Freshwater Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Freshwater stressors  
-**Presentation Date:** December 02, 2025  
-**Speakers:** Sean Naman  
-**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.   
 
 **Activities:**  
-- Collect additional validation and discharge data in North Thompson streams. Unexpected high flows in September thwarted our attempts to collect these data in 2024, so approximately 10 days of work is needed in 2025 to finalize data sets for model inputs and validation.
-- Complete 2 technical reports: one describing model methodology and validation and the other reporting flow-habitat relationships for 20 North Thompson coho rearing tributaries.
-- Complete primary publication investigating coho rearing habitat availability and instream flow needs in contrasting climate and hydrology scenarios.
-- Present final results to project partners and regional planning committees.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

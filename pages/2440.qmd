@@ -1,25 +1,25 @@
 ---
-title: "Mat-37 Improvements to the evaluation of abundance and stock composition for Fraser River Juvenile Salmon"
+title: "Untitled Project"
 description: "NA"
-author: "Matthew Townsend, Kaitlyn Dionne"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Matthew Townsend, Kaitlyn Dionne  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-2023-2024 Priorities: Hire a biologist to review our existing data sets and estimation methods and provide recommendations to modernize and improve these estimates.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

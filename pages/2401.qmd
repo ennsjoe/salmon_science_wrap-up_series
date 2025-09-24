@@ -1,27 +1,25 @@
 ---
-title: "Epidemiological modeling of infectious hematopoietic necrosis virus in Sockeye salmon"
+title: "Untitled Project"
 description: "Long-term monitoring of the salmonid virus “infectious hematopoietic necrosis virus,” which can be deadly for sockeye, shows annual and geographic fluctuations between stocks, but for unknown reasons. This study examines IHNV prevalence across different watersheds, sockeye stocks, and environmental conditions in an effort to identify those factors responsible for driving IHNV prevalence and/or influencing disease within sockeye salmon populations."
-author: "Kyle Garver"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Kyle Garver  
-**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
-**Section:** Aquatic Animal Health  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Long-term monitoring of the salmonid virus “infectious hematopoietic necrosis virus,” which can be deadly for sockeye, shows annual and geographic fluctuations between stocks, but for unknown reasons. This study examines IHNV prevalence across different watersheds, sockeye stocks, and environmental conditions in an effort to identify those factors responsible for driving IHNV prevalence and/or influencing disease within sockeye salmon populations.   
 
 **Activities:**  
-Objective 3: (Year 2 & 3) – Use a mixed-effects analysis and ecosystem health approach to determine how changes in pathogen prevalence in wild sockeye populations relate to environmental and other potentially important factors and management measures in an effort to identify potential correlates with IHNV variability.
-
-This work will permit a data-based logical argument enabling one to quantify specific environmental or other variable affects on IHNV status and facilitate the development and implementation of management measures to mitigate effects of IHNV in hatchery and enhanced populations of Sockeye salmon.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

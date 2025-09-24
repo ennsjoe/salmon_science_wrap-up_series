@@ -1,25 +1,25 @@
 ---
-title: "YTRA TBR Weather Stations"
+title: "Untitled Project"
 description: "NA"
-author: "sean stark"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** sean stark  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-purchasing and potential installation of weather monitoring stations in the Alsek and Stikine drainages
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

@@ -1,31 +1,25 @@
 ---
-title: "Adaptive genetic variation and climate change resilience in Canadian Pacific salmon"
+title: "Untitled Project"
 description: "Pacific salmon genetic markers are regularly used to manage fisheries and hatcheries. While these genetic analysis efforts provide important stock management information, they could also be used to assess diversity of salmon species relative to habitat changes. This salmon genetic adaptation study gathers Chinook and sockeye DNA samples and compares genomes to environmental conditions and climate projections."
-author: "Eric Rondeau, Tim Healy, Kyle Wellband"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Eric Rondeau, Tim Healy, Kyle Wellband  
-**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
-**Section:** Molecular Genetics  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Salmon in a changing climate  
-**Presentation Date:** December 02, 2025  
-**Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
-**Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Pacific salmon genetic markers are regularly used to manage fisheries and hatcheries. While these genetic analysis efforts provide important stock management information, they could also be used to assess diversity of salmon species relative to habitat changes. This salmon genetic adaptation study gathers Chinook and sockeye DNA samples and compares genomes to environmental conditions and climate projections.   
 
 **Activities:**  
-The objectives for this year of the study are:
-1) Align sequencing reads from the second year of the study to the Chinook, Sockeye, Chum or Pink Salmon reference genomes. 
-2) Determine allele frequency variation among and within populations of each species. 
-3) Analyze genome-wide population structure in each species and identify outlier regions of genetic differentiation among populations. 
-4) Analyze genome-environment associations to resolve environmental factors underlying genetic differentiation among populations. 
-5) Utilize current inter-population genomic variation to determine “genomic offsets” and heterozygosities in the context of climate change projections (i.e., the extent of genetic change necessary to parallel expected changes in the environment, and the current standing genetic variation, respectively). 
-6) Expand sampling and sequencing effort to complete Pink Salmon dataset, expand to cover Coho Salmon, and target regional specific questions in Chinook or Sockeye Salmon.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

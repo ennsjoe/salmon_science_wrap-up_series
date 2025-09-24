@@ -1,25 +1,25 @@
 ---
-title: "Pilot skills study of new hatchery tray configuration."
+title: "Untitled Project"
 description: "NA"
-author: "Cher LaCoste, Noel Collier"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Cher LaCoste, Noel Collier  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-NA
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

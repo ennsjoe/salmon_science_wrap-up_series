@@ -1,29 +1,25 @@
 ---
-title: "Risk Assessment Method for Salmon – Development for Regional Implementation"
+title: "Untitled Project"
 description: "Researchers in 2010 developed a tool called the Risk Assessment Method for Salmon that uses population and ecosystem information to identify and prioritize salmon population bottlenecks at different life stages. The tool constantly evolves, but currently uses awkward technology and lacks marine information. This stock management support project updates regional salmon information including marine and freshwater life stage information and converts the old Excel program to a more visual and user-friendly R programming design."
-author: "Christina Czembor"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Christina Czembor  
-**Division:** Regional Director's Office  
-**Section:** Regional Director's Office  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Researchers in 2010 developed a tool called the Risk Assessment Method for Salmon that uses population and ecosystem information to identify and prioritize salmon population bottlenecks at different life stages. The tool constantly evolves, but currently uses awkward technology and lacks marine information. This stock management support project updates regional salmon information including marine and freshwater life stage information and converts the old Excel program to a more visual and user-friendly R programming design.   
 
 **Activities:**  
-1. Complete publication of RAMS Guidance Paper 1: Development and Implementation (Deliverable 1)
-2. Complete updates of the Regional Salmon Tables (freshwater sections) (Deliverable 2)
-3. Create RAMS scoring app (Deliverable 3)
-4. Complete RAMS Strait of Georgia Data Centre map and data portal (new Deliverable 4)
-5. Revise and prepare for publication RAMS Guidance Paper 2: User Manual (new Deliverable 5)
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

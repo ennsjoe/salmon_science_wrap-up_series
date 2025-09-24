@@ -1,49 +1,25 @@
 ---
-title: "Fishery & Assessment Data Section - Data Stewardship Unit"
+title: "Untitled Project"
 description: "NA"
-author: "Shelee Hamilton"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Shelee Hamilton  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fishery and Assessment Data  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Data and modelling to support decision making  
-**Presentation Date:** December 10, 2025  
-**Speakers:** Shelee Hamilton  
-**Hosts:** Ann-Marie Huang; Carrie Holt;  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-### Interoperable & Integrated Salmon Data Systems
-- **Salmon Population Summary Repository**
-    - Develop and populate a regional repository for key salmon population index data that support FSARs
-    - Enable regional and area staff to contribute harmonized data for priority SMUs
-- **Sample Tracking and Management to Link Biodata and Genetic Stock ID Results**
-    - Work with CDOS on the development of an enterprise level Sample Tracking and Management Platform (STAMP)
-    - Support sample providers, Labs, and staff in the submission and processing of samples and sharing of results
-    - Centralize fragmented GSI data to support traceability, governance, and integration
-- **Salmon Biodata, Genetics, and Environment Integration**
-    - Coordinate data integration linking fish biodata, genetics, and environmental data sources
-
-### Data Governance, Standards & Lifecycle Management
-- **Salmon Science Data Standards**
-    - Framework for defining and publishing shared terms, metadata fields, and controlled vocabularies
-    - Publication of salmon demographic unit standards as well as population level indices standards
-- **Data Lifecycle Governance Framework**
-    - Processes to coordinate production of reproducible data products
-- **Data Strategy & Implementation**
-    - Develop a cross-branch Salmon Science Data Strategy and Implementation Plan
-
-### Self-Serve Infrastructure & Tooling Support
-- **PSSI Self-Serve Infrastructure Rollout**
-    - Enable staff use of Azure Lakehouse, storage containers, and other modern tools
-- **DM Apps Project Planning Tool Enhancements**
-    - Recommend improvements to better link funding, data product outcomes, and stewardship roles
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

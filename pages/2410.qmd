@@ -1,26 +1,25 @@
 ---
-title: "Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future"
+title: "Untitled Project"
 description: "Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans."
-author: "Thomas Therriault, Cher LaCoste"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Thomas Therriault, Cher LaCoste  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Data and modelling to support decision making  
-**Presentation Date:** December 10, 2025  
-**Speakers:** Thomas Therriault, Cher LaCoste  
-**Hosts:** Ann-Marie Huang; Carrie Holt;  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.   
 
 **Activities:**  
-Year 4:
-The identification of higher risk AIS is essential to refine other PSSI-related assessments of the multiple, often interacting threats to various Pacific salmon stocks.  This project will produce a ranked list of AIS by freshwater ecoregion, will identify key vectors and pathways, and AIS-specific impacts to freshwater ecosystems and salmon stocks specifically.  Such information can be used to refine estimates of salmon mortality, recovery or productivity thus improving fisheries management for salmon.  Further, the ranked list of AIS generated through these assessments will inform AIS monitoring and early detection programs both within DFO (AIS NCP), the Province of British Columbia (BC MOE) and the Yukon.  Finally, higher risk species can be considered in future amendments to the AIS Regulation in the Fisheries Act and vectors and pathways common among higher risk AIS can be prioritized for policy and regulatory action.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

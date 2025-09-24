@@ -1,27 +1,25 @@
 ---
-title: "Understanding the impact of Arctic outflow winds on British Columbia fjords."
+title: "Untitled Project"
 description: "Arctic air masses move from the interior to coastal inlets, cooling and adding oxygen to the marine habitat. Fjords where this cooling occurs can become a marine refuge for salmon. This project monitors climate conditions in BC mainland fjords to measure the impact on salmon habitat and study how these factors may impact other coastal inlets."
-author: "Jennifer Jackson"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Jennifer Jackson  
-**Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Arctic air masses move from the interior to coastal inlets, cooling and adding oxygen to the marine habitat. Fjords where this cooling occurs can become a marine refuge for salmon. This project monitors climate conditions in BC mainland fjords to measure the impact on salmon habitat and study how these factors may impact other coastal inlets.   
 
 **Activities:**  
-1. Continue literature review
-2. Continue data mining
-3. Start preparation of first manuscript to identify which BC inlets are most impacted by Arctic outflow winds
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

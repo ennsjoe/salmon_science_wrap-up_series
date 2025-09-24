@@ -1,33 +1,25 @@
 ---
-title: "Convergent tracks: a tagging study to quantify salmon predation by sea lions"
+title: "Untitled Project"
 description: "Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck."
-author: "Strahan Tucker, Cameron Freshwater"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Strahan Tucker, Cameron Freshwater  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Regional Ecosystems Effects on Fish and Fisheries  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Marine stressors  
-**Presentation Date:** December 03, 2025  
-**Speakers:** Strahan Tucker, Cameron Freshwater  
-**Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.   
 
 **Activities:**  
-- Deploy acoustic and satellite tags on sockeye
-- Deploy satellite tags on sea lions
-- Conduct field work to collect diet samples for sea lions
-- Conduct lab analyses on sea lion diet samples
-- Preliminary survival analysis based on acoustic tag data
-- Preliminary predator guild analysis based on satellite tag data
-- Preliminary diet analysis
-- Draft summary report(s) describing preliminary results based on two years of field work
-- Begin drafting primary publications for journal submission
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

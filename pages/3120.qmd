@@ -1,25 +1,25 @@
 ---
-title: "Genetic and epigenetic consequences of hatchery adaptation"
+title: "Untitled Project"
 description: "NA"
-author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Division:** NA  
-**Section:** Molecular Genetics  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** Hatcheries  
-**Presentation Date:** December 09, 2025  
-**Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-1) Identify and collect relevant captive brood tissue samples from the Molecular Genetics DNA sample archive, 2) isolate DNA from the chosen samples, 3) submit DNA samples for library preparation and next-generation sequencing, and 4) conduct microsatellite genotyping of the DNA samples.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

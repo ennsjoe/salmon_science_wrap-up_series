@@ -1,29 +1,25 @@
 ---
-title: "Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage."
+title: "Untitled Project"
 description: "Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program."
-author: "Andrew Ross, Xiangjun Liao, Nicole LaForge"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Andrew Ross, Xiangjun Liao, Nicole LaForge  
-**Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Follow the Fish  
-**Presentation Date:** December 03, 2025  
-**Speakers:** Andrew Ross, Xiangjun Liao, Nicole LaForge  
-**Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.   
 
 **Activities:**  
-1. LA-ICP-MS analysis of the San Juan juvenile and adult samples. 
-
-2. Reports utilizing the combined purse seine, microtroll and adult microchemistry data to “Follow the Fish” in the Stamp/Robertson, Nitinat, San Juan and Bedwell systems, and compare them to the Sarita system. 
-
-3. Communication with the Data Stewardship Unit to have these data products stored in an accessible database linked to other PSSI projects on the same fish/samples available.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

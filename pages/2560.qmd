@@ -1,35 +1,25 @@
 ---
-title: "PSSI High Seas Salmon Research - West Coast Vancouver Island (and transition to ONE juvenile program)"
+title: "Untitled Project"
 description: "NA"
-author: "Jackie King, Michelle Charbonneau"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Jackie King, Michelle Charbonneau  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Regional Ecosystems Effects on Fish and Fisheries  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-RE: Coastal juvenile salmon surveys
-There are four coastal surveys for juvenile salmon (20+ year time series), that are assumed to continue and which several existing PSSI Science Proposals have identified as core sources of data and information on this life stage of salmon.  In 2024/25 none of these surveys have guaranteed A-base science funding.  In addition, these core surveys have been underfunded for 10 years and archived samples, such as frozen fish (stomach contents) or tissue (genetic stock identification) have not been analyzed which has created knowledge gaps that limit life cycle modeling.
-
-RE: Archived biological oceanographic samples
-- Enumerate 350 archived zooplankton samples collected on juvenile salmon surveys; filling seasonal and spatial gaps required for life cycle modeling.
-
-BI-03 Casual Salary (includes 27% conversion) rationale.
-Quantitative modeler to begin life cycle modeling for a relevant salmon species-stock that utilizes the high seas; would also serve as liaise between DFO and BECI for ESD Programs. 
-
-EG-04 Sunset Term Salary  (includes 27% conversion, duration 44 weeks) rationale:
-The REEFF section of ESD plans to undertake a transition in the 2024/25 fiscal year from two existing juvenile salmon survey programs (WCVII and SoG) into one Pacific region juvenile salmon program. The proposed EG-04 will support key activities and expectations in this year of transition. The key activities include technical support for a single survey lead, data access and analysis, and database support in the context of publication generation and data management best practices for one consolidated juvenile salmon program. This EG04 position is needed before June 2024 to support the Chief Scientist in the preparation of Spring 2024 juvenile salmon surveys.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

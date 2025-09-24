@@ -1,25 +1,25 @@
 ---
-title: "Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults."
+title: "Untitled Project"
 description: "Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to warming oceans and changing food webs. The nutrient deficiency lowers the survival rate for salmon fry and has been observed in Yukon and California Chinook, but hasn’t been studied well in BC. This fish health monitoring study gathers Chinook tissue samples from the Albion test fishery and hatcheries to measure thiamine, fatty acids, and other health parameters to help predict and monitor vulnerable stocks."
-author: "Ian Forster, Cher LaCoste"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Ian Forster, Cher LaCoste  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Nearshore Ecosystems  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** Salmon Health  
-**Presentation Date:** December 09, 2025  
-**Speakers:** Ian Forster, Cher LaCoste  
-**Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to warming oceans and changing food webs. The nutrient deficiency lowers the survival rate for salmon fry and has been observed in Yukon and California Chinook, but hasn’t been studied well in BC. This fish health monitoring study gathers Chinook tissue samples from the Albion test fishery and hatcheries to measure thiamine, fatty acids, and other health parameters to help predict and monitor vulnerable stocks.   
 
 **Activities:**  
-Year 3 – manuscript writing, CSAS advisory document, workshop to report back to Clients, final data package release.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

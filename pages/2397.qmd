@@ -1,28 +1,25 @@
 ---
-title: "Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi"
+title: "Untitled Project"
 description: "Indigenous knowledge includes countless generations of place-based Pacific salmon experience that cannot be recreated or measured. Guided by the Eptuaptmumk (“Two-Eyed Seeing”) framework, we are partnering with First Nations on the West coast of Vancouver Island (WCVI) and University of Victoria to identify rebuilding targets and reference points for Chinook salmon that pair Indigenous Knowledge Systems with Western Science, based on interviews and focus groups with Indigenous Knowledge holders and a review of assessment literature."
-author: "Carrie Holt"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Carrie Holt  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Quantitative Assessment Methods  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Follow the Fish  
-**Presentation Date:** December 03, 2025  
-**Speakers:** Carrie Holt  
-**Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Indigenous knowledge includes countless generations of place-based Pacific salmon experience that cannot be recreated or measured. Guided by the Eptuaptmumk (“Two-Eyed Seeing”) framework, we are partnering with First Nations on the West coast of Vancouver Island (WCVI) and University of Victoria to identify rebuilding targets and reference points for Chinook salmon that pair Indigenous Knowledge Systems with Western Science, based on interviews and focus groups with Indigenous Knowledge holders and a review of assessment literature.   
 
 **Activities:**  
-Summarize Indigenous teachings in a way that can be shared beyond the community, ensuring no confidential information is shared.
-Highlight commonalities and differences between Indigenous and Western science perspectives on rebuilding targets.
-Report of candidate recovery goals and reference points WCVI Chinook salmon to inform Nation-specific 'Action Plans' for rebuilding Chinook salmon.
-Development of good practice methods and recommendations for pairing Indigenous knowledge systems with Western science in the development of rebuilding targets and reference points for salmon, tested and refined using the case study.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

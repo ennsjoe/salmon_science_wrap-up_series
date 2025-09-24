@@ -1,29 +1,25 @@
 ---
-title: "Salmon Scanner and composite status data sets"
+title: "Untitled Project"
 description: "NA"
-author: "Sue Grant"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Sue Grant  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Regional Ecosystems Effects on Fish and Fisheries  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-DFO's Salmon Scanner is an interactive data visualization tool for Pacific Salmon status and trends information. It displays data in a mapping and figure interface, and includes built in user reports and access to underlying data. On-going contracting support is required to maintain the Scanner, expand data sets, and transition consulting work over to internal staff.
-
-This work has been on-going working with Area Staff to coordinate and automate annual data updates, with Eric Quan's group in the PSSI Secretariat to develop process maps for the Scanner and develop data lakehouse storage for Scanner and data, and with Science's Data management unit (Shelee Hamilton and Tom Bird), and Sciences Stock Assessment Coordinating Committee (SACC), and DFO IT CDOS group.
-
-The Scanner is rolled out just before this fiscal year. On-going maintenance is required and in-house capacity does not exist currently to expand Scanner and make changes according to user input and to coordinate with Eric Quan's group and Scanner leads. There are many different individuals involved in data management. However, expertise resides in the SOS Program and one contractor in particular is networked across DFO science to coordinate and manage new data sets. This also is required to support the transition to the data lakehouse through engaging expertise of existing contractors.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

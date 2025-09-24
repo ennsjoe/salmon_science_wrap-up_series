@@ -1,25 +1,25 @@
 ---
-title: "Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake"
+title: "Untitled Project"
 description: "Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan."
-author: "Daniel Doutaz"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Daniel Doutaz  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Freshwater stressors  
-**Presentation Date:** December 02, 2025  
-**Speakers:** Daniel Doutaz  
-**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.   
 
 **Activities:**  
-Continuation of spring PIT tagging of smallmouth bass.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

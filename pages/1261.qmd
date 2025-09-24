@@ -1,31 +1,25 @@
 ---
-title: "Salmon Marine Interactions - SMI - COE Section"
+title: "Untitled Project"
 description: "NA"
-author: "Chrys Neville, Michelle Charbonneau"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Chrys Neville, Michelle Charbonneau  
-**Division:** Ecosystem Sciences (ESD)  
-**Section:** Regional Ecosystems Effects on Fish and Fisheries  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** NA  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-- conduct annual trawl surveys in the Strait of Georgia July and September
-- analyze data collected in 2020 and 2021
-- Generate reports on condition of juvenile salmon in 2021
-- Sample adult returning coho, chinook and sockeye salmon for comparison with juveniles collected in prior years
-- Update database with new data and with errors identified in coding
-- Transfer survey catch data from standard survey to data platform for access to other researchers (2010-2016 years)
-- Publish paper on factors regulating coho and chinook survival in the Strait of Georgia.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

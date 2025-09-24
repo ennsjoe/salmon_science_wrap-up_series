@@ -1,26 +1,25 @@
 ---
-title: "WCVI Sediment Transport and Redd Scour Assessment"
+title: "Untitled Project"
 description: "Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts."
-author: "Diana McHugh"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Diana McHugh  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** South Coast Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** Follow the Fish  
-**Presentation Date:** December 03, 2025  
-**Speakers:** Diana McHugh  
-**Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.   
 
 **Activities:**  
-II.	Field surveys in spawning locations that includes cross-sections and sediment size measurements, and the installation of PIT tagged accelerometer scour chains at surveyed locations to measure redd scour in Tranquil Creek in 2025.
-III.	Pairing bed disturbance data with a 2D hydraulic model to estimate the spatial extent of bed disturbance at a reach scale in key Chinook and chum spawning areas.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

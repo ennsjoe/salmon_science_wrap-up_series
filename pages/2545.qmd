@@ -1,32 +1,25 @@
 ---
-title: "Genetics Stock Identification and Parentage Based Tagging of Pacific salmon"
+title: "Untitled Project"
 description: "NA"
-author: "Eric Rondeau"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Eric Rondeau  
-**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
-**Section:** Molecular Genetics  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 NA   
 
 **Activities:**  
-PSSI funding was proposed to cover:
-31,000 Brood genotypes to support PBT (Chinook and Coho); 
-31,000 South Coast Stock Assessment samples for analysis; 
-9,000 North Coast Stock Assessment samples for analysis; 
-8,000 Yukon Transboundary Stock Assessment samples for analysis; 
-3,500-5,000 Fraser Interior Stock Assessment samples for analysis; 
-5,000 baseline samples; 
-5,000 JOT head recovery (sample and genotyping);
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

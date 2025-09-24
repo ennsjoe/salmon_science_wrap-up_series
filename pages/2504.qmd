@@ -1,30 +1,25 @@
 ---
-title: "Identifying and characterizing tire-related chemical (6PPD-quinone) toxic hotspots in salmon habitat"
+title: "Untitled Project"
 description: "Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas."
-author: "Lisa Loseto"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Lisa Loseto  
-**Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Automobile tires break down and leave the toxic chemical 6PPD-quinone on roadways. Rain events wash 6PPD-quinone into salmon-bearing streams, sometimes in amounts lethal to coho salmon. This contaminant monitoring study samples water quality from 10 new sites on salmon-bearing streams in urban areas of greater Vancouver, Squamish, and Vancouver Island to detect toxic amounts and compare to stormwater green infrastructure areas.   
 
 **Activities:**  
-• Continue generating 6PPD-q data for the 6 (perhaps just 2 this final year) green infrastructure sites;
-• Compare all data to laboratory exposure concentrations known to elicit toxic injury and death to salmon species;
-• Complete the hotspot characterization for salmon bearing streams using our data combined with modeling exercises that will be carried out in collaboration with our partners from SFU and UBC;
-• Provide enabling information to PSSI and fisheries managers pertaining to salmon exposure to this toxic tire associated chemical;
-• Work with ECCC and other regulatory agencies to provide expert input on the regulation of this toxic chemical.
-Complete summary data report and journal publication on results.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

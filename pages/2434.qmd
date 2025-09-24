@@ -1,25 +1,25 @@
 ---
-title: "SHERLOCK assay for rapid genotyping applications"
+title: "Untitled Project"
 description: "Hatchery staff use genetic markers to tell the difference between summer and fall runs of Chinook in the Puntledge River to preserve genetic integrity. However, genetic tests can often be slow and only applied later. This salmon genetics pilot project assesses rapid, in-season testing where genetic marker information could be provided in under an hour."
-author: "Eric Rondeau, Tim Healy, Kyle Wellband"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Eric Rondeau, Tim Healy, Kyle Wellband  
-**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
-**Section:** Molecular Genetics  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** Salmon Health  
-**Presentation Date:** December 09, 2025  
-**Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
-**Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
+**Session:** Uncategorized  
+**Presentation Date:** TBD  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Hatchery staff use genetic markers to tell the difference between summer and fall runs of Chinook in the Puntledge River to preserve genetic integrity. However, genetic tests can often be slow and only applied later. This salmon genetics pilot project assesses rapid, in-season testing where genetic marker information could be provided in under an hour.   
 
 **Activities:**  
-The specific objectives of this year are to 1) complete testing of multiplex assay to determine feasibility, 2) complete on-site testing of assay at Puntledge Hatchery, and 3) assess feasibility of handling and genotyping fish continuously throughout the spawning season.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)

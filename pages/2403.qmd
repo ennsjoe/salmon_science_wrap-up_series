@@ -1,29 +1,25 @@
 ---
-title: "San Juan River Adult and Juvenile Assessment Program"
+title: "Untitled Project"
 description: "Pacheedaht First Nation (PFN) have extensive monitoring and restoration projects underway in the San Juan Watershed, but some data gaps for San Juan Chinook still exist, and more detailed biological sampling is required. DFO Salmon Stock Assessment and PFN developed a holistic lifecycle monitoring program for San Juan Chinook through operation of a freshwater rotary screw trap, marine purse seining, and microtrolling, allowing researchers to monitor Chinook across all life stages and compare traits of natural and hatchery origin."
-author: "Katie Davidson"
+author: "N/A"
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** Katie Davidson  
-**Division:** Stock Assessment and Research (StAR)  
-**Section:** South Coast Area Salmon Stock Assessment  
+**Lead(s):** N/A  
+**Division:** N/A  
+**Section:** N/A  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** NA  
+**Session:** Uncategorized  
 **Presentation Date:** TBD  
-**Speakers:** NA  
-**Hosts:** NA  
+**Speakers:** Presenters TBD  
+**Hosts:** Hosts TBD  
 
 **Overview:**  
 Pacheedaht First Nation (PFN) have extensive monitoring and restoration projects underway in the San Juan Watershed, but some data gaps for San Juan Chinook still exist, and more detailed biological sampling is required. DFO Salmon Stock Assessment and PFN developed a holistic lifecycle monitoring program for San Juan Chinook through operation of a freshwater rotary screw trap, marine purse seining, and microtrolling, allowing researchers to monitor Chinook across all life stages and compare traits of natural and hatchery origin.   
 
 **Activities:**  
-Year 1 (2023-2024): Freshwater juvenile RST feasibility, nearshore marine purse seine feasibility, continue microtrolling marine winter, potential adult fence upgrades and sampling methods development.
-
-Year 2 (2024-2025):  Continue RST and attempt to expand to more days, including mark-recapture trials for trap efficiency; continue nearshore marine purse seining at established sites from Year 1; continue microtrolling durnig first marine winter; extend Garmin LiveScope is deployed for adult enumeration provided cost-effective alternative power source can be identified. Trial deadpitch sampling. Analyze any outstanding lab samples from Year 1.
-
-**Year 3 (2025-2026)**: Intensive RST mark-recapture and sampling; intensive purse seining and sampling; opportunistic collection of biological samples from natural spawners; sample analysis (otoliths, stomachs, DNA); reporting.
+Not Listed
 
 [⬅ Back to Home](../index.qmd)
