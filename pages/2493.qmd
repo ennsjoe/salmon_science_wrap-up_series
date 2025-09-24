@@ -11,8 +11,10 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Freshwater Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 02, 2025  
+**Session:** Freshwater stressors  
+**Presentation Date:** February 04, 2024  
+**Speakers:** David Patterson, Douglas Braun  
+**Hosts:** Sean Naman  
 
 **Overview:**  
 Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions.   

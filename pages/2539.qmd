@@ -11,8 +11,10 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ocean Modelling and Prediction  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 02, 2025  
+**Session:** Salmon in a changing climate  
+**Presentation Date:** February 04, 2024  
+**Speakers:** Di Wan, James Christian  
+**Hosts:** Patrick Thompson  
 
 **Overview:**  
 Ocean and climate conditions influence salmon numbers and health. While efforts have been made to model future climate conditions, these models are broad in scope which creates a scale gap when applying projections to salmon habitat. This modelling project downscales broader global climate models to include coastal environments and salmon species distribution.   

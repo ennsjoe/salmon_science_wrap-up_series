@@ -11,8 +11,10 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** TBD  
+**Session:** NA  
+**Presentation Date:** TBD  
+**Speakers:** NA  
+**Hosts:** NA  
 
 **Overview:**  
 Arctic air masses move from the interior to coastal inlets, cooling and adding oxygen to the marine habitat. Fjords where this cooling occurs can become a marine refuge for salmon. This project monitors climate conditions in BC mainland fjords to measure the impact on salmon habitat and study how these factors may impact other coastal inlets.   

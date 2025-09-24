@@ -11,8 +11,10 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 02, 2025  
+**Session:** Salmon in a changing climate  
+**Presentation Date:** February 04, 2024  
+**Speakers:** Sophia Johannessen  
+**Hosts:** Patrick Thompson  
 
 **Overview:**  
 Has climate change reduced the amount of plankton at the bottom of the food web in BC waters, reducing the carrying capacity for salmon? Have smaller phytoplankton replaced diatoms, lengthening the food chain and making food less nutritious for salmon? This study uses chemical markers in sediment cores and water samples to investigate food web changes in BC coastal inlets.   

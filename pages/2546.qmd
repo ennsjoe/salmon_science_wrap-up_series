@@ -11,8 +11,10 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 10, 2025  
+**Session:** Data and modelling to support decision making  
+**Presentation Date:** February 04, 2032  
+**Speakers:** Shelee Hamilton  
+**Hosts:** Carrie Holt  
 
 **Overview:**  
 NA   

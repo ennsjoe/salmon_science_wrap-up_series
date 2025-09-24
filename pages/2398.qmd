@@ -11,8 +11,10 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** South Coast Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 03, 2025  
+**Session:** Follow the Fish  
+**Presentation Date:** February 04, 2025  
+**Speakers:** Diana McHugh  
+**Hosts:** Jessy Bokvist  
 
 **Overview:**  
 Climate change influences freshwater flows and sediment movement during the salmon egg incubation stage. Frequent high-severity flows can impact egg survival rates due to redd scour events and sediment deposition. This research develops and assesses methods for measuring redd scour and sediment deposition that may impacts redds to inform salmon habitat restoration, enhancement, and rebuilding efforts.   

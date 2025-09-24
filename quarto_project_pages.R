@@ -3,10 +3,6 @@
 # Description: Ingests CSVs, parses dates, joins project data, and builds pages
 ################################################################################
 
-################################################################################
-# Title: Load CSVs into SQLite, Clean Column Names & Prepare Joined Project Data
-################################################################################
-
 # 📦 Load libraries
 library(here)
 library(DBI)
@@ -35,9 +31,10 @@ print(csv_files)
 
 # 📤 Write each CSV to the database with cleaned column names
 for (csv_path in csv_files) {
-  table_name <- file_path_sans_ext(basename(csv_path)) %>% make.names()
+  file_name <- basename(csv_path)
+  table_name <- file_path_sans_ext(file_name) %>% make.names()
   
-  cat(glue("\n📥 Loading '{basename(csv_path)}' into table '{table_name}'...\n"))
+  cat(glue("\n📥 Loading '{file_name}' into table '{table_name}'...\n"))
   
   tryCatch({
     data <- read_csv(csv_path, show_col_types = FALSE) %>%
@@ -47,8 +44,8 @@ for (csv_path in csv_files) {
         session = if ("session" %in% names(.)) as.character(session) else session
       )
     
-    # Special handling for session_info date parsing
-    if (table_name == "session_info" && "date" %in% names(data)) {
+    # ⏱️ Parse date column for session_info
+    if (tolower(file_name) == "session_info.csv" && "date" %in% names(data)) {
       data <- data %>% mutate(date = mdy(date))
     }
     
@@ -56,12 +53,12 @@ for (csv_path in csv_files) {
     
     cat(glue("✅ Table '{table_name}' written to database.\n"))
   }, error = function(e) {
-    cat(glue("❌ Error loading '{basename(csv_path)}': {e$message}\n"))
+    cat(glue("❌ Error loading '{file_name}': {e$message}\n"))
   })
 }
 
 # 📌 Validate required tables
-required_tables <- c("Science.PSSI.Projects", "project.export..long.", "speaker_themes", "session_info")
+required_tables <- c("Science.PSSI.Projects", "project.export..long.", "Speaker.Themes", "session_info")
 available_tables <- dbListTables(con)
 missing_tables <- setdiff(required_tables, available_tables)
 
@@ -71,17 +68,16 @@ if (length(missing_tables) > 0) {
 
 # 📦 Load and coerce key columns
 overview <- dbReadTable(con, "Science.PSSI.Projects") %>%
-  mutate(project_id = as.character(project_id))
+  mutate(project_id = as.character(project_id), session = as.character(session))
 
 details <- dbReadTable(con, "project.export..long.") %>%
-  mutate(project_id = as.character(project_id))
+  mutate(project_id = as.character(project_id), session = as.character(session))
 
-themes <- dbReadTable(con, "speaker_themes") %>%
-  mutate(project_id = as.character(project_id),
-         session = as.character(session))
+themes <- dbReadTable(con, "Speaker.Themes") %>%
+  mutate(project_id = as.character(project_id), session = as.character(session))
 
 sessions <- dbReadTable(con, "session_info") %>%
-  mutate(session = as.character(session))
+  mutate(session = as.character(session), date = mdy(date))
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)
@@ -109,13 +105,13 @@ for (i in seq_len(nrow(projects))) {
   
   file_path <- file.path(pages_dir, paste0(file_id, ".qmd"))
   
-  title    <- row[["title.x"]] %||% "Untitled Project"
-  lead     <- row[["project_leads.x"]] %||% "N/A"
-  division <- row[["division.x"]] %||% "N/A"
-  section  <- row[["section.x"]] %||% "N/A"
-  summary  <- row[["project_overview_jde"]] %||% "No description available."
-  pillar   <- row[["pssi_pillar"]] %||% "Unspecified"
-  speaker_theme <- row[["speaker_themes"]] %||% "Uncategorized"
+  title     <- row[["title.x"]] %||% "Untitled Project"
+  lead      <- row[["project_leads.x"]] %||% "N/A"
+  division  <- row[["division.x"]] %||% "N/A"
+  section   <- row[["section.x"]] %||% "N/A"
+  summary   <- row[["project_overview_jde"]] %||% "No description available."
+  pillar    <- row[["pssi_pillar"]] %||% "Unspecified"
+  session   <- row[["session"]] %||% "Uncategorized"
   activities <- row[["year_specific_priorities"]] %||% "Not Listed"
   
   presentation <- tryCatch({
@@ -128,7 +124,8 @@ for (i in seq_len(nrow(projects))) {
     "TBD"
   })
   
-  presenters <- row[["leads"]] %||% "Presenters TBD"
+  presenters <- row[["speakers"]] %||% "Presenters TBD"
+  hosts      <- row[["hosts"]] %||% "Hosts TBD"
   
   page_content <- glue(
     "---\n",
@@ -142,8 +139,10 @@ for (i in seq_len(nrow(projects))) {
     "**Division:** {division}  \n",
     "**Section:** {section}  \n",
     "**PSSI Pillar:** {pillar}  \n",
-    "**Speaker Theme:** {speaker_theme}  \n",
-    "**Presentation:** {presentation}  \n\n",
+    "**Session:** {session}  \n",
+    "**Presentation Date:** {presentation}  \n",
+    "**Speakers:** {presenters}  \n",
+    "**Hosts:** {hosts}  \n\n",
     "**Overview:**  \n{summary}   \n\n",
     "**Activities:**  \n{activities}\n\n",
     "[⬅ Back to Home](../index.qmd)\n"
@@ -158,7 +157,7 @@ cat("🧭 Building index.qmd grouped by date and session...\n")
 
 # 🔄 Reconnect to database to fetch latest speaker themes and session info
 con <- dbConnect(SQLite(), dbname = db_path)
-themes_raw <- dbReadTable(con, "speaker_themes") %>%
+themes_raw <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id), session = as.character(session))
 sessions <- dbReadTable(con, "session_info") %>%
   mutate(session = as.character(session), date = mdy(date))
@@ -174,7 +173,8 @@ presentations <- themes_raw %>%
   left_join(sessions, by = "session") %>%
   mutate(
     presentation_date = as.Date(date),
-    presenters = leads
+    presenters = speakers,
+    hosts = hosts
   ) %>%
   left_join(project_titles, by = "project_id") %>%
   mutate(
@@ -218,7 +218,9 @@ for (date_key in sort(names(presentations_by_date))) {
   
   for (group in date_presentations) {
     session_title <- unique(group$session)
-    index_md <- c(index_md, glue("### 🐟 {session_title}"), "")
+    host_names <- unique(group$hosts) %||% "Hosts TBD"
+    
+    index_md <- c(index_md, glue("### 🐟 {session_title}"), glue("_Hosted by: {host_names}_"), "")
     
     for (i in seq_len(nrow(group))) {
       row <- group[i, ]
@@ -235,7 +237,9 @@ for (date_key in sort(names(presentations_by_date))) {
 # 📝 Write index.qmd to disk
 writeLines(index_md, here("index.qmd"))
 
-# Write CNAME file for GitHub Pages custom domain----
+################################################################################
+
+# 🌐 Write CNAME file for GitHub Pages custom domain
 writeLines("www.pacificsalmonscience.ca", "CNAME")
 
 ################################################################################

@@ -12,8 +12,10 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 03, 2025  
+**Session:** Marine stressors  
+**Presentation Date:** February 04, 2025  
+**Speakers:** Andrew Ross  
+**Hosts:** Strahan Tucker  
 
 **Overview:**  
 Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.

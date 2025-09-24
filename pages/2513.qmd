@@ -11,8 +11,10 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** TBD  
+**Session:** NA  
+**Presentation Date:** TBD  
+**Speakers:** NA  
+**Hosts:** NA  
 
 **Overview:**  
 Recent studies found that West Coast Vancouver Island Chinook had some of the highest contaminant concentrations. This fish health monitoring project coordinates with the Follow the Fish program to sample for over 600 contaminants in juvenile Chinook to rank the results to prioritize mitigation actions.   

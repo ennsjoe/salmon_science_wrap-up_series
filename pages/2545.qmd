@@ -11,8 +11,10 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Uncategorized  
-**Presentation:** TBD  
+**Session:** NA  
+**Presentation Date:** TBD  
+**Speakers:** NA  
+**Hosts:** NA  
 
 **Overview:**  
 NA   

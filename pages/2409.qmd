@@ -11,8 +11,10 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 03, 2025  
+**Session:** Marine stressors  
+**Presentation Date:** February 04, 2025  
+**Speakers:** Strahan Tucker, Cameron Freshwater  
+**Hosts:** Strahan Tucker  
 
 **Overview:**  
 Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.   

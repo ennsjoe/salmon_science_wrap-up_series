@@ -11,8 +11,10 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fraser and Interior Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 02, 2025  
+**Session:** Freshwater stressors  
+**Presentation Date:** February 04, 2024  
+**Speakers:** Daniel Doutaz  
+**Hosts:** Sean Naman  
 
 **Overview:**  
 Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.   

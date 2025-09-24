@@ -37,14 +37,24 @@ for (csv_path in csv_files) {
   cat(glue("\n📥 Loading '{file_name}' into table '{table_name}'...\n"))
   
   tryCatch({
+    # Read and clean
     data <- read_csv(csv_path, show_col_types = FALSE) %>%
       janitor::clean_names()
     
-    # ⏱️ Parse date columns for known files
+    # Coerce key columns to character if present
+    if ("project_id" %in% names(data)) {
+      data <- data %>% mutate(project_id = as.character(project_id))
+    }
+    if ("session" %in% names(data)) {
+      data <- data %>% mutate(session = as.character(session))
+    }
+    
+    # Parse date for session_info
     if (tolower(file_name) == "session_info.csv" && "date" %in% names(data)) {
       data <- data %>% mutate(date = mdy(date))
     }
     
+    # Write to database
     dbWriteTable(con, table_name, data, overwrite = TRUE)
     
     cat(glue("✅ Table '{table_name}' written to database.\n"))
@@ -67,5 +77,5 @@ for (table_name in tables) {
 # 🔌 Disconnect from the database
 dbDisconnect(con)
 
-# 📝 Placeholder for Quarto page generation
-cat("\n📝 Ready to generate Quarto pages and project list...\n")
+# 📝 Ready for Quarto page generation
+cat("\n📝 Quarto page generation and indexing can now begin...\n")

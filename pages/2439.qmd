@@ -11,8 +11,10 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Applied Technology  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** TBD  
+**Session:** NA  
+**Presentation Date:** TBD  
+**Speakers:** NA  
+**Hosts:** NA  
 
 **Overview:**  
 Neural Network Techniques and Deep Machine Learning are being applied to all facets of science including the age estimation of salmon. The Sclerochronology Lab (SCL) is taking advantage of new technologies to increase productivity and address staffing challenges. Age data is a critical component in the development of models assessing changes in the health and abundance of salmon species and stocks.   

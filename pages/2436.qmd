@@ -11,8 +11,10 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Speaker Theme:** Uncategorized  
-**Presentation:** TBD  
+**Session:** NA  
+**Presentation Date:** TBD  
+**Speakers:** NA  
+**Hosts:** NA  
 
 **Overview:**  
 Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution.   

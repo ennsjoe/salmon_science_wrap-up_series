@@ -11,8 +11,10 @@ toc: true
 **Division:** NA  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** NA  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 09, 2025  
+**Session:** Hatcheries  
+**Presentation Date:** February 04, 2031  
+**Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
+**Hosts:** Kyle Wellband  
 
 **Overview:**  
 NA   

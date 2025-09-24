@@ -11,8 +11,10 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Speaker Theme:** Uncategorized  
-**Presentation:** December 02, 2025  
+**Session:** Freshwater stressors  
+**Presentation Date:** February 04, 2024  
+**Speakers:** Brendan Connors, Adam O'Dell  
+**Hosts:** Sean Naman  
 
 **Overview:**  
 Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.   
