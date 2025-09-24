@@ -40,6 +40,10 @@ normalize_session <- function(x) {
     str_squish()
 }
 
+sanitize_filename <- function(x) {
+  gsub("[^a-zA-Z0-9_-]", "_", x)
+}
+
 # 📥 Load and clean tables
 projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
   mutate(project_id = as.character(project_id))
@@ -87,6 +91,12 @@ session_projects <- speaker_sessions %>%
     )
   ) %>%
   arrange(presentation_date)
+
+#------------------------------
+sessions_raw <- dbReadTable(con, "session_info")
+print(sessions_raw$date)
+str(sessions_raw$date)
+#-------------------------------------
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)
