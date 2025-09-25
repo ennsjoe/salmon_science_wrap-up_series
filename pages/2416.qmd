@@ -1,7 +1,7 @@
 ---
 title: "Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins"
 description: "Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
-We are comparing biotoxin levels with environmental conditions and indicators of fish health."
+We are comparing biotoxin levels with environmental conditions and indicators of fish health.  "
 author: "Andrew Ross"
 toc: true
 ---
@@ -10,16 +10,16 @@ toc: true
 
 **Lead(s):** Andrew Ross  
 **Division:** Ocean Sciences (OSD)  
-**Section:** Ecology and Biogeochemistry  
+**Section:** Ecology and Biogeochemistry   
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Session:** marine stressors  
-**Presentation Date:** December 02, 1955  
+**Presentation Date:** December 03, 2025  
 **Speakers:** Andrew Ross  
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
 
 **Overview:**  
 Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
-We are comparing biotoxin levels with environmental conditions and indicators of fish health.   
+We are comparing biotoxin levels with environmental conditions and indicators of fish health.     
 
 **Activities:**  
 Not Listed

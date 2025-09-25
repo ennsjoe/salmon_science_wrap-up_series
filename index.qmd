@@ -8,7 +8,7 @@ toc: false
 
 ## 🗓️ Upcoming Talks by Date
 
-## 📅 December 01, 1955
+## 📅 December 02, 2025
 
 ### 🐟 freshwater stressors
 _Hosted by: Joe Enns; Dave Patterson; Sean Naman_
@@ -25,7 +25,7 @@ _Hosted by: Joe Enns; Dave Patterson; Sean Naman_
 ### 🐟 salmon in a changing climate
 _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 
-- [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,
+- [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, 
 - [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd) | Sophia Johannessen
 - [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd) | Di Wan, James Christian
@@ -33,7 +33,7 @@ _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 - Untitled Project | NA
 - Untitled Project | NA
 
-## 📅 December 02, 1955
+## 📅 December 03, 2025
 
 ### 🐟 follow the fish
 _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist_
@@ -59,7 +59,7 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; S
 - Untitled Project | NA
 - Untitled Project | NA
 
-## 📅 December 08, 1955
+## 📅 December 09, 2025
 
 ### 🐟 hatcheries
 _Hosted by: Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband_
@@ -85,7 +85,7 @@ _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alis
 - [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
 - Untitled Project | NA
 
-## 📅 December 09, 1955
+## 📅 December 10, 2025
 
 ### 🐟 data and modelling to support decision making
 _Hosted by: Ann-Marie Huang; Carrie Holt;_

@@ -56,14 +56,14 @@ speakers <- dbReadTable(con, "Speaker.Themes") %>%
 
 sessions_raw <- dbReadTable(con, "session_info")
 
+print(head(sessions_raw$date))
+str(sessions_raw$date)
+
 # 🧠 Detect and parse date format
 sessions <- sessions_raw %>%
   mutate(
     session = normalize_session(session),
-    date = case_when(
-      is.numeric(date) ~ as.Date(date, origin = "1899-12-30"),
-      TRUE ~ suppressWarnings(mdy(date))
-    )
+    date = as.Date(date, origin = "1899-12-30")  # Converts 46001 → "2025-12-08"
   )
 
 # 🔍 Check for session mismatches
@@ -108,8 +108,7 @@ dir_create(pages_dir)
 # 🧼 Helper: sanitize filenames
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
-################################################################################
-# 📝 Generate individual .qmd pages
+# 📝 Generate individual .qmd pages----
 for (i in seq_len(nrow(session_projects))) {
   row <- session_projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
@@ -159,7 +158,6 @@ for (i in seq_len(nrow(session_projects))) {
   writeLines(page_content, file_path)
 }
 
-################################################################################
 # 🧭 Build index.qmd grouped by date and session
 cat("🧭 Building index.qmd grouped by date and session...\n")
 

@@ -1,6 +1,6 @@
 ---
 title: "Fishery & Assessment Data Section - Data Stewardship Unit"
-description: "NA"
+description: ""
 author: "Shelee Hamilton"
 toc: true
 ---
@@ -12,12 +12,12 @@ toc: true
 **Section:** Fishery and Assessment Data  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Session:** data and modelling to support decision making  
-**Presentation Date:** December 09, 1955  
+**Presentation Date:** December 10, 2025  
 **Speakers:** Shelee Hamilton  
 **Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
-NA   
+   
 
 **Activities:**  
 Not Listed

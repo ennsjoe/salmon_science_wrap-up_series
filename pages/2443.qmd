@@ -1,6 +1,6 @@
 ---
 title: "Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake"
-description: "Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan."
+description: "Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.  "
 author: "Daniel Doutaz"
 toc: true
 ---
@@ -12,12 +12,12 @@ toc: true
 **Section:** Fraser and Interior Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Session:** freshwater stressors  
-**Presentation Date:** December 01, 1955  
+**Presentation Date:** December 02, 2025  
 **Speakers:** Daniel Doutaz  
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
-Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.   
+Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.     
 
 **Activities:**  
 Not Listed

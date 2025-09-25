@@ -12,7 +12,7 @@ toc: true
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
 **Session:** hatcheries  
-**Presentation Date:** December 08, 1955  
+**Presentation Date:** December 09, 2025  
 **Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
 **Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
 
