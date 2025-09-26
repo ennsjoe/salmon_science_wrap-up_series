@@ -100,12 +100,6 @@ session_projects <- speaker_sessions %>%
 session_projects <- session_projects %>%
   left_join(bcsrif_projects, by = "project_id")
 
-#------------------------------
-sessions_raw <- dbReadTable(con, "session_info")
-print(sessions_raw$date)
-str(sessions_raw$date)
-#-------------------------------------
-
 # 🔌 Disconnect from the database
 dbDisconnect(con)
 
@@ -117,8 +111,12 @@ dir_create(pages_dir)
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
 # 🎯 Filter to speaker series projects only
+speaker_ids <- Speaker.Themes %>%
+  distinct(project_id) %>%
+  pull(project_id)
+
 speaker_projects <- session_projects %>%
-  filter(project_id %in% Speaker.Themes$project_id)
+  filter(project_id %in% speaker_ids)
 
 # 🧠 Aggregate all metadata by project_id
 aggregated_projects <- speaker_projects %>%
@@ -207,8 +205,6 @@ for (i in seq_len(nrow(aggregated_projects))) {
   
   writeLines(page_content, file_path)
 }
-
-cat("🧭 Building index.qmd grouped by date and session...\n")
 
 cat("🧭 Building index.qmd grouped by date and session...\n")
 
