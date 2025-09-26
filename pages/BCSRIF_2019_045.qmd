@@ -22,4 +22,18 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Bella Bella  
+**Agreement Period:** August 10, 4350563 to April 21, 4602258  
+**Partners/Collaborators:** Tula Foundation 
+Haida Fisheries 
+Simon Fraser University
+Fisheries and Oceans Canada 
+Pacific Salmon Foundation Salmon Watersheds Program
+Pacific Salmon Foundation Salmon Watersheds Program
+Heiltsuk Integrated Resource Management Department
+Kitasoo Xai'xais Stewardship Authority  
+
 [⬅ Back to Home](../index.qmd)

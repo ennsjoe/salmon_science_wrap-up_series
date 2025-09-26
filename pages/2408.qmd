@@ -22,4 +22,11 @@ Salmon disease testing methods have greatly expanded in the last decade resultin
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** NA  
+**Location:** NA  
+**Agreement Period:** TBD to TBD  
+**Partners/Collaborators:** NA  
+
 [⬅ Back to Home](../index.qmd)

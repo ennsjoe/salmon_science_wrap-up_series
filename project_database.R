@@ -35,15 +35,8 @@ for (csv_path in csv_files) {
   cat(glue("\n📥 Loading '{file_name}' into table '{table_name}'...\n"))
   
   tryCatch({
-    # Preview column names from the CSV
-    raw_preview <- fread(csv_path, nrows = 10)
-    date_cols <- grep("date", names(raw_preview), ignore.case = TRUE, value = TRUE)
-    
-    # Build colClasses list for all date-like columns
-    col_classes <- setNames(rep("numeric", length(date_cols)), date_cols)
-    
-    # Read the CSV with correct coercion
-    data <- fread(csv_path, colClasses = col_classes) %>%
+    # Read CSV and clean column names
+    data <- fread(csv_path) %>%
       janitor::clean_names()
     
     # Coerce key columns
@@ -58,19 +51,13 @@ for (csv_path in csv_files) {
     date_cols <- grep("date", names(data), ignore.case = TRUE, value = TRUE)
     for (col in date_cols) {
       if (inherits(data[[col]], "Date")) {
-        # Already a Date object—leave it alone
         next
       } else if (is.numeric(data[[col]])) {
-        # Excel-style serial number
         if (all(data[[col]] > 20000 & data[[col]] < 50000, na.rm = TRUE)) {
           data[[col]] <- as.Date(data[[col]], origin = "1970-01-01")
         }
       } else {
-        # Try string parsing
-        parsed <- suppressWarnings(mdy(data[[col]]))
-        if (any(is.na(parsed))) {
-          parsed <- suppressWarnings(ymd(data[[col]]))
-        }
+        parsed <- suppressWarnings(parse_date_time(data[[col]], orders = c("mdy", "ymd", "dmy")))
         data[[col]] <- parsed
       }
     }

@@ -22,4 +22,11 @@ Ocean warming and acidic upwelling changes the zooplankton food web for young sa
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** NA  
+**Location:** NA  
+**Agreement Period:** TBD to TBD  
+**Partners/Collaborators:** NA  
+
 [⬅ Back to Home](../index.qmd)

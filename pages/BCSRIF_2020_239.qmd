@@ -22,4 +22,11 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Victoria  
+**Agreement Period:** August 03, 4429809 to June 29, 4688837  
+**Partners/Collaborators:**   
+
 [⬅ Back to Home](../index.qmd)

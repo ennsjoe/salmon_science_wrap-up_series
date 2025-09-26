@@ -22,4 +22,13 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Bamfield  
+**Agreement Period:** April 15, 4612903 to October 07, 4861522  
+**Partners/Collaborators:** UBC Salmon Ecology Lab
+Bamfield Marine Sciences 
+Huuayaht First Nation  
+
 [⬅ Back to Home](../index.qmd)

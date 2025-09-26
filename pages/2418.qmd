@@ -22,4 +22,11 @@ Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to 
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** NA  
+**Location:** NA  
+**Agreement Period:** TBD to TBD  
+**Partners/Collaborators:** NA  
+
 [⬅ Back to Home](../index.qmd)

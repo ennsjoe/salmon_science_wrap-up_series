@@ -24,4 +24,11 @@ We are comparing biotoxin levels with environmental conditions and indicators of
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** NA  
+**Location:** NA  
+**Agreement Period:** TBD to TBD  
+**Partners/Collaborators:** NA  
+
 [⬅ Back to Home](../index.qmd)

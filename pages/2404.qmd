@@ -22,4 +22,11 @@ Low-oxygen (hypoxia) conditions have been observed near the surface in salmon mi
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** NA  
+**Location:** NA  
+**Agreement Period:** TBD to TBD  
+**Partners/Collaborators:** NA  
+
 [⬅ Back to Home](../index.qmd)

@@ -25,6 +25,10 @@ con <- dbConnect(SQLite(), dbname = db_path)
 
 # 📌 Validate required tables
 required_tables <- c("Science.PSSI.Projects", "project.export..long.", "Speaker.Themes", "session_info")
+bcsrif_projects <- dbReadTable(con, "BCSRIF.Project.List.September.2025") %>%
+  janitor::clean_names() %>%
+  rename(project_id = project_number) %>%
+  mutate(project_id = as.character(project_id))
 available_tables <- dbListTables(con)
 missing_tables <- setdiff(required_tables, available_tables)
 
@@ -92,6 +96,9 @@ session_projects <- speaker_sessions %>%
   ) %>%
   arrange(presentation_date)
 
+session_projects <- session_projects %>%
+  left_join(bcsrif_projects, by = "project_id")
+
 #------------------------------
 sessions_raw <- dbReadTable(con, "session_info")
 print(sessions_raw$date)
@@ -108,7 +115,7 @@ dir_create(pages_dir)
 # 🧼 Helper: sanitize filenames
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
-# 📝 Generate individual .qmd pages----
+# 📝 Generate individual .qmd pages for all projects
 for (i in seq_len(nrow(session_projects))) {
   row <- session_projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
@@ -116,24 +123,35 @@ for (i in seq_len(nrow(session_projects))) {
   
   file_path <- file.path(pages_dir, paste0(file_id, ".qmd"))
   
-  title     <- row[["title"]] %||% "Untitled Project"
-  lead      <- row[["project_leads"]] %||% "N/A"
-  division  <- row[["division"]] %||% "N/A"
-  section   <- row[["section"]] %||% "N/A"
-  summary   <- row[["project_overview_jde"]] %||% "No description available."
-  pillar    <- row[["pssi_pillar"]] %||% "Unspecified"
-  session   <- row[["session"]] %||% "Uncategorized"
-  activities <- row[["year_specific_priorities"]] %||% "Not Listed"
+  # PSSI fields
+  title       <- row[["title"]] %||% row[["project_name"]] %||% "Untitled Project"
+  lead        <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
+  division    <- row[["division"]] %||% "N/A"
+  section     <- row[["section"]] %||% "N/A"
+  summary     <- row[["project_overview_jde"]] %||% row[["description_short"]] %||% "No description available."
+  pillar      <- row[["pssi_pillar"]] %||% row[["program_pillar"]] %||% "Unspecified"
+  session     <- row[["session"]] %||% "Uncategorized"
+  activities  <- row[["year_specific_priorities"]] %||% "Not Listed"
+  presenters  <- row[["speakers"]] %||% "Presenters TBD"
+  hosts       <- row[["hosts"]] %||% "Hosts TBD"
   
+  # BCSRIF fields
+  species     <- row[["species_group"]] %||% "Not specified"
+  location    <- row[["location_of_project"]] %||% "Unknown"
+  partners    <- row[["list_of_partners_or_collaborators"]] %||% "None listed"
+  start_date  <- row[["agreement_start_date"]]
+  end_date    <- row[["agreement_end_date"]]
+  
+  # Format dates
   presentation <- if (!is.na(row[["presentation_date"]])) {
     format(row[["presentation_date"]], "%B %d, %Y")
   } else {
     "TBD"
   }
+  start_fmt <- if (!is.na(start_date)) format(as.Date(start_date, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
+  end_fmt   <- if (!is.na(end_date)) format(as.Date(end_date, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
   
-  presenters <- row[["speakers"]] %||% "Presenters TBD"
-  hosts      <- row[["hosts"]] %||% "Hosts TBD"
-  
+  # 📝 Compose page content
   page_content <- glue(
     "---\n",
     "title: \"{title}\"\n",
@@ -152,13 +170,17 @@ for (i in seq_len(nrow(session_projects))) {
     "**Hosts:** {hosts}  \n\n",
     "**Overview:**  \n{summary}   \n\n",
     "**Activities:**  \n{activities}\n\n",
+    "## 🧬 BCSRIF Metadata\n\n",
+    "**Species Group:** {species}  \n",
+    "**Location:** {location}  \n",
+    "**Agreement Period:** {start_fmt} to {end_fmt}  \n",
+    "**Partners/Collaborators:** {partners}  \n\n",
     "[⬅ Back to Home](../index.qmd)\n"
   )
   
   writeLines(page_content, file_path)
 }
 
-# 🧭 Build index.qmd grouped by date and session
 cat("🧭 Building index.qmd grouped by date and session...\n")
 
 index_md <- c(
@@ -174,11 +196,14 @@ index_md <- c(
   ""
 )
 
-# 📆 Group presentations by date
-presentations_by_date <- split(session_projects, session_projects$presentation_date)
+# 📆 Filter and group presentations by date
+presentations_by_date <- session_projects %>%
+  filter(!is.na(presentation_date)) %>%
+  arrange(presentation_date) %>%
+  split(.$presentation_date)
 
 # 🧩 Build index content
-for (date_key in sort(names(presentations_by_date))) {
+for (date_key in names(presentations_by_date)) {
   date_presentations <- presentations_by_date[[date_key]]
   formatted_date <- format(as.Date(date_key), "%B %d, %Y")
   
@@ -197,9 +222,10 @@ for (date_key in sort(names(presentations_by_date))) {
     for (i in seq_len(nrow(group))) {
       row <- group[i, ]
       project_link <- row$project_link
-      presenters <- row$project_leads %||% "Presenters TBD"
+      presenters <- row[["project_leads"]] %||% row[["recipient"]] %||% "Presenters TBD"
+      source_emoji <- if (!is.na(row[["program_pillar"]])) "🧬" else "🌊"
       
-      index_md <- c(index_md, glue("- {project_link} | {presenters}"))
+      index_md <- c(index_md, glue("- {source_emoji} {project_link} | {presenters}"))
     }
     
     index_md <- c(index_md, "")
@@ -215,5 +241,5 @@ writeLines("www.pacificsalmonscience.ca", "CNAME")
 # 🚀 Render and push site
 system("quarto render")
 system("git add .")
-system("git commit -m \"Fix date parsing and session joins\"")
+system("git commit -m \"Added BCSRIF list of projects\"")
 system("git push origin main")

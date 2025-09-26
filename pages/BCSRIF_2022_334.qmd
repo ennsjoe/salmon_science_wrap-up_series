@@ -22,4 +22,19 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Surrey, White Rock, Langley and surrounding areas  
+**Agreement Period:** March 07, 4610301 to October 07, 4861522  
+**Partners/Collaborators:** Fisheries and Oceans Canada’s Community Stream Monitoring network 
+DFO Community Advisors  
+Rivershed Society of BC
+A Rocha
+Semiahmoo Fish and Game Club
+Langley Environmental Partners Society
+Streamkeepers groups
+Clear Seas
+UBC - Indigenous Fisheries Center  
+
 [⬅ Back to Home](../index.qmd)

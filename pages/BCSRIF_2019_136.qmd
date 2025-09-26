@@ -22,4 +22,11 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Straight of Georgia  
+**Agreement Period:** September 13, 4293080 to April 21, 4602258  
+**Partners/Collaborators:** Pacific Salmon Foundation  
+
 [⬅ Back to Home](../index.qmd)

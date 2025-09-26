@@ -22,4 +22,14 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Pacific Ocean  
+**Agreement Period:** October 29, 4285037 to June 29, 4688837  
+**Partners/Collaborators:** Moss Rock Foundation
+Dr. Steve Cooke (Carleton University)
+Ocean Tracking Network Canada
+... 24 in total from year-end report  
+
 [⬅ Back to Home](../index.qmd)

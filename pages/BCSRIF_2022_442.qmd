@@ -22,4 +22,13 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** West Coast Vancouver Island  
+**Agreement Period:** September 21, 4616924 to October 07, 4861522  
+**Partners/Collaborators:** Pacific Salmon Foundation 
+DFO Science Branch
+Mitacs  
+
 [⬅ Back to Home](../index.qmd)

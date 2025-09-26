@@ -22,4 +22,14 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Quesnel  
+**Agreement Period:** March 07, 4610301 to October 07, 4861522  
+**Partners/Collaborators:** Upper Fraser Fisheries Conservation Association 
+Horsefly River Roundtable
+Cariboo Envirotech 
+Fisheries and Oceans Canada - SEP & Science  
+
 [⬅ Back to Home](../index.qmd)

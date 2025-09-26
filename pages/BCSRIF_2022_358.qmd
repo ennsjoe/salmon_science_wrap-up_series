@@ -22,4 +22,13 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Vancouver  
+**Agreement Period:** April 15, 4612903 to October 07, 4861522  
+**Partners/Collaborators:** Fisheries and Oceans Canada - Science 
+University of Washington, Oceanography 
+Institute of Ocean Sciences   
+
 [⬅ Back to Home](../index.qmd)

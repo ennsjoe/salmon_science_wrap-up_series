@@ -22,4 +22,26 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Upper Fraser, Lower Nicola Watershed, Lower Fraser, Skeena and Central Coast  
+**Agreement Period:** March 07, 4610301 to October 07, 4861522  
+**Partners/Collaborators:** Lower Fraser Fisheries Alliance (LFFA) 
+Central Coast Indigenous Resource Alliance (CCIRA) 
+Upper Fraser Fisheries Conservation Alliance (UFFCA) 
+Skeena Sustainability Assessment Forum Project Team (SSAF PT) 
+Office of the Wet’suwet’en, Gitxsan Gitanyow, and Witset First Nation
+Lhtako Dené Nation (LDN) 
+Scw’exmx Tribal Council (STC) 
+T’exelc, Williams Lake First Nation (WLFN) 
+The Horsefly River Roundtable (HRR) 
+The Pacific Salmon Foundation (PSF) 
+BC Ministry of Land, Water and Resource Stewardship (MLWRS) 
+BC Ministry of Forests (MOF)
+BC Ministry of Transportation and Infrastructure (MOTI) 
+DFO Salmonid Enhancement Program (SEP) 
+University of British Columbia (UBC) 
+  
+
 [⬅ Back to Home](../index.qmd)

@@ -22,4 +22,11 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Coastal British Columbia and Fraser basin  
+**Agreement Period:** March 07, 4610301 to October 07, 4861522  
+**Partners/Collaborators:** Fisheries and Oceans Canada  
+
 [⬅ Back to Home](../index.qmd)

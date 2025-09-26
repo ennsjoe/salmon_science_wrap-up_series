@@ -22,4 +22,15 @@ NA
 **Activities:**  
 Not Listed
 
+## 🧬 BCSRIF Metadata
+
+**Species Group:** Pacific Salmon  
+**Location:** Vancouver  
+**Agreement Period:** February 09, 4451336 to June 29, 4688837  
+**Partners/Collaborators:** Alberta Environment and Parks
+Fisheries and Oceans Canada (Freshwater Institute)
+BC Ministry of Environment
+Simon Fraser University
+  
+
 [⬅ Back to Home](../index.qmd)
