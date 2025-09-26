@@ -116,8 +116,11 @@ dir_create(pages_dir)
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
 # 📝 Generate individual .qmd pages for all projects
-for (i in seq_len(nrow(session_projects))) {
-  row <- session_projects[i, ]
+unique_projects <- session_projects %>%
+  distinct(project_id, .keep_all = TRUE)
+
+for (i in seq_len(nrow(unique_projects))) {
+  row <- unique_projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
   if (is.na(file_id) || file_id == "") next
   
