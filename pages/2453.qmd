@@ -11,8 +11,8 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session:** hatcheries  
-**Presentation Date:** December 09, 2025  
+**Session(s):** hatcheries  
+**Presentation Date(s):** December 09, 2025  
 **Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
 **Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

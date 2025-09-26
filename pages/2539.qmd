@@ -11,8 +11,8 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ocean Modelling and Prediction  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** salmon in a changing climate  
-**Presentation Date:** December 02, 2025  
+**Session(s):** salmon in a changing climate  
+**Presentation Date(s):** December 02, 2025  
 **Speakers:** Di Wan, James Christian  
 **Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

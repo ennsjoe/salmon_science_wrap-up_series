@@ -1,18 +1,18 @@
 ---
 title: "NA"
 description: "NA"
-author: "NA"
+author: ""
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** NA  
-**Division:** NA  
-**Section:** NA  
-**PSSI Pillar:** NA  
-**Session:** fisheries monitoring and harvest methods  
-**Presentation Date:** December 10, 2025  
+**Lead(s):**   
+**Division:**   
+**Section:**   
+**PSSI Pillar:**   
+**Session(s):** fisheries monitoring and harvest methods  
+**Presentation Date(s):** December 10, 2025  
 **Speakers:** Phil Lemp, Erin Rechisky  
 **Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

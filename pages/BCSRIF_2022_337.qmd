@@ -1,18 +1,18 @@
 ---
 title: "NA"
 description: "NA"
-author: "NA"
+author: ""
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** NA  
-**Division:** NA  
-**Section:** NA  
-**PSSI Pillar:** NA  
-**Session:** follow the fish  
-**Presentation Date:** December 03, 2025  
+**Lead(s):**   
+**Division:**   
+**Section:**   
+**PSSI Pillar:**   
+**Session(s):** follow the fish  
+**Presentation Date(s):** December 03, 2025  
 **Speakers:** Timothy Sobey  
 **Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
 

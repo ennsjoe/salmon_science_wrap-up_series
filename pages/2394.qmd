@@ -11,8 +11,8 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Salmon Assessment  
 **PSSI Pillar:** 3-Harvest transformation  
-**Session:** fisheries monitoring and harvest methods  
-**Presentation Date:** December 10, 2025  
+**Session(s):** fisheries monitoring and harvest methods  
+**Presentation Date(s):** December 10, 2025  
 **Speakers:** Cory Lagasse  
 **Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

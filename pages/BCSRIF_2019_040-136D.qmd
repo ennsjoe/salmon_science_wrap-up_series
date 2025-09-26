@@ -1,18 +1,18 @@
 ---
 title: "NA"
 description: "NA"
-author: "NA"
+author: ""
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** NA  
-**Division:** NA  
-**Section:** NA  
-**PSSI Pillar:** NA  
-**Session:** marine stressors  
-**Presentation Date:** December 03, 2025  
+**Lead(s):**   
+**Division:**   
+**Section:**   
+**PSSI Pillar:**   
+**Session(s):** marine stressors  
+**Presentation Date(s):** December 03, 2025  
 **Speakers:** Samantha James  
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

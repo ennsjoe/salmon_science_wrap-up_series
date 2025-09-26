@@ -1,18 +1,18 @@
 ---
 title: "NA"
 description: "NA"
-author: "NA"
+author: ""
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** NA  
-**Division:** NA  
-**Section:** NA  
-**PSSI Pillar:** NA  
-**Session:** data and modelling to support decision making  
-**Presentation Date:** December 10, 2025  
+**Lead(s):**   
+**Division:**   
+**Section:**   
+**PSSI Pillar:**   
+**Session(s):** data and modelling to support decision making  
+**Presentation Date(s):** December 10, 2025  
 **Speakers:** Katrina Connors  
 **Hosts:** Ann-Marie Huang; Carrie Holt;  
 

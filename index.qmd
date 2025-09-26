@@ -18,9 +18,9 @@ _Hosted by: Joe Enns; Dave Patterson; Sean Naman_
 - 🌊 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/2425.qmd) | Josie Iacarella
 - 🌊 [Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake](pages/2443.qmd) | Daniel Doutaz
 - 🌊 [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd) | David Patterson, Douglas Braun
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
+- 🧬 Untitled Project | University of British Columbia (Vancouver), Institute for the Oceans and Fisheries
+- 🧬 Untitled Project | Salish Sea Indigenous Guardians Association
+- 🧬 Untitled Project | Salmon Coast Field Station Society
 
 ### 🐟 salmon in a changing climate
 _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
@@ -29,9 +29,9 @@ _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 - 🌊 [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd) | Sophia Johannessen
 - 🌊 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/2437.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - 🌊 [Climate Downscaling for salmon conservation in Marine Ecosystems](pages/2539.qmd) | Di Wan, James Christian
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
+- 🧬 Untitled Project | Pacific Climate Impacts Consortium
+- 🧬 Untitled Project | University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences
+- 🧬 Untitled Project | Pacific Salmon Foundation
 
 ## 📅 December 03, 2025
 
@@ -44,9 +44,9 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jess
 - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/2422.qmd) | Andrew Ross, Xiangjun Liao, Nicole LaForge
 - 🌊 [Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey](pages/2432.qmd) | Stephane Gauthier
 - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/2447.qmd) | Kristi Miller-Saunders
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
+- 🧬 Untitled Project | Huu-ay-aht First Nations
+- 🧬 Untitled Project | Ka:’yu:’k’t’h’/Che:k’tles7et’h’ First Nation
+- 🧬 Untitled Project | Pacific Salmon Foundation
 
 ### 🐟 marine stressors
 _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker_
@@ -56,8 +56,8 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; S
 - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/2412.qmd) | Chris Pearce
 - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/2413.qmd) | Akash Sastri, Kelly Young
 - 🌊 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/2416.qmd) | Andrew Ross
-- 🌊 Untitled Project | NA
-- 🧬 Untitled Project | NA
+- 🌊 Untitled Project | 
+- 🧬 Untitled Project | University of British Columbia (Vancouver), Department of Earth, Ocean and Atmospheric Sciences
 
 ## 📅 December 09, 2025
 
@@ -71,8 +71,8 @@ _Hosted by: Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband_
 - 🌊 [Genomic consequences of stray hatchery introgression](pages/3119.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
 - 🌊 [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
 - 🌊 [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
+- 🧬 Untitled Project | Pacific Salmon Foundation
+- 🧬 Untitled Project | University of Victoria, Department of Biology
 
 ### 🐟 salmon health
 _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer_
@@ -83,28 +83,28 @@ _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alis
 - 🌊 [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd) | Stewart Johnson
 - 🌊 [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
-- 🧬 Untitled Project | NA
+- 🧬 Untitled Project | BC Centre for Aquatic Health Sciences Society
 
 ## 📅 December 10, 2025
 
 ### 🐟 data and modelling to support decision making
 _Hosted by: Ann-Marie Huang; Carrie Holt;_
 
+- 🌊 Untitled Project | 
 - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd) | Thomas Therriault, Cher LaCoste
 - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/2449.qmd) | Carrie Holt, Brendan Connors, Catarina Wor
 - 🌊 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/2546.qmd) | Shelee Hamilton
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🌊 Untitled Project | NA
+- 🧬 Untitled Project | Pacific Salmon Foundation
+- 🧬 Untitled Project | Canadian Wildlife Federation
 
 ### 🐟 fisheries monitoring and harvest methods
 _Hosted by: Ann-Marie Huang; Cory Lagasse; Erin Rechisky_
 
+- 🌊 Untitled Project | 
 - 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd) | Cory Lagasse
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🧬 Untitled Project | NA
-- 🌊 Untitled Project | NA
+- 🧬 Untitled Project | Pacific Salmon Foundation
+- 🧬 Untitled Project | University of British Columbia (Vancouver), Department of Forest and Conservation Sciences
+- 🧬 Untitled Project | Central Coast Indigenous Resource Alliance Society
+- 🧬 Untitled Project | A-Tlegay Fisheries Society
+- 🧬 Untitled Project | Sport Fishing Institute of BC
 

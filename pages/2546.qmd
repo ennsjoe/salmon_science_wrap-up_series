@@ -11,8 +11,8 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** data and modelling to support decision making  
-**Presentation Date:** December 10, 2025  
+**Session(s):** data and modelling to support decision making  
+**Presentation Date(s):** December 10, 2025  
 **Speakers:** Shelee Hamilton  
 **Hosts:** Ann-Marie Huang; Carrie Holt;  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

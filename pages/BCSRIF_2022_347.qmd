@@ -1,18 +1,18 @@
 ---
 title: "NA"
 description: "NA"
-author: "NA"
+author: ""
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** NA  
-**Division:** NA  
-**Section:** NA  
-**PSSI Pillar:** NA  
-**Session:** fisheries monitoring and harvest methods  
-**Presentation Date:** December 10, 2025  
+**Lead(s):**   
+**Division:**   
+**Section:**   
+**PSSI Pillar:**   
+**Session(s):** fisheries monitoring and harvest methods  
+**Presentation Date(s):** December 10, 2025  
 **Speakers:** Derek Leboeuf  
 **Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 

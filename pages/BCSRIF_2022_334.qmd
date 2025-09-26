@@ -1,18 +1,18 @@
 ---
 title: "NA"
 description: "NA"
-author: "NA"
+author: ""
 toc: true
 ---
 
 ## 📋 Project Summary
 
-**Lead(s):** NA  
-**Division:** NA  
-**Section:** NA  
-**PSSI Pillar:** NA  
-**Session:** freshwater stressors  
-**Presentation Date:** December 02, 2025  
+**Lead(s):**   
+**Division:**   
+**Section:**   
+**PSSI Pillar:**   
+**Session(s):** freshwater stressors  
+**Presentation Date(s):** December 02, 2025  
 **Speakers:** Marian Ngo  
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 

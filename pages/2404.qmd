@@ -11,8 +11,8 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ocean Modelling and Prediction  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** marine stressors  
-**Presentation Date:** December 03, 2025  
+**Session(s):** marine stressors  
+**Presentation Date(s):** December 03, 2025  
 **Speakers:** Laura Bianucci  
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

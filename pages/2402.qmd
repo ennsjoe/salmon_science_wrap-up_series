@@ -11,8 +11,8 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** freshwater stressors  
-**Presentation Date:** December 02, 2025  
+**Session(s):** freshwater stressors  
+**Presentation Date(s):** December 02, 2025  
 **Speakers:** Brendan Connors, Adam O'Dell  
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

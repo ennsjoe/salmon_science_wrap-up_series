@@ -11,8 +11,8 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry   
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session:** follow the fish  
-**Presentation Date:** December 03, 2025  
+**Session(s):** follow the fish  
+**Presentation Date(s):** December 03, 2025  
 **Speakers:** Andrew Ross, Xiangjun Liao, Nicole LaForge  
 **Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
 
@@ -24,9 +24,9 @@ Not Listed
 
 ## 🧬 BCSRIF Metadata
 
-**Species Group:** NA  
-**Location:** NA  
+**Species Group:**   
+**Location:**   
 **Agreement Period:** TBD to TBD  
-**Partners/Collaborators:** NA  
+**Partners/Collaborators:**   
 
 [⬅ Back to Home](../index.qmd)

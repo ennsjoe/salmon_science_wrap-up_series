@@ -25,6 +25,7 @@ con <- dbConnect(SQLite(), dbname = db_path)
 
 # 📌 Validate required tables
 required_tables <- c("Science.PSSI.Projects", "project.export..long.", "Speaker.Themes", "session_info")
+Speaker.Themes <- dbReadTable(con, "Speaker.Themes")
 bcsrif_projects <- dbReadTable(con, "BCSRIF.Project.List.September.2025") %>%
   janitor::clean_names() %>%
   rename(project_id = project_number) %>%
@@ -115,12 +116,40 @@ dir_create(pages_dir)
 # 🧼 Helper: sanitize filenames
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
-# 📝 Generate individual .qmd pages for all projects
-unique_projects <- session_projects %>%
-  distinct(project_id, .keep_all = TRUE)
+# 🎯 Filter to speaker series projects only
+speaker_projects <- session_projects %>%
+  filter(project_id %in% Speaker.Themes$project_id)
 
-for (i in seq_len(nrow(unique_projects))) {
-  row <- unique_projects[i, ]
+# 🧠 Aggregate all metadata by project_id
+aggregated_projects <- speaker_projects %>%
+  group_by(project_id) %>%
+  summarise(
+    title = first(title),
+    project_name = first(project_name),
+    project_leads = paste(unique(na.omit(project_leads)), collapse = "; "),
+    recipient = paste(unique(na.omit(recipient)), collapse = "; "),
+    division = paste(unique(na.omit(division)), collapse = "; "),
+    section = paste(unique(na.omit(section)), collapse = "; "),
+    project_overview_jde = first(project_overview_jde),
+    description_short = first(description_short),
+    pssi_pillar = paste(unique(na.omit(pssi_pillar)), collapse = "; "),
+    program_pillar = paste(unique(na.omit(program_pillar)), collapse = "; "),
+    session = paste(unique(na.omit(session)), collapse = "; "),
+    year_specific_priorities = if ("year_specific_priorities" %in% names(speaker_projects)) paste(unique(na.omit(year_specific_priorities)), collapse = "; ") else "Not Listed",
+    speakers = paste(unique(na.omit(speakers)), collapse = "; "),
+    hosts = paste(unique(na.omit(hosts)), collapse = "; "),
+    presentation_date = paste(unique(format(presentation_date, "%B %d, %Y")), collapse = "; "),
+    species_group = paste(unique(na.omit(species_group)), collapse = "; "),
+    location_of_project = paste(unique(na.omit(location_of_project)), collapse = "; "),
+    agreement_start_date = first(agreement_start_date),
+    agreement_end_date = first(agreement_end_date),
+    list_of_partners_or_collaborators = paste(unique(na.omit(list_of_partners_or_collaborators)), collapse = "; "),
+    .groups = "drop"
+  )
+
+# 📝 Generate individual .qmd pages for each speaker project
+for (i in seq_len(nrow(aggregated_projects))) {
+  row <- aggregated_projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
   if (is.na(file_id) || file_id == "") next
   
@@ -145,12 +174,7 @@ for (i in seq_len(nrow(unique_projects))) {
   start_date  <- row[["agreement_start_date"]]
   end_date    <- row[["agreement_end_date"]]
   
-  # Format dates
-  presentation <- if (!is.na(row[["presentation_date"]])) {
-    format(row[["presentation_date"]], "%B %d, %Y")
-  } else {
-    "TBD"
-  }
+  # Format agreement dates
   start_fmt <- if (!is.na(start_date)) format(as.Date(start_date, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
   end_fmt   <- if (!is.na(end_date)) format(as.Date(end_date, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
   
@@ -167,8 +191,8 @@ for (i in seq_len(nrow(unique_projects))) {
     "**Division:** {division}  \n",
     "**Section:** {section}  \n",
     "**PSSI Pillar:** {pillar}  \n",
-    "**Session:** {session}  \n",
-    "**Presentation Date:** {presentation}  \n",
+    "**Session(s):** {session}  \n",
+    "**Presentation Date(s):** {row[['presentation_date']]}  \n",
     "**Speakers:** {presenters}  \n",
     "**Hosts:** {hosts}  \n\n",
     "**Overview:**  \n{summary}   \n\n",
@@ -186,6 +210,8 @@ for (i in seq_len(nrow(unique_projects))) {
 
 cat("🧭 Building index.qmd grouped by date and session...\n")
 
+cat("🧭 Building index.qmd grouped by date and session...\n")
+
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Speaker Series"',
@@ -199,11 +225,15 @@ index_md <- c(
   ""
 )
 
-# 📆 Filter and group presentations by date
-presentations_by_date <- session_projects %>%
+# 🎯 Filter to speaker-series projects only
+speaker_projects <- session_projects %>%
+  filter(project_id %in% Speaker.Themes$project_id) %>%
   filter(!is.na(presentation_date)) %>%
-  arrange(presentation_date) %>%
-  split(.$presentation_date)
+  mutate(presentation_date = as.Date(presentation_date)) %>%
+  arrange(presentation_date)
+
+# 📆 Group presentations by date
+presentations_by_date <- split(speaker_projects, speaker_projects$presentation_date)
 
 # 🧩 Build index content
 for (date_key in names(presentations_by_date)) {
@@ -212,23 +242,32 @@ for (date_key in names(presentations_by_date)) {
   
   index_md <- c(index_md, glue("## 📅 {formatted_date}"), "")
   
-  date_presentations <- date_presentations %>%
+  sessions <- date_presentations %>%
     group_by(session) %>%
     group_split()
   
-  for (group in date_presentations) {
-    session_title <- unique(group$session)
-    host_names <- unique(group$hosts) %||% "Hosts TBD"
+  for (group in sessions) {
+    session_title <- unique(group$session) %||% "Uncategorized"
+    host_names <- paste(unique(na.omit(group$hosts)), collapse = "; ") %||% "Hosts TBD"
     
     index_md <- c(index_md, glue("### 🐟 {session_title}"), glue("_Hosted by: {host_names}_"), "")
     
-    for (i in seq_len(nrow(group))) {
-      row <- group[i, ]
-      project_link <- row$project_link
-      presenters <- row[["project_leads"]] %||% row[["recipient"]] %||% "Presenters TBD"
-      source_emoji <- if (!is.na(row[["program_pillar"]])) "🧬" else "🌊"
-      
-      index_md <- c(index_md, glue("- {source_emoji} {project_link} | {presenters}"))
+    # 🔗 Group by project_id to avoid duplicates
+    projects <- group %>%
+      group_by(project_id) %>%
+      summarise(
+        project_link = first(project_link),
+        presenters = {
+          p <- paste(unique(na.omit(project_leads)), collapse = "; ")
+          if (p == "") paste(unique(na.omit(recipient)), collapse = "; ") else p
+        },
+        source_emoji = if (any(!is.na(program_pillar))) "🧬" else "🌊",
+        .groups = "drop"
+      )
+    
+    for (i in seq_len(nrow(projects))) {
+      row <- projects[i, ]
+      index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$presenters}"))
     }
     
     index_md <- c(index_md, "")
@@ -244,5 +283,5 @@ writeLines("www.pacificsalmonscience.ca", "CNAME")
 # 🚀 Render and push site
 system("quarto render")
 system("git add .")
-system("git commit -m \"Added BCSRIF list of projects\"")
+system("git commit -m \"Keeping projects to unique project_id only\"")
 system("git push origin main")
