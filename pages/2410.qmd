@@ -11,7 +11,7 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session(s):** data and modelling to support decision making  
+**Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Thomas Therriault, Cher LaCoste  
 **Hosts:** Ann-Marie Huang; Carrie Holt;  

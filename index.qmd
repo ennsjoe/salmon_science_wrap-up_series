@@ -10,7 +10,7 @@ toc: false
 
 ## 📅 December 02, 2025
 
-### 🐟 freshwater stressors
+### 🐟 Freshwater Stressors
 _Hosted by: Joe Enns; Dave Patterson; Sean Naman_
 
 - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd) | Brendan Connors, Adam O'Dell
@@ -23,7 +23,7 @@ _Hosted by: Joe Enns; Dave Patterson; Sean Naman_
 - 🌱 [Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
 coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 
-### 🐟 salmon in a changing climate
+### 🐟 Salmon In A Changing Climate
 _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 
 - 🌊 [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, 
@@ -36,7 +36,7 @@ _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 
 ## 📅 December 03, 2025
 
-### 🐟 follow the fish
+### 🐟 Follow The Fish
 _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist_
 
 - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd) | Carrie Holt
@@ -49,7 +49,7 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jess
 - 🌱 [Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds](pages/BCSRIF_2022_337.qmd) | Ka:’yu:’k’t’h’/Che:k’tles7et’h’ First Nation
 - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/BCSRIF_2022_442.qmd) | Pacific Salmon Foundation
 
-### 🐟 marine stressors
+### 🐟 Marine Stressors
 _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker_
 
 - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd) | Laura Bianucci
@@ -62,7 +62,7 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; S
 
 ## 📅 December 09, 2025
 
-### 🐟 hatcheries
+### 🐟 Hatcheries
 _Hosted by: Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband_
 
 - 🌊 [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
@@ -75,7 +75,7 @@ _Hosted by: Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband_
 - 🌱 [Science-based review of hatchery results in the DFO Pacific Region](pages/BCSRIF_2019_136.qmd) | Pacific Salmon Foundation
 - 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/BCSRIF_2020_239.qmd) | University of Victoria, Department of Biology
 
-### 🐟 salmon health
+### 🐟 Salmon Health
 _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer_
 
 - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd) | Amy Long
@@ -88,7 +88,7 @@ _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alis
 
 ## 📅 December 10, 2025
 
-### 🐟 data and modelling to support decision making
+### 🐟 Data And Modelling To Support Decision Making
 _Hosted by: Ann-Marie Huang; Carrie Holt;_
 
 - 🌊 [NA](pages/101.qmd) | 
@@ -98,7 +98,7 @@ _Hosted by: Ann-Marie Huang; Carrie Holt;_
 - 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/BCSRIF_2020_279.qmd) | Pacific Salmon Foundation
 - 🌱 [Restoring freshwater connectivity for Pacific salmon](pages/BCSRIF_2022_415.qmd) | Canadian Wildlife Federation
 
-### 🐟 fisheries monitoring and harvest methods
+### 🐟 Fisheries Monitoring And Harvest Methods
 _Hosted by: Ann-Marie Huang; Cory Lagasse; Erin Rechisky_
 
 - 🌊 [NA](pages/102.qmd) | 

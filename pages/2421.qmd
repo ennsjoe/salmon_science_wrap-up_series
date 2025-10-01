@@ -11,7 +11,7 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
 **PSSI Pillar:** 2-Salmon enhancement  
-**Session(s):** salmon health  
+**Session(s):** Salmon Health  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Stewart Johnson  
 **Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  

@@ -11,7 +11,7 @@ toc: true
 **Division:**   
 **Section:**   
 **PSSI Pillar:**   
-**Session(s):** salmon health  
+**Session(s):** Salmon Health  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Ahmed Siah  
 **Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  

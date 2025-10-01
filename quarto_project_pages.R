@@ -42,11 +42,8 @@ normalize_session <- function(x) {
   x %>%
     tolower() %>%
     str_replace_all("[^a-z0-9]+", " ") %>%
-    str_squish()
-}
-
-sanitize_filename <- function(x) {
-  gsub("[^a-zA-Z0-9_-]", "_", x)
+    str_squish() %>%
+    str_to_title()
 }
 
 # 📥 Load and clean tables
@@ -90,11 +87,11 @@ session_projects <- speakers %>%
 # 🔌 Disconnect from the database
 dbDisconnect(con)
 
-# 📂 Create output directory
+# 📂 Create output directory----
 pages_dir <- here("pages")
 dir_create(pages_dir)
 
-# 🧼 Helper: sanitize filenames
+# 🧼 Helper: sanitize filenames----
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
 # 🎯 Filter to speaker series projects only
@@ -278,5 +275,5 @@ writeLines("www.pacificsalmonscience.ca", "CNAME")
 # 🚀 Render and push site
 system("quarto render")
 system("git add .")
-system("git commit -m \"Updating BCSRIF overviews\"")
+system("git commit -m \"Changed formatting of session names\"")
 system("git push origin main")

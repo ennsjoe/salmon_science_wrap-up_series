@@ -11,7 +11,7 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Freshwater Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session(s):** freshwater stressors  
+**Session(s):** Freshwater Stressors  
 **Presentation Date(s):** December 02, 2025  
 **Speakers:** David Patterson, Douglas Braun  
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  

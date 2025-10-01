@@ -11,7 +11,7 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry   
 **PSSI Pillar:** 1-Conservation and stewardship  
-**Session(s):** marine stressors  
+**Session(s):** Marine Stressors  
 **Presentation Date(s):** December 03, 2025  
 **Speakers:** Andrew Ross  
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
