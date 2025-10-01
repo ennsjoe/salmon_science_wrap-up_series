@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon"
 description: "NA"
 author: ""
 toc: true

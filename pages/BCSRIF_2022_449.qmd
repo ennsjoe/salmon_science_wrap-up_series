@@ -1,5 +1,6 @@
 ---
-title: "NA"
+title: "Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
+coastal BC."
 description: "NA"
 author: ""
 toc: true

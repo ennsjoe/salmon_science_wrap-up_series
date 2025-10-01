@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems"
 description: "NA"
 author: ""
 toc: true

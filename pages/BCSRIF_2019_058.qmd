@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology"
 description: "NA"
 author: ""
 toc: true

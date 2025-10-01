@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Determining the mechanisms of impacts of a changing climate on zooplankton in the Salish Sea using models and observations"
 description: "NA"
 author: ""
 toc: true

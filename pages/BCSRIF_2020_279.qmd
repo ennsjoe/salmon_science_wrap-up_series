@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer"
 description: "NA"
 author: ""
 toc: true

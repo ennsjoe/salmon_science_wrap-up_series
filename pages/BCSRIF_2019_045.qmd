@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries"
 description: "NA"
 author: ""
 toc: true

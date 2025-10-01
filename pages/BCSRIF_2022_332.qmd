@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding"
 description: "NA"
 author: ""
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast"
 description: "NA"
 author: ""
 toc: true

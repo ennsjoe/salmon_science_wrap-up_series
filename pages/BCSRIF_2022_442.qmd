@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Identifying factors that influence early marine survival of WCVI Chinook salmon"
 description: "NA"
 author: ""
 toc: true

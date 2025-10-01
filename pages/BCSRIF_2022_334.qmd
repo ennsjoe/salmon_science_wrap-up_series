@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay"
 description: "NA"
 author: ""
 toc: true

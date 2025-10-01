@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Selective Fishing Using a Salmon Trap in the Campbell River Estuary"
 description: "NA"
 author: ""
 toc: true

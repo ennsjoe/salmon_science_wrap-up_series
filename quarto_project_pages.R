@@ -78,7 +78,7 @@ if (nrow(mismatched_sessions) > 0) {
   print(mismatched_sessions)
 }
 
-# 🔗 Join datables
+# 🔗 Join logic----
 session_projects <- speakers %>%
   left_join(sessions, by = "session") %>%
   left_join(projects, by = "project_id") %>%
@@ -131,12 +131,11 @@ speaker_ids <- Speaker.Themes %>%
 speaker_projects <- session_projects %>%
   filter(project_id %in% speaker_ids)
 
-# 🧠 Aggregate all metadata by project_id
+# 🧠 Aggregate metadata----
 aggregated_projects <- speaker_projects %>%
   group_by(project_id) %>%
   summarise(
-    title = first(title),
-    project_name = first(project_name),
+    title = coalesce(first(title), first(project_name), "Untitled Project"),
     project_leads = paste(unique(na.omit(project_leads)), collapse = "; "),
     recipient = paste(unique(na.omit(recipient)), collapse = "; "),
     division = paste(unique(na.omit(division)), collapse = "; "),
@@ -158,7 +157,7 @@ aggregated_projects <- speaker_projects %>%
     .groups = "drop"
   )
 
-# 📝 Generate individual .qmd pages for each speaker project
+# 📝 Generate individual .qmd pages for each speaker project----
 for (i in seq_len(nrow(aggregated_projects))) {
   row <- aggregated_projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
@@ -219,7 +218,9 @@ for (i in seq_len(nrow(aggregated_projects))) {
   writeLines(page_content, file_path)
 }
 
-cat("🧭 Building index.qmd grouped by date and session...\n")
+cat(glue("✅ Generated {nrow(aggregated_projects)} project pages.\n"))
+
+# 🧭 Build index.qmd grouped by date and session----
 
 index_md <- c(
   "---",

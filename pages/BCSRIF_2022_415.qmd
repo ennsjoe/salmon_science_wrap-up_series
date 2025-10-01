@@ -1,5 +1,5 @@
 ---
-title: "NA"
+title: "Restoring freshwater connectivity for Pacific salmon"
 description: "NA"
 author: ""
 toc: true
