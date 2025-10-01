@@ -1,6 +1,6 @@
 ---
 title: "Optimization of feeds used in the hatchery production of Pacific Salmon."
-description: "Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials."
+description: "No description available."
 author: "Ian Forster, Cher LaCoste"
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
 
 **Overview:**  
-Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.   
+No description available.   
 
 **Activities:**  
 Not Listed

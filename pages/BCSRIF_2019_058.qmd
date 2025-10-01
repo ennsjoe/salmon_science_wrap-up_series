@@ -1,6 +1,6 @@
 ---
 title: "Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

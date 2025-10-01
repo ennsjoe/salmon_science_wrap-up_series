@@ -1,6 +1,6 @@
 ---
 title: "Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity"
-description: "Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure."
+description: "No description available."
 author: "Sean Naman"
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
-Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.   
+No description available.   
 
 **Activities:**  
 Not Listed

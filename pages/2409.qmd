@@ -1,6 +1,6 @@
 ---
 title: "Convergent tracks: a tagging study to quantify salmon predation by sea lions"
-description: "Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck."
+description: "No description available."
 author: "Strahan Tucker, Cameron Freshwater"
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
 
 **Overview:**  
-Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.   
+No description available.   
 
 **Activities:**  
 Not Listed

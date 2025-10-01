@@ -1,6 +1,6 @@
 ---
 title: "Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults."
-description: "Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to warming oceans and changing food webs. The nutrient deficiency lowers the survival rate for salmon fry and has been observed in Yukon and California Chinook, but hasn’t been studied well in BC. This fish health monitoring study gathers Chinook tissue samples from the Albion test fishery and hatcheries to measure thiamine, fatty acids, and other health parameters to help predict and monitor vulnerable stocks. "
+description: "No description available."
 author: "Ian Forster, Cher LaCoste"
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
 
 **Overview:**  
-Thiamine (vitamin B1) deficiency in salmon is diet-related and could be tied to warming oceans and changing food webs. The nutrient deficiency lowers the survival rate for salmon fry and has been observed in Yukon and California Chinook, but hasn’t been studied well in BC. This fish health monitoring study gathers Chinook tissue samples from the Albion test fishery and hatcheries to measure thiamine, fatty acids, and other health parameters to help predict and monitor vulnerable stocks.    
+No description available.   
 
 **Activities:**  
 Not Listed

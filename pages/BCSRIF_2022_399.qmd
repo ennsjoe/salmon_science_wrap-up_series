@@ -1,6 +1,6 @@
 ---
 title: "Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks."
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

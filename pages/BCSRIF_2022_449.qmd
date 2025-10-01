@@ -1,7 +1,7 @@
 ---
 title: "Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
 coastal BC."
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -18,7 +18,7 @@ toc: true
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

@@ -1,6 +1,6 @@
 ---
 title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery"
-description: "Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern."
+description: "No description available."
 author: "Cory Lagasse"
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 
 **Overview:**  
-Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.   
+No description available.   
 
 **Activities:**  
 Not Listed

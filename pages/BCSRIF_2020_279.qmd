@@ -1,6 +1,6 @@
 ---
 title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Ann-Marie Huang; Carrie Holt;  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

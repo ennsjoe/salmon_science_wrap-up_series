@@ -1,6 +1,6 @@
 ---
 title: "Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

@@ -1,6 +1,6 @@
 ---
 title: "First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

@@ -1,6 +1,6 @@
 ---
 title: "Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act"
-description: "Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing."
+description: "No description available."
 author: "Brendan Connors, Adam O'Dell"
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
-Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.   
+No description available.   
 
 **Activities:**  
 Not Listed

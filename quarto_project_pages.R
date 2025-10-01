@@ -79,6 +79,7 @@ session_projects <- speakers %>%
   filter(!is.na(project_id), project_id != "") %>%
   mutate(
     title = coalesce(title, project_name),
+    overview = coalesce(project_overview_jde, description_short),
     presentation_date = date,
     file_id = sanitize_filename(project_id),
     project_link = glue("[{title}](pages/{file_id}.qmd)")
@@ -143,7 +144,7 @@ for (i in seq_len(nrow(aggregated_projects))) {
   lead        <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
   division    <- row[["division"]] %||% "N/A"
   section     <- row[["section"]] %||% "N/A"
-  summary     <- row[["project_overview_jde"]] %||% row[["description_short"]] %||% "No description available."
+  summary     <- row[["overview"]] %||% "No description available."
   pillar      <- row[["pssi_pillar"]] %||% row[["program_pillar"]] %||% "Unspecified"
   session     <- row[["session"]] %||% "Uncategorized"
   activities  <- row[["year_specific_priorities"]] %||% "Not Listed"
@@ -194,7 +195,6 @@ for (i in seq_len(nrow(aggregated_projects))) {
 cat(glue("✅ Generated {nrow(aggregated_projects)} project pages.\n"))
 
 # 🧭 Build index.qmd grouped by date and session----
-
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Speaker Series"',
@@ -246,7 +246,7 @@ for (date_key in names(presentations_by_date)) {
           p <- paste(unique(na.omit(project_leads)), collapse = "; ")
           if (p == "") paste(unique(na.omit(recipient)), collapse = "; ") else p
         },
-        source_emoji = if (any(!is.na(program_pillar))) "🧬" else "🌊",
+        source_emoji = if (any(!is.na(program_pillar))) "🌱" else "🌊",
         .groups = "drop"
       )
     
@@ -278,5 +278,5 @@ writeLines("www.pacificsalmonscience.ca", "CNAME")
 # 🚀 Render and push site
 system("quarto render")
 system("git add .")
-system("git commit -m \"Keeping projects to unique project_id only\"")
+system("git commit -m \"Updating BCSRIF overviews\"")
 system("git push origin main")

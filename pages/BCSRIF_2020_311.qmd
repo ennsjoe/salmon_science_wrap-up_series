@@ -1,6 +1,6 @@
 ---
 title: "The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

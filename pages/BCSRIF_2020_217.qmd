@@ -1,6 +1,6 @@
 ---
 title: "Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Joe Enns; Dave Patterson; Sean Naman  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

@@ -1,6 +1,6 @@
 ---
 title: "Untitled Project"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

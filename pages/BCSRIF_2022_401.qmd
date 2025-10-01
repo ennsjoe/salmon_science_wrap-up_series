@@ -1,6 +1,6 @@
 ---
 title: "Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems"
-description: "NA"
+description: "No description available."
 author: ""
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 **Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
 
 **Overview:**  
-NA   
+No description available.   
 
 **Activities:**  
 Not Listed

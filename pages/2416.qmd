@@ -1,7 +1,6 @@
 ---
 title: "Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins"
-description: "Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
-We are comparing biotoxin levels with environmental conditions and indicators of fish health.  "
+description: "No description available."
 author: "Andrew Ross"
 toc: true
 ---
@@ -18,8 +17,7 @@ toc: true
 **Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
 
 **Overview:**  
-Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
-We are comparing biotoxin levels with environmental conditions and indicators of fish health.     
+No description available.   
 
 **Activities:**  
 Not Listed
