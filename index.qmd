@@ -49,6 +49,8 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jess
 - 🌱 [Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds](pages/BCSRIF_2022_337.qmd) | Ka:’yu:’k’t’h’/Che:k’tles7et’h’ First Nation
 - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/BCSRIF_2022_442.qmd) | Pacific Salmon Foundation
 
+## 📅 December 04, 2025
+
 ### 🐟 Marine Stressors
 _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker_
 
@@ -86,7 +88,7 @@ _Hosted by: Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alis
 - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
 - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/BCSRIF_2020_311.qmd) | BC Centre for Aquatic Health Sciences Society
 
-## 📅 December 10, 2025
+## 📅 December 11, 2025
 
 ### 🐟 Data And Modelling To Support Decision Making
 _Hosted by: Ann-Marie Huang; Carrie Holt;_

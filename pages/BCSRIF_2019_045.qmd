@@ -11,7 +11,7 @@ toc: true
 **Section:**   
 **PSSI Pillar:**   
 **Session(s):** Fisheries Monitoring And Harvest Methods  
-**Presentation Date(s):** December 10, 2025  
+**Presentation Date(s):** December 11, 2025  
 **Speakers:** Will Atlas  
 **Overview:**  
 This project will integrate traditional and modern technologies through the development of new computer vision deep-learning programs to automate salmon counting and species identification from video and sonar data. Connecting these tools with community-run escapement monitoring programs around the North and Central Coast will support the transition towards real-time data integration and in-season monitoring to inform the adaptive management of salmon fisheries.   

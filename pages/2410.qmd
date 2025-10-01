@@ -11,7 +11,7 @@ toc: true
 **Section:** Nearshore Ecosystems  
 **PSSI Pillar:** 1-Conservation and stewardship  
 **Session(s):** Data And Modelling To Support Decision Making  
-**Presentation Date(s):** December 10, 2025  
+**Presentation Date(s):** December 11, 2025  
 **Speakers:** Thomas Therriault, Cher LaCoste  
 **Overview:**  
 Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.   
