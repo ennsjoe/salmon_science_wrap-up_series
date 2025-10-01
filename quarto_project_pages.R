@@ -64,53 +64,26 @@ sessions_raw <- dbReadTable(con, "session_info")
 print(head(sessions_raw$date))
 str(sessions_raw$date)
 
-# 🧠 Detect and parse date format
+# 🧠 Detect and parse date format----
 sessions <- sessions_raw %>%
   mutate(
     session = normalize_session(session),
     date = as.Date(date, origin = "1899-12-30")  # Converts 46001 → "2025-12-08"
   )
 
-# 🔍 Check for session mismatches
-mismatched_sessions <- anti_join(speakers, sessions, by = "session") %>% distinct(session)
-if (nrow(mismatched_sessions) > 0) {
-  cat("⚠️ Mismatched session names:\n")
-  print(mismatched_sessions)
-}
-
 # 🔗 Join logic----
 session_projects <- speakers %>%
   left_join(sessions, by = "session") %>%
   left_join(projects, by = "project_id") %>%
+  left_join(bcsrif_projects, by = "project_id") %>%
   filter(!is.na(project_id), project_id != "") %>%
   mutate(
+    title = coalesce(title, project_name),
     presentation_date = date,
     file_id = sanitize_filename(project_id),
-    project_link = ifelse(
-      !is.na(title),
-      glue("[{title}](pages/{file_id}.qmd)"),
-      "Untitled Project"
-    )
+    project_link = glue("[{title}](pages/{file_id}.qmd)")
   ) %>%
-  left_join(bcsrif_projects, by = "project_id") %>%
-  arrange(presentation_date)
-
-session_projects %>%
-  count(project_id, sort = TRUE) %>%
-  filter(n > 1)
-
-dup_count <- session_projects %>%
-  count(project_id, sort = TRUE) %>%
-  filter(n > 1)
-
-if (nrow(dup_count) > 0) {
-  cat("⚠️ Duplicate project_id entries found:\n")
-  print(dup_count)
-} else {
-  cat("✅ No duplicate project_id entries detected.\n")
-}
-
-session_projects <- session_projects %>%
+  arrange(presentation_date) %>%
   distinct(project_id, session, .keep_all = TRUE)
 
 # 🔌 Disconnect from the database
@@ -266,7 +239,9 @@ for (date_key in names(presentations_by_date)) {
     projects <- group %>%
       group_by(project_id) %>%
       summarise(
-        project_link = first(project_link),
+        title = first(title),
+        file_id = sanitize_filename(project_id),
+        project_link = glue("[{title}](pages/{file_id}.qmd)"),
         presenters = {
           p <- paste(unique(na.omit(project_leads)), collapse = "; ")
           if (p == "") paste(unique(na.omit(recipient)), collapse = "; ") else p
@@ -286,6 +261,16 @@ for (date_key in names(presentations_by_date)) {
 
 # 📝 Write index.qmd
 writeLines(index_md, here("index.qmd"))
+
+# 🌐 Write CNAME file
+writeLines("www.pacificsalmonscience.ca", "CNAME")
+
+# 🚀 Render and push site
+system("quarto render")
+system("git add .")
+system("git commit -m \"Keeping projects to unique project_id only\"")
+system("git push origin main")
+
 
 # 🌐 Write CNAME file
 writeLines("www.pacificsalmonscience.ca", "CNAME")
