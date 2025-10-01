@@ -78,12 +78,9 @@ if (nrow(mismatched_sessions) > 0) {
   print(mismatched_sessions)
 }
 
-# 🔗 Join speakers to sessions
-speaker_sessions <- speakers %>%
-  left_join(sessions, by = "session")
-
-# 🔗 Join to project metadata
-session_projects <- speaker_sessions %>%
+# 🔗 Join datables
+session_projects <- speakers %>%
+  left_join(sessions, by = "session") %>%
   left_join(projects, by = "project_id") %>%
   filter(!is.na(project_id), project_id != "") %>%
   mutate(
@@ -95,10 +92,26 @@ session_projects <- speaker_sessions %>%
       "Untitled Project"
     )
   ) %>%
+  left_join(bcsrif_projects, by = "project_id") %>%
   arrange(presentation_date)
 
+session_projects %>%
+  count(project_id, sort = TRUE) %>%
+  filter(n > 1)
+
+dup_count <- session_projects %>%
+  count(project_id, sort = TRUE) %>%
+  filter(n > 1)
+
+if (nrow(dup_count) > 0) {
+  cat("⚠️ Duplicate project_id entries found:\n")
+  print(dup_count)
+} else {
+  cat("✅ No duplicate project_id entries detected.\n")
+}
+
 session_projects <- session_projects %>%
-  left_join(bcsrif_projects, by = "project_id")
+  distinct(project_id, session, .keep_all = TRUE)
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)

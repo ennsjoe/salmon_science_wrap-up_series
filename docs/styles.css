@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+render:
+  - index.qmd
+  - pages/*.qmd  # Automatically render all project pages
+
+website:
+  title: "PSSI Salmon Science Speaker Series"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    css: styles.css  # Enable your custom stylesheet
+    theme: default   # Optional: use Quarto's default theme as a base
+
+editor: visual
