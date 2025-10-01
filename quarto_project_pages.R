@@ -111,7 +111,7 @@ aggregated_projects <- speaker_projects %>%
     recipient = paste(unique(na.omit(recipient)), collapse = "; "),
     division = paste(unique(na.omit(division)), collapse = "; "),
     section = paste(unique(na.omit(section)), collapse = "; "),
-    project_overview_jde = first(project_overview_jde),
+    overview = paste(unique(na.omit(overview)), collapse = "; "),
     description_short = first(description_short),
     pssi_pillar = paste(unique(na.omit(pssi_pillar)), collapse = "; "),
     program_pillar = paste(unique(na.omit(program_pillar)), collapse = "; "),
@@ -128,7 +128,7 @@ aggregated_projects <- speaker_projects %>%
     .groups = "drop"
   )
 
-# 📝 Generate individual .qmd pages for each speaker project----
+# 📝 .qmd pages generation----
 for (i in seq_len(nrow(aggregated_projects))) {
   row <- aggregated_projects[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
@@ -141,7 +141,7 @@ for (i in seq_len(nrow(aggregated_projects))) {
   lead        <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
   division    <- row[["division"]] %||% "N/A"
   section     <- row[["section"]] %||% "N/A"
-  summary     <- row[["overview"]] %||% "No description available."
+  overview    <- row[["overview"]] %||% "No description available."
   pillar      <- row[["pssi_pillar"]] %||% row[["program_pillar"]] %||% "Unspecified"
   session     <- row[["session"]] %||% "Uncategorized"
   activities  <- row[["year_specific_priorities"]] %||% "Not Listed"
@@ -163,7 +163,6 @@ for (i in seq_len(nrow(aggregated_projects))) {
   page_content <- glue(
     "---\n",
     "title: \"{title}\"\n",
-    "description: \"{summary}\"\n",
     "author: \"{lead}\"\n",
     "toc: true\n",
     "---\n\n",
@@ -175,15 +174,8 @@ for (i in seq_len(nrow(aggregated_projects))) {
     "**Session(s):** {session}  \n",
     "**Presentation Date(s):** {row[['presentation_date']]}  \n",
     "**Speakers:** {presenters}  \n",
-    "**Hosts:** {hosts}  \n\n",
-    "**Overview:**  \n{summary}   \n\n",
-    "**Activities:**  \n{activities}\n\n",
-    "## 🧬 BCSRIF Metadata\n\n",
-    "**Species Group:** {species}  \n",
-    "**Location:** {location}  \n",
-    "**Agreement Period:** {start_fmt} to {end_fmt}  \n",
-    "**Partners/Collaborators:** {partners}  \n\n",
-    "[⬅ Back to Home](../index.qmd)\n"
+    "**Overview:**  \n{overview}   \n\n",
+    "**Activities:**  \n{activities}\n\n"
   )
   
   writeLines(page_content, file_path)
@@ -191,7 +183,7 @@ for (i in seq_len(nrow(aggregated_projects))) {
 
 cat(glue("✅ Generated {nrow(aggregated_projects)} project pages.\n"))
 
-# 🧭 Build index.qmd grouped by date and session----
+# 🧭 Index.qmd development----
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Speaker Series"',

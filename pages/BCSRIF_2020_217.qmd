@@ -1,6 +1,5 @@
 ---
 title: "Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,23 +13,9 @@ toc: true
 **Session(s):** Freshwater Stressors  
 **Presentation Date(s):** December 02, 2025  
 **Speakers:** Jordan Rosenfeld  
-**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
-
 **Overview:**  
-No description available.   
+University of BC researchers and partners will develop a framework for modeling cumulative impacts on salmonid populations to guide recovery planning and adaptive management based on stressor-response functions related to multiple threats.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Vancouver  
-**Agreement Period:** February 09, 4451336 to June 29, 4688837  
-**Partners/Collaborators:** Alberta Environment and Parks
-Fisheries and Oceans Canada (Freshwater Institute)
-BC Ministry of Environment
-Simon Fraser University
-  
-
-[⬅ Back to Home](../index.qmd)

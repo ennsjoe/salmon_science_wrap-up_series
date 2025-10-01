@@ -1,6 +1,5 @@
 ---
 title: "Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon."
-description: "No description available."
 author: "Stewart Johnson"
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Salmon Health  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Stewart Johnson  
-**Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
-
 **Overview:**  
-No description available.   
+Chronic stress impacts fish health and can be measured in salmon by sampling hormone (cortisol) and enzyme deposits in scales. This lab and hatchery study gathers coho and Chinook scale samples from broodstock surveys to develop methods of measuring chronic and acute stress hormone levels that could be expanded to monitor salmon health responses to stressors including climate change.    
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:**   
-**Location:**   
-**Agreement Period:** TBD to TBD  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

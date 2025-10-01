@@ -1,6 +1,5 @@
 ---
 title: "Fishery & Assessment Data Section - Data Stewardship Unit"
-description: "No description available."
 author: "Shelee Hamilton"
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Shelee Hamilton  
-**Hosts:** Ann-Marie Huang; Carrie Holt;  
-
 **Overview:**  
-No description available.   
+   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:**   
-**Location:**   
-**Agreement Period:** TBD to TBD  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

@@ -1,6 +1,5 @@
 ---
 title: "Untitled Project"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Marine Stressors  
 **Presentation Date(s):** December 03, 2025  
 **Speakers:** Samantha James  
-**Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
-
 **Overview:**  
-No description available.   
+   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:**   
-**Location:**   
-**Agreement Period:** TBD to TBD  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

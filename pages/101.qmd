@@ -1,6 +1,5 @@
 ---
 title: "Untitled Project"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Ann-Marie Huang; Diana Dobson  
-**Hosts:** Ann-Marie Huang; Carrie Holt;  
-
 **Overview:**  
-No description available.   
+   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:**   
-**Location:**   
-**Agreement Period:** TBD to TBD  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

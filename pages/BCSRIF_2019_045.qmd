@@ -1,6 +1,5 @@
 ---
 title: "Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,26 +13,9 @@ toc: true
 **Session(s):** Fisheries Monitoring And Harvest Methods  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Will Atlas  
-**Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
-
 **Overview:**  
-No description available.   
+This project will integrate traditional and modern technologies through the development of new computer vision deep-learning programs to automate salmon counting and species identification from video and sonar data. Connecting these tools with community-run escapement monitoring programs around the North and Central Coast will support the transition towards real-time data integration and in-season monitoring to inform the adaptive management of salmon fisheries.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Bella Bella  
-**Agreement Period:** August 10, 4350563 to April 21, 4602258  
-**Partners/Collaborators:** Tula Foundation 
-Haida Fisheries 
-Simon Fraser University
-Fisheries and Oceans Canada 
-Pacific Salmon Foundation Salmon Watersheds Program
-Pacific Salmon Foundation Salmon Watersheds Program
-Heiltsuk Integrated Resource Management Department
-Kitasoo Xai'xais Stewardship Authority  
-
-[⬅ Back to Home](../index.qmd)

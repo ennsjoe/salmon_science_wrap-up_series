@@ -1,6 +1,5 @@
 ---
 title: "Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,44 +13,21 @@ toc: true
 **Session(s):** Salmon In A Changing Climate  
 **Presentation Date(s):** December 02, 2025  
 **Speakers:** Katrina Connors  
-**Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
-
 **Overview:**  
-No description available.   
+This PSF project will assist communities strive to adjust fisheries management to deal with climate change uncertainties by monitoring climate change in salmon freshwater habitats. This project will enable both local and broad scale planning for climate resilient salmon ecosystems. This will include the PSF leads working with 26 different organizations across BC including 14 First Nations' organizations to: 1) Scale-up the application of computer-vision tools to empower communities with real-time information on salmon returns that can inform proactive in-season fisheries management; 2) Harmonize community-led monitoring of salmon ecosystems by providing guidance on best practices, working with partners to implement new stream temperature and flow monitoring where there are gaps, and synthesizing and sharing data across organizations; and 3) Create opportunities for integration and collaboration among communities and projects through workshops and working groups.
+
+Systems and communities listed for scaled-up computer vision tools for real-time enumeration: 
+1. Kitwanga R. (Gitanyow FN)
+2. Bear R. (Skeena Fisheries Commission)
+3. Kwaka Creek (Kitasoo Xais Xais FN)
+4. Yakoun River (Council of Haida Nations)
+5. Taku R. (Taku R. Tlingit FN)
+6. Koeye River (Heiltsuk Integrated Resource Management Department)
+7. Wannock River (Wuilinuxv FN)
+8. Atnarko River (Nuxalk Fish & Wildlife)
+9. Alsek R. - Klukshu weir
+10. Thompson Watershed - Shuswap Lake   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Spans across BC  
-**Agreement Period:** March 07, 4610301 to October 07, 4861522  
-**Partners/Collaborators:** Taku River Tlingit 
-Haida Fishery Program 
-Gitanyow Fisheries 
-Gitga’at Fisheries
-Kitasoo Xai'xais Stewardship Authority 
-Heiltsuk Integrated Resource Management Department 
-Nuxalk Stewardship
-Wuikinuxv Fishery Program 
-Secwepmec Fisheries Commission 
-Skeena Fisheries Commission 
-Central Coast Indigenous Resource Alliance 
-North Coast Skeena First Nations Stewardship Society 
-Nanwakolas Council (Jordan Benner) 
-Broughton Area Wild Salmon Initiative 
-Fisheries and Oceans Canada 
-British Columbia Institute of Technology
-University of Toronto
-Simon Fraser University
-Pacific Data Stream 
-Living Lakes/Columbia Basin Hub 
-Hakai institute 
-Morice Watershed Monitoring Trust 
-Skeena Knowledge Trust  
-Wild Salmon Centre 
-Ecofish Research Ltd. 
-  
-
-[⬅ Back to Home](../index.qmd)

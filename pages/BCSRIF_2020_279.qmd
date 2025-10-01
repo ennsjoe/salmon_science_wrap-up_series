@@ -1,6 +1,5 @@
 ---
 title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Katrina Connors  
-**Hosts:** Ann-Marie Huang; Carrie Holt;  
-
 **Overview:**  
-No description available.   
+BCSRIF funding will support the expansion improvement and application of an interactive data visualization tool for tracking and reporting information on the status of Pacific salmon Conservation Units (CUs) and their freshwater habitats in British Columbia. CUs are groupings of salmon at the stock level sharing common genetic traits geographic distribution and life-history that is defined for the purposes of identifying challenges to survival and potential conservation strategies. The project will result in more timely credible and standardized information on the status of salmon and their habitats and is critical to informing science-based decisions for salmon conservation and management.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Fraser River  
-**Agreement Period:** August 03, 4429809 to June 29, 4688837  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

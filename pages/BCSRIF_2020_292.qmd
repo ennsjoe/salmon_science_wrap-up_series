@@ -1,6 +1,5 @@
 ---
 title: "First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Fisheries Monitoring And Harvest Methods  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Megan Adams  
-**Hosts:** Ann-Marie Huang; Cory Lagasse; Erin Rechisky  
-
 **Overview:**  
-No description available.   
+This project will focus on designing and implementing a coordinated strategy to fill data gaps related to Central Coast salmon populations which will inform management measures to promote sustainable opportunities for marine and Food Social Ceremonial fisheries.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Bella Coola  
-**Agreement Period:** January 21, 4414670 to June 29, 4688837  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

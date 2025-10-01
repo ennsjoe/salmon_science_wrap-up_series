@@ -1,6 +1,5 @@
 ---
 title: "Development of High-resolution Climate Change Freshwater Hazard Data for BC"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Salmon In A Changing Climate  
 **Presentation Date(s):** December 02, 2025  
 **Speakers:** Francis Zwiers  
-**Hosts:** Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson  
-
 **Overview:**  
-No description available.   
+The Pacific Climate Impacts Consortium (University of Victoria) aims to expand upon their current work (BCSRIF_2019_074_2) by providing results on the impact of climate change on the freshwater environment at a resolution sufficient to represent individual stream reaches and lakes. This project will deliver highly detailed streamflow and water quality data and associated exposure indicators to support site-specific (e.g., spawning grounds, and stream or lake rearing habitat) climate change vulnerability, habitat, and stock assessments, using exposure indicators that quantify the magnitude of expected changes in the freshwater environment. Changes could include increasingly extreme flow levels (low and high), high water temperatures, and hypoxia (low dissolved oxygen), which all pose as potential hazards to salmon survival across various life stages. The study is to be conducted primarily in areas with the majority of priority wild salmon stocks in BC. This project will involve two main activities: Hydrologic Modelling and Data Portal deployment.    
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Coastal British Columbia and Fraser basin  
-**Agreement Period:** March 07, 4610301 to October 07, 4861522  
-**Partners/Collaborators:** Fisheries and Oceans Canada  
-
-[⬅ Back to Home](../index.qmd)

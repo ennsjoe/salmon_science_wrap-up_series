@@ -1,6 +1,5 @@
 ---
 title: "Genetic and epigenetic consequences of hatchery adaptation"
-description: "No description available."
 author: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Hatcheries  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
-**Hosts:** Cory Lagasse; Tim Healy; Eric Rondeau; Kyle Wellband  
-
 **Overview:**  
-No description available.   
+   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:**   
-**Location:**   
-**Agreement Period:** TBD to TBD  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

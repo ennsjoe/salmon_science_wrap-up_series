@@ -1,6 +1,5 @@
 ---
 title: "First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,27 +13,9 @@ toc: true
 **Session(s):** Freshwater Stressors  
 **Presentation Date(s):** December 02, 2025  
 **Speakers:** Marian Ngo  
-**Hosts:** Joe Enns; Dave Patterson; Sean Naman  
-
 **Overview:**  
-No description available.   
+The Salish Sea Indigenous Guardians Association will build an Indigenous led salmon population and habitat monitoring program which will include the monitoring of both juvenile and adult salmon and their habitats in priority areas in the Lower Fraser River and Boundary Bay. This work will lead to the creation and implementation of an Indigenous lead cumulative effects assessment framework and the creation of a long-term restoration action plan which will utilize Indigenous knowledge from within the communities to set long term priorities and short-term actions. The project will also incorporate watershed scale assessments and specific research projects to understand the impacts of both floods and flood infrastructure on wild salmon populations and incorporate considerations for flood mitigation into salmon recovery plans.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Surrey, White Rock, Langley and surrounding areas  
-**Agreement Period:** March 07, 4610301 to October 07, 4861522  
-**Partners/Collaborators:** Fisheries and Oceans Canada’s Community Stream Monitoring network 
-DFO Community Advisors  
-Rivershed Society of BC
-A Rocha
-Semiahmoo Fish and Game Club
-Langley Environmental Partners Society
-Streamkeepers groups
-Clear Seas
-UBC - Indigenous Fisheries Center  
-
-[⬅ Back to Home](../index.qmd)

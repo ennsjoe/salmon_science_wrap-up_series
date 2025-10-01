@@ -1,6 +1,5 @@
 ---
 title: "Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future"
-description: "No description available."
 author: "Thomas Therriault, Cher LaCoste"
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 10, 2025  
 **Speakers:** Thomas Therriault, Cher LaCoste  
-**Hosts:** Ann-Marie Huang; Carrie Holt;  
-
 **Overview:**  
-No description available.   
+Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:**   
-**Location:**   
-**Agreement Period:** TBD to TBD  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)

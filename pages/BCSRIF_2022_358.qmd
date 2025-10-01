@@ -1,6 +1,5 @@
 ---
 title: "Determining the mechanisms of impacts of a changing climate on zooplankton in the Salish Sea using models and observations"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,21 +13,9 @@ toc: true
 **Session(s):** Marine Stressors  
 **Presentation Date(s):** December 03, 2025  
 **Speakers:**   
-**Hosts:** Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker  
-
 **Overview:**  
-No description available.   
+University of British Columbia (UBC), in partnership with Ocean Sciences (DFO) and University of Washington, will use a combined approach to examine the impacts of climate change on the food available to out-migrating juvenile salmon and resident adult species  in the Salish Sea. Using both computer models and observational data, the team will focus on zooplankton responses to stressors such as ocean warming and increased atmospheric CO2. This information will be critical to identifying potential benefits or threats posed to wild Pacific Salmon populations in response to climate change.    
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Vancouver  
-**Agreement Period:** April 15, 4612903 to October 07, 4861522  
-**Partners/Collaborators:** Fisheries and Oceans Canada - Science 
-University of Washington, Oceanography 
-Institute of Ocean Sciences   
-
-[⬅ Back to Home](../index.qmd)

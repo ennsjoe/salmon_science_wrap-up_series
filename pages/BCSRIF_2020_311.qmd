@@ -1,6 +1,5 @@
 ---
 title: "The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries"
-description: "No description available."
 author: ""
 toc: true
 ---
@@ -14,19 +13,9 @@ toc: true
 **Session(s):** Salmon Health  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Ahmed Siah  
-**Hosts:** Joe Enns; Amy Long; Ian Forster; Christoph Deeg; Sydney Baxter; Alison Krimmer  
-
 **Overview:**  
-No description available.   
+The recipient aims to validate Nanopore technology as a rapid and broad-range tool for detecting salmon pathogens from biological and environmental samples from hatcheries. The technology will be applied to screen broodstock examine pathogen sources and their distribution in hatchery systems and identify/characterize the agent(s) associated with disease occurrences.   
 
 **Activities:**  
 Not Listed
 
-## 🧬 BCSRIF Metadata
-
-**Species Group:** Pacific Salmon  
-**Location:** Campbell River  
-**Agreement Period:** August 03, 4429809 to June 29, 4688837  
-**Partners/Collaborators:**   
-
-[⬅ Back to Home](../index.qmd)
