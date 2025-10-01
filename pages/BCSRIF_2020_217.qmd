@@ -16,6 +16,3 @@ toc: true
 **Overview:**  
 University of BC researchers and partners will develop a framework for modeling cumulative impacts on salmonid populations to guide recovery planning and adaptive management based on stressor-response functions related to multiple threats.   
 
-**Activities:**  
-Not Listed
-

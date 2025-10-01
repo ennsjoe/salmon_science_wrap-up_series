@@ -16,6 +16,3 @@ toc: true
 **Overview:**  
 This project will focus on designing and implementing a coordinated strategy to fill data gaps related to Central Coast salmon populations which will inform management measures to promote sustainable opportunities for marine and Food Social Ceremonial fisheries.   
 
-**Activities:**  
-Not Listed
-

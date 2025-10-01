@@ -16,6 +16,3 @@ toc: true
 **Overview:**  
    
 
-**Activities:**  
-Not Listed
-

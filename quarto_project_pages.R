@@ -116,7 +116,6 @@ aggregated_projects <- speaker_projects %>%
     pssi_pillar = paste(unique(na.omit(pssi_pillar)), collapse = "; "),
     program_pillar = paste(unique(na.omit(program_pillar)), collapse = "; "),
     session = paste(unique(na.omit(session)), collapse = "; "),
-    year_specific_priorities = if ("year_specific_priorities" %in% names(speaker_projects)) paste(unique(na.omit(year_specific_priorities)), collapse = "; ") else "Not Listed",
     speakers = paste(unique(na.omit(speakers)), collapse = "; "),
     hosts = paste(unique(na.omit(hosts)), collapse = "; "),
     presentation_date = paste(unique(format(presentation_date, "%B %d, %Y")), collapse = "; "),
@@ -144,7 +143,6 @@ for (i in seq_len(nrow(aggregated_projects))) {
   overview    <- row[["overview"]] %||% "No description available."
   pillar      <- row[["pssi_pillar"]] %||% row[["program_pillar"]] %||% "Unspecified"
   session     <- row[["session"]] %||% "Uncategorized"
-  activities  <- row[["year_specific_priorities"]] %||% "Not Listed"
   presenters  <- row[["speakers"]] %||% "Presenters TBD"
   hosts       <- row[["hosts"]] %||% "Hosts TBD"
   
@@ -174,8 +172,7 @@ for (i in seq_len(nrow(aggregated_projects))) {
     "**Session(s):** {session}  \n",
     "**Presentation Date(s):** {row[['presentation_date']]}  \n",
     "**Speakers:** {presenters}  \n",
-    "**Overview:**  \n{overview}   \n\n",
-    "**Activities:**  \n{activities}\n\n"
+    "**Overview:**  \n{overview}   \n\n"
   )
   
   writeLines(page_content, file_path)

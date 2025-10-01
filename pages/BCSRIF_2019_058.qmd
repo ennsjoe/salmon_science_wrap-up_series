@@ -16,6 +16,3 @@ toc: true
 **Overview:**  
 The University of British Columbia will lead a science partnership project to conduct research on improving the sustainability of capture and release marine recreational Pacific salmon fisheries using new tools and technology.   
 
-**Activities:**  
-Not Listed
-

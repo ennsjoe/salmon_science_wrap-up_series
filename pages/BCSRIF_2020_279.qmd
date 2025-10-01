@@ -16,6 +16,3 @@ toc: true
 **Overview:**  
 BCSRIF funding will support the expansion improvement and application of an interactive data visualization tool for tracking and reporting information on the status of Pacific salmon Conservation Units (CUs) and their freshwater habitats in British Columbia. CUs are groupings of salmon at the stock level sharing common genetic traits geographic distribution and life-history that is defined for the purposes of identifying challenges to survival and potential conservation strategies. The project will result in more timely credible and standardized information on the status of salmon and their habitats and is critical to informing science-based decisions for salmon conservation and management.   
 
-**Activities:**  
-Not Listed
-

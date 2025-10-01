@@ -16,6 +16,3 @@ toc: true
 **Overview:**  
 The Pacific Salmon Foundation (PSF) will conduct a science-based review of hatcheries in the Pacific Region (including community hatcheries and DFOs major facilities) to evaluate performance and the effectiveness of current genetic and genomic tools in order to optimize salmon production in BC.   
 
-**Activities:**  
-Not Listed
-
