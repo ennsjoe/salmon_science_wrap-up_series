@@ -11,7 +11,7 @@ toc: true
 **Section:**   
 **PSSI Pillar:**   
 **Session(s):** Follow The Fish  
-**Presentation Date(s):** December 03, 2025  
+**Presentation Date(s):** December 04, 2025  
 **Speakers:** Andrew Bateman  
 **Overview:**  
 Our project brings together a broad group of Indigenous and non-Indigenous collaborators to evaluate timing and causes of mortality in west coast Vancouver Island (WCVI) Chinook salmon during early marine residence. We will use PIT-tagging to estimate survival, and combine these estimates with individual-based measures of environmental stress using cutting-edge gene-expression tools (“Fit-Chips”). Additionally, we will monitor environmental DNA (eDNA) to determine key rearing habitats, availability of prey, and presence of predators and pathogens across spatial and temporal scales.

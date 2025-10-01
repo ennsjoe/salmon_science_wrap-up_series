@@ -34,7 +34,7 @@ _Hosted by: Cory Lagasse; Di Wan; Amber Holdsworth; Patrick Thompson_
 - 🌱 [Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks.](pages/BCSRIF_2022_399.qmd) | University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences
 - 🌱 [Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems](pages/BCSRIF_2022_401.qmd) | Pacific Salmon Foundation
 
-## 📅 December 03, 2025
+## 📅 December 04, 2025
 
 ### 🐟 Follow The Fish
 _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jessy Bokvist_
@@ -48,8 +48,6 @@ _Hosted by: Isobel Pearsall; Nicholas Brown; Neil Dangerfield; Andrew Ross; Jess
 - 🌱 [Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding](pages/BCSRIF_2022_332.qmd) | Huu-ay-aht First Nations
 - 🌱 [Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds](pages/BCSRIF_2022_337.qmd) | Ka:’yu:’k’t’h’/Che:k’tles7et’h’ First Nation
 - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/BCSRIF_2022_442.qmd) | Pacific Salmon Foundation
-
-## 📅 December 04, 2025
 
 ### 🐟 Marine Stressors
 _Hosted by: Isobel Pearsall; Nicholas Brown; Akash Sastri; Cameron Freshwater; Strahan Tucker_
