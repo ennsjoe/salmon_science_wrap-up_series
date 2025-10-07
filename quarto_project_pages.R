@@ -16,6 +16,8 @@ library(janitor)
 library(stringr)
 library(lubridate)
 library(fs)
+library(digest)
+
 
 # 🗂️ Define path to the database
 db_path <- here("science_projects.sqlite")
@@ -201,7 +203,8 @@ session_colors <- c(
 
 get_session_color <- function(session_name) {
   name_str <- as.character(session_name)
-  idx <- (sum(as.integer(charToRaw(name_str))) %% length(session_colors)) + 1
+  hash <- digest(name_str, algo = "crc32", serialize = FALSE)
+  idx <- (strtoi(substr(hash, 1, 6), base = 16) %% length(session_colors)) + 1
   session_colors[idx]
 }
 
@@ -265,7 +268,7 @@ index_md <- c(
   ""
 )
 
-index_md <- c(index_md, "::: {.calendar}", calendar_html, ":::", "")
+index_md <- c(index_md, "::: {.calendar}", calendar_html, "")
 
 # 🎯 Filter to speaker-series projects only
 speaker_projects <- session_projects %>%
