@@ -191,11 +191,16 @@ speaker_projects <- session_projects %>%
 december_sessions <- speaker_projects %>%
   filter(month(presentation_date) == 12, year(presentation_date) == 2025) %>%
   mutate(day = day(presentation_date)) %>%
-  select(day, title)
+  select(day, session) %>%
+  distinct()
 
 # 🧱 Build calendar HTML
 calendar_html <- c(
-  "<table style='border-collapse: collapse; width: 100%; text-align: center;'>",
+  "<style>",
+  ".calendar-table td { width: 14.28%; height: 100px; border: 1px solid #ccc; padding: 8px; vertical-align: top; }",
+  ".calendar-cell { background-color: #e0f7fa; border-radius: 4px; padding: 4px; font-size: 0.9em; }",
+  "</style>",
+  "<table class='calendar-table' style='border-collapse: collapse; width: 100%; text-align: center;'>",
   "<caption><strong>December 2025</strong></caption>",
   "<tr>",
   paste0("<th style='padding: 5px;'>", c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), "</th>"),
@@ -210,8 +215,9 @@ for (d in 1:31) {
   label <- as.character(d)
   sessions <- december_sessions %>% filter(day == d)
   if (nrow(sessions) > 0) {
-    label <- glue("<div style='background-color:#e0f7fa; border-radius:4px; padding:4px;'><strong>{d}</strong><br>{paste(sessions$title, collapse='<br>')}</div>")
+    label <- glue("<div class='calendar-cell'><strong>{d}</strong><br>{paste(unique(sessions$session), collapse='<br>')}</div>")
   }
+  
   days <- c(days, label)
 }
 while (length(days) %% 7 != 0) {
@@ -221,9 +227,8 @@ weeks <- split(days, ceiling(seq_along(days)/7))
 for (week in weeks) {
   calendar_html <- c(calendar_html, "<tr>")
   for (cell in week) {
-    calendar_html <- c(calendar_html, glue("<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>{cell}</td>"))
+    calendar_html <- c(calendar_html, glue("<td>{cell}</td>"))
   }
-  calendar_html <- c(calendar_html, "</tr>")
 }
 calendar_html <- c(calendar_html, "</table>")
 

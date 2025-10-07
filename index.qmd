@@ -9,7 +9,11 @@ toc: false
 ## 🗓️ December 2025 Calendar Overview
 
 ::: {.calendar}
-<table style='border-collapse: collapse; width: 100%; text-align: center;'>
+<style>
+.calendar-table td { width: 14.28%; height: 100px; border: 1px solid #ccc; padding: 8px; vertical-align: top; }
+.calendar-cell { background-color: #e0f7fa; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+</style>
+<table class='calendar-table' style='border-collapse: collapse; width: 100%; text-align: center;'>
 <caption><strong>December 2025</strong></caption>
 <tr>
 <th style='padding: 5px;'>Sun</th>
@@ -21,51 +25,45 @@ toc: false
 <th style='padding: 5px;'>Sat</th>
 </tr>
 <tr>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>1</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'><div style='background-color:#e0f7fa; border-radius:4px; padding:4px;'><strong>2</strong><br>Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act<br>Biological models to support prioritizing salmon stocks under future climates<br>Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters<br>Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity<br>Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program<br>Adaptive genetic variation and climate change resilience in Canadian Pacific salmon<br>Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake<br>Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments<br>Climate Downscaling for salmon conservation in Marine Ecosystems<br>Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations<br>First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay<br>Development of High-resolution Climate Change Freshwater Hazard Data for BC<br>Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks.<br>Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems<br>Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
-coastal BC.</div></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>3</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'><div style='background-color:#e0f7fa; border-radius:4px; padding:4px;'><strong>4</strong><br>Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi<br>WCVI Sediment Transport and Redd Scour Assessment<br>Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon<br>Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island<br>Convergent tracks: a tagging study to quantify salmon predation by sea lions<br>Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species<br>Barkley Sound and Clayoquot Sound Krill Monitoring<br>Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins<br>Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.<br>Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey<br>Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA<br>NA<br>Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding<br>Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds<br>Determining the mechanisms of impacts of a changing climate on zooplankton in the Salish Sea using models and observations<br>Identifying factors that influence early marine survival of WCVI Chinook salmon</div></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>5</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>6</td>
-</tr>
+<td></td>
+<td>1</td>
+<td><div class='calendar-cell'><strong>2</strong><br>Freshwater Stressors<br>Salmon In A Changing Climate</div></td>
+<td>3</td>
+<td><div class='calendar-cell'><strong>4</strong><br>Follow The Fish<br>Marine Stressors</div></td>
+<td>5</td>
+<td>6</td>
 <tr>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>7</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>8</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'><div style='background-color:#e0f7fa; border-radius:4px; padding:4px;'><strong>9</strong><br>Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.<br>Optimization of feeds used in the hatchery production of Pacific Salmon.<br>Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.<br>Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.<br>SHERLOCK assay for rapid genotyping applications<br>Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon<br>Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production<br>Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations<br>Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon<br>Drivers and functional consequences of hatchery epigenetic variation<br>Genomic consequences of stray hatchery introgression<br>Genetic and epigenetic consequences of hatchery adaptation<br>Impact of genetic divergence on outbreeding depression in Chinook Salmon<br>Science-based review of hatchery results in the DFO Pacific Region<br>Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon<br>The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries</div></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>10</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'><div style='background-color:#e0f7fa; border-radius:4px; padding:4px;'><strong>11</strong><br>Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery<br>Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future<br>A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon<br>Fishery & Assessment Data Section - Data Stewardship Unit<br>Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries<br>Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology<br>Supporting the Ongoing Use and Development of the Pacific Salmon Explorer<br>First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast<br>Selective Fishing Using a Salmon Trap in the Campbell River Estuary<br>Restoring freshwater connectivity for Pacific salmon<br>FRIM – Short term mortality holding and respirometry studies<br>NA<br>NA</div></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>12</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>13</td>
-</tr>
+<td>7</td>
+<td>8</td>
+<td><div class='calendar-cell'><strong>9</strong><br>Salmon Health<br>Hatcheries</div></td>
+<td>10</td>
+<td><div class='calendar-cell'><strong>11</strong><br>Fisheries Monitoring And Harvest Methods<br>Data And Modelling To Support Decision Making</div></td>
+<td>12</td>
+<td>13</td>
 <tr>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>14</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>15</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>16</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>17</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>18</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>19</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>20</td>
-</tr>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
 <tr>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>21</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>22</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>23</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>24</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>25</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>26</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>27</td>
-</tr>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
 <tr>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>28</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>29</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>30</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>31</td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'></td>
-<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'></td>
-</tr>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td></td>
+<td></td>
+<td></td>
 </table>
 :::
 
