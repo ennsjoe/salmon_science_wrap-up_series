@@ -6,7 +6,8 @@ format: html
 toc: false
 ---
 
-## 🗓️ Upcoming Talks by Date
+
+👉 [View the session calendar](calendar.qmd)
 
 ## 📅 December 02, 2025
 

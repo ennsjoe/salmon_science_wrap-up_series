@@ -190,9 +190,10 @@ index_md <- c(
   'toc: false',
   "---",
   "",
-  "## 🗓️ Upcoming Talks by Date",
   ""
 )
+
+index_md <- c(index_md, "👉 [View the session calendar](calendar.qmd)", "")
 
 # 🎯 Filter to speaker-series projects only
 speaker_projects <- session_projects %>%
@@ -200,6 +201,26 @@ speaker_projects <- session_projects %>%
   filter(!is.na(presentation_date)) %>%
   mutate(presentation_date = as.Date(presentation_date)) %>%
   arrange(presentation_date)
+
+calendar_events <- speaker_projects %>%
+  filter(!is.na(presentation_date)) %>%
+  mutate(
+    title = coalesce(title, project_name),
+    start = format(presentation_date, "%Y-%m-%d"),
+    url = glue("pages/{sanitize_filename(project_id)}.qmd")
+  ) %>%
+  select(title, start, url)
+
+calendar_js <- paste0(
+  "[\n",
+  paste(
+    apply(calendar_events, 1, function(row) {
+      glue("  {{ title: \"{row[['title']]}\", start: \"{row[['start']]}\", url: \"{row[['url']]}\", allDay: true }}")
+    }),
+    collapse = ",\n"
+  ),
+  "\n]"
+)
 
 # 📆 Group presentations by date
 presentations_by_date <- split(speaker_projects, speaker_projects$presentation_date)
@@ -255,6 +276,30 @@ for (date_key in names(presentations_by_date)) {
 
 # 📝 Write index.qmd
 writeLines(index_md, here("index.qmd"))
+
+calendar_md <- glue(
+  "---\n",
+  "title: \"📅 Session Calendar\"\n",
+  "description: \"Interactive calendar of presentation dates\"\n",
+  "format: html\n",
+  "---\n\n",
+  "## 🗓️ Calendar of Sessions\n\n",
+  "<div id='calendar'></div>\n\n",
+  "<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css' rel='stylesheet' />\n",
+  "<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>\n\n",
+  "<script>\n",
+  "  document.addEventListener('DOMContentLoaded', function() {{\n",
+  "    var calendarEl = document.getElementById('calendar');\n",
+  "    var calendar = new FullCalendar.Calendar(calendarEl, {{\n",
+  "      initialView: 'dayGridMonth',\n",
+  "      events: {calendar_js}\n",
+  "    }});\n",
+  "    calendar.render();\n",
+  "  }});\n",
+  "</script>\n"
+)
+
+writeLines(calendar_md, here("calendar.qmd"))
 
 # 🌐 Write CNAME file
 writeLines("www.pacificsalmonscience.ca", "CNAME")

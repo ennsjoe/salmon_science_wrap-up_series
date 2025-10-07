@@ -1,0 +1,85 @@
+---
+title: "📅 Session Calendar"
+description: "Interactive calendar of presentation dates"
+format: html
+---
+
+## 🗓️ Calendar of Sessions
+
+<div id='calendar'></div>
+
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      events: [
+  { title: "Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act", start: "2025-12-02", url: "pages/2402.qmd", allDay: true },
+  { title: "Biological models to support prioritizing salmon stocks under future climates", start: "2025-12-02", url: "pages/2405.qmd", allDay: true },
+  { title: "Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters", start: "2025-12-02", url: "pages/2406.qmd", allDay: true },
+  { title: "Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity", start: "2025-12-02", url: "pages/2424.qmd", allDay: true },
+  { title: "Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program", start: "2025-12-02", url: "pages/2425.qmd", allDay: true },
+  { title: "Adaptive genetic variation and climate change resilience in Canadian Pacific salmon", start: "2025-12-02", url: "pages/2437.qmd", allDay: true },
+  { title: "Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake", start: "2025-12-02", url: "pages/2443.qmd", allDay: true },
+  { title: "Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments", start: "2025-12-02", url: "pages/2493.qmd", allDay: true },
+  { title: "Climate Downscaling for salmon conservation in Marine Ecosystems", start: "2025-12-02", url: "pages/2539.qmd", allDay: true },
+  { title: "Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations", start: "2025-12-02", url: "pages/BCSRIF_2020_217.qmd", allDay: true },
+  { title: "First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay", start: "2025-12-02", url: "pages/BCSRIF_2022_334.qmd", allDay: true },
+  { title: "Development of High-resolution Climate Change Freshwater Hazard Data for BC", start: "2025-12-02", url: "pages/BCSRIF_2022_384.qmd", allDay: true },
+  { title: "Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks.", start: "2025-12-02", url: "pages/BCSRIF_2022_399.qmd", allDay: true },
+  { title: "Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems", start: "2025-12-02", url: "pages/BCSRIF_2022_401.qmd", allDay: true },
+  { title: "Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
+coastal BC.", start: "2025-12-02", url: "pages/BCSRIF_2022_449.qmd", allDay: true },
+  { title: "Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi", start: "2025-12-04", url: "pages/2397.qmd", allDay: true },
+  { title: "WCVI Sediment Transport and Redd Scour Assessment", start: "2025-12-04", url: "pages/2398.qmd", allDay: true },
+  { title: "Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon", start: "2025-12-04", url: "pages/2404.qmd", allDay: true },
+  { title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island", start: "2025-12-04", url: "pages/2407.qmd", allDay: true },
+  { title: "Convergent tracks: a tagging study to quantify salmon predation by sea lions", start: "2025-12-04", url: "pages/2409.qmd", allDay: true },
+  { title: "Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species", start: "2025-12-04", url: "pages/2412.qmd", allDay: true },
+  { title: "Barkley Sound and Clayoquot Sound Krill Monitoring", start: "2025-12-04", url: "pages/2413.qmd", allDay: true },
+  { title: "Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins", start: "2025-12-04", url: "pages/2416.qmd", allDay: true },
+  { title: "Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.", start: "2025-12-04", url: "pages/2422.qmd", allDay: true },
+  { title: "Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey", start: "2025-12-04", url: "pages/2432.qmd", allDay: true },
+  { title: "Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA", start: "2025-12-04", url: "pages/2447.qmd", allDay: true },
+  { title: "NA", start: "2025-12-04", url: "pages/BCSRIF_2019_040-136D.qmd", allDay: true },
+  { title: "Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding", start: "2025-12-04", url: "pages/BCSRIF_2022_332.qmd", allDay: true },
+  { title: "Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds", start: "2025-12-04", url: "pages/BCSRIF_2022_337.qmd", allDay: true },
+  { title: "Determining the mechanisms of impacts of a changing climate on zooplankton in the Salish Sea using models and observations", start: "2025-12-04", url: "pages/BCSRIF_2022_358.qmd", allDay: true },
+  { title: "Identifying factors that influence early marine survival of WCVI Chinook salmon", start: "2025-12-04", url: "pages/BCSRIF_2022_442.qmd", allDay: true },
+  { title: "Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.", start: "2025-12-09", url: "pages/2408.qmd", allDay: true },
+  { title: "Optimization of feeds used in the hatchery production of Pacific Salmon.", start: "2025-12-09", url: "pages/2417.qmd", allDay: true },
+  { title: "Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.", start: "2025-12-09", url: "pages/2418.qmd", allDay: true },
+  { title: "Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.", start: "2025-12-09", url: "pages/2421.qmd", allDay: true },
+  { title: "SHERLOCK assay for rapid genotyping applications", start: "2025-12-09", url: "pages/2434.qmd", allDay: true },
+  { title: "Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon", start: "2025-12-09", url: "pages/2435.qmd", allDay: true },
+  { title: "Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production", start: "2025-12-09", url: "pages/2448.qmd", allDay: true },
+  { title: "Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations", start: "2025-12-09", url: "pages/2451.qmd", allDay: true },
+  { title: "Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon", start: "2025-12-09", url: "pages/2453.qmd", allDay: true },
+  { title: "Drivers and functional consequences of hatchery epigenetic variation", start: "2025-12-09", url: "pages/3103.qmd", allDay: true },
+  { title: "Genomic consequences of stray hatchery introgression", start: "2025-12-09", url: "pages/3119.qmd", allDay: true },
+  { title: "Genetic and epigenetic consequences of hatchery adaptation", start: "2025-12-09", url: "pages/3120.qmd", allDay: true },
+  { title: "Impact of genetic divergence on outbreeding depression in Chinook Salmon", start: "2025-12-09", url: "pages/3121.qmd", allDay: true },
+  { title: "Science-based review of hatchery results in the DFO Pacific Region", start: "2025-12-09", url: "pages/BCSRIF_2019_136.qmd", allDay: true },
+  { title: "Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon", start: "2025-12-09", url: "pages/BCSRIF_2020_239.qmd", allDay: true },
+  { title: "The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries", start: "2025-12-09", url: "pages/BCSRIF_2020_311.qmd", allDay: true },
+  { title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery", start: "2025-12-11", url: "pages/2394.qmd", allDay: true },
+  { title: "Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future", start: "2025-12-11", url: "pages/2410.qmd", allDay: true },
+  { title: "A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon", start: "2025-12-11", url: "pages/2449.qmd", allDay: true },
+  { title: "Fishery & Assessment Data Section - Data Stewardship Unit", start: "2025-12-11", url: "pages/2546.qmd", allDay: true },
+  { title: "Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries", start: "2025-12-11", url: "pages/BCSRIF_2019_045.qmd", allDay: true },
+  { title: "Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology", start: "2025-12-11", url: "pages/BCSRIF_2019_058.qmd", allDay: true },
+  { title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer", start: "2025-12-11", url: "pages/BCSRIF_2020_279.qmd", allDay: true },
+  { title: "First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast", start: "2025-12-11", url: "pages/BCSRIF_2020_292.qmd", allDay: true },
+  { title: "Selective Fishing Using a Salmon Trap in the Campbell River Estuary", start: "2025-12-11", url: "pages/BCSRIF_2022_347.qmd", allDay: true },
+  { title: "Restoring freshwater connectivity for Pacific salmon", start: "2025-12-11", url: "pages/BCSRIF_2022_415.qmd", allDay: true },
+  { title: "FRIM – Short term mortality holding and respirometry studies", start: "2025-12-11", url: "pages/BCSRIF_2022_454.qmd", allDay: true },
+  { title: "NA", start: "2025-12-11", url: "pages/_blank_.qmd", allDay: true },
+  { title: "NA", start: "2025-12-11", url: "pages/_blank_.qmd", allDay: true }
+]
+    });
+    calendar.render();
+  });
+</script>
