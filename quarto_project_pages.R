@@ -180,6 +180,53 @@ for (i in seq_len(nrow(aggregated_projects))) {
 
 cat(glue("✅ Generated {nrow(aggregated_projects)} project pages.\n"))
 
+# 🎯 Filter to speaker-series projects only----
+speaker_projects <- session_projects %>%
+  filter(project_id %in% Speaker.Themes$project_id) %>%
+  filter(!is.na(presentation_date)) %>%
+  mutate(presentation_date = as.Date(presentation_date)) %>%
+  arrange(presentation_date)
+
+# 📅 Filter December 2025 sessions----
+december_sessions <- speaker_projects %>%
+  filter(month(presentation_date) == 12, year(presentation_date) == 2025) %>%
+  mutate(day = day(presentation_date)) %>%
+  select(day, title)
+
+# 🧱 Build calendar HTML
+calendar_html <- c(
+  "<table style='border-collapse: collapse; width: 100%; text-align: center;'>",
+  "<caption><strong>December 2025</strong></caption>",
+  "<tr>",
+  paste0("<th style='padding: 5px;'>", c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), "</th>"),
+  "</tr>"
+)
+
+first_day <- as.Date("2025-12-01")
+start_weekday <- as.POSIXlt(first_day)$wday
+
+days <- rep("", start_weekday)
+for (d in 1:31) {
+  label <- as.character(d)
+  sessions <- december_sessions %>% filter(day == d)
+  if (nrow(sessions) > 0) {
+    label <- glue("<div style='background-color:#e0f7fa; border-radius:4px; padding:4px;'><strong>{d}</strong><br>{paste(sessions$title, collapse='<br>')}</div>")
+  }
+  days <- c(days, label)
+}
+while (length(days) %% 7 != 0) {
+  days <- c(days, "")
+}
+weeks <- split(days, ceiling(seq_along(days)/7))
+for (week in weeks) {
+  calendar_html <- c(calendar_html, "<tr>")
+  for (cell in week) {
+    calendar_html <- c(calendar_html, glue("<td style='border: 1px solid #ccc; padding: 8px; vertical-align: top;'>{cell}</td>"))
+  }
+  calendar_html <- c(calendar_html, "</tr>")
+}
+calendar_html <- c(calendar_html, "</table>")
+
 # 🧭 Index.qmd development----
 index_md <- c(
   "---",
@@ -190,10 +237,11 @@ index_md <- c(
   'toc: false',
   "---",
   "",
+  "## 🗓️ December 2025 Calendar Overview",
   ""
 )
 
-index_md <- c(index_md, "👉 [View the session calendar](calendar.qmd)", "")
+index_md <- c(index_md, "::: {.calendar}", calendar_html, ":::", "")
 
 # 🎯 Filter to speaker-series projects only
 speaker_projects <- session_projects %>%
@@ -201,26 +249,6 @@ speaker_projects <- session_projects %>%
   filter(!is.na(presentation_date)) %>%
   mutate(presentation_date = as.Date(presentation_date)) %>%
   arrange(presentation_date)
-
-calendar_events <- speaker_projects %>%
-  filter(!is.na(presentation_date)) %>%
-  mutate(
-    title = coalesce(title, project_name),
-    start = format(presentation_date, "%Y-%m-%d"),
-    url = glue("pages/{sanitize_filename(project_id)}.qmd")
-  ) %>%
-  select(title, start, url)
-
-calendar_js <- paste0(
-  "[\n",
-  paste(
-    apply(calendar_events, 1, function(row) {
-      glue("  {{ title: \"{row[['title']]}\", start: \"{row[['start']]}\", url: \"{row[['url']]}\", allDay: true }}")
-    }),
-    collapse = ",\n"
-  ),
-  "\n]"
-)
 
 # 📆 Group presentations by date
 presentations_by_date <- split(speaker_projects, speaker_projects$presentation_date)
