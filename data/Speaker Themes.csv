@@ -1,61 +1,31 @@
-﻿Project Id,source,speakers,session
-2410,DFO,"Thomas Therriault, Cher LaCoste",Data and modelling to support decision making
-2449,DFO,"Carrie Holt, Brendan Connors, Catarina Wor",Data and modelling to support decision making
-2546,DFO,Shelee Hamilton,Data and modelling to support decision making
-BCSRIF_2020_279,BCSRIF,Katrina Connors,Data and modelling to support decision making
-BCSRIF_2022_415,BCSRIF,,Data and modelling to support decision making
-101,DFO,Ann-Marie Huang; Diana Dobson,Data and modelling to support decision making
-2394,DFO,Cory Lagasse,Fisheries monitoring and harvest methods
-BCSRIF_2019_045,BCSRIF,Will Atlas,Fisheries monitoring and harvest methods
-BCSRIF_2019_058,BCSRIF,Scott Hinch,Fisheries monitoring and harvest methods
-BCSRIF_2020_292,BCSRIF,Megan Adams,Fisheries monitoring and harvest methods
-BCSRIF_2022_347,BCSRIF,Derek Leboeuf,Fisheries monitoring and harvest methods
-BCSRIF_2022_454,BCSRIF,,Fisheries monitoring and harvest methods
-102,DFO,"Phil Lemp, Erin Rechisky",Fisheries monitoring and harvest methods
-2397,DFO,Carrie Holt,Follow the Fish
-2398,DFO,Diana McHugh,Follow the Fish
-2407,DFO,Jessy Bokvist,Follow the Fish
-2422,DFO,"Andrew Ross, Xiangjun Liao, Nicole LaForge",Follow the Fish
-2432,DFO,Stephane Gauthier,Follow the Fish
-2447,DFO,Kristi Miller-Saunders,Follow the Fish
-BCSRIF_2022_332,BCSRIF,Christine Gruman,Follow the Fish
-BCSRIF_2022_337,BCSRIF,Timothy Sobey,Follow the Fish
-BCSRIF_2022_442,BCSRIF,Andrew Bateman,Follow the Fish
-2402,DFO,"Brendan Connors, Adam O'Dell",Freshwater stressors
-2424,DFO,Sean Naman,Freshwater stressors
-2425,DFO,Josie Iacarella,Freshwater stressors
-2443,DFO,Daniel Doutaz,Freshwater stressors
-2493,DFO,"David Patterson, Douglas Braun",Freshwater stressors
-BCSRIF_2020_217,BCSRIF,Jordan Rosenfeld,Freshwater stressors
-BCSRIF_2022_334,BCSRIF,Marian Ngo,Freshwater stressors
-BCSRIF_2022_449,BCSRIF,Amy Kamarainen,Freshwater stressors
-2435,DFO,"Eric Rondeau, Tim Healy, Kyle Wellband",Hatcheries
-2451,DFO,"Eric Rondeau, Tim Healy, Kyle Wellband",Hatcheries
-2453,DFO,"Eric Rondeau, Tim Healy, Kyle Wellband",Hatcheries
-3103,DFO,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
-3119,DFO,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
-3120,DFO,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
-3121,DFO,"Eric Rondeau, Timothy Healy, Kyle Wellband",Hatcheries
-BCSRIF_2019_136,BCSRIF,Jason Hwang,Hatcheries
-BCSRIF_2020_239,BCSRIF,Francis Juanes,Hatcheries
-2404,DFO,Laura Bianucci,Marine stressors
-2409,DFO,"Strahan Tucker, Cameron Freshwater",Marine stressors
-2412,DFO,Chris Pearce,Marine stressors
-2413,DFO,"Akash Sastri, Kelly Young",Marine stressors
-2416,DFO,Andrew Ross,Marine stressors
-BCSRIF_2019_040-136D,BCSRIF,Samantha James,Marine stressors
-BCSRIF_2022_358,BCSRIF,,Marine stressors
-2408,DFO,Amy Long,Salmon Health
-2417,DFO,"Ian Forster, Cher LaCoste",Salmon Health
-2418,DFO,"Ian Forster, Cher LaCoste",Salmon Health
-2421,DFO,Stewart Johnson,Salmon Health
-2434,DFO,"Eric Rondeau, Tim Healy, Kyle Wellband",Salmon Health
-2448,DFO,Kristi Miller-Saunders,Salmon Health
-BCSRIF_2020_311,BCSRIF,Ahmed Siah,Salmon Health
-2405,DFO,"Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, ",Salmon in a changing climate
-2406,DFO,Sophia Johannessen,Salmon in a changing climate
-2437,DFO,"Eric Rondeau, Tim Healy, Kyle Wellband",Salmon in a changing climate
-2539,DFO,"Di Wan, James Christian",Salmon in a changing climate
-BCSRIF_2022_384,BCSRIF,Francis Zwiers,Salmon in a changing climate
-BCSRIF_2022_399,BCSRIF,Ellen Petticrew,Salmon in a changing climate
-BCSRIF_2022_401,BCSRIF,Katrina Connors,Salmon in a changing climate
+﻿Project Id,session,speakers,source
+2394,Fisheries monitoring and harvest methods,Cory Lagasse,DFO
+2397,Follow the Fish,Carrie Holt,DFO
+2398,Follow the Fish,Diana McHugh,DFO
+2404,Marine stressors,Laura Bianucci,DFO
+2405,Salmon in a changing climate,"Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, ",DFO
+2406,Salmon in a changing climate,Sophia Johannessen,DFO
+2407,Follow the Fish,Jessy Bokvist,DFO
+2409,Marine stressors,"Strahan Tucker, Cameron Freshwater",DFO
+2412,Marine stressors,Chris Pearce,DFO
+2413,Marine stressors,"Akash Sastri, Kelly Young",DFO
+2416,Marine stressors,Andrew Ross,DFO
+2422,Follow the Fish,"Andrew Ross, Xiangjun Liao, Nicole LaForge",DFO
+2432,Follow the Fish,Stephane Gauthier,DFO
+2437,Salmon in a changing climate,"""",DFO
+2447,Follow the Fish,Kristi Miller-Saunders,DFO
+2539,Salmon in a changing climate,"Di Wan, James Christian",DFO
+BCSRIF_2019_040-136D,Marine stressors,Samantha James,BCSRIF
+BCSRIF_2019_045,Fisheries monitoring and harvest methods,Will Atlas,BCSRIF
+BCSRIF_2019_058,Fisheries monitoring and harvest methods,Scott Hinch,BCSRIF
+BCSRIF_2020_292,Fisheries monitoring and harvest methods,Megan Adams,BCSRIF
+BCSRIF_2022_332,Follow the Fish,Christine Gruman,BCSRIF
+BCSRIF_2022_337,Follow the Fish,Timothy Sobey,BCSRIF
+BCSRIF_2022_347,Fisheries monitoring and harvest methods,Derek Leboeuf,BCSRIF
+BCSRIF_2022_358,Marine stressors,(blank),BCSRIF
+BCSRIF_2022_384,Salmon in a changing climate,Francis Zwiers,BCSRIF
+BCSRIF_2022_399,Salmon in a changing climate,Ellen Petticrew,BCSRIF
+BCSRIF_2022_401,Salmon in a changing climate,Katrina Connors,BCSRIF
+BCSRIF_2022_442,Follow the Fish,Andrew Bateman,BCSRIF
+BCSRIF_2022_454,Fisheries monitoring and harvest methods,(blank),BCSRIF
+(blank),Fisheries monitoring and harvest methods,"Phil Lemp, Erin Rechisky",DFO
