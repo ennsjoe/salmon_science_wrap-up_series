@@ -11,6 +11,7 @@ toc: false
 ## 📅 December 02, 2025
 
 ### 🐟 Freshwater Stressors
+Mechanistic, physiological, and quantitative studies for evaluating stressors to freshwater habitats of Pacific salmon, including cumulative stressors.
 
 - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd) | Brendan Connors, Adam O'Dell
 - 🌊 [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd) | Sean Naman
@@ -23,6 +24,7 @@ toc: false
 coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 
 ### 🐟 Salmon In A Changing Climate
+Long-term implications of climate change for Pacific Salmon and their ecosystems.
 
 - 🌊 [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, 
 - 🌊 [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/2406.qmd) | Sophia Johannessen
@@ -35,6 +37,7 @@ coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 ## 📅 December 04, 2025
 
 ### 🐟 Follow The Fish
+A review of the Follow the Fish Program, including methods and approaches for life cycle assessment of WCVI Chinook and ecosystem-scale research programs. 
 
 - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/2397.qmd) | Carrie Holt
 - 🌊 [WCVI Sediment Transport and Redd Scour Assessment](pages/2398.qmd) | Diana McHugh
@@ -47,6 +50,7 @@ coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/BCSRIF_2022_442.qmd) | Pacific Salmon Foundation
 
 ### 🐟 Marine Stressors
+Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
 
 - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/2404.qmd) | Laura Bianucci
 - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/2409.qmd) | Strahan Tucker, Cameron Freshwater
@@ -59,6 +63,7 @@ coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 ## 📅 December 09, 2025
 
 ### 🐟 Hatcheries
+Research on genetic consequences of hatchery enhancment, and the interactions between hatchery and wild salmon
 
 - 🌊 [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
 - 🌊 [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
@@ -71,6 +76,7 @@ coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 - 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/BCSRIF_2020_239.qmd) | University of Victoria, Department of Biology
 
 ### 🐟 Salmon Health
+Monitoring and managing the health of cultured salmon.
 
 - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd) | Amy Long
 - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd) | Ian Forster, Cher LaCoste
@@ -83,6 +89,7 @@ coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 ## 📅 December 11, 2025
 
 ### 🐟 Data And Modelling To Support Decision Making
+Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management.
 
 - 🌊 [NA](pages/_blank_.qmd) | 
 - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd) | Thomas Therriault, Cher LaCoste
@@ -92,6 +99,7 @@ coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
 - 🌱 [Restoring freshwater connectivity for Pacific salmon](pages/BCSRIF_2022_415.qmd) | Canadian Wildlife Federation
 
 ### 🐟 Fisheries Monitoring And Harvest Methods
+Projects that pilot selective methods for harvesting salmon or contribute to our understanding of fisheries impacts on Pacific salmon through improved monitoring
 
 - 🌊 [NA](pages/_blank_.qmd) | 
 - 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/2394.qmd) | Cory Lagasse

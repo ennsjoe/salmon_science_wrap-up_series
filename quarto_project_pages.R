@@ -217,9 +217,17 @@ for (date_key in names(presentations_by_date)) {
   
   for (group in sessions) {
     session_title <- unique(group$session) %||% "Uncategorized"
-    host_names <- paste(unique(na.omit(group$hosts)), collapse = "; ") %||% "Hosts TBD"
     
-    index_md <- c(index_md, glue("### 🐟 {session_title}"), "")
+    # Get session description
+    session_description <- sessions_raw %>%
+      filter(normalize_session(session) == session_title) %>%
+      pull(description) %>%
+      unique() %>%
+      na.omit()
+    
+    desc_text <- if (length(session_description) > 0) session_description[1] else ""
+    
+    index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, "")
     
     # 🔗 Group by project_id to avoid duplicates
     projects <- group %>%
