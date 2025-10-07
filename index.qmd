@@ -10,6 +10,18 @@ toc: false
 
 ## 📅 December 02, 2025
 
+### 🐟 Freshwater Stressors
+
+- 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/2402.qmd) | Brendan Connors, Adam O'Dell
+- 🌊 [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/2424.qmd) | Sean Naman
+- 🌊 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/2425.qmd) | Josie Iacarella
+- 🌊 [Quantitative assessment of the impact of Smallmouth Bass suppression efforts in Cultus Lake and SMB emigration from Cultus Lake](pages/2443.qmd) | Daniel Doutaz
+- 🌊 [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/2493.qmd) | David Patterson, Douglas Braun
+- 🌱 [Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations](pages/BCSRIF_2020_217.qmd) | University of British Columbia (Vancouver), Institute for the Oceans and Fisheries
+- 🌱 [First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay](pages/BCSRIF_2022_334.qmd) | Salish Sea Indigenous Guardians Association
+- 🌱 [Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
+coastal BC.](pages/BCSRIF_2022_449.qmd) | Salmon Coast Field Station Society
+
 ### 🐟 Salmon In A Changing Climate
 
 - 🌊 [Biological models to support prioritizing salmon stocks under future climates](pages/2405.qmd) | Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, 
@@ -44,7 +56,40 @@ toc: false
 - 🌊 [NA](pages/BCSRIF_2019_040-136D.qmd) | 
 - 🌱 [Determining the mechanisms of impacts of a changing climate on zooplankton in the Salish Sea using models and observations](pages/BCSRIF_2022_358.qmd) | University of British Columbia (Vancouver), Department of Earth, Ocean and Atmospheric Sciences
 
+## 📅 December 09, 2025
+
+### 🐟 Hatcheries
+
+- 🌊 [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/2435.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- 🌊 [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/2451.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- 🌊 [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/2453.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- 🌊 [Drivers and functional consequences of hatchery epigenetic variation](pages/3103.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- 🌊 [Genomic consequences of stray hatchery introgression](pages/3119.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- 🌊 [Genetic and epigenetic consequences of hatchery adaptation](pages/3120.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- 🌊 [Impact of genetic divergence on outbreeding depression in Chinook Salmon](pages/3121.qmd) | Eric Rondeau, Timothy Healy, Kyle Wellband
+- 🌱 [Science-based review of hatchery results in the DFO Pacific Region](pages/BCSRIF_2019_136.qmd) | Pacific Salmon Foundation
+- 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/BCSRIF_2020_239.qmd) | University of Victoria, Department of Biology
+
+### 🐟 Salmon Health
+
+- 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/2408.qmd) | Amy Long
+- 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/2417.qmd) | Ian Forster, Cher LaCoste
+- 🌊 [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/2418.qmd) | Ian Forster, Cher LaCoste
+- 🌊 [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/2421.qmd) | Stewart Johnson
+- 🌊 [SHERLOCK assay for rapid genotyping applications](pages/2434.qmd) | Eric Rondeau, Tim Healy, Kyle Wellband
+- 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/2448.qmd) | Kristi Miller-Saunders
+- 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/BCSRIF_2020_311.qmd) | BC Centre for Aquatic Health Sciences Society
+
 ## 📅 December 11, 2025
+
+### 🐟 Data And Modelling To Support Decision Making
+
+- 🌊 [NA](pages/_blank_.qmd) | 
+- 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/2410.qmd) | Thomas Therriault, Cher LaCoste
+- 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/2449.qmd) | Carrie Holt, Brendan Connors, Catarina Wor
+- 🌊 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/2546.qmd) | Shelee Hamilton
+- 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/BCSRIF_2020_279.qmd) | Pacific Salmon Foundation
+- 🌱 [Restoring freshwater connectivity for Pacific salmon](pages/BCSRIF_2022_415.qmd) | Canadian Wildlife Federation
 
 ### 🐟 Fisheries Monitoring And Harvest Methods
 
