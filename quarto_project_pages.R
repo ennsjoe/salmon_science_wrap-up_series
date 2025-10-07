@@ -194,11 +194,23 @@ december_sessions <- speaker_projects %>%
   select(day, session) %>%
   distinct()
 
+# 🎨 Define color palette and color assignment function
+session_colors <- c(
+  "#007BFF", "#28A745", "#17A2B8", "#FFC107", "#DC3545", "#6F42C1", "#20C997", "#FD7E14"
+)
+
+get_session_color <- function(session_name) {
+  name_str <- as.character(session_name)
+  idx <- (sum(as.integer(charToRaw(name_str))) %% length(session_colors)) + 1
+  session_colors[idx]
+}
+
 # 🧱 Build calendar HTML
 calendar_html <- c(
   "<style>",
   ".calendar-table td { width: 14.28%; height: 100px; border: 1px solid #ccc; padding: 8px; vertical-align: top; }",
-  ".calendar-cell { background-color: #e0f7fa; border-radius: 4px; padding: 4px; font-size: 0.9em; }",
+  ".calendar-cell { padding: 4px; font-size: 0.9em; }",
+  ".calendar-button { display: inline-block; margin: 2px 0; padding: 4px 6px; border-radius: 6px; font-size: 0.85em; color: white; text-align: center; font-weight: 500; }",
   "</style>",
   "<table class='calendar-table' style='border-collapse: collapse; width: 100%; text-align: center;'>",
   "<caption><strong>December 2025</strong></caption>",
@@ -215,7 +227,14 @@ for (d in 1:31) {
   label <- as.character(d)
   sessions <- december_sessions %>% filter(day == d)
   if (nrow(sessions) > 0) {
-    label <- glue("<div class='calendar-cell'><strong>{d}</strong><br>{paste(unique(sessions$session), collapse='<br>')}</div>")
+    buttons <- paste0(
+      "<div class='calendar-button' style='background-color:", 
+      sapply(sessions$session, get_session_color), 
+      "'>", sessions$session, "</div>"
+    )
+    label <- glue("<div class='calendar-cell'><strong>{d}</strong><br>{paste(buttons, collapse='')}</div>")
+  } else {
+    label <- glue("<div class='calendar-cell'><strong>{d}</strong></div>")
   }
   
   days <- c(days, label)
