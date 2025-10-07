@@ -183,8 +183,8 @@ cat(glue("✅ Generated {nrow(aggregated_projects)} project pages.\n"))
 # 🧭 Index.qmd development----
 index_md <- c(
   "---",
-  'title: "🌊 Pacific Salmon Science Speaker Series"',
-  'description: "40+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
+  'title: "🌊 Pacific Salmon Science Symposium"',
+  'description: "30+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
   'author: "PSSI Implementation Team"',
   'format: html',
   'toc: false',
@@ -219,7 +219,7 @@ for (date_key in names(presentations_by_date)) {
     session_title <- unique(group$session) %||% "Uncategorized"
     host_names <- paste(unique(na.omit(group$hosts)), collapse = "; ") %||% "Hosts TBD"
     
-    index_md <- c(index_md, glue("### 🐟 {session_title}"), glue("_Hosted by: {host_names}_"), "")
+    index_md <- c(index_md, glue("### 🐟 {session_title}"), "")
     
     # 🔗 Group by project_id to avoid duplicates
     projects <- group %>%
