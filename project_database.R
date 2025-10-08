@@ -331,6 +331,13 @@ if (pssi_count == 0) {
   cat(paste("  ", head(pssi_ids, 10), collapse = "\n"))
   cat(glue("\n   Total PSSI IDs: {length(pssi_ids)}\n"))
   
+  # Check if these IDs exist in the pre-summarise data
+  test_df <- speaker_projects_with_program %>%
+    filter(project_id %in% head(pssi_ids, 5)) %>%
+    select(project_id, title, source_program, project_leads, division)
+  cat("\n   Checking sample PSSI rows before summarise:\n")
+  print(test_df)
+  
   cat("\n   Aggregated project IDs:\n")
   agg_ids <- aggregated_projects %>% pull(project_id)
   cat(paste("  ", head(agg_ids, 10), collapse = "\n"))
