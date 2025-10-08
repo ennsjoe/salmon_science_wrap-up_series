@@ -116,6 +116,15 @@ speakers <- dbReadTable(con, "Speaker.Themes") %>%
   )
 cat(glue("   ✓ Speakers: {nrow(speakers)} rows\n"))
 
+# Debug: Check source distribution in raw Speaker.Themes
+if ("source" %in% names(speakers)) {
+  cat("   Source distribution in Speaker.Themes:\n")
+  source_counts <- table(speakers$source, useNA = "ifany")
+  for (src in names(source_counts)) {
+    cat(glue("      {src}: {source_counts[src]}\n"))
+  }
+}
+
 sessions_raw <- dbReadTable(con, "session_info")
 cat(glue("   ✓ Session info: {nrow(sessions_raw)} rows\n"))
 
@@ -148,21 +157,53 @@ cat(glue("   Unknown: {sum(project_sources$source_program == 'Unknown')}\n\n"))
 
 # 🔗 Initial join to create session_projects
 cat("🔗 Joining project data...\n")
-session_projects <- speakers %>%
-  left_join(sessions, by = "session") %>%
+
+# First, let's see what we start with
+initial_join <- speakers %>%
+  left_join(sessions, by = "session")
+
+cat(glue("   After joining sessions: {nrow(initial_join)} rows\n"))
+
+# Check how many have dates
+with_dates <- initial_join %>% filter(!is.na(date))
+cat(glue("   With presentation dates: {nrow(with_dates)} rows\n"))
+
+session_projects_pre_filter <- initial_join %>%
   left_join(projects, by = "project_id") %>%
   left_join(bcsrif_projects, by = "project_id") %>%
-  filter(!is.na(project_id), project_id != "", project_id != "(blank)") %>%
   mutate(
     title = coalesce(title, project_name, "Untitled Project"),
     overview = coalesce(project_overview_jde, description_short, overview),
     presentation_date = date,
     file_id = sanitize_filename(project_id)
-  ) %>%
+  )
+
+cat(glue("   After joining project tables: {nrow(session_projects_pre_filter)} rows\n"))
+
+# Check source distribution before filtering
+if ("source" %in% names(session_projects_pre_filter)) {
+  cat("   Source distribution before filter:\n")
+  pre_filter_source <- table(session_projects_pre_filter$source, useNA = "ifany")
+  for (src in names(pre_filter_source)) {
+    cat(glue("      {src}: {pre_filter_source[src]}\n"))
+  }
+}
+
+session_projects <- session_projects_pre_filter %>%
+  filter(!is.na(project_id), project_id != "", project_id != "(blank)") %>%
   arrange(presentation_date) %>%
   distinct(project_id, session, .keep_all = TRUE)
 
-cat(glue("✅ Created session_projects: {nrow(session_projects)} rows\n\n"))
+cat(glue("✅ Created session_projects: {nrow(session_projects)} rows\n"))
+
+# Debug: Check source distribution after filtering and distinct
+if ("source" %in% names(session_projects)) {
+  cat("   Source distribution after filter & distinct:\n")
+  source_counts_post <- table(session_projects$source, useNA = "ifany")
+  for (src in names(source_counts_post)) {
+    cat(glue("      {src}: {source_counts_post[src]}\n"))
+  }
+}
 
 # 🎯 Filter to speaker series projects only
 speaker_ids <- Speaker.Themes %>%
@@ -176,19 +217,76 @@ cat(glue("🎯 Filtered to speaker series: {nrow(speaker_projects)} projects\n\n
 
 # 🧠 Aggregate metadata
 cat("🧠 Aggregating project metadata...\n")
-aggregated_projects <- speaker_projects %>%
-  left_join(project_sources, by = "project_id") %>%
+
+# Debug: Check what's in speaker_projects before aggregation
+cat(glue("   Pre-aggregation: {nrow(speaker_projects)} rows\n"))
+if ("source" %in% names(speaker_projects)) {
+  cat("   Source distribution in speaker_projects:\n")
+  source_table <- table(speaker_projects$source, useNA = "ifany")
+  for (src in names(source_table)) {
+    cat(glue("      {src}: {source_table[src]}\n"))
+  }
+}
+
+# Check for any rows with missing critical data
+missing_title <- sum(is.na(speaker_projects$title) | speaker_projects$title == "")
+missing_source <- sum(is.na(speaker_projects$source) | speaker_projects$source == "")
+cat(glue("   Rows with missing title: {missing_title}\n"))
+cat(glue("   Rows with missing source: {missing_source}\n"))
+
+# Show sample of PSSI projects if they exist
+pssi_sample <- speaker_projects %>% 
+  filter(source == "DFO") %>% 
+  select(project_id, title, source) %>% 
+  head(3)
+if (nrow(pssi_sample) > 0) {
+  cat("\n   Sample PSSI projects before aggregation:\n")
+  print(pssi_sample)
+}
+
+# Create source_program first
+speaker_projects_with_program <- speaker_projects %>%
   mutate(
-    project_leads = if_else(
-      source_program == "BCSRIF" & (is.na(project_leads) | project_leads == ""),
-      recipient,
-      project_leads
+    source_program = case_when(
+      source == "DFO" ~ "PSSI",
+      source == "BCSRIF" ~ "BCSRIF",
+      TRUE ~ "Unknown"
+    )
+  )
+
+# Verify source_program was created
+cat("\n   Source_program distribution after mutate:\n")
+print(table(speaker_projects_with_program$source_program, useNA = "ifany"))
+
+# Check for duplicate project_ids
+cat("\n   Checking for duplicate project_ids:\n")
+project_counts <- speaker_projects_with_program %>%
+  group_by(project_id) %>%
+  summarise(n = n(), programs = paste(unique(source_program), collapse = ", ")) %>%
+  arrange(desc(n))
+cat(glue("   Unique project_ids: {nrow(project_counts)}\n"))
+cat(glue("   Max occurrences of single ID: {max(project_counts$n)}\n"))
+if (any(project_counts$n > 1)) {
+  cat("\n   Projects appearing multiple times:\n")
+  print(head(project_counts %>% filter(n > 1), 10))
+}
+
+aggregated_projects <- speaker_projects_with_program %>%
+  # For PSSI: use project_leads from Science.PSSI.Projects
+  # For BCSRIF: use recipient from BCSRIF table as fallback
+  mutate(
+    project_leads_clean = case_when(
+      source_program == "PSSI" & !is.na(project_leads) & project_leads != "" ~ project_leads,
+      source_program == "BCSRIF" & !is.na(recipient) & recipient != "" ~ recipient,
+      !is.na(project_leads) & project_leads != "" ~ project_leads,
+      !is.na(recipient) & recipient != "" ~ recipient,
+      TRUE ~ "N/A"
     )
   ) %>%
   group_by(project_id) %>%
   summarise(
     title = coalesce(first(title), first(project_name), "Untitled Project"),
-    project_leads = paste(unique(na.omit(project_leads)), collapse = "; "),
+    project_leads = paste(unique(na.omit(project_leads_clean)), collapse = "; "),
     recipient = paste(unique(na.omit(recipient)), collapse = "; "),
     division = paste(unique(na.omit(division)), collapse = "; "),
     section = paste(unique(na.omit(section)), collapse = "; "),
@@ -205,14 +303,83 @@ aggregated_projects <- speaker_projects %>%
     agreement_start_date = first(na.omit(agreement_start_date)),
     agreement_end_date = first(na.omit(agreement_end_date)),
     list_of_partners_or_collaborators = paste(unique(na.omit(list_of_partners_or_collaborators)), collapse = "; "),
-    source_program = first(na.omit(source_program)),
+    source_program = first(source_program),  # Now this will work!
     .groups = "drop"
   )
 
 cat(glue("✅ Aggregated {nrow(aggregated_projects)} unique projects\n"))
-cat(glue("   PSSI: {sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)}\n"))
-cat(glue("   BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)}\n"))
-cat(glue("   Other: {sum(aggregated_projects$source_program == 'Unknown', na.rm = TRUE)}\n\n"))
+
+# Check what happened
+pssi_count <- sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)
+bcsrif_count <- sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)
+unknown_count <- sum(aggregated_projects$source_program == 'Unknown', na.rm = TRUE)
+na_count <- sum(is.na(aggregated_projects$source_program))
+
+cat(glue("   PSSI: {pssi_count}\n"))
+cat(glue("   BCSRIF: {bcsrif_count}\n"))
+cat(glue("   Other: {unknown_count}\n"))
+cat(glue("   NA: {na_count}\n"))
+
+# If PSSI projects are missing, show which ones
+if (pssi_count == 0) {
+  cat("\n   ⚠️ WARNING: PSSI projects lost during aggregation!\n")
+  cat("   Original PSSI project IDs:\n")
+  pssi_ids <- speaker_projects_with_program %>% 
+    filter(source_program == "PSSI") %>% 
+    distinct(project_id) %>% 
+    pull(project_id)
+  cat(paste("  ", head(pssi_ids, 10), collapse = "\n"))
+  cat(glue("\n   Total PSSI IDs: {length(pssi_ids)}\n"))
+  
+  # Check if these IDs exist in the pre-summarise data
+  test_df <- speaker_projects_with_program %>%
+    filter(project_id %in% head(pssi_ids, 5)) %>%
+    select(project_id, title, source_program, project_leads, division)
+  cat("\n   Checking sample PSSI rows before summarise:\n")
+  print(test_df)
+  
+  # Try to run summarise on just these rows to see if it fails
+  cat("\n   Testing summarise on sample PSSI rows:\n")
+  test_result <- tryCatch({
+    speaker_projects_with_program %>%
+      filter(project_id %in% head(pssi_ids, 5)) %>%
+      mutate(
+        project_leads_clean = case_when(
+          source_program == "PSSI" & !is.na(project_leads) & project_leads != "" ~ project_leads,
+          source_program == "BCSRIF" & !is.na(recipient) & recipient != "" ~ recipient,
+          !is.na(project_leads) & project_leads != "" ~ project_leads,
+          !is.na(recipient) & recipient != "" ~ recipient,
+          TRUE ~ "N/A"
+        )
+      ) %>%
+      group_by(project_id) %>%
+      summarise(
+        title = first(na.omit(c(title, project_name, "Untitled Project"))),
+        source_program = first(source_program),
+        .groups = "drop"
+      )
+  }, error = function(e) {
+    cat("   ERROR during test summarise:", e$message, "\n")
+    NULL
+  })
+  
+  if (!is.null(test_result)) {
+    cat(glue("   Test summarise produced {nrow(test_result)} rows\n"))
+    print(test_result)
+  }
+  
+  cat("\n   Aggregated project IDs:\n")
+  agg_ids <- aggregated_projects %>% pull(project_id)
+  cat(paste("  ", head(agg_ids, 10), collapse = "\n"))
+  cat(glue("\n   Total aggregated IDs: {length(agg_ids)}\n"))
+}
+
+# Debug: Show sample of what we got
+cat("\n   Sample of aggregated projects:\n")
+print(aggregated_projects %>% 
+        select(project_id, title, source_program) %>% 
+        head(5))
+cat("\n")
 
 # 🔌 DISCONNECT NOW (we're done with the database)
 cat("🔌 Disconnecting from database...\n")
@@ -561,7 +728,7 @@ if (length(render_result) > 0) {
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "Debugging to add PSSI projects (claude)"')
+system('git commit -m "Fixed script execution order and subfolder structure"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")
