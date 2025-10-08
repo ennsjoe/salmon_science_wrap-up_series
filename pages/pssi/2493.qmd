@@ -1,5 +1,6 @@
 ---
 title: "Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments"
+output-file: "2493.html"
 Leads: "David Patterson, Douglas Braun"
 toc: true
 ---

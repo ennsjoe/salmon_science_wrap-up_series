@@ -1,5 +1,6 @@
 ---
 title: "SHERLOCK assay for rapid genotyping applications"
+output-file: "2434.html"
 Leads: "Eric Rondeau, Tim Healy, Kyle Wellband"
 toc: true
 ---

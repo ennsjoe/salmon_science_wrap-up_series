@@ -1,5 +1,6 @@
 ---
 title: "The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries"
+output-file: "BCSRIF_2020_311.html"
 Leads: ""
 toc: true
 ---

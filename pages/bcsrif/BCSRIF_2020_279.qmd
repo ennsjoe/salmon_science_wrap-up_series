@@ -1,5 +1,6 @@
 ---
 title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer"
+output-file: "BCSRIF_2020_279.html"
 Leads: ""
 toc: true
 ---

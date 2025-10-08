@@ -1,5 +1,6 @@
 ---
 title: "Biological models to support prioritizing salmon stocks under future climates"
+output-file: "2405.html"
 Leads: "Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, "
 toc: true
 ---

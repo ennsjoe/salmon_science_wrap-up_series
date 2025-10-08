@@ -1,5 +1,6 @@
 ---
 title: "Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species"
+output-file: "2412.html"
 Leads: "Chris Pearce"
 toc: true
 ---

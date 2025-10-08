@@ -1,5 +1,6 @@
 ---
 title: "Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon"
+output-file: "2404.html"
 Leads: "Laura Bianucci"
 toc: true
 ---

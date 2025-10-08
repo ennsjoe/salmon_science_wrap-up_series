@@ -1,5 +1,6 @@
 ---
 title: "Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology"
+output-file: "BCSRIF_2019_058.html"
 Leads: ""
 toc: true
 ---

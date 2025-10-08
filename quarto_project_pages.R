@@ -140,6 +140,7 @@ aggregated_projects <- speaker_projects %>%
     agreement_end_date = first(agreement_end_date),
     list_of_partners_or_collaborators = paste(unique(na.omit(list_of_partners_or_collaborators)), collapse = "; "),
     source_program = first(source_program),
+    project_link = glue("[{title}]({file_id}.html)"),
     .groups = "drop"
   )
 
@@ -175,9 +176,12 @@ aggregated_projects <- speaker_projects %>%
       section  <- row[["section"]] %||% "N/A"
       pillar   <- row[["pssi_pillar"]] %||% "Unspecified"
       
+      output_file <- paste0(file_id, ".html")
+      
       page_content <- glue(
         "---\n",
         "title: \"{title}\"\n",
+        "output-file: \"{output_file}\"\n",
         "Leads: \"{lead}\"\n",
         "toc: true\n",
         "---\n\n",
@@ -199,9 +203,12 @@ aggregated_projects <- speaker_projects %>%
       start_fmt <- if (!is.na(start)) format(as.Date(start, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
       end_fmt   <- if (!is.na(end)) format(as.Date(end, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
       
+      output_file <- paste0(file_id, ".html")
+      
       page_content <- glue(
         "---\n",
         "title: \"{title}\"\n",
+        "output-file: \"{output_file}\"\n",
         "Leads: \"{lead}\"\n",
         "toc: true\n",
         "---\n\n",
@@ -216,9 +223,12 @@ aggregated_projects <- speaker_projects %>%
         "**Overview:**  \n{overview}   \n\n"
       )
     } else {
+      output_file <- paste0(file_id, ".html")
+      
       page_content <- glue(
         "---\n",
         "title: \"{title}\"\n",
+        "output-file: \"{output_file}\"\n",
         "Leads: \"{lead}\"\n",
         "toc: true\n",
         "---\n\n",
@@ -307,7 +317,6 @@ for (week in weeks) {
 }
 calendar_html <- c(calendar_html, "</table>")
 
-# 🧭 Index.qmd development----
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Symposium"',
@@ -318,6 +327,11 @@ index_md <- c(
   "---",
   "",
   "## 🗓️ December 2025 Calendar Overview",
+  "",
+  "### 🔍 Program Legend",
+  "- 🌊 PSSI (Pacific Salmon Science Initiative)",
+  "- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)",
+  "- ❓ Unknown or Unspecified",
   ""
 )
 
@@ -358,20 +372,28 @@ for (date_key in names(presentations_by_date)) {
     
     index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, "")
     
-    # 🔗 Group by project_id to avoid duplicates
+    # 🔗 Join metadata and group by project_id
     projects <- group %>%
+      left_join(aggregated_projects %>% select(project_id, source_program, project_leads, recipient), by = "project_id") %>%
       group_by(project_id) %>%
       summarise(
         title = first(title),
         file_id = sanitize_filename(project_id),
-        project_link = glue("[{title}](pages/{file_id}.qmd)"),
+        project_link = glue("[{title}]({file_id}.html)"),
         presenters = {
-          p <- paste(unique(na.omit(project_leads)), collapse = "; ")
-          if (p == "") paste(unique(na.omit(recipient)), collapse = "; ") else p
+          lead <- if ("project_leads" %in% names(.)) project_leads else NA
+          recp <- if ("recipient" %in% names(.)) recipient else NA
+          p <- paste(unique(na.omit(lead)), collapse = "; ")
+          if (p == "") paste(unique(na.omit(recp)), collapse = "; ") else p
         },
-        source_emoji = if (any(!is.na(program_pillar))) "🌱" else "🌊",
+        source_emoji = case_when(
+          source_program == "BCSRIF" ~ "🌱",
+          source_program == "PSSI" ~ "🌊",
+          TRUE ~ "❓"
+        ),
         .groups = "drop"
-      )
+      ) %>%
+      arrange(title)
     
     for (i in seq_len(nrow(projects))) {
       row <- projects[i, ]
@@ -425,5 +447,5 @@ writeLines("www.pacificsalmonscience.ca", "CNAME")
 # 🚀 Render and push site
 system("quarto render")
 system("git add .")
-system("git commit -m \"Changed formatting of session names\"")
+system("git commit -m \"Splitting qmd generation for PSSI vs BCSRIF\"")
 system("git push origin main")

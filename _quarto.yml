@@ -4,7 +4,8 @@ project:
 
 render:
   - index.qmd
-  - pages/*.qmd  # Automatically render all project pages
+  - pages/pssi/*.qmd
+  - pages/bcsrif/*.qmd
 
 website:
   title: "Pacific Salmon Science"

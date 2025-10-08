@@ -1,5 +1,6 @@
 ---
 title: "Chinook Salmon Assessments and WCVI Chinook Salmon Rebuilding in the Kaouk and Artlish Watersheds"
+output-file: "BCSRIF_2022_337.html"
 Leads: ""
 toc: true
 ---

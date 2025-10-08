@@ -1,5 +1,6 @@
 ---
 title: "Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters"
+output-file: "2406.html"
 Leads: "Sophia Johannessen"
 toc: true
 ---

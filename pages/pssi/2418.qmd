@@ -1,5 +1,6 @@
 ---
 title: "Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults."
+output-file: "2418.html"
 Leads: "Ian Forster, Cher LaCoste"
 toc: true
 ---

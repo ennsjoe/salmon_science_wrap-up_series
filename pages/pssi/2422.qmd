@@ -1,5 +1,6 @@
 ---
 title: "Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage."
+output-file: "2422.html"
 Leads: "Andrew Ross, Xiangjun Liao, Nicole LaForge"
 toc: true
 ---

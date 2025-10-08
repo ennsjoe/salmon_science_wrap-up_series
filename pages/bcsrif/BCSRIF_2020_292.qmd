@@ -1,5 +1,6 @@
 ---
 title: "First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast"
+output-file: "BCSRIF_2020_292.html"
 Leads: ""
 toc: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Selective Fishing Using a Salmon Trap in the Campbell River Estuary"
+output-file: "BCSRIF_2022_347.html"
 Leads: ""
 toc: true
 ---

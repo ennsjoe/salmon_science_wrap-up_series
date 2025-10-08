@@ -1,5 +1,6 @@
 ---
 title: "Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act"
+output-file: "2402.html"
 Leads: "Brendan Connors, Adam O'Dell"
 toc: true
 ---

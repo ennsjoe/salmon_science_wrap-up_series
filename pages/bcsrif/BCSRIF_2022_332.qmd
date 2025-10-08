@@ -1,5 +1,6 @@
 ---
 title: "Research in support of Sarita Chinook as an Ecological Indicator and WCVI Chinook Salmon Rebuilding"
+output-file: "BCSRIF_2022_332.html"
 Leads: ""
 toc: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon"
+output-file: "BCSRIF_2020_239.html"
 Leads: ""
 toc: true
 ---

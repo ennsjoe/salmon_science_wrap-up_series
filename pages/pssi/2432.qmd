@@ -1,5 +1,6 @@
 ---
 title: "Barkley Sound and Clayoquot Sound acoustic monitoring of salmon and salmon prey"
+output-file: "2432.html"
 Leads: "Stephane Gauthier"
 toc: true
 ---

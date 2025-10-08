@@ -1,5 +1,6 @@
 ---
 title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island"
+output-file: "2407.html"
 Leads: "Jessy Bokvist"
 toc: true
 ---

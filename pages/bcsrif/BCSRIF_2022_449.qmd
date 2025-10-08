@@ -1,6 +1,7 @@
 ---
 title: "Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
 coastal BC."
+output-file: "BCSRIF_2022_449.html"
 Leads: ""
 toc: true
 ---

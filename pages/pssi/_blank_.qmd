@@ -1,5 +1,6 @@
 ---
 title: "Untitled Project"
+output-file: "_blank_.html"
 Leads: ""
 toc: true
 ---

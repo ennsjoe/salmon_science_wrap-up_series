@@ -1,5 +1,6 @@
 ---
 title: "Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon"
+output-file: "2435.html"
 Leads: "Eric Rondeau, Tim Healy, Kyle Wellband"
 toc: true
 ---
