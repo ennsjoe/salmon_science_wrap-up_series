@@ -245,7 +245,7 @@ if (nrow(pssi_sample) > 0) {
 }
 
 aggregated_projects <- speaker_projects %>%
-  # Use the source field already in speaker_projects (from Speaker.Themes)
+  # Create source_program BEFORE grouping so it's available in summarise
   mutate(
     source_program = case_when(
       source == "DFO" ~ "PSSI",
@@ -254,7 +254,7 @@ aggregated_projects <- speaker_projects %>%
     ),
     # For PSSI: use project_leads from Science.PSSI.Projects
     # For BCSRIF: use recipient from BCSRIF table as fallback
-    project_leads = case_when(
+    project_leads_clean = case_when(
       source_program == "PSSI" & !is.na(project_leads) & project_leads != "" ~ project_leads,
       source_program == "BCSRIF" & !is.na(recipient) & recipient != "" ~ recipient,
       !is.na(project_leads) & project_leads != "" ~ project_leads,
@@ -265,7 +265,7 @@ aggregated_projects <- speaker_projects %>%
   group_by(project_id) %>%
   summarise(
     title = coalesce(first(title), first(project_name), "Untitled Project"),
-    project_leads = paste(unique(na.omit(project_leads)), collapse = "; "),
+    project_leads = paste(unique(na.omit(project_leads_clean)), collapse = "; "),
     recipient = paste(unique(na.omit(recipient)), collapse = "; "),
     division = paste(unique(na.omit(division)), collapse = "; "),
     section = paste(unique(na.omit(section)), collapse = "; "),
@@ -282,7 +282,7 @@ aggregated_projects <- speaker_projects %>%
     agreement_start_date = first(na.omit(agreement_start_date)),
     agreement_end_date = first(na.omit(agreement_end_date)),
     list_of_partners_or_collaborators = paste(unique(na.omit(list_of_partners_or_collaborators)), collapse = "; "),
-    source_program = first(na.omit(source_program)),
+    source_program = first(source_program),  # Now this will work!
     .groups = "drop"
   )
 
@@ -638,7 +638,7 @@ if (length(render_result) > 0) {
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "debugging join issues with claude"')
+system('git commit -m "Fixed script execution order and subfolder structure"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")
