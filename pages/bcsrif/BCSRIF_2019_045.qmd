@@ -1,0 +1,25 @@
+---
+title: "Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries"
+Leads: ""
+toc: true
+---
+
+## 📋 BCSRIF Project Summary
+
+**Species Group:** Pacific Salmon  
+**Location:** Bella Bella  
+**Partners:** Tula Foundation 
+Haida Fisheries 
+Simon Fraser University
+Fisheries and Oceans Canada 
+Pacific Salmon Foundation Salmon Watersheds Program
+Pacific Salmon Foundation Salmon Watersheds Program
+Heiltsuk Integrated Resource Management Department
+Kitasoo Xai'xais Stewardship Authority  
+**Agreement Period:** August 10, 4350563 to April 21, 4602258  
+**Session(s):** Fisheries Monitoring And Harvest Methods  
+**Presentation Date(s):** December 11, 2025  
+**Speakers:** Will Atlas  
+**Overview:**  
+This project will integrate traditional and modern technologies through the development of new computer vision deep-learning programs to automate salmon counting and species identification from video and sonar data. Connecting these tools with community-run escapement monitoring programs around the North and Central Coast will support the transition towards real-time data integration and in-season monitoring to inform the adaptive management of salmon fisheries.   
+

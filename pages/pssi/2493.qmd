@@ -1,0 +1,16 @@
+---
+title: "Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments"
+Leads: "David Patterson, Douglas Braun"
+toc: true
+---
+
+## 📋 PSSI Project Summary
+
+**Division:** Ecosystem Sciences (ESD)  
+**Section:** Freshwater Ecosystems  
+**Session(s):** Freshwater Stressors  
+**Presentation Date(s):** December 02, 2025  
+**Speakers:** David Patterson, Douglas Braun  
+**Overview:**  
+Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions.   
+

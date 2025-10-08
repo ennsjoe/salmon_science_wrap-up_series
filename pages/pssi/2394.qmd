@@ -1,0 +1,16 @@
+---
+title: "Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery"
+Leads: "Cory Lagasse"
+toc: true
+---
+
+## 📋 PSSI Project Summary
+
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Salmon Assessment  
+**Session(s):** Fisheries Monitoring And Harvest Methods  
+**Presentation Date(s):** December 11, 2025  
+**Speakers:** Cory Lagasse  
+**Overview:**  
+Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.   
+
