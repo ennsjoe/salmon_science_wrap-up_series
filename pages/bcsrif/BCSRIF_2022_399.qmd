@@ -1,7 +1,7 @@
 ---
 title: "Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks."
 output-file: "BCSRIF_2022_399.html"
-Leads: ""
+Leads: "University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences"
 toc: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer"
 output-file: "BCSRIF_2020_279.html"
-Leads: ""
+Leads: "Pacific Salmon Foundation"
 toc: true
 ---
 
@@ -9,7 +9,7 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Fraser River  
-**Partners:**   
+**Partners:** None listed  
 **Agreement Period:** August 03, 4429809 to June 29, 4688837  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 11, 2025  

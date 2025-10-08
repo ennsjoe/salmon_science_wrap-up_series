@@ -1,7 +1,7 @@
 ---
 title: "Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon"
 output-file: "BCSRIF_2020_239.html"
-Leads: ""
+Leads: "University of Victoria, Department of Biology"
 toc: true
 ---
 
@@ -9,7 +9,7 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Victoria  
-**Partners:**   
+**Partners:** None listed  
 **Agreement Period:** August 03, 4429809 to June 29, 4688837  
 **Session(s):** Hatcheries  
 **Presentation Date(s):** December 09, 2025  

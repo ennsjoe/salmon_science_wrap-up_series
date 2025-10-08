@@ -1,7 +1,7 @@
 ---
 title: "Supporting and connecting community-based monitoring for climate-resilient salmon ecosystems"
 output-file: "BCSRIF_2022_401.html"
-Leads: ""
+Leads: "Pacific Salmon Foundation"
 toc: true
 ---
 

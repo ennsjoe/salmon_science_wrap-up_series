@@ -1,7 +1,7 @@
 ---
 title: "The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries"
 output-file: "BCSRIF_2020_311.html"
-Leads: ""
+Leads: "BC Centre for Aquatic Health Sciences Society"
 toc: true
 ---
 
@@ -9,7 +9,7 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Campbell River  
-**Partners:**   
+**Partners:** None listed  
 **Agreement Period:** August 03, 4429809 to June 29, 4688837  
 **Session(s):** Salmon Health  
 **Presentation Date(s):** December 09, 2025  

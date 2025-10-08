@@ -1,7 +1,7 @@
 ---
 title: "First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast"
 output-file: "BCSRIF_2020_292.html"
-Leads: ""
+Leads: "Central Coast Indigenous Resource Alliance Society"
 toc: true
 ---
 
@@ -9,7 +9,7 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Bella Coola  
-**Partners:**   
+**Partners:** None listed  
 **Agreement Period:** January 21, 4414670 to June 29, 4688837  
 **Session(s):** Fisheries Monitoring And Harvest Methods  
 **Presentation Date(s):** December 11, 2025  

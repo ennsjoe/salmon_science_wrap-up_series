@@ -18,28 +18,9 @@ library(lubridate)
 library(fs)
 library(digest)
 
+# 🧼 Helper functions (define early!)
+sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
-# 🗂️ Define path to the database
-db_path <- here("science_projects.sqlite")
-
-# 🔌 Connect to the database
-con <- dbConnect(SQLite(), dbname = db_path)
-
-# 📌 Validate required tables
-required_tables <- c("Science.PSSI.Projects", "project.export..long.", "Speaker.Themes", "session_info")
-Speaker.Themes <- dbReadTable(con, "Speaker.Themes")
-bcsrif_projects <- dbReadTable(con, "BCSRIF.Project.List.September.2025") %>%
-  janitor::clean_names() %>%
-  rename(project_id = project_number) %>%
-  mutate(project_id = as.character(project_id))
-available_tables <- dbListTables(con)
-missing_tables <- setdiff(required_tables, available_tables)
-
-if (length(missing_tables) > 0) {
-  stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}"))
-}
-
-# 🧼 Helper: normalize session names
 normalize_session <- function(x) {
   x %>%
     tolower() %>%
@@ -48,63 +29,108 @@ normalize_session <- function(x) {
     str_to_title()
 }
 
+`%||%` <- function(a, b) if (is.null(a) || is.na(a) || a == "") b else a
+
+# 🗂️ Define and validate database path
+db_path <- here("science_projects.sqlite")
+
+cat("🔍 Checking database path...\n")
+cat(glue("   Expected location: {db_path}\n"))
+
+if (!file.exists(db_path)) {
+  stop(glue("❌ Database file not found at: {db_path}\n",
+            "   Please run the data loading script first or check the file path."))
+}
+
+cat(glue("✅ Database found ({file.info(db_path)$size} bytes)\n\n"))
+
+# 🔌 Connect to the database
+cat("🔌 Connecting to database...\n")
+con <- tryCatch({
+  dbConnect(SQLite(), dbname = db_path)
+}, error = function(e) {
+  stop(glue("❌ Failed to connect to database: {e$message}"))
+})
+
+cat("✅ Connected successfully\n\n")
+
+# Test connection before proceeding
+if (!dbIsValid(con)) {
+  stop("❌ Database connection is not valid")
+}
+
+# 📌 Validate required tables
+cat("📋 Validating required tables...\n")
+required_tables <- c("Science.PSSI.Projects", "Speaker.Themes", "session_info")
+available_tables <- dbListTables(con)
+
+cat(glue("   Found {length(available_tables)} tables in database\n"))
+
+missing_tables <- setdiff(required_tables, available_tables)
+
+if (length(missing_tables) > 0) {
+  dbDisconnect(con)
+  stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}\n",
+            "   Available tables: {paste(available_tables, collapse = ', ')}"))
+}
+
+cat("✅ All required tables present\n\n")
+
 # 📥 Load and clean tables
+cat("📥 Loading tables...\n")
+
+Speaker.Themes <- dbReadTable(con, "Speaker.Themes") %>%
+  mutate(project_id = as.character(project_id))
+cat(glue("   ✓ Speaker.Themes: {nrow(Speaker.Themes)} rows\n"))
+
+# Check if BCSRIF table exists
+if ("BCSRIF.Project.List.September.2025" %in% available_tables) {
+  bcsrif_projects <- dbReadTable(con, "BCSRIF.Project.List.September.2025") %>%
+    janitor::clean_names() %>%
+    rename(project_id = project_number) %>%
+    mutate(project_id = as.character(project_id))
+  cat(glue("   ✓ BCSRIF projects: {nrow(bcsrif_projects)} rows\n"))
+} else {
+  cat("   ⚠ BCSRIF table not found, creating empty placeholder\n")
+  bcsrif_projects <- data.frame(
+    project_id = character(),
+    project_name = character(),
+    description_short = character(),
+    recipient = character(),
+    species_group = character(),
+    location_of_project = character(),
+    agreement_start_date = numeric(),
+    agreement_end_date = numeric(),
+    list_of_partners_or_collaborators = character()
+  )
+}
+
 projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
   mutate(project_id = as.character(project_id))
+cat(glue("   ✓ PSSI Projects: {nrow(projects)} rows\n"))
 
 speakers <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(
     project_id = as.character(project_id),
     session = normalize_session(session)
   )
+cat(glue("   ✓ Speakers: {nrow(speakers)} rows\n"))
 
 sessions_raw <- dbReadTable(con, "session_info")
+cat(glue("   ✓ Session info: {nrow(sessions_raw)} rows\n"))
 
-print(head(sessions_raw$date))
-str(sessions_raw$date)
+cat("\n📊 Sample dates from sessions_raw:\n")
+print(head(sessions_raw$date, 3))
+cat("Data type:", class(sessions_raw$date), "\n\n")
 
-# 🧠 Detect and parse date format----
 sessions <- sessions_raw %>%
   mutate(
     session = normalize_session(session),
-    date = as.Date(date, origin = "1899-12-30")  # Converts 46001 → "2025-12-08"
+    date = as.Date(date, origin = "1899-12-30")
   )
 
-# 🔗 Join logic----
-session_projects <- speakers %>%
-  left_join(sessions, by = "session") %>%
-  left_join(projects, by = "project_id") %>%
-  left_join(bcsrif_projects, by = "project_id") %>%
-  filter(!is.na(project_id), project_id != "") %>%
-  mutate(
-    title = coalesce(title, project_name),
-    overview = coalesce(project_overview_jde, description_short),
-    presentation_date = date,
-    file_id = sanitize_filename(project_id),
-    project_link = glue("[{title}](pages/{file_id}.qmd)")
-  ) %>%
-  arrange(presentation_date) %>%
-  distinct(project_id, session, .keep_all = TRUE)
-
-# 🔌 Disconnect from the database
-dbDisconnect(con)
-
-# 📂 Create output directory----
-pages_dir <- here("pages")
-dir_create(pages_dir)
-
-# 🧼 Helper: sanitize filenames----
-sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
-
-# 🎯 Filter to speaker series projects only
-speaker_ids <- Speaker.Themes %>%
-  distinct(project_id) %>%
-  pull(project_id)
-
-speaker_projects <- session_projects %>%
-  filter(project_id %in% speaker_ids)
-
-# 🧾 Map sources to programs----
+# 🧾 Map sources to programs
+cat("🗂️ Mapping project sources...\n")
 project_sources <- Speaker.Themes %>%
   select(project_id, source) %>%
   distinct() %>%
@@ -116,9 +142,49 @@ project_sources <- Speaker.Themes %>%
     )
   )
 
-# 🧠 Aggregate metadata----
+cat(glue("   PSSI: {sum(project_sources$source_program == 'PSSI')}\n"))
+cat(glue("   BCSRIF: {sum(project_sources$source_program == 'BCSRIF')}\n"))
+cat(glue("   Unknown: {sum(project_sources$source_program == 'Unknown')}\n\n"))
+
+# 🔗 Initial join to create session_projects
+cat("🔗 Joining project data...\n")
+session_projects <- speakers %>%
+  left_join(sessions, by = "session") %>%
+  left_join(projects, by = "project_id") %>%
+  left_join(bcsrif_projects, by = "project_id") %>%
+  filter(!is.na(project_id), project_id != "", project_id != "(blank)") %>%
+  mutate(
+    title = coalesce(title, project_name, "Untitled Project"),
+    overview = coalesce(project_overview_jde, description_short, overview),
+    presentation_date = date,
+    file_id = sanitize_filename(project_id)
+  ) %>%
+  arrange(presentation_date) %>%
+  distinct(project_id, session, .keep_all = TRUE)
+
+cat(glue("✅ Created session_projects: {nrow(session_projects)} rows\n\n"))
+
+# 🎯 Filter to speaker series projects only
+speaker_ids <- Speaker.Themes %>%
+  distinct(project_id) %>%
+  pull(project_id)
+
+speaker_projects <- session_projects %>%
+  filter(project_id %in% speaker_ids)
+
+cat(glue("🎯 Filtered to speaker series: {nrow(speaker_projects)} projects\n\n"))
+
+# 🧠 Aggregate metadata
+cat("🧠 Aggregating project metadata...\n")
 aggregated_projects <- speaker_projects %>%
   left_join(project_sources, by = "project_id") %>%
+  mutate(
+    project_leads = if_else(
+      source_program == "BCSRIF" & (is.na(project_leads) | project_leads == ""),
+      recipient,
+      project_leads
+    )
+  ) %>%
   group_by(project_id) %>%
   summarise(
     title = coalesce(first(title), first(project_name), "Untitled Project"),
@@ -127,139 +193,156 @@ aggregated_projects <- speaker_projects %>%
     division = paste(unique(na.omit(division)), collapse = "; "),
     section = paste(unique(na.omit(section)), collapse = "; "),
     overview = paste(unique(na.omit(overview)), collapse = "; "),
-    description_short = first(description_short),
+    description_short = first(na.omit(description_short)),
     pssi_pillar = paste(unique(na.omit(pssi_pillar)), collapse = "; "),
     program_pillar = paste(unique(na.omit(program_pillar)), collapse = "; "),
     session = paste(unique(na.omit(session)), collapse = "; "),
     speakers = paste(unique(na.omit(speakers)), collapse = "; "),
     hosts = paste(unique(na.omit(hosts)), collapse = "; "),
-    presentation_date = paste(unique(format(presentation_date, "%B %d, %Y")), collapse = "; "),
+    presentation_date = paste(unique(format(na.omit(presentation_date), "%B %d, %Y")), collapse = "; "),
     species_group = paste(unique(na.omit(species_group)), collapse = "; "),
     location_of_project = paste(unique(na.omit(location_of_project)), collapse = "; "),
-    agreement_start_date = first(agreement_start_date),
-    agreement_end_date = first(agreement_end_date),
+    agreement_start_date = first(na.omit(agreement_start_date)),
+    agreement_end_date = first(na.omit(agreement_end_date)),
     list_of_partners_or_collaborators = paste(unique(na.omit(list_of_partners_or_collaborators)), collapse = "; "),
-    source_program = first(source_program),
-    project_link = glue("[{title}]({file_id}.html)"),
+    source_program = first(na.omit(source_program)),
     .groups = "drop"
   )
 
-# 📝 .qmd pages generation----
-  pssi_projects <- aggregated_projects %>% filter(source_program == "PSSI")
-  bcsrif_projects <- aggregated_projects %>% filter(source_program == "BCSRIF")
+cat(glue("✅ Aggregated {nrow(aggregated_projects)} unique projects\n\n"))
+
+# 🔌 DISCONNECT NOW (we're done with the database)
+cat("🔌 Disconnecting from database...\n")
+dbDisconnect(con)
+cat("✅ Database connection closed\n\n")
+
+# 📂 Create output directory
+cat("📂 Creating output directories...\n")
+pages_dir <- here("pages")
+dir_create(pages_dir)
+dir_create(file.path(pages_dir, "pssi"))
+dir_create(file.path(pages_dir, "bcsrif"))
+dir_create(file.path(pages_dir, "other"))
+cat("✅ Directories ready\n\n")
+
+# 📝 Generate .qmd pages
+cat("📝 Generating project pages...\n")
+progress_count <- 0
+
+for (i in seq_len(nrow(aggregated_projects))) {
+  row <- aggregated_projects[i, ]
+  file_id <- sanitize_filename(row[["project_id"]])
+  if (is.na(file_id) || file_id == "") next
   
-  for (i in seq_len(nrow(aggregated_projects))) {
-    row <- aggregated_projects[i, ]
-    file_id <- sanitize_filename(row[["project_id"]])
-    if (is.na(file_id) || file_id == "") next
+  # Route to subfolder
+  subfolder <- switch(row[["source_program"]],
+                      "PSSI" = "pssi",
+                      "BCSRIF" = "bcsrif",
+                      "other")
+  output_dir <- file.path(pages_dir, subfolder)
+  file_path <- file.path(output_dir, paste0(file_id, ".qmd"))
+  
+  # Common fields
+  title      <- row[["title"]] %||% "Untitled Project"
+  lead       <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
+  overview   <- row[["overview"]] %||% "No description available."
+  session    <- row[["session"]] %||% "Uncategorized"
+  presenters <- row[["speakers"]] %||% "Presenters TBD"
+  date       <- row[["presentation_date"]] %||% "TBD"
+  
+  output_file <- paste0(file_id, ".html")
+  
+  # Compose content based on program
+  if (row[["source_program"]] == "PSSI") {
+    division <- row[["division"]] %||% "N/A"
+    section  <- row[["section"]] %||% "N/A"
+    pillar   <- row[["pssi_pillar"]] %||% "Unspecified"
     
-    # Route to subfolder
-    subfolder <- switch(row[["source_program"]],
-                        "PSSI" = "pssi",
-                        "BCSRIF" = "bcsrif",
-                        "Unknown" = "other")
-    output_dir <- file.path(pages_dir, subfolder)
-    dir.create(output_dir, showWarnings = FALSE)
-    file_path <- file.path(output_dir, paste0(file_id, ".qmd"))
+    page_content <- glue(
+      "---\n",
+      "title: \"{title}\"\n",
+      "output-file: \"{output_file}\"\n",
+      "Leads: \"{lead}\"\n",
+      "toc: true\n",
+      "---\n\n",
+      "## 📋 PSSI Project Summary\n\n",
+      "**Division:** {division}  \n",
+      "**Section:** {section}  \n",
+      "**Session(s):** {session}  \n",
+      "**Presentation Date(s):** {date}  \n",
+      "**Speakers:** {presenters}  \n",
+      "**Overview:**  \n{overview}   \n\n"
+    )
     
-    # Common fields
-    title      <- row[["title"]] %||% "Untitled Project"
-    lead       <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
-    overview   <- row[["overview"]] %||% "No description available."
-    session    <- row[["session"]] %||% "Uncategorized"
-    presenters <- row[["speakers"]] %||% "Presenters TBD"
-    date       <- row[["presentation_date"]] %||% "TBD"
+  } else if (row[["source_program"]] == "BCSRIF") {
+    species   <- row[["species_group"]] %||% "Not specified"
+    location  <- row[["location_of_project"]] %||% "Unknown"
+    partners  <- row[["list_of_partners_or_collaborators"]] %||% "None listed"
+    start     <- row[["agreement_start_date"]]
+    end       <- row[["agreement_end_date"]]
+    start_fmt <- if (!is.na(start)) format(as.Date(start, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
+    end_fmt   <- if (!is.na(end)) format(as.Date(end, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
     
-    # Compose content based on program
-    if (row[["source_program"]] == "PSSI") {
-      division <- row[["division"]] %||% "N/A"
-      section  <- row[["section"]] %||% "N/A"
-      pillar   <- row[["pssi_pillar"]] %||% "Unspecified"
-      
-      output_file <- paste0(file_id, ".html")
-      
-      page_content <- glue(
-        "---\n",
-        "title: \"{title}\"\n",
-        "output-file: \"{output_file}\"\n",
-        "Leads: \"{lead}\"\n",
-        "toc: true\n",
-        "---\n\n",
-        "## 📋 PSSI Project Summary\n\n",
-        "**Division:** {division}  \n",
-        "**Section:** {section}  \n",
-        "**Session(s):** {session}  \n",
-        "**Presentation Date(s):** {date}  \n",
-        "**Speakers:** {presenters}  \n",
-        "**Overview:**  \n{overview}   \n\n"
-      )
-      
-    } else if (row[["source_program"]] == "BCSRIF") {
-      species   <- row[["species_group"]] %||% "Not specified"
-      location  <- row[["location_of_project"]] %||% "Unknown"
-      partners  <- row[["list_of_partners_or_collaborators"]] %||% "None listed"
-      start     <- row[["agreement_start_date"]]
-      end       <- row[["agreement_end_date"]]
-      start_fmt <- if (!is.na(start)) format(as.Date(start, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
-      end_fmt   <- if (!is.na(end)) format(as.Date(end, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
-      
-      output_file <- paste0(file_id, ".html")
-      
-      page_content <- glue(
-        "---\n",
-        "title: \"{title}\"\n",
-        "output-file: \"{output_file}\"\n",
-        "Leads: \"{lead}\"\n",
-        "toc: true\n",
-        "---\n\n",
-        "## 📋 BCSRIF Project Summary\n\n",
-        "**Species Group:** {species}  \n",
-        "**Location:** {location}  \n",
-        "**Partners:** {partners}  \n",
-        "**Agreement Period:** {start_fmt} to {end_fmt}  \n",
-        "**Session(s):** {session}  \n",
-        "**Presentation Date(s):** {date}  \n",
-        "**Speakers:** {presenters}  \n",
-        "**Overview:**  \n{overview}   \n\n"
-      )
-    } else {
-      output_file <- paste0(file_id, ".html")
-      
-      page_content <- glue(
-        "---\n",
-        "title: \"{title}\"\n",
-        "output-file: \"{output_file}\"\n",
-        "Leads: \"{lead}\"\n",
-        "toc: true\n",
-        "---\n\n",
-        "## 📋 Project Summary\n\n",
-        "**Session(s):** {session}  \n",
-        "**Presentation Date(s):** {date}  \n",
-        "**Speakers:** {presenters}  \n",
-        "**Overview:**  \n{overview}   \n\n"
-      )
-    }
-    
-    writeLines(page_content, file_path)
+    page_content <- glue(
+      "---\n",
+      "title: \"{title}\"\n",
+      "output-file: \"{output_file}\"\n",
+      "Leads: \"{lead}\"\n",
+      "toc: true\n",
+      "---\n\n",
+      "## 📋 BCSRIF Project Summary\n\n",
+      "**Species Group:** {species}  \n",
+      "**Location:** {location}  \n",
+      "**Partners:** {partners}  \n",
+      "**Agreement Period:** {start_fmt} to {end_fmt}  \n",
+      "**Session(s):** {session}  \n",
+      "**Presentation Date(s):** {date}  \n",
+      "**Speakers:** {presenters}  \n",
+      "**Overview:**  \n{overview}   \n\n"
+    )
+  } else {
+    page_content <- glue(
+      "---\n",
+      "title: \"{title}\"\n",
+      "output-file: \"{output_file}\"\n",
+      "Leads: \"{lead}\"\n",
+      "toc: true\n",
+      "---\n\n",
+      "## 📋 Project Summary\n\n",
+      "**Session(s):** {session}  \n",
+      "**Presentation Date(s):** {date}  \n",
+      "**Speakers:** {presenters}  \n",
+      "**Overview:**  \n{overview}   \n\n"
+    )
   }
+  
+  writeLines(page_content, file_path)
+  progress_count <- progress_count + 1
+  
+  if (progress_count %% 10 == 0) {
+    cat(glue("   ... {progress_count} pages generated\n"))
+  }
+}
 
-cat(glue("✅ Generated {nrow(aggregated_projects)} project pages.\n"))
+cat(glue("✅ Generated {nrow(aggregated_projects)} project pages\n\n"))
 
-# 🎯 Filter to speaker-series projects only----
-speaker_projects <- session_projects %>%
+# 📅 Build December 2025 calendar
+cat("📅 Building December 2025 calendar...\n")
+speaker_projects_dated <- session_projects %>%
   filter(project_id %in% Speaker.Themes$project_id) %>%
   filter(!is.na(presentation_date)) %>%
   mutate(presentation_date = as.Date(presentation_date)) %>%
   arrange(presentation_date)
 
-# 📅 Filter December 2025 sessions----
-december_sessions <- speaker_projects %>%
+december_sessions <- speaker_projects_dated %>%
   filter(month(presentation_date) == 12, year(presentation_date) == 2025) %>%
   mutate(day = day(presentation_date)) %>%
   select(day, session) %>%
   distinct()
 
-# 🎨 Define color palette and color assignment function
+cat(glue("   Found {nrow(december_sessions)} December session dates\n"))
+
+# 🎨 Color palette
 session_colors <- c(
   "#007BFF", "#28A745", "#17A2B8", "#FFC107", "#DC3545", "#6F42C1", "#20C997", "#FD7E14"
 )
@@ -291,32 +374,34 @@ start_weekday <- as.POSIXlt(first_day)$wday
 days <- rep("", start_weekday)
 for (d in 1:31) {
   label <- as.character(d)
-  sessions <- december_sessions %>% filter(day == d)
-  if (nrow(sessions) > 0) {
+  sessions_today <- december_sessions %>% filter(day == d)
+  if (nrow(sessions_today) > 0) {
     buttons <- paste0(
       "<div class='calendar-button' style='background-color:", 
-      sapply(sessions$session, get_session_color), 
-      "'>", sessions$session, "</div>"
+      sapply(sessions_today$session, get_session_color), 
+      "'>", sessions_today$session, "</div>"
     )
     label <- glue("<div class='calendar-cell'><strong>{d}</strong><br>{paste(buttons, collapse='')}</div>")
   } else {
     label <- glue("<div class='calendar-cell'><strong>{d}</strong></div>")
   }
-  
   days <- c(days, label)
 }
-while (length(days) %% 7 != 0) {
-  days <- c(days, "")
-}
+
+while (length(days) %% 7 != 0) days <- c(days, "")
+
 weeks <- split(days, ceiling(seq_along(days)/7))
 for (week in weeks) {
   calendar_html <- c(calendar_html, "<tr>")
   for (cell in week) {
     calendar_html <- c(calendar_html, glue("<td>{cell}</td>"))
   }
+  calendar_html <- c(calendar_html, "</tr>")
 }
 calendar_html <- c(calendar_html, "</table>")
 
+# 📄 Generate index.qmd
+cat("📄 Generating index.qmd...\n")
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Symposium"',
@@ -331,37 +416,29 @@ index_md <- c(
   "### 🔍 Program Legend",
   "- 🌊 PSSI (Pacific Salmon Science Initiative)",
   "- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)",
-  "- ❓ Unknown or Unspecified",
+  "",
+  "::: {.calendar}",
+  calendar_html,
+  ":::",
   ""
 )
 
-index_md <- c(index_md, "::: {.calendar}", calendar_html, "")
+# Group presentations by date
+presentations_by_date <- split(speaker_projects_dated, speaker_projects_dated$presentation_date)
 
-# 🎯 Filter to speaker-series projects only
-speaker_projects <- session_projects %>%
-  filter(project_id %in% Speaker.Themes$project_id) %>%
-  filter(!is.na(presentation_date)) %>%
-  mutate(presentation_date = as.Date(presentation_date)) %>%
-  arrange(presentation_date)
-
-# 📆 Group presentations by date
-presentations_by_date <- split(speaker_projects, speaker_projects$presentation_date)
-
-# 🧩 Build index content
 for (date_key in names(presentations_by_date)) {
   date_presentations <- presentations_by_date[[date_key]]
   formatted_date <- format(as.Date(date_key), "%B %d, %Y")
   
   index_md <- c(index_md, glue("## 📅 {formatted_date}"), "")
   
-  sessions <- date_presentations %>%
+  sessions_list <- date_presentations %>%
     group_by(session) %>%
     group_split()
   
-  for (group in sessions) {
+  for (group in sessions_list) {
     session_title <- unique(group$session) %||% "Uncategorized"
     
-    # Get session description
     session_description <- sessions_raw %>%
       filter(normalize_session(session) == session_title) %>%
       pull(description) %>%
@@ -372,31 +449,36 @@ for (date_key in names(presentations_by_date)) {
     
     index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, "")
     
-    # 🔗 Join metadata and group by project_id
-    projects <- group %>%
-      left_join(aggregated_projects %>% select(project_id, source_program, project_leads, recipient), by = "project_id") %>%
-      group_by(project_id) %>%
-      summarise(
-        title = first(title),
+    projects_display <- group %>%
+      left_join(
+        aggregated_projects %>% select(project_id, source_program, project_leads, recipient, title),
+        by = "project_id",
+        suffix = c("_old", "")
+      ) %>%
+      mutate(
+        subfolder = case_when(
+          source_program == "BCSRIF" ~ "bcsrif",
+          source_program == "PSSI" ~ "pssi",
+          TRUE ~ "other"
+        ),
+        presenters = case_when(
+          !is.na(project_leads) & project_leads != "" ~ project_leads,
+          !is.na(recipient) & recipient != "" ~ recipient,
+          TRUE ~ "Presenters TBD"
+        ),
         file_id = sanitize_filename(project_id),
-        project_link = glue("[{title}]({file_id}.html)"),
-        presenters = {
-          lead <- if ("project_leads" %in% names(.)) project_leads else NA
-          recp <- if ("recipient" %in% names(.)) recipient else NA
-          p <- paste(unique(na.omit(lead)), collapse = "; ")
-          if (p == "") paste(unique(na.omit(recp)), collapse = "; ") else p
-        },
+        project_link = glue("[{title}](pages/{subfolder}/{file_id}.html)"),
         source_emoji = case_when(
           source_program == "BCSRIF" ~ "🌱",
           source_program == "PSSI" ~ "🌊",
           TRUE ~ "❓"
-        ),
-        .groups = "drop"
+        )
       ) %>%
+      distinct(project_id, .keep_all = TRUE) %>%
       arrange(title)
     
-    for (i in seq_len(nrow(projects))) {
-      row <- projects[i, ]
+    for (i in seq_len(nrow(projects_display))) {
+      row <- projects_display[i, ]
       index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$presenters}"))
     }
     
@@ -404,8 +486,29 @@ for (date_key in names(presentations_by_date)) {
   }
 }
 
-# 📝 Write index.qmd
 writeLines(index_md, here("index.qmd"))
+cat("✅ Generated index.qmd\n\n")
+
+# 📅 Generate calendar.qmd
+cat("📅 Generating interactive calendar page...\n")
+calendar_events <- speaker_projects_dated %>%
+  mutate(
+    title_clean = gsub('"', '\\\\"', title),
+    date_str = format(presentation_date, "%Y-%m-%d")
+  ) %>%
+  select(title_clean, date_str, session) %>%
+  distinct()
+
+calendar_js <- jsonlite::toJSON(
+  calendar_events %>%
+    transmute(
+      title = title_clean,
+      start = date_str,
+      color = sapply(session, get_session_color)
+    ),
+  auto_unbox = TRUE,
+  pretty = TRUE
+)
 
 calendar_md <- glue(
   "---\n",
@@ -430,22 +533,26 @@ calendar_md <- glue(
 )
 
 writeLines(calendar_md, here("calendar.qmd"))
+cat("✅ Generated calendar.qmd\n\n")
 
 # 🌐 Write CNAME file
-writeLines("www.pacificsalmonscience.ca", "CNAME")
+cat("🌐 Writing CNAME file...\n")
+writeLines("www.pacificsalmonscience.ca", here("CNAME"))
+cat("✅ CNAME file created\n\n")
 
 # 🚀 Render and push site
-system("quarto render")
+cat("🔨 Rendering Quarto site...\n")
+render_result <- system("quarto render", intern = TRUE)
+
+if (length(render_result) > 0) {
+  cat("✅ Quarto render complete\n\n")
+} else {
+  cat("⚠ Quarto render may have had issues\n\n")
+}
+
+cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system("git commit -m \"Keeping projects to unique project_id only\"")
+system('git commit -m "Fixed script execution order and subfolder structure"')
 system("git push origin main")
 
-
-# 🌐 Write CNAME file
-writeLines("www.pacificsalmonscience.ca", "CNAME")
-
-# 🚀 Render and push site
-system("quarto render")
-system("git add .")
-system("git commit -m \"Splitting qmd generation for PSSI vs BCSRIF\"")
-system("git push origin main")
+cat("\n✨ All done! Site deployed.\n")

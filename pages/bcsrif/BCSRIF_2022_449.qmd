@@ -2,7 +2,7 @@
 title: "Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
 coastal BC."
 output-file: "BCSRIF_2022_449.html"
-Leads: ""
+Leads: "Salmon Coast Field Station Society"
 toc: true
 ---
 
@@ -10,7 +10,7 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Broughton Archipelago.  
-**Partners:**   
+**Partners:** None listed  
 **Agreement Period:** March 07, 4610301 to October 07, 4861522  
 **Session(s):** Freshwater Stressors  
 **Presentation Date(s):** December 02, 2025  
