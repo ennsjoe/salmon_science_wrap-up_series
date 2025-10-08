@@ -350,11 +350,20 @@ if (pssi_count == 0) {
           !is.na(project_leads) & project_leads != "" ~ project_leads,
           !is.na(recipient) & recipient != "" ~ recipient,
           TRUE ~ "N/A"
+        ),
+        overview_combined = case_when(
+          !is.na(project_overview_jde) & project_overview_jde != "" ~ project_overview_jde,
+          !is.na(description_short) & description_short != "" ~ description_short,
+          !is.na(overview) & overview != "" ~ overview,
+          TRUE ~ NA_character_
         )
       ) %>%
       group_by(project_id) %>%
       summarise(
         title = first(na.omit(c(title, project_name, "Untitled Project"))),
+        project_leads = paste(unique(na.omit(project_leads_clean)), collapse = "; "),
+        overview = paste(unique(na.omit(overview_combined)), collapse = "; "),
+        presentation_date = paste(unique(na.omit(as.character(presentation_date))), collapse = "; "),
         source_program = first(source_program),
         .groups = "drop"
       )
@@ -366,6 +375,8 @@ if (pssi_count == 0) {
   if (!is.null(test_result)) {
     cat(glue("   Test summarise produced {nrow(test_result)} rows\n"))
     print(test_result)
+  } else {
+    cat("   Test summarise FAILED\n")
   }
   
   cat("\n   Aggregated project IDs:\n")
