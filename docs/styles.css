@@ -16,7 +16,7 @@
 
 .calendar-cell {
   padding: 2px;
-  font-size: 0.65em;
+  font-size: 0.8em;
 }
 
 .calendar-button {
@@ -24,7 +24,7 @@
   margin: 1px 0;
   padding: 1px 3px;
   border-radius: 3px;
-  font-size: 0.6em;
+  font-size: 0.8em;
   color: white;
   text-align: center;
   font-weight: 500;
