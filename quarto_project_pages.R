@@ -537,15 +537,10 @@ get_session_color <- function(session_name) {
 
 # 🧱 Build calendar HTML
 calendar_html <- c(
-  "<style>",
-  ".calendar-table td { width: 14.28%; height: 100px; border: 1px solid #ccc; padding: 8px; vertical-align: top; }",
-  ".calendar-cell { padding: 4px; font-size: 0.9em; }",
-  ".calendar-button { display: inline-block; margin: 2px 0; padding: 4px 6px; border-radius: 6px; font-size: 0.85em; color: white; text-align: center; font-weight: 500; }",
-  "</style>",
-  "<table class='calendar-table' style='border-collapse: collapse; width: 100%; text-align: center;'>",
+  "<table class='calendar-table'>",
   "<caption><strong>December 2025</strong></caption>",
   "<tr>",
-  paste0("<th style='padding: 5px;'>", c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), "</th>"),
+  paste0("<th>", c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), "</th>", collapse = ""),
   "</tr>"
 )
 
@@ -726,6 +721,8 @@ cat("✅ Generated calendar.qmd\n\n")
 cat("🌐 Writing CNAME file...\n")
 writeLines("www.pacificsalmonscience.ca", here("CNAME"))
 cat("✅ CNAME file created\n\n")
+
+# Note: _quarto.yml already exists with correct subfolder configuration
 
 # 🚀 Render and push site
 cat("🔨 Rendering Quarto site...\n")
