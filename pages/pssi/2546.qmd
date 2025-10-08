@@ -1,0 +1,17 @@
+---
+title: "Fishery & Assessment Data Section - Data Stewardship Unit"
+output-file: "2546.html"
+Leads: "Shelee Hamilton"
+toc: true
+---
+
+## 📋 PSSI Project Summary
+
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Fishery and Assessment Data  
+**Session(s):** Data And Modelling To Support Decision Making  
+**Presentation Date(s):** December 11, 2025  
+**Speakers:** Shelee Hamilton  
+**Overview:**  
+No description available.   
+

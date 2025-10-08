@@ -1,0 +1,17 @@
+---
+title: "Genetic and epigenetic consequences of hatchery adaptation"
+output-file: "3120.html"
+Leads: "Eric Rondeau, Timothy Healy, Kyle Wellband"
+toc: true
+---
+
+## 📋 PSSI Project Summary
+
+**Division:** N/A  
+**Section:** Molecular Genetics  
+**Session(s):** Hatcheries  
+**Presentation Date(s):** December 09, 2025  
+**Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
+**Overview:**  
+No description available.   
+

@@ -1,0 +1,17 @@
+---
+title: "Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA"
+output-file: "2447.html"
+Leads: "Kristi Miller-Saunders"
+toc: true
+---
+
+## 📋 PSSI Project Summary
+
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Molecular Genetics  
+**Session(s):** Follow The Fish  
+**Presentation Date(s):** December 04, 2025  
+**Speakers:** Kristi Miller-Saunders  
+**Overview:**  
+Salmon experience a variety of physiological stressors and pathogens over migration which can be monitored non-lethally using Fit-Chip technology. Chinook salmon will expose themselves to potentially impactful stressors to avail feeding opportunities, enhancing vulnerability to cumulative stressors. eDNA data resolves habitat usage for Chinook salmon and demonstrating they associate with high biomass areas (prey availability), including aquaculture facilities, and avoid harmful algae. Models addressing the cumulative and synergistic interplay between factors will inform which levers under human control will result in strongest outcomes for salmon.   
+

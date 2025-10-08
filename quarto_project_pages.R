@@ -2,6 +2,7 @@
 # Title: Query SQLite Tables & Generate Quarto Pages
 # Description: Connects to SQLite, validates tables, joins project data,
 #              and builds Quarto pages and index.
+# VERSION: v31_DISTINCT_FIX - Uses distinct() instead of summarise()
 ################################################################################
 
 # 📦 Load libraries
@@ -271,9 +272,10 @@ if (any(project_counts$n > 1)) {
   print(head(project_counts %>% filter(n > 1), 10))
 }
 
+cat("\n   Attempting aggregation with distinct() instead of summarise()...\n")
+
+# Since we confirmed no duplicate project_ids, we can use distinct() instead of summarise()
 aggregated_projects <- speaker_projects_with_program %>%
-  # For PSSI: use project_leads from Science.PSSI.Projects
-  # For BCSRIF: use recipient from BCSRIF table as fallback
   mutate(
     project_leads_clean = case_when(
       source_program == "PSSI" & !is.na(project_leads) & project_leads != "" ~ project_leads,
@@ -281,116 +283,48 @@ aggregated_projects <- speaker_projects_with_program %>%
       !is.na(project_leads) & project_leads != "" ~ project_leads,
       !is.na(recipient) & recipient != "" ~ recipient,
       TRUE ~ "N/A"
+    ),
+    overview_combined = case_when(
+      !is.na(project_overview_jde) & project_overview_jde != "" ~ project_overview_jde,
+      !is.na(description_short) & description_short != "" ~ description_short,
+      !is.na(overview) & overview != "" ~ overview,
+      TRUE ~ "No description available."
+    ),
+    title = if_else(!is.na(title) & title != "", title, 
+                    if_else(!is.na(project_name) & project_name != "", project_name, "Untitled Project")),
+    presentation_date_formatted = if_else(
+      !is.na(presentation_date),
+      format(as.Date(presentation_date), "%B %d, %Y"),
+      "TBD"
     )
   ) %>%
-  group_by(project_id) %>%
-  summarise(
-    title = coalesce(first(title), first(project_name), "Untitled Project"),
-    project_leads = paste(unique(na.omit(project_leads_clean)), collapse = "; "),
-    recipient = paste(unique(na.omit(recipient)), collapse = "; "),
-    division = paste(unique(na.omit(division)), collapse = "; "),
-    section = paste(unique(na.omit(section)), collapse = "; "),
-    overview = paste(unique(na.omit(overview)), collapse = "; "),
-    description_short = first(na.omit(description_short)),
-    pssi_pillar = paste(unique(na.omit(pssi_pillar)), collapse = "; "),
-    program_pillar = paste(unique(na.omit(program_pillar)), collapse = "; "),
-    session = paste(unique(na.omit(session)), collapse = "; "),
-    speakers = paste(unique(na.omit(speakers)), collapse = "; "),
-    hosts = paste(unique(na.omit(hosts)), collapse = "; "),
-    presentation_date = paste(unique(format(na.omit(presentation_date), "%B %d, %Y")), collapse = "; "),
-    species_group = paste(unique(na.omit(species_group)), collapse = "; "),
-    location_of_project = paste(unique(na.omit(location_of_project)), collapse = "; "),
-    agreement_start_date = first(na.omit(agreement_start_date)),
-    agreement_end_date = first(na.omit(agreement_end_date)),
-    list_of_partners_or_collaborators = paste(unique(na.omit(list_of_partners_or_collaborators)), collapse = "; "),
-    source_program = first(source_program),  # Now this will work!
-    .groups = "drop"
+  distinct(project_id, .keep_all = TRUE) %>%
+  select(
+    project_id,
+    title,
+    project_leads = project_leads_clean,
+    recipient,
+    division,
+    section,
+    overview = overview_combined,
+    description_short,
+    pssi_pillar,
+    program_pillar,
+    session,
+    speakers,
+    hosts,
+    presentation_date = presentation_date_formatted,
+    species_group,
+    location_of_project,
+    agreement_start_date,
+    agreement_end_date,
+    list_of_partners_or_collaborators,
+    source_program
   )
 
-cat(glue("✅ Aggregated {nrow(aggregated_projects)} unique projects\n"))
-
-# Check what happened
-pssi_count <- sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)
-bcsrif_count <- sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)
-unknown_count <- sum(aggregated_projects$source_program == 'Unknown', na.rm = TRUE)
-na_count <- sum(is.na(aggregated_projects$source_program))
-
-cat(glue("   PSSI: {pssi_count}\n"))
-cat(glue("   BCSRIF: {bcsrif_count}\n"))
-cat(glue("   Other: {unknown_count}\n"))
-cat(glue("   NA: {na_count}\n"))
-
-# If PSSI projects are missing, show which ones
-if (pssi_count == 0) {
-  cat("\n   ⚠️ WARNING: PSSI projects lost during aggregation!\n")
-  cat("   Original PSSI project IDs:\n")
-  pssi_ids <- speaker_projects_with_program %>% 
-    filter(source_program == "PSSI") %>% 
-    distinct(project_id) %>% 
-    pull(project_id)
-  cat(paste("  ", head(pssi_ids, 10), collapse = "\n"))
-  cat(glue("\n   Total PSSI IDs: {length(pssi_ids)}\n"))
-  
-  # Check if these IDs exist in the pre-summarise data
-  test_df <- speaker_projects_with_program %>%
-    filter(project_id %in% head(pssi_ids, 5)) %>%
-    select(project_id, title, source_program, project_leads, division)
-  cat("\n   Checking sample PSSI rows before summarise:\n")
-  print(test_df)
-  
-  # Try to run summarise on just these rows to see if it fails
-  cat("\n   Testing summarise on sample PSSI rows:\n")
-  test_result <- tryCatch({
-    speaker_projects_with_program %>%
-      filter(project_id %in% head(pssi_ids, 5)) %>%
-      mutate(
-        project_leads_clean = case_when(
-          source_program == "PSSI" & !is.na(project_leads) & project_leads != "" ~ project_leads,
-          source_program == "BCSRIF" & !is.na(recipient) & recipient != "" ~ recipient,
-          !is.na(project_leads) & project_leads != "" ~ project_leads,
-          !is.na(recipient) & recipient != "" ~ recipient,
-          TRUE ~ "N/A"
-        ),
-        overview_combined = case_when(
-          !is.na(project_overview_jde) & project_overview_jde != "" ~ project_overview_jde,
-          !is.na(description_short) & description_short != "" ~ description_short,
-          !is.na(overview) & overview != "" ~ overview,
-          TRUE ~ NA_character_
-        )
-      ) %>%
-      group_by(project_id) %>%
-      summarise(
-        title = first(na.omit(c(title, project_name, "Untitled Project"))),
-        project_leads = paste(unique(na.omit(project_leads_clean)), collapse = "; "),
-        overview = paste(unique(na.omit(overview_combined)), collapse = "; "),
-        presentation_date = paste(unique(na.omit(as.character(presentation_date))), collapse = "; "),
-        source_program = first(source_program),
-        .groups = "drop"
-      )
-  }, error = function(e) {
-    cat("   ERROR during test summarise:", e$message, "\n")
-    NULL
-  })
-  
-  if (!is.null(test_result)) {
-    cat(glue("   Test summarise produced {nrow(test_result)} rows\n"))
-    print(test_result)
-  } else {
-    cat("   Test summarise FAILED\n")
-  }
-  
-  cat("\n   Aggregated project IDs:\n")
-  agg_ids <- aggregated_projects %>% pull(project_id)
-  cat(paste("  ", head(agg_ids, 10), collapse = "\n"))
-  cat(glue("\n   Total aggregated IDs: {length(agg_ids)}\n"))
-}
-
-# Debug: Show sample of what we got
-cat("\n   Sample of aggregated projects:\n")
-print(aggregated_projects %>% 
-        select(project_id, title, source_program) %>% 
-        head(5))
-cat("\n")
+cat(glue("   Aggregation complete: {nrow(aggregated_projects)} rows\n"))
+cat(glue("     PSSI: {sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)}\n"))
+cat(glue("     BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)}\n\n"))
 
 # 🔌 DISCONNECT NOW (we're done with the database)
 cat("🔌 Disconnecting from database...\n")
