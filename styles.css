@@ -1,21 +1,31 @@
-project:
-  type: website
-  output-dir: docs
+.calendar-table {
+  font-size: 0.65em;
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+}
 
-render:
-  - index.qmd
-  - pages/*.qmd  # Automatically render all project pages
+.calendar-table th,
+.calendar-table td {
+  padding: 2px;
+  height: 60px;
+  width: 14.28%;
+  border: 1px solid #ccc;
+  vertical-align: top;
+}
 
-website:
-  title: "PSSI Salmon Science Speaker Series"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
+.calendar-cell {
+  padding: 2px;
+  font-size: 0.65em;
+}
 
-format:
-  html:
-    css: styles.css  # Enable your custom stylesheet
-    theme: default   # Optional: use Quarto's default theme as a base
-
-editor: visual
+.calendar-button {
+  display: inline-block;
+  margin: 1px 0;
+  padding: 1px 3px;
+  border-radius: 3px;
+  font-size: 0.6em;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
