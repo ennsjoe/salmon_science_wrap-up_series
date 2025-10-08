@@ -209,7 +209,10 @@ aggregated_projects <- speaker_projects %>%
     .groups = "drop"
   )
 
-cat(glue("✅ Aggregated {nrow(aggregated_projects)} unique projects\n\n"))
+cat(glue("✅ Aggregated {nrow(aggregated_projects)} unique projects\n"))
+cat(glue("   PSSI: {sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)}\n"))
+cat(glue("   BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)}\n"))
+cat(glue("   Other: {sum(aggregated_projects$source_program == 'Unknown', na.rm = TRUE)}\n\n"))
 
 # 🔌 DISCONNECT NOW (we're done with the database)
 cat("🔌 Disconnecting from database...\n")
@@ -450,10 +453,10 @@ for (date_key in names(presentations_by_date)) {
     index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, "")
     
     projects_display <- group %>%
+      select(project_id, title) %>%
       left_join(
-        aggregated_projects %>% select(project_id, source_program, project_leads, recipient, title),
-        by = "project_id",
-        suffix = c("_old", "")
+        aggregated_projects %>% select(project_id, source_program, project_leads, recipient),
+        by = "project_id"
       ) %>%
       mutate(
         subfolder = case_when(
@@ -476,6 +479,12 @@ for (date_key in names(presentations_by_date)) {
       ) %>%
       distinct(project_id, .keep_all = TRUE) %>%
       arrange(title)
+    
+    # Debug: print counts
+    if (nrow(projects_display) == 0) {
+      cat(glue("   ⚠ WARNING: No projects found for session '{session_title}'\n"))
+      cat(glue("      Original group size: {nrow(group)}\n"))
+    }
     
     for (i in seq_len(nrow(projects_display))) {
       row <- projects_display[i, ]
@@ -552,7 +561,7 @@ if (length(render_result) > 0) {
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "Fixed script execution order and subfolder structure"')
+system('git commit -m "Debugging to add PSSI projects (claude)"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")
