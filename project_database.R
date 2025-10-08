@@ -240,20 +240,41 @@ pssi_sample <- speaker_projects %>%
   select(project_id, title, source) %>% 
   head(3)
 if (nrow(pssi_sample) > 0) {
-  cat("\n   Sample PSSI projects:\n")
+  cat("\n   Sample PSSI projects before aggregation:\n")
   print(pssi_sample)
 }
 
-aggregated_projects <- speaker_projects %>%
-  # Create source_program BEFORE grouping so it's available in summarise
+# Create source_program first
+speaker_projects_with_program <- speaker_projects %>%
   mutate(
     source_program = case_when(
       source == "DFO" ~ "PSSI",
       source == "BCSRIF" ~ "BCSRIF",
       TRUE ~ "Unknown"
-    ),
-    # For PSSI: use project_leads from Science.PSSI.Projects
-    # For BCSRIF: use recipient from BCSRIF table as fallback
+    )
+  )
+
+# Verify source_program was created
+cat("\n   Source_program distribution after mutate:\n")
+print(table(speaker_projects_with_program$source_program, useNA = "ifany"))
+
+# Check for duplicate project_ids
+cat("\n   Checking for duplicate project_ids:\n")
+project_counts <- speaker_projects_with_program %>%
+  group_by(project_id) %>%
+  summarise(n = n(), programs = paste(unique(source_program), collapse = ", ")) %>%
+  arrange(desc(n))
+cat(glue("   Unique project_ids: {nrow(project_counts)}\n"))
+cat(glue("   Max occurrences of single ID: {max(project_counts$n)}\n"))
+if (any(project_counts$n > 1)) {
+  cat("\n   Projects appearing multiple times:\n")
+  print(head(project_counts %>% filter(n > 1), 10))
+}
+
+aggregated_projects <- speaker_projects_with_program %>%
+  # For PSSI: use project_leads from Science.PSSI.Projects
+  # For BCSRIF: use recipient from BCSRIF table as fallback
+  mutate(
     project_leads_clean = case_when(
       source_program == "PSSI" & !is.na(project_leads) & project_leads != "" ~ project_leads,
       source_program == "BCSRIF" & !is.na(recipient) & recipient != "" ~ recipient,
@@ -287,9 +308,41 @@ aggregated_projects <- speaker_projects %>%
   )
 
 cat(glue("✅ Aggregated {nrow(aggregated_projects)} unique projects\n"))
-cat(glue("   PSSI: {sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)}\n"))
-cat(glue("   BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)}\n"))
-cat(glue("   Other: {sum(aggregated_projects$source_program == 'Unknown', na.rm = TRUE)}\n\n"))
+
+# Check what happened
+pssi_count <- sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)
+bcsrif_count <- sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)
+unknown_count <- sum(aggregated_projects$source_program == 'Unknown', na.rm = TRUE)
+na_count <- sum(is.na(aggregated_projects$source_program))
+
+cat(glue("   PSSI: {pssi_count}\n"))
+cat(glue("   BCSRIF: {bcsrif_count}\n"))
+cat(glue("   Other: {unknown_count}\n"))
+cat(glue("   NA: {na_count}\n"))
+
+# If PSSI projects are missing, show which ones
+if (pssi_count == 0) {
+  cat("\n   ⚠️ WARNING: PSSI projects lost during aggregation!\n")
+  cat("   Original PSSI project IDs:\n")
+  pssi_ids <- speaker_projects_with_program %>% 
+    filter(source_program == "PSSI") %>% 
+    distinct(project_id) %>% 
+    pull(project_id)
+  cat(paste("  ", head(pssi_ids, 10), collapse = "\n"))
+  cat(glue("\n   Total PSSI IDs: {length(pssi_ids)}\n"))
+  
+  cat("\n   Aggregated project IDs:\n")
+  agg_ids <- aggregated_projects %>% pull(project_id)
+  cat(paste("  ", head(agg_ids, 10), collapse = "\n"))
+  cat(glue("\n   Total aggregated IDs: {length(agg_ids)}\n"))
+}
+
+# Debug: Show sample of what we got
+cat("\n   Sample of aggregated projects:\n")
+print(aggregated_projects %>% 
+        select(project_id, title, source_program) %>% 
+        head(5))
+cat("\n")
 
 # 🔌 DISCONNECT NOW (we're done with the database)
 cat("🔌 Disconnecting from database...\n")
