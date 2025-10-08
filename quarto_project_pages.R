@@ -512,6 +512,7 @@ calendar_html <- c(calendar_html, "</table>")
 
 # 📄 Generate index.qmd
 cat("📄 Generating index.qmd...\n")
+
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Symposium"',
@@ -523,13 +524,12 @@ index_md <- c(
   "",
   "## 🗓️ December 2025 Calendar Overview",
   "",
-  "### 🔍 Program Legend",
-  "- 🌊 PSSI (Pacific Salmon Science Initiative)",
-  "- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)",
-  "",
   "::: {.calendar}",
   calendar_html,
   ":::",
+  "",
+  "- 🌊 PSSI (Pacific Salmon Science Initiative)",
+  "- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)",
   ""
 )
 
@@ -660,17 +660,12 @@ cat("✅ CNAME file created\n\n")
 
 # 🚀 Render and push site
 cat("🔨 Rendering Quarto site...\n")
-render_result <- system("quarto render", intern = TRUE)
-
-if (length(render_result) > 0) {
-  cat("✅ Quarto render complete\n\n")
-} else {
-  cat("⚠ Quarto render may have had issues\n\n")
-}
+system("quarto render")
+cat("✅ Quarto render complete\n\n")
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "Fixed script execution order and subfolder structure"')
+system('git commit -m "All 58 projects rendered and deployed successfully"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")

@@ -8,10 +8,6 @@ toc: false
 
 ## 🗓️ December 2025 Calendar Overview
 
-### 🔍 Program Legend
-- 🌊 PSSI (Pacific Salmon Science Initiative)
-- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)
-
 ::: {.calendar}
 <table class='calendar-table'>
 <caption><strong>December 2025</strong></caption>
@@ -65,6 +61,9 @@ toc: false
 </tr>
 </table>
 :::
+
+- 🌊 PSSI (Pacific Salmon Science Initiative)
+- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)
 
 ## 📅 December 02, 2025
 
