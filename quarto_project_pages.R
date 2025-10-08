@@ -407,16 +407,11 @@ december_sessions <- speaker_projects_dated %>%
 
 cat(glue("   Found {nrow(december_sessions)} December session dates\n"))
 
-# 🎨 Color palette
-session_colors <- c(
-  "#007BFF", "#28A745", "#17A2B8", "#FFC107", "#DC3545", "#6F42C1", "#20C997", "#FD7E14"
-)
+# 🎨 Single color for all sessions
+session_color <- "#007BFF"  # Blue - change this to match your site!
 
 get_session_color <- function(session_name) {
-  name_str <- as.character(session_name)
-  hash <- digest(name_str, algo = "crc32", serialize = FALSE)
-  idx <- (strtoi(substr(hash, 1, 6), base = 16) %% length(session_colors)) + 1
-  session_colors[idx]
+  session_color
 }
 
 # 🧱 Build calendar HTML
