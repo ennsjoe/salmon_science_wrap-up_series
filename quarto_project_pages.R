@@ -19,7 +19,7 @@ library(lubridate)
 library(fs)
 library(digest)
 
-# 🧼 Helper functions (define early!)
+# 🧼 Helper functions (define early!)----
 sanitize_filename <- function(x) gsub("[^a-zA-Z0-9_-]", "_", x)
 
 normalize_session <- function(x) {
@@ -32,28 +32,20 @@ normalize_session <- function(x) {
 
 `%||%` <- function(a, b) if (is.null(a) || is.na(a) || a == "") b else a
 
-# 🗂️ Define and validate database path
+# 🗂️ Define and validate database pat----
 db_path <- here("science_projects.sqlite")
-
-cat("🔍 Checking database path...\n")
-cat(glue("   Expected location: {db_path}\n"))
 
 if (!file.exists(db_path)) {
   stop(glue("❌ Database file not found at: {db_path}\n",
             "   Please run the data loading script first or check the file path."))
 }
 
-cat(glue("✅ Database found ({file.info(db_path)$size} bytes)\n\n"))
-
-# 🔌 Connect to the database
-cat("🔌 Connecting to database...\n")
+# 🔌 Connect to the database----
 con <- tryCatch({
   dbConnect(SQLite(), dbname = db_path)
 }, error = function(e) {
   stop(glue("❌ Failed to connect to database: {e$message}"))
 })
-
-cat("✅ Connected successfully\n\n")
 
 # Test connection before proceeding
 if (!dbIsValid(con)) {
@@ -77,8 +69,7 @@ if (length(missing_tables) > 0) {
 
 cat("✅ All required tables present\n\n")
 
-# 📥 Load and clean tables
-cat("📥 Loading tables...\n")
+# 📥 Load and clean tables----
 
 Speaker.Themes <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(project_id = as.character(project_id))
@@ -127,11 +118,6 @@ if ("source" %in% names(speakers)) {
 }
 
 sessions_raw <- dbReadTable(con, "session_info")
-cat(glue("   ✓ Session info: {nrow(sessions_raw)} rows\n"))
-
-cat("\n📊 Sample dates from sessions_raw:\n")
-print(head(sessions_raw$date, 3))
-cat("Data type:", class(sessions_raw$date), "\n\n")
 
 sessions <- sessions_raw %>%
   mutate(
@@ -139,8 +125,7 @@ sessions <- sessions_raw %>%
     date = as.Date(date, origin = "1899-12-30")
   )
 
-# 🧾 Map sources to programs
-cat("🗂️ Mapping project sources...\n")
+# 🧾 Map sources to programs----
 project_sources <- Speaker.Themes %>%
   select(project_id, source) %>%
   distinct() %>%
@@ -152,18 +137,10 @@ project_sources <- Speaker.Themes %>%
     )
   )
 
-cat(glue("   PSSI: {sum(project_sources$source_program == 'PSSI')}\n"))
-cat(glue("   BCSRIF: {sum(project_sources$source_program == 'BCSRIF')}\n"))
-cat(glue("   Unknown: {sum(project_sources$source_program == 'Unknown')}\n\n"))
+# 🔗 Initial join to create session_projects----
 
-# 🔗 Initial join to create session_projects
-cat("🔗 Joining project data...\n")
-
-# First, let's see what we start with
 initial_join <- speakers %>%
   left_join(sessions, by = "session")
-
-cat(glue("   After joining sessions: {nrow(initial_join)} rows\n"))
 
 # Check how many have dates
 with_dates <- initial_join %>% filter(!is.na(date))
@@ -195,18 +172,7 @@ session_projects <- session_projects_pre_filter %>%
   arrange(presentation_date) %>%
   distinct(project_id, session, .keep_all = TRUE)
 
-cat(glue("✅ Created session_projects: {nrow(session_projects)} rows\n"))
-
-# Debug: Check source distribution after filtering and distinct
-if ("source" %in% names(session_projects)) {
-  cat("   Source distribution after filter & distinct:\n")
-  source_counts_post <- table(session_projects$source, useNA = "ifany")
-  for (src in names(source_counts_post)) {
-    cat(glue("      {src}: {source_counts_post[src]}\n"))
-  }
-}
-
-# 🎯 Filter to speaker series projects only
+# 🎯 Filter to speaker series projects only----
 speaker_ids <- Speaker.Themes %>%
   distinct(project_id) %>%
   pull(project_id)
@@ -214,21 +180,7 @@ speaker_ids <- Speaker.Themes %>%
 speaker_projects <- session_projects %>%
   filter(project_id %in% speaker_ids)
 
-cat(glue("🎯 Filtered to speaker series: {nrow(speaker_projects)} projects\n\n"))
-
-# 🧠 Aggregate metadata
-cat("🧠 Aggregating project metadata...\n")
-
-# Debug: Check what's in speaker_projects before aggregation
-cat(glue("   Pre-aggregation: {nrow(speaker_projects)} rows\n"))
-if ("source" %in% names(speaker_projects)) {
-  cat("   Source distribution in speaker_projects:\n")
-  source_table <- table(speaker_projects$source, useNA = "ifany")
-  for (src in names(source_table)) {
-    cat(glue("      {src}: {source_table[src]}\n"))
-  }
-}
-
+# 🧠 Aggregate metadata----
 # Check for any rows with missing critical data
 missing_title <- sum(is.na(speaker_projects$title) | speaker_projects$title == "")
 missing_source <- sum(is.na(speaker_projects$source) | speaker_projects$source == "")
@@ -327,11 +279,9 @@ cat(glue("     PSSI: {sum(aggregated_projects$source_program == 'PSSI', na.rm = 
 cat(glue("     BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)}\n\n"))
 
 # 🔌 DISCONNECT NOW (we're done with the database)
-cat("🔌 Disconnecting from database...\n")
 dbDisconnect(con)
-cat("✅ Database connection closed\n\n")
 
-# 📂 Create output directory
+# 📂 Create output directory----
 cat("📂 Creating output directories...\n")
 pages_dir <- here("pages")
 dir_create(pages_dir)
@@ -340,7 +290,7 @@ dir_create(file.path(pages_dir, "bcsrif"))
 dir_create(file.path(pages_dir, "other"))
 cat("✅ Directories ready\n\n")
 
-# 📝 Generate .qmd pages
+# 📝 Generate .qmd pages----
 cat("📝 Generating project pages...\n")
 progress_count <- 0
 
@@ -605,56 +555,9 @@ for (date_key in names(presentations_by_date)) {
 writeLines(index_md, here("index.qmd"))
 cat("✅ Generated index.qmd\n\n")
 
-# 📅 Generate calendar.qmd
-cat("📅 Generating interactive calendar page...\n")
-calendar_events <- speaker_projects_dated %>%
-  mutate(
-    title_clean = gsub('"', '\\\\"', title),
-    date_str = format(presentation_date, "%Y-%m-%d")
-  ) %>%
-  select(title_clean, date_str, session) %>%
-  distinct()
-
-calendar_js <- jsonlite::toJSON(
-  calendar_events %>%
-    transmute(
-      title = title_clean,
-      start = date_str,
-      color = sapply(session, get_session_color)
-    ),
-  auto_unbox = TRUE,
-  pretty = TRUE
-)
-
-calendar_md <- glue(
-  "---\n",
-  "title: \"📅 Session Calendar\"\n",
-  "description: \"Interactive calendar of presentation dates\"\n",
-  "format: html\n",
-  "---\n\n",
-  "## 🗓️ Calendar of Sessions\n\n",
-  "<div id='calendar'></div>\n\n",
-  "<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css' rel='stylesheet' />\n",
-  "<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>\n\n",
-  "<script>\n",
-  "  document.addEventListener('DOMContentLoaded', function() {{\n",
-  "    var calendarEl = document.getElementById('calendar');\n",
-  "    var calendar = new FullCalendar.Calendar(calendarEl, {{\n",
-  "      initialView: 'dayGridMonth',\n",
-  "      events: {calendar_js}\n",
-  "    }});\n",
-  "    calendar.render();\n",
-  "  }});\n",
-  "</script>\n"
-)
-
-writeLines(calendar_md, here("calendar.qmd"))
-cat("✅ Generated calendar.qmd\n\n")
 
 # 🌐 Write CNAME file
-cat("🌐 Writing CNAME file...\n")
 writeLines("www.pacificsalmonscience.ca", here("CNAME"))
-cat("✅ CNAME file created\n\n")
 
 # Note: _quarto.yml already exists with correct subfolder configuration
 
