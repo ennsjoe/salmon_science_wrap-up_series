@@ -12,7 +12,7 @@ toc: true
 **Partners:** Pacific Salmon Foundation  
 **Agreement Period:** September 13, 4293080 to April 21, 4602258  
 **Session(s):** Hatcheries  
-**Presentation Date(s):** December 09, 2025  
+**Presentation Date(s):** December 11, 2025  
 **Speakers:** Jason Hwang  
 **Overview:**  
 The Pacific Salmon Foundation (PSF) will conduct a science-based review of hatcheries in the Pacific Region (including community hatcheries and DFOs major facilities) to evaluate performance and the effectiveness of current genetic and genomic tools in order to optimize salmon production in BC.   

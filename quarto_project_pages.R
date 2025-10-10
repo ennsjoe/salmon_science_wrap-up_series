@@ -563,7 +563,7 @@ cat("✅ Quarto render complete\n\n")
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "All 58 projects rendered and deployed successfully"')
+system('git commit -m "swapped session dates from 11 to 09"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")

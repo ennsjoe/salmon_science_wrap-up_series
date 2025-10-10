@@ -26,9 +26,9 @@ toc: false
 <tr>
 <td><div class='calendar-cell'><strong>7</strong></div></td>
 <td><div class='calendar-cell'><strong>8</strong></div></td>
-<td><div class='calendar-cell'><strong>9</strong><br><div class='calendar-button' style='background-color:#007BFF'>Salmon Health</div><div class='calendar-button' style='background-color:#007BFF'>Hatcheries</div></div></td>
+<td><div class='calendar-cell'><strong>9</strong><br><div class='calendar-button' style='background-color:#007BFF'>Fisheries Monitoring And Harvest Methods</div><div class='calendar-button' style='background-color:#007BFF'>Data And Modelling To Support Decision Making</div></div></td>
 <td><div class='calendar-cell'><strong>10</strong></div></td>
-<td><div class='calendar-cell'><strong>11</strong><br><div class='calendar-button' style='background-color:#007BFF'>Fisheries Monitoring And Harvest Methods</div><div class='calendar-button' style='background-color:#007BFF'>Data And Modelling To Support Decision Making</div></div></td>
+<td><div class='calendar-cell'><strong>11</strong><br><div class='calendar-button' style='background-color:#007BFF'>Salmon Health</div><div class='calendar-button' style='background-color:#007BFF'>Hatcheries</div></div></td>
 <td><div class='calendar-cell'><strong>12</strong></div></td>
 <td><div class='calendar-cell'><strong>13</strong></div></td>
 </tr>
@@ -119,6 +119,27 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 
 ## 📅 December 09, 2025
 
+### 🐟 Data And Modelling To Support Decision Making
+Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management.
+
+- 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor
+- 🌊 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/pssi/2546.html) | Shelee Hamilton
+- 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault, Cher LaCoste
+- 🌱 [Restoring freshwater connectivity for Pacific salmon](pages/bcsrif/BCSRIF_2022_415.html) | Canadian Wildlife Federation
+- 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Pacific Salmon Foundation
+
+### 🐟 Fisheries Monitoring And Harvest Methods
+Projects that pilot selective methods for harvesting salmon or contribute to our understanding of fisheries impacts on Pacific salmon through improved monitoring
+
+- 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Pacific Salmon Foundation
+- 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/pssi/2394.html) | Cory Lagasse
+- 🌱 [Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology](pages/bcsrif/BCSRIF_2019_058.html) | University of British Columbia (Vancouver), Department of Forest and Conservation Sciences
+- 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Sport Fishing Institute of BC
+- 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Central Coast Indigenous Resource Alliance Society
+- 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | A-Tlegay Fisheries Society
+
+## 📅 December 11, 2025
+
 ### 🐟 Hatcheries
 Research on genetic consequences of hatchery enhancment, and the interactions between hatchery and wild salmon
 
@@ -142,25 +163,4 @@ Monitoring and managing the health of cultured salmon.
 - 🌊 [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/pssi/2418.html) | Ian Forster, Cher LaCoste
 - 🌊 [SHERLOCK assay for rapid genotyping applications](pages/pssi/2434.html) | Eric Rondeau, Tim Healy, Kyle Wellband
 - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/bcsrif/BCSRIF_2020_311.html) | BC Centre for Aquatic Health Sciences Society
-
-## 📅 December 11, 2025
-
-### 🐟 Data And Modelling To Support Decision Making
-Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management.
-
-- 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor
-- 🌊 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/pssi/2546.html) | Shelee Hamilton
-- 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault, Cher LaCoste
-- 🌱 [Restoring freshwater connectivity for Pacific salmon](pages/bcsrif/BCSRIF_2022_415.html) | Canadian Wildlife Federation
-- 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Pacific Salmon Foundation
-
-### 🐟 Fisheries Monitoring And Harvest Methods
-Projects that pilot selective methods for harvesting salmon or contribute to our understanding of fisheries impacts on Pacific salmon through improved monitoring
-
-- 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Pacific Salmon Foundation
-- 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/pssi/2394.html) | Cory Lagasse
-- 🌱 [Enhancing Sustainability of capture & release marine recreational Pacific salmon fisheries using new tools/technology](pages/bcsrif/BCSRIF_2019_058.html) | University of British Columbia (Vancouver), Department of Forest and Conservation Sciences
-- 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Sport Fishing Institute of BC
-- 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Central Coast Indigenous Resource Alliance Society
-- 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | A-Tlegay Fisheries Society
 

@@ -10,7 +10,7 @@ toc: true
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
 **Session(s):** Salmon Health  
-**Presentation Date(s):** December 09, 2025  
+**Presentation Date(s):** December 11, 2025  
 **Speakers:** Ian Forster, Cher LaCoste  
 **Overview:**  
 Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.   

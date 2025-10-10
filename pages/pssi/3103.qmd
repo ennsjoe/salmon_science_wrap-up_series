@@ -10,7 +10,7 @@ toc: true
 **Division:** N/A  
 **Section:** Molecular Genetics  
 **Session(s):** Hatcheries  
-**Presentation Date(s):** December 09, 2025  
+**Presentation Date(s):** December 11, 2025  
 **Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
 **Overview:**  
 No description available.   
