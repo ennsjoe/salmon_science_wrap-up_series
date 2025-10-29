@@ -63,6 +63,7 @@ missing_tables <- setdiff(required_tables, available_tables)
 
 if (length(missing_tables) > 0) {
   dbDisconnect(con)
+  
   stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}\n",
             "   Available tables: {paste(available_tables, collapse = ', ')}"))
 }
@@ -280,6 +281,45 @@ cat(glue("     BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.r
 
 # 🔌 DISCONNECT NOW (we're done with the database)
 dbDisconnect(con)
+
+# 📄 Extract PDFs from database and write to filesystem
+cat("📄 Extracting PDFs from database...\n")
+
+# Reconnect briefly to get PDFs
+con_pdf <- dbConnect(SQLite(), dbname = db_path)
+
+# Check if PSSI_bulletins table exists
+if ("PSSI_bulletins" %in% dbListTables(con_pdf)) {
+  pdf_data <- dbReadTable(con_pdf, "PSSI_bulletins")
+  
+  if (nrow(pdf_data) > 0) {
+    # Create PSSI_bulletin directory if it doesn't exist
+    pdf_dir <- here("data", "PSSI_bulletin")
+    if (!dir.exists(pdf_dir)) {
+      dir.create(pdf_dir, recursive = TRUE)
+    }
+    
+    # Write each PDF to file
+    for (j in seq_len(nrow(pdf_data))) {
+      project_id <- pdf_data$project_id[j]
+      pdf_binary <- pdf_data$pdf_data[[j]]
+      
+      if (!is.null(pdf_binary) && length(pdf_binary) > 0) {
+        pdf_path <- file.path(pdf_dir, glue("{project_id}.pdf"))
+        writeBin(pdf_binary, pdf_path)
+        cat(glue("  ✓ Extracted PDF for project {project_id}\n"))
+      }
+    }
+    cat(glue("✅ Extracted {nrow(pdf_data)} PDFs\n\n"))
+  } else {
+    cat("⚠️  No PDFs found in database\n\n")
+  }
+} else {
+  cat("⚠️  PSSI_bulletins table not found in database\n\n")
+}
+
+dbDisconnect(con_pdf)
+
 
 # 📂 Create output directory----
 cat("📂 Creating output directories...\n")

@@ -2,6 +2,7 @@
 # Title: Load CSVs into SQLite, Clean Column Names & List Table Structures
 # Description: Ingests all CSVs from 'data/' folder into SQLite DB, cleans
 #              column names, parses dates where applicable, and prints schemas.
+#              Also loads PDFs from data/PSSI_bulletin/ into database.
 ################################################################################
 
 # 📦 Load libraries
@@ -71,10 +72,68 @@ for (csv_path in csv_files) {
   })
 }
 
+# 📄 Load PDFs from data/PSSI_bulletin/ folder
+cat("\n📄 Loading PDFs from PSSI_bulletin folder...\n")
+pdf_dir <- here("data", "PSSI_bulletin")
+
+if (dir.exists(pdf_dir)) {
+  pdf_files <- list.files(pdf_dir, pattern = "\\.pdf$", full.names = TRUE)
+  
+  if (length(pdf_files) > 0) {
+    # Create table for PDFs
+    pdf_data_list <- list()
+    
+    for (pdf_path in pdf_files) {
+      file_name <- basename(pdf_path)
+      # Extract project_id from filename (e.g., "2493.pdf" -> "2493")
+      project_id <- file_path_sans_ext(file_name)
+      
+      tryCatch({
+        # Read PDF as binary
+        pdf_binary <- readBin(pdf_path, "raw", file.info(pdf_path)$size)
+        
+        # Store in list
+        pdf_data_list[[length(pdf_data_list) + 1]] <- data.frame(
+          project_id = project_id,
+          pdf_data = I(list(pdf_binary)),
+          stringsAsFactors = FALSE
+        )
+        
+        cat(glue("  ✓ Loaded PDF for project {project_id}\n"))
+      }, error = function(e) {
+        cat(glue("  ❌ Error loading '{file_name}': {e$message}\n"))
+      })
+    }
+    
+    # Combine all PDF data
+    if (length(pdf_data_list) > 0) {
+      pdf_table <- bind_rows(pdf_data_list)
+      
+      # Write to database
+      dbWriteTable(con, "PSSI_bulletins", pdf_table, overwrite = TRUE)
+      
+      cat(glue("✅ Loaded {nrow(pdf_table)} PDFs into 'PSSI_bulletins' table\n"))
+    }
+  } else {
+    cat("⚠️  No PDF files found in PSSI_bulletin folder\n")
+  }
+} else {
+  cat("⚠️  PSSI_bulletin folder not found at: {pdf_dir}\n")
+  cat("   Creating empty PSSI_bulletins table...\n")
+  
+  # Create empty table structure
+  empty_pdf_table <- data.frame(
+    project_id = character(),
+    pdf_data = I(list()),
+    stringsAsFactors = FALSE
+  )
+  dbWriteTable(con, "PSSI_bulletins", empty_pdf_table, overwrite = TRUE)
+}
+
 # 📊 Summarize table structures
 tables <- dbListTables(con)
 
-cat("Summary of tables in science_projects.sqlite:\n\n")
+cat("\n📋 Summary of tables in science_projects.sqlite:\n\n")
 for (tbl in tables) {
   row_count <- dbGetQuery(con, glue("SELECT COUNT(*) AS count FROM \"{tbl}\""))$count
   schema <- dbGetQuery(con, glue("PRAGMA table_info(\"{tbl}\")"))
@@ -90,3 +149,5 @@ for (tbl in tables) {
 
 # 🔌 Disconnect from the database
 dbDisconnect(con)
+
+cat("✨ Database build complete!\n")
