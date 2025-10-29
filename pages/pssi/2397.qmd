@@ -5,7 +5,7 @@ Leads: "Carrie Holt"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Quantitative Assessment Methods  
@@ -14,4 +14,5 @@ toc: true
 **Speakers:** Carrie Holt  
 **Overview:**  
 Indigenous knowledge includes countless generations of place-based Pacific salmon experience that cannot be recreated or measured. Guided by the Eptuaptmumk (“Two-Eyed Seeing”) framework, we are partnering with First Nations on the West coast of Vancouver Island (WCVI) and University of Victoria to identify rebuilding targets and reference points for Chinook salmon that pair Indigenous Knowledge Systems with Western Science, based on interviews and focus groups with Indigenous Knowledge holders and a review of assessment literature.   
+
 

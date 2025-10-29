@@ -5,7 +5,7 @@ Leads: "Ka:’yu:’k’t’h’/Che:k’tles7et’h’ First Nation"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+## ðŸ“‹ BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Kaouk River and Artlish River watersheds located in Kyuquot Sound, Westcoast Vancouver Island  

@@ -5,7 +5,7 @@ Leads: "Huu-ay-aht First Nations"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+## ðŸ“‹ BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Sarita River watershed near Bamfield and Anacla, Barkley Sound, Westcoast Vancouver Island  

@@ -5,7 +5,7 @@ Leads: "Ian Forster, Cher LaCoste"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
@@ -14,4 +14,5 @@ toc: true
 **Speakers:** Ian Forster, Cher LaCoste  
 **Overview:**  
 Hatchery feeds often come from commercial sources focused on other fish species and may be nutritionally incomplete for Pacific salmon. This hatchery feed study develops new diets specific to Chinook and coho and tests the salmon health under different feed trials.   
+
 

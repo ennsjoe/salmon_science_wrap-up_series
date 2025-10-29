@@ -5,7 +5,7 @@ Leads: "BC Centre for Aquatic Health Sciences Society"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+## ðŸ“‹ BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Campbell River  

@@ -5,7 +5,7 @@ Leads: "Andrew Ross"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry   
@@ -15,4 +15,5 @@ toc: true
 **Overview:**  
 Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
 We are comparing biotoxin levels with environmental conditions and indicators of fish health.     
+
 

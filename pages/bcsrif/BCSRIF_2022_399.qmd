@@ -5,7 +5,7 @@ Leads: "University of Northern British Columbia, Department of Geography, Earth 
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+## ðŸ“‹ BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Quesnel  

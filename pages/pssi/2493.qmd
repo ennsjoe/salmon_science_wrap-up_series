@@ -5,7 +5,7 @@ Leads: "David Patterson, Douglas Braun"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Freshwater Ecosystems  
@@ -14,4 +14,12 @@ toc: true
 **Speakers:** David Patterson, Douglas Braun  
 **Overview:**  
 Models of landscape-scope watershed assessments often can’t capture accurate salmon health and life-cycle dynamics because they lack the mechanistic tools to show cumulative impacts and multiple stressors in the environment. This salmon health and habitat (ecophysiology) monitoring project biosamples North Thompson juvenile coho and Fraser juvenile sockeye, along with water quality measurements to develop finer tools to model fish condition in relation to habitat change and climate conditions.   
+
+## 📄 Project Bulletin
+
+<iframe src="../../data/PSSI_bulletin/2493.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📥 Download PDF](../../data/PSSI_bulletin/2493.pdf){.btn .btn-primary target="_blank"}
+</p>
 

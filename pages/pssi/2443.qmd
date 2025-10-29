@@ -5,7 +5,7 @@ Leads: "Daniel Doutaz"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fraser and Interior Area Salmon Stock Assessment  
@@ -14,4 +14,5 @@ toc: true
 **Speakers:** Daniel Doutaz  
 **Overview:**  
 Introduced smallmouth bass pose a predation risk to sockeye in Cultus Lake. However, some anglers prefer fishing for smallmouth bass and strongly oppose actions to lower the bass population. This predator research study captures (electrofrishing), tags (PIT and acoustic transmitters), and biosamples smallmouth bass to assess population control methods and interviews anglers to develop a community plan.     
+
 

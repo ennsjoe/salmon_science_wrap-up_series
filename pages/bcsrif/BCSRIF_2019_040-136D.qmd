@@ -5,7 +5,7 @@ Leads: "N/A"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+## ðŸ“‹ BCSRIF Project Summary
 
 **Species Group:** Not specified  
 **Location:** Unknown  
@@ -15,5 +15,5 @@ toc: true
 **Presentation Date(s):** December 04, 2025  
 **Speakers:** Samantha James  
 **Overview:**  
-This project will build on a previously funded Fisheries Related Incidental Mortality (FRIM) study led by the Sport Fishing Institute to expand the work to include Coho salmon, in addition to Chinook. This study will utilize best practices developed in the previous study to better understand FRIM in the recreational Coho fishery on West Coast Vancouver Island, and will be further advanced by a new component to study affects of fisheries interactions on fish metabolism. This information will be used to expand the Best Practices Handbook developed in 2020.    
+The recipient aims to validate Nanopore technology as a rapid and broad-range tool for detecting salmon pathogens from biological and environmental samples from hatcheries. The technology will be applied to screen broodstock examine pathogen sources and their distribution in hatchery systems and identify/characterize the agent(s) associated with disease occurrences.   
 

@@ -5,7 +5,7 @@ Leads: "Cory Lagasse"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Salmon Assessment  
@@ -14,4 +14,5 @@ toc: true
 **Speakers:** Cory Lagasse  
 **Overview:**  
 Groundfish trawls (non-salmon) are prohibited from selling or trading salmon bycatch, yet these commercial fisheries catch large numbers of salmon without management measures. This harvest sampling study counts salmon bycatch by species and collects tags (coded wire tags) and DNA from Chinook to estimate the total catch rate by stock, especially stocks of concern.   
+
 

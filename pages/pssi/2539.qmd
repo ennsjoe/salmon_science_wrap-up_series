@@ -5,7 +5,7 @@ Leads: "Di Wan, James Christian"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+## ðŸ“‹ PSSI Project Summary
 
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ocean Modelling and Prediction  
@@ -14,4 +14,5 @@ toc: true
 **Speakers:** Di Wan, James Christian  
 **Overview:**  
 Ocean and climate conditions influence salmon numbers and health. While efforts have been made to model future climate conditions, these models are broad in scope which creates a scale gap when applying projections to salmon habitat. This modelling project downscales broader global climate models to include coastal environments and salmon species distribution.   
+
 
