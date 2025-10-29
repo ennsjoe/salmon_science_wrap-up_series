@@ -5,7 +5,7 @@ Leads: "University of British Columbia (Vancouver), Institute for the Oceans and
 toc: true
 ---
 
-## ðŸ“‹ BCSRIF Project Summary
+## 📋 BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Vancouver  

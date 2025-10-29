@@ -5,7 +5,7 @@ Leads: "Carrie Holt, Brendan Connors, Catarina Wor"
 toc: true
 ---
 
-## ðŸ“‹ PSSI Project Summary
+## 📋 PSSI Project Summary
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Quantitative Assessment Methods  

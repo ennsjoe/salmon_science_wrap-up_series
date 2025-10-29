@@ -5,7 +5,7 @@ Leads: "University of British Columbia (Vancouver), Department of Forest and Con
 toc: true
 ---
 
-## ðŸ“‹ BCSRIF Project Summary
+## 📋 BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Pacific Ocean  

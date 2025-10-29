@@ -5,7 +5,7 @@ Leads: "David Patterson, Douglas Braun"
 toc: true
 ---
 
-## ðŸ“‹ PSSI Project Summary
+## 📋 PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Freshwater Ecosystems  

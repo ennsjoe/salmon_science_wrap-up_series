@@ -5,7 +5,7 @@ Leads: "Ian Forster, Cher LaCoste"
 toc: true
 ---
 
-## ðŸ“‹ PSSI Project Summary
+## 📋 PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  

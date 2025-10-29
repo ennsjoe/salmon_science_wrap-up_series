@@ -5,7 +5,7 @@ Leads: "University of Victoria, Department of Biology"
 toc: true
 ---
 
-## ðŸ“‹ BCSRIF Project Summary
+## 📋 BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Victoria  

@@ -5,7 +5,7 @@ Leads: "Shelee Hamilton"
 toc: true
 ---
 
-## ðŸ“‹ PSSI Project Summary
+## 📋 PSSI Project Summary
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
