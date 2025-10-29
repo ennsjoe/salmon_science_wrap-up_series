@@ -311,6 +311,17 @@ dbDisconnect(con_pdf)
 # 📂 Create output directory----
 cat("📂 Creating output directories...\n")
 pages_dir <- here("pages")
+
+# Clean up old .qmd files to ensure only confirmed projects are included
+if (dir.exists(pages_dir)) {
+  cat("   Cleaning up old .qmd files...\n")
+  old_files <- list.files(pages_dir, pattern = "\\.qmd$", recursive = TRUE, full.names = TRUE)
+  if (length(old_files) > 0) {
+    file.remove(old_files)
+    cat(glue("   Removed {length(old_files)} old .qmd files\n"))
+  }
+}
+
 dir_create(pages_dir)
 dir_create(file.path(pages_dir, "pssi"))
 dir_create(file.path(pages_dir, "bcsrif"))
@@ -319,10 +330,18 @@ cat("✅ Directories ready\n\n")
 
 # 📝 Generate .qmd pages----
 cat("📝 Generating project pages...\n")
+
+# Double-check: only create pages for confirmed projects
+confirmed_project_ids <- Speaker.Themes %>% pull(project_id)
+aggregated_projects_confirmed <- aggregated_projects %>%
+  filter(project_id %in% confirmed_project_ids)
+
+cat(glue("   Creating pages for {nrow(aggregated_projects_confirmed)} confirmed projects\n"))
+
 progress_count <- 0
 
-for (i in seq_len(nrow(aggregated_projects))) {
-  row <- aggregated_projects[i, ]
+for (i in seq_len(nrow(aggregated_projects_confirmed))) {
+  row <- aggregated_projects_confirmed[i, ]
   file_id <- sanitize_filename(row[["project_id"]])
   if (is.na(file_id) || file_id == "") next
   
@@ -439,7 +458,7 @@ for (i in seq_len(nrow(aggregated_projects))) {
   }
 }
 
-cat(glue("✅ Generated {nrow(aggregated_projects)} project pages\n\n"))
+cat(glue("✅ Generated {nrow(aggregated_projects_confirmed)} project pages\n\n"))
 
 # 📅 Build December 2025 calendar
 cat("📅 Building December 2025 calendar...\n")
@@ -557,7 +576,7 @@ for (date_key in names(presentations_by_date)) {
     projects_display <- group %>%
       select(project_id, title) %>%
       left_join(
-        aggregated_projects %>% select(project_id, source_program, project_leads, recipient, organization),
+        aggregated_projects_confirmed %>% select(project_id, source_program, project_leads, recipient, organization),
         by = "project_id"
       ) %>%
       mutate(
