@@ -9,10 +9,18 @@ toc: true
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
+**Organization:** DFO  
 **Session(s):** Salmon In A Changing Climate  
 **Presentation Date(s):** December 02, 2025  
-**Speakers:** Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella,   
-**Overview:**  
+**Speakers:** Jan Finke  
+**Abstract:**  
 Predicting how salmon stocks respond to climate change is difficult because salmon life stages span diverse habitats seasonally. This modelling project studies the relationships between salmon survival and environmental data in freshwater and marine habitats, then applies those relationships to more specific stocks with less available information.  By modelling these relationships across all salmon stocks, decision-makers are better able to predict the state of salmon stocks under a variety of climate change scenarios.   
 
+## 📄 Project Bulletin
+
+<iframe src="../../data/PSSI_bulletin/2405.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📥 Download PDF](../../data/PSSI_bulletin/2405.pdf){.btn .btn-primary target="_blank"}
+</p>
 

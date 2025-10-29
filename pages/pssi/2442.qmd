@@ -1,0 +1,19 @@
+---
+title: "Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system"
+output-file: "2442.html"
+Leads: "Lauren Weir"
+toc: true
+---
+
+## 📋 PSSI Project Summary
+
+**Division:** Stock Assessment and Research (StAR)  
+**Section:** Fraser and Interior Area Salmon Stock Assessment  
+**Organization:** DFO  
+**Session(s):** Freshwater Stressors  
+**Presentation Date(s):** December 02, 2025  
+**Speakers:** Tommy Pontbriand  
+**Abstract:**  
+Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging.   
+
+

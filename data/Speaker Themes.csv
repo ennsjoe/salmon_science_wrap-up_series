@@ -1,61 +1,62 @@
-﻿Project Id,session,speakers,source
-2394,Fisheries monitoring and harvest methods,Cory Lagasse,DFO
-2397,Follow the Fish,Carrie Holt,DFO
-2398,Follow the Fish,Diana McHugh,DFO
-2402,Freshwater stressors,"Brendan Connors, Adam O'Dell",DFO
-2404,Marine stressors,Laura Bianucci,DFO
-2405,Salmon in a changing climate,"Patrick Thompson, Cameron Freshwater, Brendan Connors, Josie Iacarella, ",DFO
-2406,Salmon in a changing climate,Sophia Johannessen,DFO
-2407,Follow the Fish,Jessy Bokvist,DFO
-2408,Salmon Health,Amy Long,DFO
-2409,Marine stressors,"Strahan Tucker, Cameron Freshwater",DFO
-2410,Data and modelling to support decision making,"Thomas Therriault, Cher LaCoste",DFO
-2412,Marine stressors,Chris Pearce,DFO
-2413,Marine stressors,"Akash Sastri, Kelly Young",DFO
-2416,Marine stressors,Andrew Ross,DFO
-2417,Salmon Health,"Ian Forster, Cher LaCoste",DFO
-2418,Salmon Health,"Ian Forster, Cher LaCoste",DFO
-2421,Salmon Health,Stewart Johnson,DFO
-2422,Follow the Fish,"Andrew Ross, Xiangjun Liao, Nicole LaForge",DFO
-2424,Freshwater stressors,Sean Naman,DFO
-2425,Freshwater stressors,Josie Iacarella,DFO
-2432,Follow the Fish,Stephane Gauthier,DFO
-2434,Salmon Health,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO
-2435,Hatcheries,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO
-2437,Salmon in a changing climate,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO
-2443,Freshwater stressors,Daniel Doutaz,DFO
-2447,Follow the Fish,Kristi Miller-Saunders,DFO
-2448,Salmon Health,Kristi Miller-Saunders,DFO
-2449,Data and modelling to support decision making,"Carrie Holt, Brendan Connors, Catarina Wor",DFO
-2451,Hatcheries,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO
-2453,Hatcheries,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO
-2493,Freshwater stressors,"David Patterson, Douglas Braun",DFO
-2539,Salmon in a changing climate,"Di Wan, James Christian",DFO
-2546,Data and modelling to support decision making,Shelee Hamilton,DFO
-3103,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO
-3119,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO
-3120,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO
-3121,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO
-BCSRIF_2019_040-136D,Marine stressors,Samantha James,BCSRIF
-BCSRIF_2019_045,Fisheries monitoring and harvest methods,Will Atlas,BCSRIF
-BCSRIF_2019_058,Fisheries monitoring and harvest methods,Scott Hinch,BCSRIF
-BCSRIF_2019_136,Hatcheries,Jason Hwang,BCSRIF
-BCSRIF_2020_217,Freshwater stressors,Jordan Rosenfeld,BCSRIF
-BCSRIF_2020_239,Hatcheries,Francis Juanes,BCSRIF
-BCSRIF_2020_279,Data and modelling to support decision making,Katrina Connors,BCSRIF
-BCSRIF_2020_292,Fisheries monitoring and harvest methods,Megan Adams,BCSRIF
-BCSRIF_2020_311,Salmon Health,Ahmed Siah,BCSRIF
-BCSRIF_2022_332,Follow the Fish,Christine Gruman,BCSRIF
-BCSRIF_2022_334,Freshwater stressors,Marian Ngo,BCSRIF
-BCSRIF_2022_337,Follow the Fish,Timothy Sobey,BCSRIF
-BCSRIF_2022_347,Fisheries monitoring and harvest methods,Derek Leboeuf,BCSRIF
-BCSRIF_2022_358,Marine stressors,(blank),BCSRIF
-BCSRIF_2022_384,Salmon in a changing climate,Francis Zwiers,BCSRIF
-BCSRIF_2022_399,Salmon in a changing climate,Ellen Petticrew,BCSRIF
-BCSRIF_2022_401,Salmon in a changing climate,Katrina Connors,BCSRIF
-BCSRIF_2022_415,Data and modelling to support decision making,Nick Lapointe,BCSRIF
-BCSRIF_2022_442,Follow the Fish,Andrew Bateman,BCSRIF
-BCSRIF_2022_449,Freshwater stressors,Amy Kamarainen,BCSRIF
-BCSRIF_2022_454,Fisheries monitoring and harvest methods,(blank),BCSRIF
-(blank),Data and modelling to support decision making,Ann-Marie Huang; Diana Dobson,DFO
-(blank),Fisheries monitoring and harvest methods,"Phil Lemp, Erin Rechisky",DFO
+﻿Project Id,session,speakers,organization,source,abstract,confirmed
+2394,Fisheries monitoring and harvest methods,Cory Lagasse,DFO,DFO,,Yes
+2397,Follow the Fish,"Jared Dick, Carrie Holt",Nuu-Chah-Nulth Tribal Council,DFO,,Yes
+2398,Follow the Fish,Diana McHugh,DFO,DFO,,No
+2402,Fisheries monitoring and harvest methods,Brendan Connors,DFO,DFO,,Yes
+2404,Marine stressors,"Laura Bianucci, Marilena Geng",DFO,DFO,,Yes
+2405,Salmon in a changing climate,Jan Finke,DFO,DFO,,Yes
+2406,Salmon in a changing climate,Sophia Johannessen,DFO,DFO,,Yes
+2407,Follow the Fish,Jessy Bokvist,DFO,DFO,,Yes
+2408,Salmon Health,Amy Long,DFO,DFO,,Yes
+2409,Marine stressors,Cameron Freshwater,DFO,DFO,,Yes
+2410,Data and modelling to support decision making,"Thomas Therriault, Cher LaCoste",DFO,DFO,,Yes
+2412,Marine stressors,Chris Pearce,DFO,DFO,,Yes
+2413,Marine stressors,"Akash Sastri, Kelly Young",DFO,DFO,,Yes
+2416,Marine stressors,Andrew Ross,DFO,DFO,,Yes
+2417,Salmon Health,Erika Eliason,DFO,DFO,,Yes
+2418,Salmon Health,Erika Eliason,DFO,DFO,,Yes
+2421,Salmon Health,Reid Williams,DFO,DFO,,Yes
+2422,Follow the Fish,"Nicole LaForge, Micah Quindazzi ",DFO,DFO,,Yes
+2424,Freshwater stressors,Sean Naman,DFO,DFO,,Yes
+2425,Freshwater stressors,Keegan Patterson,DFO,DFO,,Yes
+2432,Follow the Fish,Stephane Gauthier,DFO,DFO,,No
+2434,Salmon Health,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO,DFO,,No
+2435,Hatcheries,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO,DFO,,Yes
+2437,Salmon in a changing climate,Tim Healy,DFO,DFO,,Yes
+2443,Freshwater stressors,Daniel Doutaz,DFO,DFO,,No
+2447,Follow the Fish,Christoph Deeg,DFO,DFO,,Yes
+2448,Salmon Health,Christoph Deeg,DFO,DFO,,Yes
+2449,Data and modelling to support decision making,"Carrie Holt, Brendan Connors, Catarina Wor",DFO,DFO,,Yes
+2451,Hatcheries,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO,DFO,,Yes
+2453,Hatcheries,"Eric Rondeau, Tim Healy, Kyle Wellband",DFO,DFO,,Yes
+2493,Freshwater stressors,"David Patterson, Douglas Braun",DFO,DFO,,Yes
+2539,Salmon in a changing climate,"Di Wan, James Christian",DFO,DFO,,No
+2546,Data and modelling to support decision making,Shelee Hamilton,DFO,DFO,,Yes
+3103,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO,DFO,,Yes
+3119,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO,DFO,,Yes
+3120,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO,DFO,,Yes
+3121,Hatcheries,"Eric Rondeau, Timothy Healy, Kyle Wellband",DFO,DFO,,Yes
+BCSRIF_2019_040-136D,Marine stressors,Samantha James,Pacific Salmon Foundation,BCSRIF,,Yes
+BCSRIF_2019_045,Fisheries monitoring and harvest methods,Will Atlas,Pacific Salmon Foundation,BCSRIF,,Yes
+BCSRIF_2019_058,Fisheries monitoring and harvest methods,Scott Hinch,,BCSRIF,,No
+BCSRIF_2019_136,Hatcheries,Samantha James,Pacific Salmon Foundation,BCSRIF,,Yes
+BCSRIF_2020_217,Freshwater stressors,Jordan Rosenfeld,"University of British Columbia (Vancouver), Institute for the Oceans and Fisheries",BCSRIF,,Yes
+BCSRIF_2020_239,Hatcheries,Francis Juanes,"University of Victoria, Department of Biology",BCSRIF,,Yes
+BCSRIF_2020_279,Data and modelling to support decision making,Leah Honka,Pacific Salmon Foundation,BCSRIF,,Yes
+BCSRIF_2020_292,Fisheries monitoring and harvest methods,Megan Adams,,BCSRIF,,No
+BCSRIF_2020_311,Salmon Health,Ahmed Siah,BC Centre for Aquatic Health Sciences Society,BCSRIF,,Yes
+BCSRIF_2022_332,Follow the Fish,Christine Gruman,,BCSRIF,,No
+BCSRIF_2022_334,Freshwater stressors,Dave Scott,Salish Sea Indigenous Guardians Association,BCSRIF,,Yes
+BCSRIF_2022_337,Follow the Fish,Timothy Sobey,,BCSRIF,,No
+BCSRIF_2022_347,Fisheries monitoring and harvest methods,Derek Leboeuf,A-Tlegay Fisheries Society,BCSRIF,,Yes
+BCSRIF_2022_358,Marine stressors,(blank),,BCSRIF,,No
+BCSRIF_2022_384,Salmon in a changing climate,Markus Schnorbus,,BCSRIF,,Yes
+BCSRIF_2022_399,Salmon in a changing climate,Ellen Petticrew,"University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences",BCSRIF,,Yes
+BCSRIF_2022_401,Salmon in a changing climate,"Marc Porter, Kathleen Belton, Stephanie Peacock","Salmon Watersheds Program, Pacific Salmon Foundation",BCSRIF,"For over 15 years, the Pacific Salmon Foundation’s Salmon Watersheds Program (SWP) has worked to democratize salmon-related data and support community-led efforts in salmon recovery. Through two BC SRIF projects, the SWP has expanded their work to focus on the impacts of climate change on salmon and their freshwater habitats. The first project included modelling the climate change exposure of Pacific salmon Conservation Units in the Fraser River basin to understand their relative exposure to projected climate changes throughout their lifecycles. The results can be used alongside assessments of biological status and habitat degradation to strategically prioritize actions for salmon resilience. The second project was more tactical, working with numerous First Nations and other partners to implement community-led monitoring of stream temperature and flow and support the harmonization of approaches and datasets across organizations. Together, these projects shed light on how climate change impacts salmon watersheds today and into the future and provided opportunities for integration and collaboration across groups.",Yes
+BCSRIF_2022_415,Data and modelling to support decision making,Nick Lapointe,Canadian Wildlife Federation,BCSRIF,,Yes
+BCSRIF_2022_442,Follow the Fish,Andrew Bateman,,BCSRIF,,No
+BCSRIF_2022_449,Freshwater stressors,Maria Kuruvilla,Salmon Coast Field Station Society,BCSRIF,,Yes
+BCSRIF_2022_454,Fisheries monitoring and harvest methods,Owen Bird,Sport Fishing Institute of BC,BCSRIF,,Yes
+BCSRIF_2022_456,Data and modelling to support decision making,Samantha James,Pacific Salmon Foundation,BCSRIF,,Yes
+X1,Fisheries monitoring and harvest methods,"Phil Lemp, Erin Rechisky",,DFO,,No
+2442,Freshwater stressors,Tommy Pontbriand,DFO,DFO,,Yes

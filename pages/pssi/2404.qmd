@@ -9,10 +9,18 @@ toc: true
 
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ocean Modelling and Prediction  
+**Organization:** DFO  
 **Session(s):** Marine Stressors  
 **Presentation Date(s):** December 04, 2025  
-**Speakers:** Laura Bianucci  
-**Overview:**  
+**Speakers:** Laura Bianucci, Marilena Geng  
+**Abstract:**  
 Low-oxygen (hypoxia) conditions have been observed near the surface in salmon migration inlets on west coast Vancouver Island. The ecosystem monitoring component of this study measures salinity, temperature, and oxygen at different depths in Clayoquot Sound fjords in collaboration with Indigenous groups to establish present-day baseline conditions. The modelling component helps understand the drivers of hypoxia and how they may change in the future. Will salmon have to face more or less hypoxic conditions while migrating?   
 
+## 📄 Project Bulletin
+
+<iframe src="../../data/PSSI_bulletin/2404.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📥 Download PDF](../../data/PSSI_bulletin/2404.pdf){.btn .btn-primary target="_blank"}
+</p>
 

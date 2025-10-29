@@ -9,10 +9,11 @@ toc: true
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fishery and Assessment Data  
+**Organization:** DFO  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Shelee Hamilton  
-**Overview:**  
-No description available.   
+**Abstract:**  
+No abstract available   
 
 

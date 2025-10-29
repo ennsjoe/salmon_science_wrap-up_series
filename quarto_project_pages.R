@@ -73,8 +73,9 @@ cat("✅ All required tables present\n\n")
 # 📥 Load and clean tables----
 
 Speaker.Themes <- dbReadTable(con, "Speaker.Themes") %>%
-  mutate(project_id = as.character(project_id))
-cat(glue("   ✓ Speaker.Themes: {nrow(Speaker.Themes)} rows\n"))
+  mutate(project_id = as.character(project_id)) %>%
+  filter(confirmed == "Yes")  # Only include confirmed presentations
+cat(glue("   ✓ Speaker.Themes (confirmed only): {nrow(Speaker.Themes)} rows\n"))
 
 # Check if BCSRIF table exists
 if ("BCSRIF.Project.List.September.2025" %in% available_tables) {
@@ -106,17 +107,9 @@ speakers <- dbReadTable(con, "Speaker.Themes") %>%
   mutate(
     project_id = as.character(project_id),
     session = normalize_session(session)
-  )
-cat(glue("   ✓ Speakers: {nrow(speakers)} rows\n"))
-
-# Debug: Check source distribution in raw Speaker.Themes
-if ("source" %in% names(speakers)) {
-  cat("   Source distribution in Speaker.Themes:\n")
-  source_counts <- table(speakers$source, useNA = "ifany")
-  for (src in names(source_counts)) {
-    cat(glue("      {src}: {source_counts[src]}\n"))
-  }
-}
+  ) %>%
+  filter(confirmed == "Yes")  # Only include confirmed presentations
+cat(glue("   ✓ Speakers (confirmed only): {nrow(speakers)} rows\n"))
 
 sessions_raw <- dbReadTable(con, "session_info")
 
@@ -188,16 +181,6 @@ missing_source <- sum(is.na(speaker_projects$source) | speaker_projects$source =
 cat(glue("   Rows with missing title: {missing_title}\n"))
 cat(glue("   Rows with missing source: {missing_source}\n"))
 
-# Show sample of PSSI projects if they exist
-pssi_sample <- speaker_projects %>% 
-  filter(source == "DFO") %>% 
-  select(project_id, title, source) %>% 
-  head(3)
-if (nrow(pssi_sample) > 0) {
-  cat("\n   Sample PSSI projects before aggregation:\n")
-  print(pssi_sample)
-}
-
 # Create source_program first
 speaker_projects_with_program <- speaker_projects %>%
   mutate(
@@ -207,10 +190,6 @@ speaker_projects_with_program <- speaker_projects %>%
       TRUE ~ "Unknown"
     )
   )
-
-# Verify source_program was created
-cat("\n   Source_program distribution after mutate:\n")
-print(table(speaker_projects_with_program$source_program, useNA = "ifany"))
 
 # Check for duplicate project_ids
 cat("\n   Checking for duplicate project_ids:\n")
@@ -249,6 +228,12 @@ aggregated_projects <- speaker_projects_with_program %>%
       !is.na(presentation_date),
       format(as.Date(presentation_date), "%B %d, %Y"),
       "TBD"
+    ),
+    organization = if_else(is.na(organization) | organization == "", "Not specified", as.character(organization)),
+    abstract = case_when(
+      !is.na(abstract) & abstract != "" ~ as.character(abstract),
+      !is.na(overview) & overview != "" ~ overview,
+      TRUE ~ "No abstract available"
     )
   ) %>%
   distinct(project_id, .keep_all = TRUE) %>%
@@ -272,6 +257,8 @@ aggregated_projects <- speaker_projects_with_program %>%
     agreement_start_date,
     agreement_end_date,
     list_of_partners_or_collaborators,
+    organization,
+    abstract,
     source_program
   )
 
@@ -348,12 +335,14 @@ for (i in seq_len(nrow(aggregated_projects))) {
   file_path <- file.path(output_dir, paste0(file_id, ".qmd"))
   
   # Common fields
-  title      <- row[["title"]] %||% "Untitled Project"
-  lead       <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
-  overview   <- row[["overview"]] %||% "No description available."
-  session    <- row[["session"]] %||% "Uncategorized"
-  presenters <- row[["speakers"]] %||% "Presenters TBD"
-  date       <- row[["presentation_date"]] %||% "TBD"
+  title        <- row[["title"]] %||% "Untitled Project"
+  lead         <- row[["project_leads"]] %||% row[["recipient"]] %||% "N/A"
+  abstract     <- row[["abstract"]] %||% "No abstract available."
+  overview     <- row[["overview"]] %||% "No description available."
+  session      <- row[["session"]] %||% "Uncategorized"
+  presenters   <- row[["speakers"]] %||% "Presenters TBD"
+  date         <- row[["presentation_date"]] %||% "TBD"
+  organization <- row[["organization"]] %||% "Not specified"
   
   output_file <- paste0(file_id, ".html")
   
@@ -390,10 +379,11 @@ for (i in seq_len(nrow(aggregated_projects))) {
       "## 📋 PSSI Project Summary\n\n",
       "**Division:** {division}  \n",
       "**Section:** {section}  \n",
+      "**Organization:** {organization}  \n",
       "**Session(s):** {session}  \n",
       "**Presentation Date(s):** {date}  \n",
       "**Speakers:** {presenters}  \n",
-      "**Overview:**  \n{overview}   \n\n",
+      "**Abstract:**  \n{abstract}   \n\n",
       "{pdf_section}"
     )
     
@@ -418,10 +408,11 @@ for (i in seq_len(nrow(aggregated_projects))) {
       "**Location:** {location}  \n",
       "**Partners:** {partners}  \n",
       "**Agreement Period:** {start_fmt} to {end_fmt}  \n",
+      "**Organization:** {organization}  \n",
       "**Session(s):** {session}  \n",
       "**Presentation Date(s):** {date}  \n",
       "**Speakers:** {presenters}  \n",
-      "**Overview:**  \n{overview}   \n\n"
+      "**Abstract:**  \n{abstract}   \n\n"
     )
   } else {
     page_content <- glue(
@@ -432,10 +423,11 @@ for (i in seq_len(nrow(aggregated_projects))) {
       "toc: true\n",
       "---\n\n",
       "## 📋 Project Summary\n\n",
+      "**Organization:** {organization}  \n",
       "**Session(s):** {session}  \n",
       "**Presentation Date(s):** {date}  \n",
       "**Speakers:** {presenters}  \n",
-      "**Overview:**  \n{overview}   \n\n"
+      "**Abstract:**  \n{abstract}   \n\n"
     )
   }
   
@@ -565,7 +557,7 @@ for (date_key in names(presentations_by_date)) {
     projects_display <- group %>%
       select(project_id, title) %>%
       left_join(
-        aggregated_projects %>% select(project_id, source_program, project_leads, recipient),
+        aggregated_projects %>% select(project_id, source_program, project_leads, recipient, organization),
         by = "project_id"
       ) %>%
       mutate(
@@ -598,7 +590,7 @@ for (date_key in names(presentations_by_date)) {
     
     for (i in seq_len(nrow(projects_display))) {
       row <- projects_display[i, ]
-      index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$presenters}"))
+      index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$presenters} | {row$organization}"))
     }
     
     index_md <- c(index_md, "")
@@ -621,7 +613,7 @@ cat("✅ Quarto render complete\n\n")
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "Updated project pages with PDF embedding"')
+system('git commit -m "Updated project pages with confirmed filter, organization, and abstracts"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")

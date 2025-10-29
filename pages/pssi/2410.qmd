@@ -9,10 +9,18 @@ toc: true
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
+**Organization:** DFO  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 09, 2025  
 **Speakers:** Thomas Therriault, Cher LaCoste  
-**Overview:**  
+**Abstract:**  
 Aquatic Invasive Species (AIS) continue to be introduced and expand their ranges aided by climate change, threatening biodiversity and Pacific salmon survival. This risk assessment study targets over 400 invasive species within or approaching five freshwater ecoregions in BC. Researchers developed a Non-Indigenous Species Screening Tool (NISST) that allows managers to prioritize the (AIS) threats when creating regulations and salmon recovery plans.   
 
+## 📄 Project Bulletin
+
+<iframe src="../../data/PSSI_bulletin/2410.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📥 Download PDF](../../data/PSSI_bulletin/2410.pdf){.btn .btn-primary target="_blank"}
+</p>
 

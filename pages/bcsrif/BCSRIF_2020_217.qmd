@@ -15,9 +15,10 @@ BC Ministry of Environment
 Simon Fraser University
   
 **Agreement Period:** February 09, 4451336 to June 29, 4688837  
+**Organization:** University of British Columbia (Vancouver), Institute for the Oceans and Fisheries  
 **Session(s):** Freshwater Stressors  
 **Presentation Date(s):** December 02, 2025  
 **Speakers:** Jordan Rosenfeld  
-**Overview:**  
+**Abstract:**  
 University of BC researchers and partners will develop a framework for modeling cumulative impacts on salmonid populations to guide recovery planning and adaptive management based on stressor-response functions related to multiple threats.   
 

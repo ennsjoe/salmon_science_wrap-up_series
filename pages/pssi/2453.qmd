@@ -9,10 +9,11 @@ toc: true
 
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
+**Organization:** DFO  
 **Session(s):** Hatcheries  
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
-**Overview:**  
+**Abstract:**  
 There are few genetic differences between hatchery-bred and natural salmon in populations enhanced by the Salmonid Enhancement Program (SEP), but structural modifications to genes may affect gene expression and impact salmon fitness in the wild. This genetic sequencing study gathers Chinook samples from hatcheries at the Nicola, Quinsam, Sarita, Atnarko, and Chilliwack rivers to compare epigenetic (methylation) differences between hatchery and wild Chinook to better monitor the proportion of hatchery salmon in a river.   
 
 
