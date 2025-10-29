@@ -287,17 +287,31 @@ if ("PSSI_bulletins" %in% dbListTables(con_pdf)) {
     }
     
     # Write each PDF to file
+    extracted_count <- 0
+    skipped_count <- 0
     for (j in seq_len(nrow(pdf_data))) {
       project_id <- pdf_data$project_id[j]
       pdf_binary <- pdf_data$pdf_data[[j]]
       
       if (!is.null(pdf_binary) && length(pdf_binary) > 0) {
         pdf_path <- file.path(pdf_dir, glue("{project_id}.pdf"))
-        writeBin(pdf_binary, pdf_path)
-        cat(glue("  ✓ Extracted PDF for project {project_id}\n"))
+        
+        # Try to write the PDF, skip if file is locked
+        tryCatch({
+          writeBin(pdf_binary, pdf_path)
+          cat(glue("  ✓ Extracted PDF for project {project_id}\n"))
+          extracted_count <- extracted_count + 1
+        }, error = function(e) {
+          cat(glue("  ⚠️ Skipped PDF for project {project_id} (file may be open/locked)\n"))
+          skipped_count <- skipped_count + 1
+        })
       }
     }
-    cat(glue("✅ Extracted {nrow(pdf_data)} PDFs\n\n"))
+    cat(glue("✅ Extracted {extracted_count} PDFs"))
+    if (skipped_count > 0) {
+      cat(glue(" ({skipped_count} skipped due to file locks)"))
+    }
+    cat("\n\n")
   } else {
     cat("⚠️  No PDFs found in database\n\n")
   }
@@ -576,7 +590,11 @@ for (date_key in names(presentations_by_date)) {
     projects_display <- group %>%
       select(project_id, title) %>%
       left_join(
-        aggregated_projects_confirmed %>% select(project_id, source_program, project_leads, recipient, organization),
+        Speaker.Themes %>% select(project_id, speakers, organization),
+        by = "project_id"
+      ) %>%
+      left_join(
+        aggregated_projects_confirmed %>% select(project_id, source_program),
         by = "project_id"
       ) %>%
       mutate(
@@ -585,11 +603,8 @@ for (date_key in names(presentations_by_date)) {
           source_program == "PSSI" ~ "pssi",
           TRUE ~ "other"
         ),
-        presenters = case_when(
-          !is.na(project_leads) & project_leads != "" ~ project_leads,
-          !is.na(recipient) & recipient != "" ~ recipient,
-          TRUE ~ "Presenters TBD"
-        ),
+        speakers = if_else(is.na(speakers) | speakers == "", "Presenters TBD", speakers),
+        organization = if_else(is.na(organization) | organization == "", "Not specified", as.character(organization)),
         file_id = sanitize_filename(project_id),
         project_link = glue("[{title}](pages/{subfolder}/{file_id}.html)"),
         source_emoji = case_when(
@@ -609,7 +624,7 @@ for (date_key in names(presentations_by_date)) {
     
     for (i in seq_len(nrow(projects_display))) {
       row <- projects_display[i, ]
-      index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$presenters} | {row$organization}"))
+      index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
     }
     
     index_md <- c(index_md, "")
