@@ -603,7 +603,7 @@ for (date_key in names(presentations_by_date)) {
     # Build session header with new information
     desc_text <- if (session_description != "" && !is.na(session_description)) session_description else ""
     
-    # Create info line with time and location
+    # Create info list with time, location, and webinar button
     info_parts <- c()
     if (session_time != "" && !is.na(session_time)) {
       info_parts <- c(info_parts, glue("**Time:** {session_time}"))
@@ -612,10 +612,10 @@ for (date_key in names(presentations_by_date)) {
       info_parts <- c(info_parts, glue("**Location:** {session_location}"))
     }
     if (session_url != "" && !is.na(session_url)) {
-      info_parts <- c(info_parts, glue("[Join Webinar]({session_url})"))
+      info_parts <- c(info_parts, glue("[Join Webinar]({session_url}){{.btn .btn-primary}}"))
     }
     
-    info_line <- if (length(info_parts) > 0) paste(info_parts, collapse = " | ") else ""
+    info_line <- if (length(info_parts) > 0) paste(info_parts, collapse = "  \n") else ""
     
     index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, info_line, "")
     
