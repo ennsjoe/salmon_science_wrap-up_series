@@ -16,4 +16,11 @@ toc: true
 **Abstract:**  
 Predicting how much water fish need is a key management challenge in the face of climate change and increased water demand. Hydraulic habitat models are widely used for instream flow management, but do not currently account for dynamic water temperature. This project leverages large-scale flow and temperature monitoring across the North Thompson to develop flow-habitat models for juvenile coho, which incorporate dynamic temperatures and habitat structure.   
 
+## 📄 Project Bulletin
+
+<iframe src="../../data/PSSI_bulletin/2424.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📥 Download PDF](../../data/PSSI_bulletin/2424.pdf){.btn .btn-primary target="_blank"}
+</p>
 

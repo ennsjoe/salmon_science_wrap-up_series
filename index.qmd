@@ -97,12 +97,12 @@ A review of the Follow the Fish Program, including methods and approaches for li
 - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
 - 🌊 [Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
 - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/pssi/2397.html) | Jared Dick, Carrie Holt | Nuu-Chah-Nulth Tribal Council
-- 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Christoph Deeg | DFO
+- 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Christoph Deeg, Arthur Bass | DFO
 
 ### 🐟 Marine Stressors
 Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
 
-- 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri, Kelly Young | DFO
+- 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri | DFO
 - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
 - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/pssi/2404.html) | Laura Bianucci, Marilena Geng | DFO
 - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/pssi/2412.html) | Chris Pearce | DFO
@@ -127,7 +127,7 @@ Projects that pilot selective methods for harvesting salmon or contribute to our
 - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
 - 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/pssi/2394.html) | Cory Lagasse | DFO
 - 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Owen Bird | Sport Fishing Institute of BC
-- 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors | DFO
+- 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors, Adam O'Dell | DFO
 - 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | Derek Leboeuf | A-Tlegay Fisheries Society
 
 ## 📅 December 11, 2025
@@ -148,7 +148,7 @@ Research on genetic consequences of hatchery enhancment, and the interactions be
 ### 🐟 Salmon Health
 Monitoring and managing the health of cultured salmon.
 
-- 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/pssi/2448.html) | Christoph Deeg | DFO
+- 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/pssi/2448.html) | Karia Kaukinen | DFO
 - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/pssi/2408.html) | Amy Long | DFO
 - 🌊 [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/pssi/2421.html) | Reid Williams | DFO
 - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/pssi/2417.html) | Erika Eliason | DFO

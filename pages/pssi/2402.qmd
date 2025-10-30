@@ -12,7 +12,7 @@ toc: true
 **Organization:** DFO  
 **Session(s):** Fisheries Monitoring And Harvest Methods  
 **Presentation Date(s):** December 09, 2025  
-**Speakers:** Brendan Connors  
+**Speakers:** Brendan Connors, Adam O'Dell  
 **Abstract:**  
 Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.   
 
