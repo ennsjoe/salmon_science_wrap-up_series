@@ -69,8 +69,10 @@ toc: false
 
 ### 🐟 Salmon In A Changing Climate
 Improving our understanding of the long-term implications of climate change for Pacific Salmon and their ecosystems.
+
 **Time:** 10AM-12PM  
 **Location:** Pacific Science Enterprise Centre (PSEC), West Vancouver  
+**Chair:** Patrick Thompson  
 [Join Webinar](https://events.teams.microsoft.com/event/1f2df8a8-252e-47f7-8df1-a6096b1fa578@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - 🌊 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/pssi/2437.html) | Tim Healy | DFO
@@ -82,8 +84,10 @@ Improving our understanding of the long-term implications of climate change for 
 
 ### 🐟 Freshwater Stressors
 Mechanistic, physiological, and quantitative studies for evaluating stressors to freshwater habitats of Pacific salmon, including cumulative stressors.
+
 **Time:** 1PM-3PM  
 **Location:** Pacific Science Enterprise Centre (PSEC), West Vancouver  
+**Chair:** David Patterson  
 [Join Webinar](https://events.teams.microsoft.com/event/1f2df8a8-252e-47f7-8df1-a6096b1fa578@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - 🌱 [Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
@@ -99,8 +103,10 @@ coastal BC.](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | Salmon Coast
 
 ### 🐟 Follow The Fish Life Cycle Monitoring And Assessment
 A review of the Follow the Fish Program, including methods and approaches for life cycle assessment of WCVI Chinook and ecosystem-scale research programs.
+
 **Time:** 10AM-12PM  
-**Location:** Institute of Ocean Sciences (IOS), Sidney
+**Location:** Institute of Ocean Sciences (IOS), Sidney  
+**Chair:** Isobel Pearsall
 
 - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
 - 🌊 [Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
@@ -109,8 +115,10 @@ A review of the Follow the Fish Program, including methods and approaches for li
 
 ### 🐟 Marine Stressors
 Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
+
 **Time:** 1PM-3PM  
-**Location:** Institute of Ocean Sciences (IOS), Sidney
+**Location:** Institute of Ocean Sciences (IOS), Sidney  
+**Chair:** Cameron Freshwater
 
 - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri | DFO
 - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
@@ -123,8 +131,10 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 
 ### 🐟 Fisheries Monitoring And Harvest Methods
 Projects piloting new methods for selective salmon harvest and informing fisheries management decisions through improved monitoring.
+
 **Time:** 10AM-12PM  
-**Location:** Virtual Only
+**Location:** Virtual Only  
+**Chair:** Nicholas Brown
 
 - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
 - 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/pssi/2394.html) | Cory Lagasse | DFO
@@ -134,8 +144,10 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 
 ### 🐟 Data And Modelling To Support Decision Making
 Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management
+
 **Time:** 1PM-3PM  
-**Location:** Virtual Only
+**Location:** Virtual Only  
+**Chair:** Carrie Holt
 
 - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
 - 🌊 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/pssi/2546.html) | Shelee Hamilton | DFO
@@ -148,8 +160,10 @@ Databases, analytic tools, and modelling projects that provide information to su
 
 ### 🐟 Hatchery Fitness And Genetics
 Research on genetic consequences of hatchery enhancment, and the interactions between hatchery and wild salmon
+
 **Time:** 10AM-12PM  
-**Location:** Pacific Biological Station (PBS), Nanaimo
+**Location:** Pacific Biological Station (PBS), Nanaimo  
+**Chair:** Tim Healy
 
 - 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/bcsrif/BCSRIF_2020_239.html) | Francis Juanes | University of Victoria, Department of Biology
 - 🌊 [Drivers and functional consequences of hatchery epigenetic variation](pages/pssi/3103.html) | Eric Rondeau, Timothy Healy, Kyle Wellband | DFO
@@ -163,8 +177,10 @@ Research on genetic consequences of hatchery enhancment, and the interactions be
 
 ### 🐟 Fish Health
 Tools and research to support monitoring and managing the health of cultured salmon.
+
 **Time:** 1PM-3PM  
-**Location:** Pacific Biological Station (PBS), Nanaimo
+**Location:** Pacific Biological Station (PBS), Nanaimo  
+**Chair:** Christoph Deeg
 
 - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/pssi/2448.html) | Karia Kaukinen | DFO
 - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/pssi/2408.html) | Amy Long | DFO
