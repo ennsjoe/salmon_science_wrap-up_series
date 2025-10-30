@@ -10,7 +10,7 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
 **Organization:** DFO  
-**Session(s):** Hatcheries  
+**Session(s):** Hatchery Fitness And Genetics  
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
 **Abstract:**  

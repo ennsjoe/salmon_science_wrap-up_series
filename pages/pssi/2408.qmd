@@ -10,7 +10,7 @@ toc: true
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Aquatic Animal Health  
 **Organization:** DFO  
-**Session(s):** Salmon Health  
+**Session(s):** Fish Health  
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Amy Long  
 **Abstract:**  

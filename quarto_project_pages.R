@@ -474,7 +474,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
 
 cat(glue("✅ Generated {nrow(aggregated_projects_confirmed)} project pages\n\n"))
 
-# 📅 Build December 2025 calendar
+# 📅 Build December 2025 calendar----
 cat("📅 Building December 2025 calendar...\n")
 speaker_projects_dated <- session_projects %>%
   filter(project_id %in% Speaker.Themes$project_id) %>%
@@ -538,13 +538,13 @@ for (week in weeks) {
 }
 calendar_html <- c(calendar_html, "</table>")
 
-# 📄 Generate index.qmd
+# 📄 Generate index.qmd----
 cat("📄 Generating index.qmd...\n")
 
 index_md <- c(
   "---",
   'title: "🌊 Pacific Salmon Science Symposium"',
-  'description: "30+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
+  'description: "45+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
   'author: "PSSI Implementation Team"',
   'format: html',
   'toc: false',
@@ -574,18 +574,50 @@ for (date_key in names(presentations_by_date)) {
     group_by(session) %>%
     group_split()
   
-  for (group in sessions_list) {
+  # Order sessions by session_id
+  sessions_list <- sessions_list %>%
+    lapply(function(group) {
+      session_name <- unique(group$session)
+      session_id <- sessions_raw %>%
+        filter(normalize_session(session) == session_name) %>%
+        pull(session_id) %>%
+        first()
+      list(data = group, session_id = session_id %||% 999)
+    }) %>%
+    .[order(sapply(., function(x) x$session_id))]
+  
+  for (session_obj in sessions_list) {
+    group <- session_obj$data
     session_title <- unique(group$session) %||% "Uncategorized"
     
-    session_description <- sessions_raw %>%
+    # Get session information including new fields
+    session_info <- sessions_raw %>%
       filter(normalize_session(session) == session_title) %>%
-      pull(description) %>%
-      unique() %>%
-      na.omit()
+      slice(1)
     
-    desc_text <- if (length(session_description) > 0) session_description[1] else ""
+    session_description <- session_info$description %||% ""
+    session_time <- session_info$time %||% ""
+    session_location <- session_info$location %||% ""
+    session_url <- session_info$webinar_url %||% ""
     
-    index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, "")
+    # Build session header with new information
+    desc_text <- if (session_description != "" && !is.na(session_description)) session_description else ""
+    
+    # Create info line with time and location
+    info_parts <- c()
+    if (session_time != "" && !is.na(session_time)) {
+      info_parts <- c(info_parts, glue("**Time:** {session_time}"))
+    }
+    if (session_location != "" && !is.na(session_location)) {
+      info_parts <- c(info_parts, glue("**Location:** {session_location}"))
+    }
+    if (session_url != "" && !is.na(session_url)) {
+      info_parts <- c(info_parts, glue("[Join Webinar]({session_url})"))
+    }
+    
+    info_line <- if (length(info_parts) > 0) paste(info_parts, collapse = " | ") else ""
+    
+    index_md <- c(index_md, glue("### 🐟 {session_title}"), desc_text, info_line, "")
     
     projects_display <- group %>%
       select(project_id, title) %>%
