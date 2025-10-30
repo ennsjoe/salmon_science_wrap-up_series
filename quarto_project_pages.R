@@ -486,7 +486,12 @@ december_sessions <- speaker_projects_dated %>%
   filter(month(presentation_date) == 12, year(presentation_date) == 2025) %>%
   mutate(day = day(presentation_date)) %>%
   select(day, session) %>%
-  distinct()
+  distinct() %>%
+  left_join(
+    sessions_raw %>% select(session, session_id) %>% mutate(session = normalize_session(session)),
+    by = "session"
+  ) %>%
+  arrange(day, session_id)
 
 cat(glue("   Found {nrow(december_sessions)} December session dates\n"))
 
