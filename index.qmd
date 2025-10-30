@@ -65,7 +65,10 @@ toc: false
 - 🌊 PSSI (Pacific Salmon Science Initiative)
 - 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)
 
+
+<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 02, 2025
+</div>
 
 ### 🐟 Salmon In A Changing Climate
 Improving our understanding of the long-term implications of climate change for Pacific Salmon and their ecosystems.
@@ -99,7 +102,10 @@ coastal BC.](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | Salmon Coast
 - 🌊 [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/pssi/2493.html) | David Patterson, Douglas Braun | DFO
 - 🌊 [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/pssi/2424.html) | Sean Naman | DFO
 
+
+<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 04, 2025
+</div>
 
 ### 🐟 Follow The Fish Life Cycle Monitoring And Assessment
 A review of the Follow the Fish Program, including methods and approaches for life cycle assessment of WCVI Chinook and ecosystem-scale research programs.
@@ -127,7 +133,10 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 - 🌊 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/pssi/2416.html) | Andrew Ross | DFO
 - 🌱 [Untitled Project](pages/bcsrif/BCSRIF_2019_040-136D.html) | Samantha James | Pacific Salmon Foundation
 
+
+<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 09, 2025
+</div>
 
 ### 🐟 Fisheries Monitoring And Harvest Methods
 Projects piloting new methods for selective salmon harvest and informing fisheries management decisions through improved monitoring.
@@ -156,7 +165,10 @@ Databases, analytic tools, and modelling projects that provide information to su
 - 🌱 [Restoring freshwater connectivity for Pacific salmon](pages/bcsrif/BCSRIF_2022_415.html) | Nick Lapointe | Canadian Wildlife Federation
 - 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka | Pacific Salmon Foundation
 
+
+<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 11, 2025
+</div>
 
 ### 🐟 Hatchery Fitness And Genetics
 Research on genetic consequences of hatchery enhancment, and the interactions between hatchery and wild salmon

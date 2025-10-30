@@ -573,7 +573,12 @@ for (date_key in names(presentations_by_date)) {
   date_presentations <- presentations_by_date[[date_key]]
   formatted_date <- format(as.Date(date_key), "%B %d, %Y")
   
-  index_md <- c(index_md, glue("## 📅 {formatted_date}"), "")
+  index_md <- c(index_md, 
+                "",
+                glue("<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>"),
+                glue("## 📅 {formatted_date}"),
+                "</div>",
+                "")
   
   sessions_list <- date_presentations %>%
     group_by(session) %>%
