@@ -636,7 +636,9 @@ for (date_key in names(presentations_by_date)) {
     projects_display <- group %>%
       select(project_id, title) %>%
       left_join(
-        Speaker.Themes %>% select(project_id, speakers, organization),
+        Speaker.Themes %>% 
+          {if ("start_time" %in% names(.)) select(., project_id, speakers, organization, start_time) 
+            else select(., project_id, speakers, organization)},
         by = "project_id"
       ) %>%
       left_join(
@@ -657,10 +659,19 @@ for (date_key in names(presentations_by_date)) {
           source_program == "BCSRIF" ~ "🌱",
           source_program == "PSSI" ~ "🌊",
           TRUE ~ "❓"
-        )
+        ),
+        # Parse start_time for sorting (if column exists)
+        time_sort = if ("start_time" %in% names(.)) {
+          case_when(
+            is.na(start_time) | start_time == "" ~ as.POSIXct("9999-12-31 23:59:59"),  # Put blanks at end
+            TRUE ~ parse_date_time(start_time, orders = c("I:M p", "H:M"), quiet = TRUE)
+          )
+        } else {
+          as.POSIXct(NA)
+        }
       ) %>%
       distinct(project_id, .keep_all = TRUE) %>%
-      arrange(title)
+      arrange(time_sort, title)  # Sort by time first, then title
     
     # Debug: print counts
     if (nrow(projects_display) == 0) {
