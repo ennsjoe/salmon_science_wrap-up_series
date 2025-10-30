@@ -10,8 +10,8 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Fraser and Interior Area Salmon Stock Assessment  
 **Organization:** DFO  
-**Session(s):** Freshwater Stressors  
-**Presentation Date(s):** December 02, 2025  
+**Session(s):** Fisheries Monitoring And Harvest Methods  
+**Presentation Date(s):** December 09, 2025  
 **Speakers:** Tommy Pontbriand  
 **Abstract:**  
 Okanagan Chinook are endangered due to habitat destruction and over-fishing. Juvenile Chinook habitat use and risk from predators has not been well studied and may be key factors regarding climate change, invasive species, and restoration efforts. This population study hires graduate students to research juvenile Okanagan Chinook and track survival through tagging.   

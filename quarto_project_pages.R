@@ -681,7 +681,13 @@ for (date_key in names(presentations_by_date)) {
     
     for (i in seq_len(nrow(projects_display))) {
       row <- projects_display[i, ]
-      index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
+      
+      # Add start_time to display if available
+      if ("start_time" %in% names(row) && !is.na(row$start_time) && row$start_time != "") {
+        index_md <- c(index_md, glue("- **{row$start_time}** - {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
+      } else {
+        index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
+      }
     }
     
     index_md <- c(index_md, "")
@@ -699,7 +705,18 @@ writeLines("www.pacificsalmonscience.ca", here("CNAME"))
 
 # 🚀 Render site
 cat("🔨 Rendering Quarto site...\n")
-system("quarto render")
+cat("   Waiting for file handles to release...\n")
+Sys.sleep(2)  # Wait 2 seconds for any file handles to release
+
+# Try to render, with error handling
+render_result <- tryCatch({
+  system("quarto render --no-clean", intern = FALSE, ignore.stderr = FALSE)
+}, error = function(e) {
+  cat("⚠️  Render encountered an issue, retrying...\n")
+  Sys.sleep(3)
+  system("quarto render --no-clean", intern = FALSE, ignore.stderr = FALSE)
+})
+
 cat("✅ Quarto render complete\n\n")
 
 cat("📤 Pushing to GitHub...\n")
