@@ -594,7 +594,7 @@ for (week in weeks) {
 }
 calendar_html <- c(calendar_html, "</table>")
 
-# 📄 Generate index.qmd (with banner)
+# 📄 Generate index.qmd (with banner)----
 cat("📄 Generating index.qmd with banner...\n")
 
 index_md <- c(
@@ -608,10 +608,10 @@ index_md <- c(
   ""
 )
 
-# Add banner if it exists
+# Add banner if it exists - place immediately after frontmatter for top positioning
 if (!is.null(banner_path_relative)) {
   index_md <- c(index_md,
-                "::: {.banner-container}",
+                "::: {.column-screen .banner-container}",
                 glue("![Pacific Salmon Science Symposium]({banner_path_relative}){{.banner-image}}"),
                 ":::",
                 "")

@@ -21,7 +21,11 @@ website:
 
 format:
   html:
-    css: styles.css  # Enable your custom stylesheet
-    theme: default   # Optional: use Quarto's default theme as a base
+    css: styles.css
+    theme: default
+    page-layout: full        # Enables full-width content
+    grid:
+      body-width: 1200px     # Max width for body content
+      margin-width: 0px      # No margins for full-width elements
 
 editor: visual

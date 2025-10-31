@@ -6,7 +6,7 @@ format: html
 toc: false
 ---
 
-::: {.banner-container}
+::: {.column-screen .banner-container}
 ![Pacific Salmon Science Symposium](images/Symposium Banner.png){.banner-image}
 :::
 
