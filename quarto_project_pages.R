@@ -629,7 +629,6 @@ index_md <- c(index_md,
               "::: {.author}",
               "*Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region*",
               ":::",
-              ":::",
               "")
 
 # Calendar section
@@ -710,7 +709,7 @@ for (date_key in names(presentations_by_date)) {
     
     info_line <- if (length(info_parts) > 0) paste(info_parts, collapse = "  \n") else ""
     
-    index_md <- c(index_md, glue("###{session_title}"), desc_text, "", info_line, "")
+    index_md <- c(index_md, glue("### {session_title}"), desc_text, "", info_line, "")
     
     projects_display <- group %>%
       select(project_id, title) %>%
