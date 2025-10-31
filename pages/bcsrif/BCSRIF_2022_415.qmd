@@ -5,7 +5,7 @@ Leads: "Canadian Wildlife Federation"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+##BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Upper Fraser, Lower Nicola Watershed, Lower Fraser, Skeena and Central Coast  

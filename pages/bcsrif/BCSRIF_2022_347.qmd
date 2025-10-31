@@ -5,7 +5,7 @@ Leads: "A-Tlegay Fisheries Society"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+##BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Campbell River, Vancouver Island   

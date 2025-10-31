@@ -5,7 +5,7 @@ Leads: "Brendan Connors, Adam O'Dell"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+##PSSI Project Summary
 
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** Yukon/Transboundary Rivers Area Salmon Stock Assessment  
@@ -16,7 +16,7 @@ toc: true
 **Abstract:**  
 Yukon River Chinook numbers have been declining and a questionable proportion of returning adults do not migrate past the border between Alaska and Canada. This transboundary tracking study uses radio-telemetry from towers and arial surveys to expand Alaska’s Chinook tagging efforts and locate the area and cause of the drop in numbers using death rate, migration speed, and timing.   
 
-## 📄 Project Bulletin
+##Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2402.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 

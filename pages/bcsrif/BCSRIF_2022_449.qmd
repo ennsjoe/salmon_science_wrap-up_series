@@ -6,7 +6,7 @@ Leads: "Salmon Coast Field Station Society"
 toc: true
 ---
 
-## 📋 BCSRIF Project Summary
+##BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Broughton Archipelago.  

@@ -5,7 +5,7 @@ Leads: "Chris Pearce"
 toc: true
 ---
 
-## 📋 PSSI Project Summary
+##PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Nearshore Ecosystems  
@@ -16,7 +16,7 @@ toc: true
 **Abstract:**  
 Ocean warming and acidic upwelling changes the zooplankton food web for young salmon in the Northeast Pacific. This project measures the survival and nutritional value of pteropods (zooplankton) under different temperatures and acidic conditions in a lab. Researchers then compare lab findings to natural zooplankton conditions.   
 
-## 📄 Project Bulletin
+##Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2412.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 
