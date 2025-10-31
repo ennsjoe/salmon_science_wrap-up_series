@@ -599,10 +599,7 @@ cat("📄 Generating index.qmd with banner and title block...\n")
 
 index_md <- c(
   "---",
-  'title: "Pacific Salmon Science Symposium"',
   'title-block-banner: false',
-  'description: "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions. Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region"',
-  'author: "PSSI Implementation Team"',
   'format:',
   '  html:',
   '    title-block-style: none',
@@ -622,13 +619,11 @@ if (!is.null(banner_path_relative)) {
 
 # Title and description block
 index_md <- c(index_md,
-              "::: {.description}",
-              "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions.",
-              ":::",
+              "# Pacific Salmon Science Symposium",
               "",
-              "::: {.author}",
+              "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions.",
+              "",
               "*Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region*",
-              ":::",
               "")
 
 # Calendar section

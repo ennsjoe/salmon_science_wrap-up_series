@@ -16,8 +16,12 @@ website:
   search: true  # Enable search functionality
   page-footer:
     left: "© 2025 Pacific Salmon Science Initiative"
-    right: "Built with Quarto"
-
+     right: "Author: PSSI Implementation Team"
+    
+title-block-banner: false
+format:
+  html:
+    title-block-style: none
 
 format:
   html:
