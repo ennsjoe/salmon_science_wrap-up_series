@@ -5,7 +5,7 @@ Leads: "Strahan Tucker, Cameron Freshwater"
 toc: true
 ---
 
-##PSSI Project Summary
+## PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
@@ -16,7 +16,7 @@ toc: true
 **Abstract:**  
 Steller sea lions are hypothesized to feed on large numbers of adult Fraser River sockeye salmon when the salmon migrate past Triangle Island, near northern Vancouver Island. This project tags sockeye salmon and Steller sea lions, and also analyzes sea lion diets, to determine if the area is a survival bottleneck.   
 
-##Project Bulletin
+## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2409.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 

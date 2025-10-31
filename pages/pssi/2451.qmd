@@ -5,7 +5,7 @@ Leads: "Eric Rondeau, Tim Healy, Kyle Wellband"
 toc: true
 ---
 
-##PSSI Project Summary
+## PSSI Project Summary
 
 **Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
 **Section:** Molecular Genetics  
@@ -16,7 +16,7 @@ toc: true
 **Abstract:**  
 Salmon bred from a hatchery are often less fit in wild environments than naturally bred salmon. However, this situation can change using different hatchery methods. This genetic study compares DNA samples from returning hatchery Chinook to natural Chinook in Sarita River to see if hatchery methods improve the spawning success of hatchery Chinook.   
 
-##Project Bulletin
+## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2451.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 

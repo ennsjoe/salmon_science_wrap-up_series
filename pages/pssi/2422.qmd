@@ -5,7 +5,7 @@ Leads: "Andrew Ross, Xiangjun Liao, Nicole LaForge"
 toc: true
 ---
 
-##PSSI Project Summary
+## PSSI Project Summary
 
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry   
@@ -16,7 +16,7 @@ toc: true
 **Abstract:**  
 Advances in lab microchemistry (mass spectrometry) can be used to track juvenile salmon life stage history from ear bone (otolith) samples. Body size at saltwater entry and habitat use can be measured and compared to fish health and age. This project develops methods for “laser ablation-inductively coupled plasma-mass spectrometry” to test on juvenile Chinook sampled in the Follow the Fish program.   
 
-##Project Bulletin
+## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2422.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 

@@ -5,7 +5,7 @@ Leads: "Stewart Johnson"
 toc: true
 ---
 
-##PSSI Project Summary
+## PSSI Project Summary
 
 **Division:** Ecosystem Sciences (ESD)  
 **Section:** Regional Ecosystems Effects on Fish and Fisheries  
@@ -16,7 +16,7 @@ toc: true
 **Abstract:**  
 Chronic stress impacts fish health and can be measured in salmon by sampling hormone (cortisol) and enzyme deposits in scales. This lab and hatchery study gathers coho and Chinook scale samples from broodstock surveys to develop methods of measuring chronic and acute stress hormone levels that could be expanded to monitor salmon health responses to stressors including climate change.    
 
-##Project Bulletin
+## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2421.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 

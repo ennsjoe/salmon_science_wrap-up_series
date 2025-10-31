@@ -5,7 +5,7 @@ Leads: "Salish Sea Indigenous Guardians Association"
 toc: true
 ---
 
-##BCSRIF Project Summary
+## BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
 **Location:** Surrey, White Rock, Langley and surrounding areas  

@@ -5,7 +5,7 @@ Leads: "Eric Rondeau, Timothy Healy, Kyle Wellband"
 toc: true
 ---
 
-##PSSI Project Summary
+## PSSI Project Summary
 
 **Division:** N/A  
 **Section:** Molecular Genetics  

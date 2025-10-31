@@ -444,7 +444,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
     pdf_section <- ""
     if (file.exists(pdf_path)) {
       pdf_section <- glue(
-        "\n##Project Bulletin\n\n",
+        "\n## Project Bulletin\n\n",
         "<iframe src=\"{pdf_relative_path}\" width=\"100%\" height=\"800px\" ",
         "style=\"border: 1px solid #ccc; border-radius: 4px;\"></iframe>\n\n",
         "<p style=\"text-align: center; margin-top: 10px;\">\n",
@@ -460,7 +460,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
       "Leads: \"{lead}\"\n",
       "toc: true\n",
       "---\n\n",
-      "##PSSI Project Summary\n\n",
+      "## PSSI Project Summary\n\n",
       "**Division:** {division}  \n",
       "**Section:** {section}  \n",
       "**Organization:** {organization}  \n",
@@ -487,7 +487,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
       "Leads: \"{lead}\"\n",
       "toc: true\n",
       "---\n\n",
-      "##BCSRIF Project Summary\n\n",
+      "## BCSRIF Project Summary\n\n",
       "**Species Group:** {species}  \n",
       "**Location:** {location}  \n",
       "**Partners:** {partners}  \n",
@@ -506,7 +506,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
       "Leads: \"{lead}\"\n",
       "toc: true\n",
       "---\n\n",
-      "##Project Summary\n\n",
+      "## Project Summary\n\n",
       "**Organization:** {organization}  \n",
       "**Session(s):** {session}  \n",
       "**Presentation Date(s):** {date}  \n",
