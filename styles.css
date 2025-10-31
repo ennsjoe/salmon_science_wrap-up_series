@@ -1,12 +1,16 @@
 .banner-container {
-  width: 75vw;              /* Full viewport width */
+  width: 75vw;                      /* 75% of viewport width */
   position: relative;
-  left: 50%;                 /* Position from center */
-  right: 50%;
-  margin-top: -1rem;         /* Pull to very top */
-  margin-bottom: 2rem;
+  left: 50%;                        /* Start from center */
+  margin-left: -37.5vw;             /* Pull back to center */
+  margin-right: -37.5vw;
+  margin-top: -2rem;
+  margin-bottom: 0;
   overflow: hidden;
   padding: 0;
+  z-index: 1;
+  border-radius: 0 0 8px 8px;       /* Rounded bottom corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Shadow */
 }
 
 .calendar-table {
