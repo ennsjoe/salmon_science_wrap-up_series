@@ -160,7 +160,8 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 
 **Time:** 10AM-12PM  
 **Location:** Virtual Only  
-**Chair:** Nicholas Brown
+**Chair:** Nicholas Brown  
+[Join Webinar](https://events.teams.microsoft.com/event/2b7462ee-b28d-4f73-b4df-4a48d954cdb3@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
 - 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/pssi/2394.html) | Cory Lagasse | DFO
@@ -173,7 +174,8 @@ Databases, analytic tools, and modelling projects that provide information to su
 
 **Time:** 1PM-3PM  
 **Location:** Virtual Only  
-**Chair:** Carrie Holt
+**Chair:** Carrie Holt  
+[Join Webinar](https://events.teams.microsoft.com/event/2b7462ee-b28d-4f73-b4df-4a48d954cdb3@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
 - 🌊 [Fishery & Assessment Data Section - Data Stewardship Unit](pages/pssi/2546.html) | Shelee Hamilton | DFO
@@ -192,7 +194,8 @@ Research on the genetic and fitness consequences of hatchery enhancment, and the
 
 **Time:** 10AM-12PM  
 **Location:** Pacific Biological Station (PBS), Nanaimo  
-**Chair:** Tim Healy
+**Chair:** Tim Healy  
+[Join Webinar](https://events.teams.microsoft.com/event/b685712a-d089-4f8f-8b6a-a6b7953ff0da@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/bcsrif/BCSRIF_2020_239.html) | Francis Juanes | University of Victoria, Department of Biology
 - 🌊 [Drivers and functional consequences of hatchery epigenetic variation](pages/pssi/3103.html) | Eric Rondeau, Timothy Healy, Kyle Wellband | DFO
@@ -209,7 +212,8 @@ Tools and research to support monitoring and managing the health of cultured sal
 
 **Time:** 1PM-3PM  
 **Location:** Pacific Biological Station (PBS), Nanaimo  
-**Chair:** Christoph Deeg
+**Chair:** Christoph Deeg  
+[Join Webinar](https://events.teams.microsoft.com/event/b685712a-d089-4f8f-8b6a-a6b7953ff0da@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production](pages/pssi/2448.html) | Karia Kaukinen | DFO
 - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/pssi/2408.html) | Amy Long | DFO
