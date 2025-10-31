@@ -10,7 +10,7 @@ toc: true
 **Division:** Stock Assessment and Research (StAR)  
 **Section:** South Coast Area Salmon Stock Assessment  
 **Organization:** DFO  
-**Session(s):** Follow The Fish Life Cycle Monitoring And Assessment  
+**Session(s):** Follow The Fish  
 **Presentation Date(s):** December 04, 2025  
 **Speakers:** Jessy Bokvist  
 **Abstract:**  

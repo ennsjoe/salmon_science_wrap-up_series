@@ -10,7 +10,7 @@ toc: true
 **Division:** Ocean Sciences (OSD)  
 **Section:** Ecology and Biogeochemistry   
 **Organization:** DFO  
-**Session(s):** Follow The Fish Life Cycle Monitoring And Assessment  
+**Session(s):** Follow The Fish  
 **Presentation Date(s):** December 04, 2025  
 **Speakers:** Nicole LaForge, Micah Quindazzi   
 **Abstract:**  

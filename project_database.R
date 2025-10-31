@@ -130,6 +130,65 @@ if (dir.exists(pdf_dir)) {
   dbWriteTable(con, "PSSI_bulletins", empty_pdf_table, overwrite = TRUE)
 }
 
+# Load banner images from data/ folder
+cat("\nLoading banner images from data folder...\n")
+banner_files <- list.files(data_dir, pattern = "\\.(png|jpg|jpeg)$", 
+                           full.names = TRUE, ignore.case = TRUE)
+
+if (length(banner_files) > 0) {
+  banner_data_list <- list()
+  
+  for (banner_path in banner_files) {
+    file_name <- basename(banner_path)
+    
+    tryCatch({
+      # Read image as binary
+      image_binary <- readBin(banner_path, "raw", file.info(banner_path)$size)
+      
+      # Get file extension
+      file_ext <- tolower(tools::file_ext(file_name))
+      
+      # Store in list
+      banner_data_list[[length(banner_data_list) + 1]] <- data.frame(
+        file_name = file_name,
+        file_type = file_ext,
+        image_data = I(list(image_binary)),
+        upload_date = as.character(Sys.Date()),
+        file_size = file.info(banner_path)$size,
+        stringsAsFactors = FALSE
+      )
+      
+      cat(glue("  Success: Loaded banner image: {file_name}\n"))
+    }, error = function(e) {
+      cat(glue("  Error loading '{file_name}': {e$message}\n"))
+    })
+  }
+  
+  # Combine all banner data
+  if (length(banner_data_list) > 0) {
+    banner_table <- bind_rows(banner_data_list)
+    
+    # Write to database
+    dbWriteTable(con, "banner_images", banner_table, overwrite = TRUE)
+    
+    cat(glue("Success: Loaded {nrow(banner_table)} banner image(s) into 'banner_images' table\n"))
+  }
+} else {
+  cat("Warning: No banner images found in data folder\n")
+  cat("   Creating empty banner_images table...\n")
+  
+  # Create empty table structure
+  empty_banner_table <- data.frame(
+    file_name = character(),
+    file_type = character(),
+    image_data = I(list()),
+    upload_date = character(),
+    file_size = numeric(),
+    stringsAsFactors = FALSE
+  )
+  dbWriteTable(con, "banner_images", empty_banner_table, overwrite = TRUE)
+}
+
 # 📊 Summarize table structures
 tables <- dbListTables(con)
 

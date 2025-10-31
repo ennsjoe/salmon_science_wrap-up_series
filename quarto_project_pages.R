@@ -319,8 +319,59 @@ if ("PSSI_bulletins" %in% dbListTables(con_pdf)) {
   cat("⚠️  PSSI_bulletins table not found in database\n\n")
 }
 
-dbDisconnect(con_pdf)
+# 🖼️ Extract banner image from database
+cat("🖼️ Extracting banner image from database...\n")
 
+# Reconnect briefly to get banner
+con_banner <- dbConnect(SQLite(), dbname = db_path)
+
+# Check if banner_images table exists
+banner_path_relative <- NULL
+
+if ("banner_images" %in% dbListTables(con_banner)) {
+  banner_data <- dbReadTable(con_banner, "banner_images")
+  
+  if (nrow(banner_data) > 0) {
+    # Get the first banner (or you can filter for "Symposium Banner.png")
+    banner_row <- banner_data %>%
+      filter(grepl("Symposium Banner", file_name, ignore.case = TRUE)) %>%
+      slice(1)
+    
+    # If no Symposium Banner found, use the first one
+    if (nrow(banner_row) == 0) {
+      banner_row <- banner_data[1, ]
+    }
+    
+    file_name <- banner_row$file_name
+    image_binary <- banner_row$image_data[[1]]
+    file_type <- banner_row$file_type
+    
+    if (!is.null(image_binary) && length(image_binary) > 0) {
+      # Create images directory if it doesn't exist
+      images_dir <- here("images")
+      if (!dir.exists(images_dir)) {
+        dir.create(images_dir, recursive = TRUE)
+      }
+      
+      # Write banner to file
+      banner_path <- file.path(images_dir, file_name)
+      
+      tryCatch({
+        writeBin(image_binary, banner_path)
+        banner_path_relative <- glue("images/{file_name}")
+        cat(glue("  ✓ Extracted banner: {file_name}\n"))
+      }, error = function(e) {
+        cat(glue("  ⚠️ Could not write banner (file may be locked): {e$message}\n"))
+      })
+    }
+  } else {
+    cat("⚠️  No banner images found in database\n")
+  }
+} else {
+  cat("⚠️  banner_images table not found in database\n")
+}
+
+dbDisconnect(con_pdf)
 
 # 📂 Create output directory----
 cat("📂 Creating output directories...\n")
@@ -543,27 +594,39 @@ for (week in weeks) {
 }
 calendar_html <- c(calendar_html, "</table>")
 
-# 📄 Generate index.qmd----
-cat("📄 Generating index.qmd...\n")
+# 📄 Generate index.qmd (with banner)
+cat("📄 Generating index.qmd with banner...\n")
 
 index_md <- c(
   "---",
-  'title: "🌊 Pacific Salmon Science Symposium"',
-  'description: "45+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."',
+  'title: "Pacific Salmon Science Symposium"',
+  'description: "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions. Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region"',
   'author: "PSSI Implementation Team"',
   'format: html',
   'toc: false',
   "---",
-  "",
-  "## 🗓️ December 2025 Calendar Overview",
-  "",
-  "::: {.calendar}",
-  calendar_html,
-  ":::",
-  "",
-  "- 🌊 PSSI (Pacific Salmon Science Initiative)",
-  "- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)",
   ""
+)
+
+# Add banner if it exists
+if (!is.null(banner_path_relative)) {
+  index_md <- c(index_md,
+                "::: {.banner-container}",
+                glue("![Pacific Salmon Science Symposium]({banner_path_relative}){{.banner-image}}"),
+                ":::",
+                "")
+}
+
+index_md <- c(index_md,
+              "## 🗓️ December 2025 Calendar Overview",
+              "",
+              "::: {.calendar}",
+              calendar_html,
+              ":::",
+              "",
+              "- 🌊 PSSI (Pacific Salmon Science Initiative)",
+              "- 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)",
+              ""
 )
 
 # Group presentations by date

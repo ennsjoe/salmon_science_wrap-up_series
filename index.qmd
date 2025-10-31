@@ -1,10 +1,14 @@
 ---
-title: "🌊 Pacific Salmon Science Symposium"
-description: "45+ online presentations, 8 sessions over 4 days, reporting on the results of the most current salmon science research through the PSSI and BCSRIF programs."
+title: "Pacific Salmon Science Symposium"
+description: "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions. Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region"
 author: "PSSI Implementation Team"
 format: html
 toc: false
 ---
+
+::: {.banner-container}
+![Pacific Salmon Science Symposium](images/Symposium Banner.png){.banner-image}
+:::
 
 ## 🗓️ December 2025 Calendar Overview
 
@@ -19,7 +23,7 @@ toc: false
 <td><div class='calendar-cell'><strong>1</strong></div></td>
 <td><div class='calendar-cell'><strong>2</strong><br><div class='calendar-button' style='background-color:#007BFF'>Salmon In A Changing Climate</div><div class='calendar-button' style='background-color:#007BFF'>Freshwater Stressors</div></div></td>
 <td><div class='calendar-cell'><strong>3</strong></div></td>
-<td><div class='calendar-cell'><strong>4</strong><br><div class='calendar-button' style='background-color:#007BFF'>Follow The Fish Life Cycle Monitoring And Assessment</div><div class='calendar-button' style='background-color:#007BFF'>Marine Stressors</div></div></td>
+<td><div class='calendar-cell'><strong>4</strong><br><div class='calendar-button' style='background-color:#007BFF'>Follow The Fish</div><div class='calendar-button' style='background-color:#007BFF'>Marine Stressors</div></div></td>
 <td><div class='calendar-cell'><strong>5</strong></div></td>
 <td><div class='calendar-cell'><strong>6</strong></div></td>
 </tr>
@@ -100,13 +104,14 @@ Mechanistic, physiological, and quantitative studies for evaluating stressors to
 - **2:15 PM** - 🌊 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/pssi/2425.html) | Keegan Patterson | DFO
 - **2:30 PM** - 🌱 [Analysis of forestry effects on Pacific salmon in Musgamagw Dzawada’enuxw territory and across
 coastal BC.](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | Salmon Coast Field Station Society
+- 🌊 [Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system](pages/pssi/2442.html) | Tommy Pontbriand | DFO
 
 
 <div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 04, 2025
 </div>
 
-### 🐟 Follow The Fish Life Cycle Monitoring And Assessment
+### 🐟 Follow The Fish
 A review of the Follow the Fish Program, including methods and approaches for life cycle assessment of WCVI Chinook and ecosystem-scale research programs.
 
 **Time:** 10AM-12PM  
@@ -147,7 +152,6 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
 - 🌊 [Enhanced salmon bycatch monitoring and sampling in the Pacific region groundfish trawl fishery](pages/pssi/2394.html) | Cory Lagasse | DFO
 - 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Owen Bird | Sport Fishing Institute of BC
-- 🌊 [Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system](pages/pssi/2442.html) | Tommy Pontbriand | DFO
 - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors, Adam O'Dell | DFO
 - 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | Derek Leboeuf | A-Tlegay Fisheries Society
 
@@ -171,7 +175,7 @@ Databases, analytic tools, and modelling projects that provide information to su
 </div>
 
 ### 🐟 Hatchery Fitness And Genetics
-Research on genetic consequences of hatchery enhancment, and the interactions between hatchery and wild salmon
+Research on the genetic and fitness consequences of hatchery enhancment, and the interactions between hatchery and wild salmon.
 
 **Time:** 10AM-12PM  
 **Location:** Pacific Biological Station (PBS), Nanaimo  
