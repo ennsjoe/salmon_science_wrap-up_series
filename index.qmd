@@ -13,9 +13,6 @@ toc: false
 ![Pacific Salmon Science Symposium](images/Symposium Banner.png){.banner-image}
 :::
 
-::: {.custom-title-block}
-# Pacific Salmon Science Symposium
-
 ::: {.description}
 Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions.
 :::
