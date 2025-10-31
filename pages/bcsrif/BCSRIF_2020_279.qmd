@@ -10,7 +10,6 @@ toc: true
 **Species Group:** Pacific Salmon  
 **Location:** Fraser River  
 **Partners:** None listed  
-**Agreement Period:** August 03, 4429809 to June 29, 4688837  
 **Organization:** Pacific Salmon Foundation  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 09, 2025  

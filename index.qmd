@@ -7,7 +7,7 @@ toc: false
 ---
 
 ::: {.column-screen .banner-container}
-![Pacific Salmon Science Symposium](images/Symposium Banner.png){.banner-image}
+![Pacific Salmon Strategy Initiative](images/Symposium Banner.png){.banner-image}
 :::
 
 # Pacific Salmon Science Symposium

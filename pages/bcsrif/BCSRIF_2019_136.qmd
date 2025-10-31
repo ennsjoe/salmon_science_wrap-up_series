@@ -10,7 +10,6 @@ toc: true
 **Species Group:** Pacific Salmon  
 **Location:** Straight of Georgia  
 **Partners:** Pacific Salmon Foundation  
-**Agreement Period:** September 13, 4293080 to April 21, 4602258  
 **Organization:** Pacific Salmon Foundation  
 **Session(s):** Hatchery Fitness And Genetics  
 **Presentation Date(s):** December 11, 2025  

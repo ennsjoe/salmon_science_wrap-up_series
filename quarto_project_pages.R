@@ -491,7 +491,6 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
       "**Species Group:** {species}  \n",
       "**Location:** {location}  \n",
       "**Partners:** {partners}  \n",
-      "**Agreement Period:** {start_fmt} to {end_fmt}  \n",
       "**Organization:** {organization}  \n",
       "**Session(s):** {session}  \n",
       "**Presentation Date(s):** {date}  \n",
@@ -612,7 +611,7 @@ index_md <- c(
 if (!is.null(banner_path_relative)) {
   index_md <- c(index_md,
                 "::: {.column-screen .banner-container}",
-                glue("![Pacific Salmon Science Symposium]({banner_path_relative}){{.banner-image}}"),
+                glue("![Pacific Salmon Strategy Initiative]({banner_path_relative}){{.banner-image}}"),
                 ":::",
                 "")
 }
