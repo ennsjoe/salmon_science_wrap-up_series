@@ -600,6 +600,7 @@ cat("📄 Generating index.qmd with banner and title block...\n")
 index_md <- c(
   "---",
   'title-block-banner: false',
+  'author: "PSSI Implementation Team"',  # ✅ Add this back
   'format:',
   '  html:',
   '    title-block-style: none',
