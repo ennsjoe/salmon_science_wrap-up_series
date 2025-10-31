@@ -546,8 +546,8 @@ december_sessions <- speaker_projects_dated %>%
 
 cat(glue("   Found {nrow(december_sessions)} December session dates\n"))
 
-# 🎨 Single color for all sessions
-session_color <- "#007BFF"  # Blue - change this to match your site!
+# 🎨 Single color for all sessions----
+session_color <- "#1f4456"
 
 get_session_color <- function(session_name) {
   session_color
@@ -594,21 +594,24 @@ for (week in weeks) {
 }
 calendar_html <- c(calendar_html, "</table>")
 
-# 📄 Generate index.qmd (with banner)----
-cat("📄 Generating index.qmd with banner...\n")
+# 📄 Generate index.qmd
+cat("📄 Generating index.qmd with banner and title block...\n")
 
 index_md <- c(
   "---",
   'title: "Pacific Salmon Science Symposium"',
+  'title-block-banner: false',
   'description: "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions. Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region"',
   'author: "PSSI Implementation Team"',
-  'format: html',
+  'format:',
+  '  html:',
+  '    title-block-style: none',
   'toc: false',
   "---",
   ""
 )
 
-# Add banner if it exists - place immediately after frontmatter for top positioning
+# Banner at top
 if (!is.null(banner_path_relative)) {
   index_md <- c(index_md,
                 "::: {.column-screen .banner-container}",
@@ -617,6 +620,22 @@ if (!is.null(banner_path_relative)) {
                 "")
 }
 
+# Title and description block
+index_md <- c(index_md,
+              "::: {.custom-title-block}",
+              "# Pacific Salmon Science Symposium",
+              "",
+              "::: {.description}",
+              "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions.",
+              ":::",
+              "",
+              "::: {.author}",
+              "*Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region*",
+              ":::",
+              ":::",
+              "")
+
+# Calendar section
 index_md <- c(index_md,
               "## 🗓️ December 2025 Calendar Overview",
               "",
@@ -638,7 +657,7 @@ for (date_key in names(presentations_by_date)) {
   
   index_md <- c(index_md, 
                 "",
-                glue("<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>"),
+                glue("<div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>"),
                 glue("## 📅 {formatted_date}"),
                 "</div>",
                 "")

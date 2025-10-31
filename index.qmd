@@ -1,13 +1,28 @@
 ---
 title: "Pacific Salmon Science Symposium"
+title-block-banner: false
 description: "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions. Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region"
 author: "PSSI Implementation Team"
-format: html
+format:
+  html:
+    title-block-style: none
 toc: false
 ---
 
 ::: {.column-screen .banner-container}
 ![Pacific Salmon Science Symposium](images/Symposium Banner.png){.banner-image}
+:::
+
+::: {.custom-title-block}
+# Pacific Salmon Science Symposium
+
+::: {.description}
+Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions.
+:::
+
+::: {.author}
+*Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region*
+:::
 :::
 
 ## 🗓️ December 2025 Calendar Overview
@@ -21,18 +36,18 @@ toc: false
 <tr>
 <td></td>
 <td><div class='calendar-cell'><strong>1</strong></div></td>
-<td><div class='calendar-cell'><strong>2</strong><br><div class='calendar-button' style='background-color:#007BFF'>Salmon In A Changing Climate</div><div class='calendar-button' style='background-color:#007BFF'>Freshwater Stressors</div></div></td>
+<td><div class='calendar-cell'><strong>2</strong><br><div class='calendar-button' style='background-color:#1f4456'>Salmon In A Changing Climate</div><div class='calendar-button' style='background-color:#1f4456'>Freshwater Stressors</div></div></td>
 <td><div class='calendar-cell'><strong>3</strong></div></td>
-<td><div class='calendar-cell'><strong>4</strong><br><div class='calendar-button' style='background-color:#007BFF'>Follow The Fish</div><div class='calendar-button' style='background-color:#007BFF'>Marine Stressors</div></div></td>
+<td><div class='calendar-cell'><strong>4</strong><br><div class='calendar-button' style='background-color:#1f4456'>Follow The Fish</div><div class='calendar-button' style='background-color:#1f4456'>Marine Stressors</div></div></td>
 <td><div class='calendar-cell'><strong>5</strong></div></td>
 <td><div class='calendar-cell'><strong>6</strong></div></td>
 </tr>
 <tr>
 <td><div class='calendar-cell'><strong>7</strong></div></td>
 <td><div class='calendar-cell'><strong>8</strong></div></td>
-<td><div class='calendar-cell'><strong>9</strong><br><div class='calendar-button' style='background-color:#007BFF'>Fisheries Monitoring And Harvest Methods</div><div class='calendar-button' style='background-color:#007BFF'>Data And Modelling To Support Decision Making</div></div></td>
+<td><div class='calendar-cell'><strong>9</strong><br><div class='calendar-button' style='background-color:#1f4456'>Fisheries Monitoring And Harvest Methods</div><div class='calendar-button' style='background-color:#1f4456'>Data And Modelling To Support Decision Making</div></div></td>
 <td><div class='calendar-cell'><strong>10</strong></div></td>
-<td><div class='calendar-cell'><strong>11</strong><br><div class='calendar-button' style='background-color:#007BFF'>Hatchery Fitness And Genetics</div><div class='calendar-button' style='background-color:#007BFF'>Fish Health</div></div></td>
+<td><div class='calendar-cell'><strong>11</strong><br><div class='calendar-button' style='background-color:#1f4456'>Hatchery Fitness And Genetics</div><div class='calendar-button' style='background-color:#1f4456'>Fish Health</div></div></td>
 <td><div class='calendar-cell'><strong>12</strong></div></td>
 <td><div class='calendar-cell'><strong>13</strong></div></td>
 </tr>
@@ -70,7 +85,7 @@ toc: false
 - 🌱 BCSRIF (BC Salmon Restoration and Innovation Fund)
 
 
-<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
+<div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 02, 2025
 </div>
 
@@ -107,7 +122,7 @@ coastal BC.](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | Salmon Coast
 - 🌊 [Graduate Research into 1) habitat use by juvenile Chinook Salmon in the Canadian Okanagan River and Lake system and 2) predation on juvenile salmon in the Canadian Okanagan River and Lake system](pages/pssi/2442.html) | Tommy Pontbriand | DFO
 
 
-<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
+<div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 04, 2025
 </div>
 
@@ -138,7 +153,7 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 - **2:30 PM** - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
 
 
-<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
+<div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 09, 2025
 </div>
 
@@ -170,7 +185,7 @@ Databases, analytic tools, and modelling projects that provide information to su
 - 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka | Pacific Salmon Foundation
 
 
-<div style='background-color: #007BFF; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
+<div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 11, 2025
 </div>
 
