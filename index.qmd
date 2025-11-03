@@ -127,7 +127,7 @@ A review of the Follow the Fish Program, including methods and approaches for li
 
 - **10:15 AM** - 🌊 [Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
 - **10:30 AM** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/pssi/2397.html) | Jared Dick, Carrie Holt | Nuu-Chah-Nulth Tribal Council
-- **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Christoph Deeg, Arthur Bass | DFO
+- **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
 - **11:15 AM** - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS) to determine saltwater entry size of juvenile salmonids and track habitat usage.](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
 
 ### Marine Stressors
@@ -141,7 +141,7 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 - **1:15 PM** - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/pssi/2404.html) | Laura Bianucci, Marilena Geng | DFO
 - **1:30 PM** - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/pssi/2412.html) | Chris Pearce | DFO
 - **1:45 PM** - 🌱 [Untitled Project](pages/bcsrif/BCSRIF_2019_040-136D.html) | Samantha James | Pacific Salmon Foundation
-- **2:00 PM** - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri | DFO
+- **14:00 PM** - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri | DFO
 - **2:15 PM** - 🌊 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/pssi/2416.html) | Andrew Ross | DFO
 - **2:30 PM** - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
 

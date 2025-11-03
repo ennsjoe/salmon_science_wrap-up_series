@@ -14,13 +14,13 @@ toc: true
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
 **Abstract:**  
-Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods.    
+Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods.   
 
 ## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2435.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 
 <p style="text-align: center; margin-top: 10px;">
-[📥 Download PDF](../../data/PSSI_bulletin/2435.pdf){.btn .btn-primary target="_blank"}
+[📅 Download PDF](../../data/PSSI_bulletin/2435.pdf){.btn .btn-primary target="_blank"}
 </p>
 

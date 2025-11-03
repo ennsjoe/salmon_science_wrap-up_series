@@ -16,11 +16,14 @@ toc: true
 **Abstract:**  
 Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival.     
 
+**Collaborators:**  
+Ahousaht First Nation, Ditidaht First Nation, Ehattesaht/Chinehkint First Nation, Ha’oom Fisheries Society, Hesquiaht First Nation, Hupacasath First Nation, Huu-ay-aht First Nations, Ka:’yu:’k’t’h’/Che:k:tles7et’h’ First Nations, LGL Limited, Maaqutusiis Hahoulthee Stewardship Society, M.C. Wright and Associates Ltd., Mowachaht-Muchalaht First Nations, Nootka Sound Watershed Society, Nuchatlaht Tribe, Nuu-Chah-Nulth Tribal Council, Pacheedaht First Nation, Quatsino First Nation, Tla-o-qui-aht First Nation, Toquaht Nation, Tseshaht First Nation, T’Sou-ke Nation, Uchucklesaht Tribe,Yuułuʔiłʔatḥ Government  
+
 ## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2407.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 
 <p style="text-align: center; margin-top: 10px;">
-[📥 Download PDF](../../data/PSSI_bulletin/2407.pdf){.btn .btn-primary target="_blank"}
+[📅 Download PDF](../../data/PSSI_bulletin/2407.pdf){.btn .btn-primary target="_blank"}
 </p>
 

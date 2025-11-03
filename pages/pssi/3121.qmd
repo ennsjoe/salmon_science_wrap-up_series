@@ -14,6 +14,6 @@ toc: true
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Eric Rondeau, Timothy Healy, Kyle Wellband  
 **Abstract:**  
-No abstract available   
+No abstract available.   
 
 
