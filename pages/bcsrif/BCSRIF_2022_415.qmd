@@ -1,5 +1,5 @@
 ---
-title: "Restoring freshwater connectivity for Pacific salmon"
+title: "Prioritizing barriers for restoring Pacific Salmon habitat connectivity"
 output-file: "BCSRIF_2022_415.html"
 Leads: "Canadian Wildlife Federation"
 toc: true

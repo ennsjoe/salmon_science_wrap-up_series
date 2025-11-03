@@ -690,7 +690,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Updated project pages with confirmed filter, organization, and abstracts"')
+#system('git commit -m "Added bios, collaborators, and authors to project pages"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
