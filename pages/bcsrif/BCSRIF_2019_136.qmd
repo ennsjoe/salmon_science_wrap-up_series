@@ -1,5 +1,5 @@
 ---
-title: "Science-based review of hatchery results in the DFO Pacific Region"
+title: "Investigation into molecular tools and how they could be applied in hatchery management"
 output-file: "BCSRIF_2019_136.html"
 Leads: "Pacific Salmon Foundation"
 toc: true

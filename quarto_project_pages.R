@@ -32,15 +32,15 @@ normalize_session <- function(x) {
 
 `%||%` <- function(a, b) if (is.null(a) || is.na(a) || a == "") b else a
 
-# 🗂 Validate database path----
+# 🗂️ Validate database path----
 db_path <- here("science_projects.sqlite")
 if (!file.exists(db_path)) {
-  stop(glue("❌ Database file not found at: {db_path}"))
+  stop(glue("âŒ Database file not found at: {db_path}"))
 }
 
 # 🔌 Connect to database----
 con <- dbConnect(SQLite(), dbname = db_path)
-if (!dbIsValid(con)) stop("❌ Database connection is not valid")
+if (!dbIsValid(con)) stop("âŒ Database connection is not valid")
 
 # 📌 Validate required tables----
 required_tables <- c("Science.PSSI.Projects", "presentation_info", "session_info")
@@ -48,7 +48,7 @@ available_tables <- dbListTables(con)
 missing_tables <- setdiff(required_tables, available_tables)
 if (length(missing_tables) > 0) {
   dbDisconnect(con)
-  stop(glue("❌ Missing required tables: {paste(missing_tables, collapse = ', ')}"))
+  stop(glue("âŒ Missing required tables: {paste(missing_tables, collapse = ', ')}"))
 }
 cat(glue("   Found {length(available_tables)} tables in database\n"))
 
@@ -60,11 +60,11 @@ presentation_info <- dbReadTable(con, "presentation_info") %>%
 if ("confirmed" %in% names(presentation_info)) {
   presentation_info <- presentation_info %>% filter(confirmed == "Yes")
 }
-cat(glue("   ✓ presentation_info: {nrow(presentation_info)} confirmed rows\n"))
+cat(glue("   âœ“ presentation_info: {nrow(presentation_info)} confirmed rows\n"))
 
 projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
   mutate(project_id = as.character(project_id))
-cat(glue("   ✓ PSSI Projects: {nrow(projects)} rows\n"))
+cat(glue("   âœ“ PSSI Projects: {nrow(projects)} rows\n"))
 
 bcsrif_projects <- if ("BCSRIF.Project.List.September.2025" %in% available_tables) {
   dbReadTable(con, "BCSRIF.Project.List.September.2025") %>%
@@ -72,10 +72,10 @@ bcsrif_projects <- if ("BCSRIF.Project.List.September.2025" %in% available_table
     rename(project_id = project_number) %>%
     mutate(project_id = as.character(project_id))
 } else {
-  cat("   ⚠️ BCSRIF table not found, using empty placeholder\n")
+  cat("   âš ï¸ BCSRIF table not found, using empty placeholder\n")
   data.frame(project_id = character())
 }
-cat(glue("   ✓ BCSRIF Projects: {nrow(bcsrif_projects)} rows\n"))
+cat(glue("   âœ“ BCSRIF Projects: {nrow(bcsrif_projects)} rows\n"))
 
 sessions <- dbReadTable(con, "session_info") %>%
   mutate(session = normalize_session(session),
@@ -151,6 +151,20 @@ cat(glue("   Aggregation complete: {nrow(aggregated_projects)} rows\n"))
 cat(glue("     PSSI: {sum(aggregated_projects$source_program == 'PSSI', na.rm = TRUE)}\n"))
 cat(glue("     BCSRIF: {sum(aggregated_projects$source_program == 'BCSRIF', na.rm = TRUE)}\n\n"))
 
+
+# Create sessions_raw (without normalized session names) for calendar building
+sessions_raw <- dbReadTable(con, "session_info") %>%
+  mutate(date = as.Date(date, origin = "1899-12-30"))
+
+# Create session_projects for calendar with correct titles from joined data
+session_projects <- joined %>%
+  select(project_id, session, presentation_date, title, speakers, organization, 
+         source, source_program) %>%
+  {if ("start_time" %in% names(presentation_info)) 
+    left_join(., presentation_info %>% select(project_id, start_time), by = "project_id") 
+    else .} %>%
+  filter(!is.na(session))
+
 # 🔌 Disconnect from database
 dbDisconnect(con)
 
@@ -184,28 +198,28 @@ if ("PSSI_bulletins" %in% dbListTables(con_pdf)) {
         # Try to write the PDF, skip if file is locked
         tryCatch({
           writeBin(pdf_binary, pdf_path)
-          cat(glue("  ✓ Extracted PDF for project {project_id}\n"))
+          cat(glue("  âœ“ Extracted PDF for project {project_id}\n"))
           extracted_count <- extracted_count + 1
         }, error = function(e) {
-          cat(glue("  ⚠️ Skipped PDF for project {project_id} (file may be open/locked)\n"))
+          cat(glue("  âš ï¸ Skipped PDF for project {project_id} (file may be open/locked)\n"))
           skipped_count <- skipped_count + 1
         })
       }
     }
-    cat(glue("✅ Extracted {extracted_count} PDFs"))
+    cat(glue("âœ… Extracted {extracted_count} PDFs"))
     if (skipped_count > 0) {
       cat(glue(" ({skipped_count} skipped due to file locks)"))
     }
     cat("\n\n")
   } else {
-    cat("⚠️  No PDFs found in database\n\n")
+    cat("âš ï¸  No PDFs found in database\n\n")
   }
 } else {
-  cat("⚠️  PSSI_bulletins table not found in database\n\n")
+  cat("âš ï¸  PSSI_bulletins table not found in database\n\n")
 }
 
-# 🖼️ Extract banner image from database
-cat("🖼️ Extracting banner image from database...\n")
+# 🖼️Â Extract banner image from database
+cat("🖼️Â Extracting banner image from database...\n")
 
 # Reconnect briefly to get banner
 con_banner <- dbConnect(SQLite(), dbname = db_path)
@@ -244,22 +258,22 @@ if ("banner_images" %in% dbListTables(con_banner)) {
       tryCatch({
         writeBin(image_binary, banner_path)
         banner_path_relative <- glue("images/{file_name}")
-        cat(glue("  ✓ Extracted banner: {file_name}\n"))
+        cat(glue("  âœ“ Extracted banner: {file_name}\n"))
       }, error = function(e) {
-        cat(glue("  ⚠️ Could not write banner (file may be locked): {e$message}\n"))
+        cat(glue("  âš ï¸ Could not write banner (file may be locked): {e$message}\n"))
       })
     }
   } else {
-    cat("⚠️  No banner images found in database\n")
+    cat("âš ï¸  No banner images found in database\n")
   }
 } else {
-  cat("⚠️  banner_images table not found in database\n")
+  cat("âš ï¸  banner_images table not found in database\n")
 }
 
 dbDisconnect(con_pdf)
 
-# 📂 Create output directory----
-cat("📂 Creating output directories...\n")
+# �‚ Create output directory----
+cat("�‚ Creating output directories...\n")
 pages_dir <- here("pages")
 
 # Clean up old .qmd files to ensure only confirmed projects are included
@@ -276,7 +290,7 @@ dir_create(pages_dir)
 dir_create(file.path(pages_dir, "pssi"))
 dir_create(file.path(pages_dir, "bcsrif"))
 dir_create(file.path(pages_dir, "other"))
-cat("✅ Directories ready\n\n")
+cat("âœ… Directories ready\n\n")
 
 # 📝 Generate .qmd pages----
 cat("📝 Generating project pages...\n")
@@ -419,7 +433,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
   }
 }
 
-cat(glue("✅ Generated {nrow(aggregated_projects_confirmed)} project pages\n\n"))
+cat(glue("âœ… Generated {nrow(aggregated_projects_confirmed)} project pages\n\n"))
 
 # 📅 Build December 2025 calendar----
 cat("🗓️ Building December 2025 calendar...\n")
@@ -627,7 +641,7 @@ for (date_key in names(presentations_by_date)) {
         source_emoji = case_when(
           source_program == "BCSRIF" ~ "🌱",
           source_program == "PSSI" ~ "🌊",
-          TRUE ~ "❓"
+          TRUE ~ "â“"
         ),
         # Parse start_time for sorting (if column exists)
         time_sort = if ("start_time" %in% names(.)) {
@@ -644,7 +658,7 @@ for (date_key in names(presentations_by_date)) {
     
     # Debug: print counts
     if (nrow(projects_display) == 0) {
-      cat(glue("   ⚠️ WARNING: No projects found for session '{session_title}'\n"))
+      cat(glue("   âš ï¸ WARNING: No projects found for session '{session_title}'\n"))
       cat(glue("      Original group size: {nrow(group)}\n"))
     }
     
@@ -664,10 +678,10 @@ for (date_key in names(presentations_by_date)) {
 }
 
 writeLines(index_md, here("index.qmd"))
-cat("✅ Generated index.qmd\n\n")
+cat("âœ… Generated index.qmd\n\n")
 
 
-# 🌐 Write CNAME file
+# 🌐Â Write CNAME file
 writeLines("www.pacificsalmonscience.ca", here("CNAME"))
 
 # Note: _quarto.yml already exists with correct subfolder configuration
@@ -681,16 +695,16 @@ Sys.sleep(2)  # Wait 2 seconds for any file handles to release
 render_result <- tryCatch({
   system("quarto render --no-clean", intern = FALSE, ignore.stderr = FALSE)
 }, error = function(e) {
-  cat("⚠️  Render encountered an issue, retrying...\n")
+  cat("âš ï¸  Render encountered an issue, retrying...\n")
   Sys.sleep(3)
   system("quarto render --no-clean", intern = FALSE, ignore.stderr = FALSE)
 })
 
-cat("✅ Quarto render complete\n\n")
+cat("âœ… Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
 #system('git commit -m "Added bios, collaborators, and authors to project pages"')
 #system("git push origin main")
 
-#cat("\n✨ All done! Site deployed.\n")
+#cat("\nâœ¨ All done! Site deployed.\n")

@@ -1,5 +1,5 @@
 ---
-title: "Fishery & Assessment Data Section - Data Stewardship Unit"
+title: "Same Salmon, Shared Semantics. The DFO Salmon Ontology for Data Integration and Decision Support"
 output-file: "2546.html"
 Leads: "Shelee Hamilton"
 toc: true
@@ -12,8 +12,11 @@ toc: true
 **Organization:** DFO  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 09, 2025  
-**Speakers:** Shelee Hamilton  
+**Speakers:** Brett Johnson  
 **Abstract:**  
-No abstract available.   
+Salmon decisions stall on semantics, not on science. Take “wild salmon”: locally it can mean natural-origin fish, fish spawning naturally this year (including hatchery-origin spawners), or simply adipose-intact fish—definitions that change counts and benchmarks and challenge regional analyses. This fragmentation slows management, obscures accountability, and undermines confidence in otherwise excellent science. What’s needed is a shared vocabulary and an agreed-upon map of salmon terms—clear definitions and relationships that connect local labels to common meanings so people and software interpret data the same: a shared dictionary and rulebook for salmon data, an ontology. The DFO Salmon Ontology provides that map of how terms relate, and the controlled vocabularies that underpin it supply precise definitions—showing where terms differ, how they align, and where they should converge. Together, they standardize key terms across programs and regions. Teams can map local terms once, keep source systems unchanged yet aligned regionally, and link inputs to methods, benchmarks, and policy thresholds for Fisheries Science Reports, the Fish Stock Provisions, and the Wild Salmon Policy. Developed by the Fishery & Assessment Data Section in the Pacific Region Science Branch, this work builds on the International Year of the Salmon Data Mobilization initiative and collaborations with the National Center for Ecological Analysis and Synthesis (U.S.) and the global Research Data Alliance. It is open source and implements community standards from the W3C, OBO Foundry, and Darwin Core. By removing terminology friction, it prepares us for AI-assisted data integration and cross-discipline interoperability while immediately letting biologists spend less time cleaning data. Our goal is straightforward: to provide persistent, web-accessible definitions that help scientists and software combine data efficiently, support reproducible analyses, and strengthen confidence in salmon management.   
+
+**Collaborators:**  
+Melissa Morrison, Tom Bird, Minh Doan  
 
 

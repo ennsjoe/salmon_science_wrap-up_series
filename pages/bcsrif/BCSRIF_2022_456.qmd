@@ -1,5 +1,5 @@
 ---
-title: "Informed Approaches to Determine Bottlenecks to Survival for Chinook and Coho Salmon and Steelhead"
+title: "A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset"
 output-file: "BCSRIF_2022_456.html"
 Leads: "Pacific Salmon Foundation"
 toc: true
