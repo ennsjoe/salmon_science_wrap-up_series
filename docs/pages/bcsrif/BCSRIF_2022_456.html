@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.5.57" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
 
 <title>A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset – Pacific Salmon Science</title>
@@ -22,23 +24,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,28 +54,30 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../styles.css" />
 </head>
 
-<body class="nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="/index.html">
     <span class="navbar-title">Pacific Salmon Science</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -104,16 +92,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#bcsrif-project-summary" id="toc-bcsrif-project-summary" class="nav-link active" data-scroll-target="#bcsrif-project-summary">BCSRIF Project Summary</a></li>
-  </ul>
-</nav>
+        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -122,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   
@@ -133,24 +115,40 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bcsrif-project-summary" id="toc-bcsrif-project-summary">BCSRIF Project Summary</a></li>
+  </ul>
+</nav>
 <section id="bcsrif-project-summary" class="level2">
-<h2 class="anchored" data-anchor-id="bcsrif-project-summary">BCSRIF Project Summary</h2>
-<p><strong>Species Group:</strong> Pacific Salmon<br>
-<strong>Location:</strong> Vancouver Island<br>
-<strong>Partners:</strong> British Columbia Conservation Foundations (BCCF) Cowichan Tribes Snuneymuxw First Nation A-Tlegay Fisheries Society K’ómoks First Nation Kintama Research Services Salmon Coast Field Station UC Davis - Sustainable Aquaculture and Coastal Systems University of Victoria - Department of Biology<br>
-<strong>Organization:</strong> Pacific Salmon Foundation<br>
-<strong>Session(s):</strong> Data And Modelling To Support Decision Making<br>
-<strong>Presentation Date(s):</strong> December 09, 2025<br>
-<strong>Speakers:</strong> Samantha James<br>
-<strong>Abstract:</strong><br>
-This work will utilize and refine Passive Integrated Transponder (PIT) tag architecture (data collection application, tagging methods, capture methods, and PIT antennas and arrays) developed through the ongoing BCSRIF-funded “Bottlenecks Program” to track individual fish and provide new insights into survival in the South Coast. The survival of wild and enhanced Chinook and coho salmon will be compared within and between river systems and enhancement strategies (e.g.&nbsp;standard versus late release, smolt versus fed-fry), with tags applied and detected across multiple life history stages to identify periods of higher mortality (“bottlenecks”). Tag detections will also produce run-timing curves, straying rates, and terminal mortality rates. Focused activities will investigate size at ocean entry and migration patterns in the marine environment, information necessary to refine PIT-tag based survival models and understand life-history diversity. PIT tag-based stage-specific survival estimates will compliment studies of potential mediators of survival bottlenecks; environmental and anthropogenic influences on freshwater emigration, starvation in the first winter at sea, fishing-related incidental mortality (FRIM), and in-river pinniped predation. Collectively this work will greatly expand the understanding of factors limiting Chinook and coho salmon survival, suggest strategies to increase productivity, and leave a legacy of refined assessment approaches.”“This project will build on a previously funded Fisheries Related Incidental Mortality (FRIM) study led by the Sport Fishing Institute to expand the work to include Coho salmon, in addition to Chinook. This study will utilize best practices developed in the previous study to better understand FRIM in the recreational Coho fishery on West Coast Vancouver Island, and will be further advanced by a new component to study affects of fisheries interactions on fish metabolism. This information will be used to expand the Best Prac</p>
-
-
+<h2>BCSRIF Project Summary</h2>
+<p><strong>Species Group:</strong> Pacific Salmon<br />
+<strong>Location:</strong> Vancouver Island<br />
+<strong>Partners:</strong> British Columbia Conservation Foundations (BCCF) Cowichan Tribes Snuneymuxw First Nation A-Tlegay Fisheries Society K’ómoks First Nation Kintama Research Services Salmon Coast Field Station UC Davis - Sustainable Aquaculture and Coastal Systems University of Victoria - Department of Biology<br />
+<strong>Organization:</strong> Pacific Salmon Foundation<br />
+<strong>Session(s):</strong> Data And Modelling To Support Decision Making<br />
+<strong>Presentation Date(s):</strong> December 09, 2025<br />
+<strong>Speakers:</strong> Samantha James<br />
+<strong>Abstract:</strong><br />
+This work will utilize and refine Passive Integrated Transponder (PIT) tag architecture (data collection application, tagging methods, capture methods, and PIT antennas and arrays) developed through the ongoing BCSRIF-funded “Bottlenecks Program” to track individual fish and provide new insights into survival in the South Coast. The survival of wild and enhanced Chinook and coho salmon will be compared within and between river systems and enhancement strategies (e.g. standard versus late release, smolt versus fed-fry), with tags applied and detected across multiple life history stages to identify periods of higher mortality (“bottlenecks”). Tag detections will also produce run-timing curves, straying rates, and terminal mortality rates. Focused activities will investigate size at ocean entry and migration patterns in the marine environment, information necessary to refine PIT-tag based survival models and understand life-history diversity. PIT tag-based stage-specific survival estimates will compliment studies of potential mediators of survival bottlenecks; environmental and anthropogenic influences on freshwater emigration, starvation in the first winter at sea, fishing-related incidental mortality (FRIM), and in-river pinniped predation. Collectively this work will greatly expand the understanding of factors limiting Chinook and coho salmon survival, suggest strategies to increase productivity, and leave a legacy of refined assessment approaches.”“This project will build on a previously funded Fisheries Related Incidental Mortality (FRIM) study led by the Sport Fishing Institute to expand the work to include Coho salmon, in addition to Chinook. This study will utilize best practices developed in the previous study to better understand FRIM in the recreational Coho fishery on West Coast Vancouver Island, and will be further advanced by a new component to study affects of fisheries interactions on fish metabolism. This information will be used to expand the Best Prac</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Pacific Salmon Science</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Pacific Salmon Science</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Home">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/index.html">/index.html</span></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-left">
+<p>© 2025 Pacific Salmon Science Initiative</p>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-right">
+<p>Author: PSSI Implementation Team</p>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset – Pacific Salmon Science</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset – Pacific Salmon Science</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset – Pacific Salmon Science</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Pacific Salmon Science</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
 </section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -574,18 +572,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Pacific Salmon Science Initiative</p>
-</div>   
+      <div class='footer-contents'>© 2025 Pacific Salmon Science Initiative</div>  
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Author: PSSI Implementation Team</p>
-</div>
+      <div class='footer-contents'>Author: PSSI Implementation Team</div>  
+    </div>
   </div>
 </footer>
 
+</body>
 
-
-
-</body></html>
+</html>
