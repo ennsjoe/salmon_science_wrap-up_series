@@ -1,5 +1,5 @@
 ---
-title: "Follow the Fish: An integrated Chinook salmon assessment and monitoring program for the West Coast of Vancouver Island"
+title: "Characterizing juvenile Chinook salmon distribution, diet and health on the West Coast of Vancouver Island"
 output-file: "2407.html"
 Leads: "Jessy Bokvist"
 toc: true
@@ -14,7 +14,7 @@ toc: true
 **Presentation Date(s):** December 04, 2025  
 **Speakers:** Jessy Bokvist  
 **Abstract:**  
-Juvenile Chinook salmon utilize nearshore marine ecosystems along the West Coast during their first marine year. This monitoring project samples juvenile Chinook during year-round salmon surveys in estuarine and marine waters along the WCVI. Researchers are characterizing fish distribution and health (condition, diet, growth) to understanding what factors may be limiting early marine survival.     
+West Coast of Vancouver Island (WCVI) Chinook salmon are of conservation concern, with juvenile salmon experiencing a variety of stressors during the early marine phase that can impact survival. From 2020-2025, this monitoring project has sampled juvenile Chinook during year-round salmon surveys in estuarine and nearshore marine areas along the WCVI. Researchers are characterizing fish distribution in relation to environmental variables to understand where and when juvenile Chinook are present. Information on fish diet is being related to measures of fish health (condition, growth) to better understand how these factors may limit survival.     
 
 **Collaborators:**  
 Ahousaht First Nation, Ditidaht First Nation, Ehattesaht/Chinehkint First Nation, Ha’oom Fisheries Society, Hesquiaht First Nation, Hupacasath First Nation, Huu-ay-aht First Nations, Ka:’yu:’k’t’h’/Che:k:tles7et’h’ First Nations, LGL Limited, Maaqutusiis Hahoulthee Stewardship Society, M.C. Wright and Associates Ltd., Mowachaht-Muchalaht First Nations, Nootka Sound Watershed Society, Nuchatlaht Tribe, Nuu-Chah-Nulth Tribal Council, Pacheedaht First Nation, Quatsino First Nation, Tla-o-qui-aht First Nation, Toquaht Nation, Tseshaht First Nation, T’Sou-ke Nation, Uchucklesaht Tribe,Yuułuʔiłʔatḥ Government  

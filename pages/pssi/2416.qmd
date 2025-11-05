@@ -17,6 +17,9 @@ toc: true
 Pacific salmon in Barkley Sound may be exposed to high levels of harmful algal biotoxins in the fall. Biotoxins have been detected in gill tissue from Chinook salmon collected in Barkley Sound.
 We are comparing biotoxin levels with environmental conditions and indicators of fish health.     
 
+**Bio:**  
+Dr. Andrew Ross is a Research Scientist at the DFO Institute of Ocean Sciences in Sidney, B.C. Born and raised in England, Andrew first became fascinated by the ocean during summer holidays on the south coast and learned to SCUBA dive while studying for a B.Sc. in Chemistry at the University of Surrey. He earned his Ph.D. in Analytical and Marine Chemistry from the University of British Columbia, then led research in plant proteomics at NRC before joining DFO where he established the Marine Biotoxin Monitoring Program in 2020. Andrew is lead scientist on the PSSI project to investigate the levels and potential health impacts of exposure to biotoxins produced by harmful algae in Pacific salmon on the west coast of Vancouver Island.  
+
 ## Project Bulletin
 
 <iframe src="../../data/PSSI_bulletin/2416.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>

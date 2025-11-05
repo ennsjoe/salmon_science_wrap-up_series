@@ -13,7 +13,10 @@ toc: true
 **Organization:** University of Victoria, Department of Biology  
 **Session(s):** Hatchery Fitness And Genetics  
 **Presentation Date(s):** December 11, 2025  
-**Speakers:** Francis Juanes  
+**Speakers:** Leigh Gaffney  
 **Abstract:**  
 The goal of this project is to determine the causes of vateritic otolith development (ear bones that have crystalized resulting in hearing loss) in hatchery-reared Strait of Georgia coho salmon to investigate the consequences for survival and in turn population recovery.   
+
+**Authors:**  
+Leigh Gaffney, Francis Juanes  
 
