@@ -704,7 +704,7 @@ cat("✅ Quarto render complete\n\n")
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "Updating schedules"')
+system('git commit -m "Updating schedulesI "')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")
