@@ -90,7 +90,7 @@ Improving our understanding of the long-term implications of climate change for 
 
 - **10:15 AM** - 🌱 [Development of High-resolution Climate Change Freshwater Hazard Data for BC](pages/bcsrif/BCSRIF_2022_384.html) | Markus Schnorbus | Pacific Climate Impacts Consortium
 - **10:30 AM** - 🌊 [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/pssi/2406.html) | Sophia Johannessen | DFO
-- **10:45 AM** - 🌱 [Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks](pages/bcsrif/BCSRIF_2022_399.html) | Ellen Petticrew | University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences
+- **10:45 AM** - 🌱 [Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks](pages/bcsrif/BCSRIF_2022_399.html) | Ellen Petticrew | University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences and UNBC’s Quesnel River Research Centre
 - **11:00 AM** - 🌊 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/pssi/2437.html) | Tim Healy | DFO
 - **11:15 AM** - 🌱 [Supporting Climate-Resilient Salmon Ecosystems: from Modelling to Monitoring](pages/bcsrif/BCSRIF_2022_401.html) | Marc Porter, Kathleen Belton, Stephanie Peacock | Salmon Watersheds Program, Pacific Salmon Foundation
 - **11:30 AM** - 🌊 [Insights into the effects of marine and freshwater variables on salmon population dynamics: A hierarchical lifecycle approach](pages/pssi/2405.html) | Jan Finke | DFO
@@ -161,7 +161,7 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 - **10:15 AM** - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
 - **10:30 AM** - 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Owen Bird | Sport Fishing Institute of BC
 - **10:45 AM** - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors, Adam O'Dell | DFO
-- **11:00 AM** - 🌱 [Mortality of released Pacific Salmon in the marine recreational fishery: new science and recommendations](pages/bcsrif/BCSRIF_2019_058.html) | Steve Johnston | Not specified
+- **11:00 AM** - 🌱 [Mortality of released Pacific Salmon in the marine recreational fishery: new science and recommendations](pages/bcsrif/BCSRIF_2019_058.html) | Steve Johnston | Pacific Salmon Ecology and Conservation Laboratory, UBC
 - **11:15 AM** - 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | Derek Leboeuf | A-Tlegay Fisheries Society
 - **11:30 AM** - 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Megan Adams | Central Coast Indigenous Resource Alliance
 
