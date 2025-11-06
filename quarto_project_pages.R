@@ -797,7 +797,7 @@ render_result <- tryCatch({
   system("quarto render --no-clean", intern = FALSE, ignore.stderr = FALSE)
 })
 
-#cat("✅ Quarto render complete\n\n")
+cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")

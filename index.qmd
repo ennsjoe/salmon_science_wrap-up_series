@@ -125,7 +125,7 @@ A review of the Follow the Fish Program, including methods and approaches for li
 [Register for Webinar](https://events.teams.microsoft.com/event/038709c6-a551-4faa-8957-8f56a8b7f32b@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **10:15 AM** - 🌊 [Characterizing juvenile Chinook salmon distribution, diet and health on the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
-- **10:30 AM** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference poi](pages/pssi/2397.html) | Jared Dick | DFO
+- **10:30 AM** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference points](pages/pssi/2397.html) | Jared Dick | DFO
 - **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
 - **11:15 AM** - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry to determine estuary entry size of juvenile salmonids and track habitat usage](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
 
@@ -211,7 +211,6 @@ Tools and research to support monitoring and managing the health of cultured sal
 - **1:15 PM** - 🌊 [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/pssi/2421.html) | Reid Williams | DFO
 - **1:30 PM** - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/pssi/2408.html) | Amy Long | DFO
 - **1:45 PM** - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production ](pages/pssi/2448.html) | Karia Kaukinen | DFO
-- **2:00 PM** - 🌊 [Prediction of reproductive success of Chinook salmon based on Thiamine concentrations in returning adults.](pages/pssi/2418.html) | Erika Eliason | DFO
-- **2:15 PM** - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/pssi/2417.html) | Erika Eliason | DFO
-- **2:30 PM** - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/bcsrif/BCSRIF_2020_311.html) | Ahmed Siah | BC Centre for Aquatic Health Sciences Society
+- **2:00 PM** - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/pssi/2417.html) | Erika Eliason | DFO
+- **2:15 PM** - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/bcsrif/BCSRIF_2020_311.html) | Ahmed Siah | BC Centre for Aquatic Health Sciences Society
 
