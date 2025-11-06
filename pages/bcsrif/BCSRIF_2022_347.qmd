@@ -9,7 +9,7 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Campbell River, Vancouver Island   
-**Partners:** LGL Limited
+**Partners:** LGL Limited;
 Wild Fish Conservancy   
 **Organization:** A-Tlegay Fisheries Society  
 **Session(s):** Fisheries Monitoring And Harvest Methods  

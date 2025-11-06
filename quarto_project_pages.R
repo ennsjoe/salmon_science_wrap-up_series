@@ -797,11 +797,11 @@ render_result <- tryCatch({
   system("quarto render --no-clean", intern = FALSE, ignore.stderr = FALSE)
 })
 
-cat("✅ Quarto render complete\n\n")
+#cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Updating"')
+#system('git commit -m "Revised to include BCSRIF pdfs and multiple pdfs per project"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
