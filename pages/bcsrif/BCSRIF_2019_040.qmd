@@ -1,0 +1,27 @@
+---
+title: "An overview of the Bottlenecks to Survival program with a focus on marine monitoring, tagging, and biological sampling"
+output-file: "BCSRIF_2019_040.html"
+Leads: "Pacific Salmon Foundation"
+toc: true
+---
+
+## BCSRIF Project Summary
+
+**Species Group:** Chinook and coho  
+**Location:** East Coast Vancouver Island  
+**Partners:** BCCF, Cowichan Tribes, Snuneymuxw First Nation, A-Tlegay Fisheries Society, K’ómoks First Nation, Nanoose First Nation, UVic, DFO, and BC Ministry of WLRS  
+**Organization:** Pacific Salmon Foundation  
+**Session(s):** Marine Stressors  
+**Presentation Date(s):** December 04, 2025  
+**Speakers:** Sam James, Jamieson Atkinson   
+**Abstract:**  
+This work will utilize and refine Passive Integrated Transponder (PIT) tag architecture (data collection application, tagging methods, capture methods, and PIT antennas and arrays) developed through the ongoing BCSRIF-funded “Bottlenecks Program” to track individual fish and provide new insights into survival in the South Coast. The survival of wild and enhanced Chinook and coho salmon will be compared within and between river systems and enhancement strategies (e.g. standard versus late release, smolt versus fed-fry), with tags applied and detected across multiple life history stages to identify periods of higher mortality (“bottlenecks”). Tag detections will also produce run-timing curves, straying rates, and terminal mortality rates. Focused activities will investigate size at ocean entry and migration patterns in the marine environment, information necessary to refine PIT-tag based survival models and understand life-history diversity. PIT tag-based stage-specific survival estimates will compliment studies of potential mediators of survival bottlenecks; environmental and anthropogenic influences on freshwater emigration, starvation in the first winter at sea, fishing-related incidental mortality (FRIM), and in-river pinniped predation. Collectively this work will greatly expand the understanding of factors limiting Chinook and coho salmon survival, suggest strategies to increase productivity, and leave a legacy of refined assessment approaches.   
+
+## Project Documents
+
+<iframe src="../../data/PSSI_bulletin/BCSRIF_2019_040.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📄 Download PDF](../../data/PSSI_bulletin/BCSRIF_2019_040.pdf){.btn .btn-primary target="_blank"}
+</p>
+

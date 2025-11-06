@@ -339,20 +339,63 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
     pillar   <- row[["pssi_pillar"]] %||% "Unspecified"
     project_id <- row[["project_id"]]
     
-    # Check if PDF exists for this project
-    pdf_path <- here("data", "PSSI_bulletin", glue("{project_id}.pdf"))
-    pdf_relative_path <- glue("../../data/PSSI_bulletin/{project_id}.pdf")
+    # Check for multiple PDFs with numbered or descriptive suffixes
+    # Escape special regex characters in project_id
+    project_id_escaped <- stringr::str_replace_all(project_id, "([\\[\\](){}.*+?^$|\\\\])", "\\\\\\1")
+    
+    pdf_files <- list.files(
+      here("data", "PSSI_bulletin"), 
+      pattern = glue("^{project_id_escaped}(_.*?)?\\.pdf$"),
+      full.names = FALSE
+    )
     
     pdf_section <- ""
-    if (file.exists(pdf_path)) {
-      pdf_section <- glue(
-        "\n## Project Bulletin\n\n",
-        "<iframe src=\"{pdf_relative_path}\" width=\"100%\" height=\"800px\" ",
-        "style=\"border: 1px solid #ccc; border-radius: 4px;\"></iframe>\n\n",
-        "<p style=\"text-align: center; margin-top: 10px;\">\n",
-        "[📅 Download PDF]({pdf_relative_path}){{.btn .btn-primary target=\"_blank\"}}\n",
-        "</p>\n\n"
-      )
+    if (length(pdf_files) > 0) {
+      # Sort to ensure consistent ordering
+      pdf_files <- sort(pdf_files)
+      
+      if (length(pdf_files) == 1) {
+        # Single PDF - use simpler display
+        pdf_relative_path <- glue("../../data/PSSI_bulletin/{pdf_files[1]}")
+        pdf_section <- glue(
+          "\n## Project Bulletin\n\n",
+          "<iframe src=\"{pdf_relative_path}\" width=\"100%\" height=\"800px\" ",
+          "style=\"border: 1px solid #ccc; border-radius: 4px;\"></iframe>\n\n",
+          "<p style=\"text-align: center; margin-top: 10px;\">\n",
+          "[📄 Download PDF]({pdf_relative_path}){{.btn .btn-primary target=\"_blank\"}}\n",
+          "</p>\n\n"
+        )
+      } else {
+        # Multiple PDFs - use tabbed interface
+        pdf_section <- "\n## Project Documents\n\n::: {.panel-tabset}\n\n"
+        
+        for (i in seq_along(pdf_files)) {
+          pdf_name <- pdf_files[i]
+          pdf_relative_path <- glue("../../data/PSSI_bulletin/{pdf_name}")
+          
+          # Extract descriptive name from filename
+          doc_name <- str_replace(pdf_name, glue("^{project_id}_?"), "")
+          doc_name <- str_replace(doc_name, "\\.pdf$", "")
+          
+          # Create tab label
+          if (doc_name == "" || doc_name == project_id) {
+            tab_label <- glue("Document {i}")
+          } else {
+            tab_label <- str_to_title(str_replace_all(doc_name, "_", " "))
+          }
+          
+          pdf_section <- paste0(pdf_section, glue(
+            "## {tab_label}\n\n",
+            "<iframe src=\"{pdf_relative_path}\" width=\"100%\" height=\"800px\" ",
+            "style=\"border: 1px solid #ccc; border-radius: 4px;\"></iframe>\n\n",
+            "<p style=\"text-align: center; margin-top: 10px;\">\n",
+            "[📄 Download PDF]({pdf_relative_path}){{.btn .btn-primary target=\"_blank\"}}\n",
+            "</p>\n\n"
+          ))
+        }
+        
+        pdf_section <- paste0(pdf_section, ":::\n\n")
+      }
     }
     
     page_content <- glue(
@@ -385,6 +428,59 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
     start_fmt <- if (!is.na(start)) format(as.Date(start, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
     end_fmt   <- if (!is.na(end)) format(as.Date(end, origin = "1970-01-01"), "%B %d, %Y") else "TBD"
     
+    # Check for PDFs for BCSRIF projects
+    project_id_escaped <- stringr::str_replace_all(row[["project_id"]], "([\\[\\](){}.*+?^$|\\\\])", "\\\\\\1")
+    
+    pdf_files <- list.files(
+      here("data", "PSSI_bulletin"), 
+      pattern = glue("^{project_id_escaped}(_.*?)?\\.pdf$"),
+      full.names = FALSE
+    )
+    
+    pdf_section <- ""
+    if (length(pdf_files) > 0) {
+      pdf_files <- sort(pdf_files)
+      
+      if (length(pdf_files) == 1) {
+        pdf_relative_path <- glue("../../data/PSSI_bulletin/{pdf_files[1]}")
+        pdf_section <- glue(
+          "\n## Project Documents\n\n",
+          "<iframe src=\"{pdf_relative_path}\" width=\"100%\" height=\"800px\" ",
+          "style=\"border: 1px solid #ccc; border-radius: 4px;\"></iframe>\n\n",
+          "<p style=\"text-align: center; margin-top: 10px;\">\n",
+          "[📄 Download PDF]({pdf_relative_path}){{.btn .btn-primary target=\"_blank\"}}\n",
+          "</p>\n\n"
+        )
+      } else {
+        pdf_section <- "\n## Project Documents\n\n::: {.panel-tabset}\n\n"
+        
+        for (i in seq_along(pdf_files)) {
+          pdf_name <- pdf_files[i]
+          pdf_relative_path <- glue("../../data/PSSI_bulletin/{pdf_name}")
+          
+          doc_name <- str_replace(pdf_name, glue("^{row[['project_id']]}_?"), "")
+          doc_name <- str_replace(doc_name, "\\.pdf$", "")
+          
+          if (doc_name == "" || doc_name == row[["project_id"]]) {
+            tab_label <- glue("Document {i}")
+          } else {
+            tab_label <- str_to_title(str_replace_all(doc_name, "_", " "))
+          }
+          
+          pdf_section <- paste0(pdf_section, glue(
+            "## {tab_label}\n\n",
+            "<iframe src=\"{pdf_relative_path}\" width=\"100%\" height=\"800px\" ",
+            "style=\"border: 1px solid #ccc; border-radius: 4px;\"></iframe>\n\n",
+            "<p style=\"text-align: center; margin-top: 10px;\">\n",
+            "[📄 Download PDF]({pdf_relative_path}){{.btn .btn-primary target=\"_blank\"}}\n",
+            "</p>\n\n"
+          ))
+        }
+        
+        pdf_section <- paste0(pdf_section, ":::\n\n")
+      }
+    }
+    
     page_content <- glue(
       "---\n",
       "title: \"{title}\"\n",
@@ -403,7 +499,8 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
       "**Abstract:**  \n{abstract}   \n\n",
       if (bio != "" && !is.na(bio)) paste0("**Bio:**  \n", bio, "  \n\n") else "",
       if (collaborators != "" && !is.na(collaborators)) paste0("**Collaborators:**  \n", collaborators, "  \n\n") else "",
-      if (authors != "" && !is.na(authors)) paste0("**Authors:**  \n", authors, "  \n\n") else ""
+      if (authors != "" && !is.na(authors)) paste0("**Authors:**  \n", authors, "  \n\n") else "",
+    "{pdf_section}"  # ADD THIS LINE
     )
   } else {
     page_content <- glue(
@@ -704,7 +801,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Updating schedulesI "')
+#system('git commit -m "Updating"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")

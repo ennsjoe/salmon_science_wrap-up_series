@@ -21,6 +21,6 @@ Resource managers rely on decision modelling tool and programs to predict the ou
 <iframe src="../../data/PSSI_bulletin/2449.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 
 <p style="text-align: center; margin-top: 10px;">
-[📅 Download PDF](../../data/PSSI_bulletin/2449.pdf){.btn .btn-primary target="_blank"}
+[📄 Download PDF](../../data/PSSI_bulletin/2449.pdf){.btn .btn-primary target="_blank"}
 </p>
 

@@ -21,6 +21,6 @@ A proactive holistic health monitoring approach based on high throughput molecul
 <iframe src="../../data/PSSI_bulletin/2448.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 
 <p style="text-align: center; margin-top: 10px;">
-[📅 Download PDF](../../data/PSSI_bulletin/2448.pdf){.btn .btn-primary target="_blank"}
+[📄 Download PDF](../../data/PSSI_bulletin/2448.pdf){.btn .btn-primary target="_blank"}
 </p>
 

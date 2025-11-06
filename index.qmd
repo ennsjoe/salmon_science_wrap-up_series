@@ -140,7 +140,7 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 
 - **1:15 PM** - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/pssi/2404.html) | Laura Bianucci, Marilena Geng | DFO
 - **1:30 PM** - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/pssi/2412.html) | Chris Pearce | DFO
-- **1:45 PM** - 🌱 [An overview of the Bottlenecks to Survival program with a focus on marine monitoring, tagging, and biological sampling](pages/bcsrif/BCSRIF_2019_040-136D.html) | Samantha James | Pacific Salmon Foundation
+- **1:45 PM** - 🌱 [An overview of the Bottlenecks to Survival program with a focus on marine monitoring, tagging, and biological sampling](pages/bcsrif/BCSRIF_2019_040.html) | Sam James, Jamieson Atkinson  | Pacific Salmon Foundation
 - **2:00 PM** - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri, Kelly Young | DFO
 - **2:15 PM** - 🌊 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/pssi/2416.html) | Andrew Ross | DFO
 - **2:30 PM** - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
@@ -174,7 +174,7 @@ Databases, analytic tools, and modelling projects that provide information to su
 [Register for Webinar](https://events.teams.microsoft.com/event/2b7462ee-b28d-4f73-b4df-4a48d954cdb3@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **1:05 PM** - 🌊 [Same Salmon, Shared Semantics. The DFO Salmon Ontology for Data Integration and Decision Support](pages/pssi/2546.html) | Brett Johnson | DFO
-- **1:20 PM** - 🌱 [A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset](pages/bcsrif/BCSRIF_2022_456.html) | Samantha James | Pacific Salmon Foundation
+- **1:20 PM** - 🌱 [The Bottlenecks to Survival Project: An open-source framework for end-to-end biological data management](pages/bcsrif/BCSRIF_2022_456.html) | Sam James, Brahm White-Gluz | Pacific Salmon Foundation
 - **1:35 PM** - 🌱 [Supporting the Ongoing Use and Development of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka | Pacific Salmon Foundation
 - **1:50 PM** - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
 - **2:05 PM** - 🌱 [Prioritizing barriers for restoring Pacific Salmon habitat connectivity](pages/bcsrif/BCSRIF_2022_415.html) | Nick Mazany-Wright | Canadian Wildlife Federation

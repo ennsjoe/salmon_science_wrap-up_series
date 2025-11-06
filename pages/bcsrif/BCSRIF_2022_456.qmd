@@ -1,5 +1,5 @@
 ---
-title: "A collaborative, open-source framework for end-to-end management of biological data using ODK, postgresSQL and Apache Superset"
+title: "The Bottlenecks to Survival Project: An open-source framework for end-to-end biological data management"
 output-file: "BCSRIF_2022_456.html"
 Leads: "Pacific Salmon Foundation"
 toc: true
@@ -7,21 +7,14 @@ toc: true
 
 ## BCSRIF Project Summary
 
-**Species Group:** Pacific Salmon  
+**Species Group:** Chinook, coho, steelhead  
 **Location:** Vancouver Island  
-**Partners:** British Columbia Conservation Foundations (BCCF) 
-Cowichan Tribes
-Snuneymuxw First Nation
-A-Tlegay Fisheries Society
-K'ómoks First Nation 
-Kintama Research Services
-Salmon Coast Field Station
-UC Davis - Sustainable Aquaculture and Coastal Systems
-University of Victoria - Department of Biology  
+**Partners:** : BCCF, Cowichan Tribes, Snuneymuxw First Nation, A-Tlegay Fisheries Society, K’ómoks First Nation, Nanoose First Nation, UVic, DFO, BC Ministry of WLRS   
 **Organization:** Pacific Salmon Foundation  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 09, 2025  
-**Speakers:** Samantha James  
+**Speakers:** Sam James, Brahm White-Gluz  
 **Abstract:**  
-This work will utilize and refine Passive Integrated Transponder (PIT) tag architecture (data collection application, tagging methods, capture methods, and PIT antennas and arrays) developed through the ongoing BCSRIF-funded “Bottlenecks Program” to track individual fish and provide new insights into survival in the South Coast. The survival of wild and enhanced Chinook and coho salmon will be compared within and between river systems and enhancement strategies (e.g. standard versus late release, smolt versus fed-fry), with tags applied and detected across multiple life history stages to identify periods of higher mortality (“bottlenecks”). Tag detections will also produce run-timing curves, straying rates, and terminal mortality rates. Focused activities will investigate size at ocean entry and migration patterns in the marine environment, information necessary to refine PIT-tag based survival models and understand life-history diversity. PIT tag-based stage-specific survival estimates will compliment studies of potential mediators of survival bottlenecks; environmental and anthropogenic influences on freshwater emigration, starvation in the first winter at sea, fishing-related incidental mortality (FRIM), and in-river pinniped predation. Collectively this work will greatly expand the understanding of factors limiting Chinook and coho salmon survival, suggest strategies to increase productivity, and leave a legacy of refined assessment approaches.""This project will build on a previously funded Fisheries Related Incidental Mortality (FRIM) study led by the Sport Fishing Institute to expand the work to include Coho salmon, in addition to Chinook. This study will utilize best practices developed in the previous study to better understand FRIM in the recreational Coho fishery on West Coast Vancouver Island, and will be further advanced by a new component to study affects of fisheries interactions on fish metabolism. This information will be used to expand the Best Prac   
+Using modern software engineering practices and open-source software, we have developed a robust information system for managing the research data collected by the Bottlenecks to Survival Project, a large-scale PIT tagging initiative led by the Pacific Salmon Foundation and British Columbia Conservation Foundation. Any end-to-end data system must cover the full lifecycle of the data from collection to storage and dissemination. Though state-of-the-art, open-source database technologies, we have created such a system that brings in data using the Open Data Kit, processes and stores the data using Postgres, with data consumed through dashboards and visualization on Apache Superset. This design and implementation of the data system addresses many key issues surrounding data management for large, multi-year research projects and will support reproducible research and a high level of data integrity moving forward.   
+
 

@@ -8,12 +8,34 @@ toc: true
 ## BCSRIF Project Summary
 
 **Species Group:** Pacific Salmon  
-**Location:** Straight of Georgia  
-**Partners:** Pacific Salmon Foundation  
+**Location:** Province-wide  
+**Partners:** Fisheries and Oceans Canada  
 **Organization:** Pacific Salmon Foundation  
 **Session(s):** Hatchery Fitness And Genetics  
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Samantha James  
 **Abstract:**  
-The Pacific Salmon Foundation (PSF) will conduct a science-based review of hatcheries in the Pacific Region (including community hatcheries and DFOs major facilities) to evaluate performance and the effectiveness of current genetic and genomic tools in order to optimize salmon production in BC.   
+The Pacific Salmon Foundation conducted a science-based review of hatcheries in the BC to evaluate performance and effectiveness. As part of that review, four ‘omics’ technologies were evaluated for their utility in hatchery management and salmonid production: genomics, transcriptomics, proteomics, and metabolomics. The review provided technical details on the use of the various tools with examples of their relevance to hatchery deliverables and was accompanies by a user-focused manual to highlight genomic applications for present day hatchery operations. A summary of their findings and recommendations will be provided.   
+
+
+## Project Documents
+
+::: {.panel-tabset}
+
+## 1
+
+<iframe src="../../data/PSSI_bulletin/BCSRIF_2019_136_1.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📄 Download PDF](../../data/PSSI_bulletin/BCSRIF_2019_136_1.pdf){.btn .btn-primary target="_blank"}
+</p>
+## 2
+
+<iframe src="../../data/PSSI_bulletin/BCSRIF_2019_136_2.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📄 Download PDF](../../data/PSSI_bulletin/BCSRIF_2019_136_2.pdf){.btn .btn-primary target="_blank"}
+</p>
+:::
+
 
