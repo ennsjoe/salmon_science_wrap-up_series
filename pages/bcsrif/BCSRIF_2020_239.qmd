@@ -9,16 +9,13 @@ toc: true
 
 **Species Group:** Pacific Salmon  
 **Location:** Victoria  
-**Partners:** None listed  
+**Partners:** Goldstream Volunteer Salmonid Enhancement Association, Fisheries and Oceans Canada (DFO), British Columbia Conservation Foundation (BCCF), Pacific Salmon Foundation (PSF)  
 **Organization:** University of Victoria, Department of Biology  
 **Session(s):** Hatchery Fitness And Genetics  
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Leigh Gaffney  
 **Abstract:**  
 Differences have recently been observed between the sagittal otoliths of hatchery-reared and wild-origin salmon. Sagittal otoliths are essential sensory structures that enable fish to hear and maintain balance. Normally composed of aragonite, a calcium carbonate polymorph, otoliths sometimes contain inclusions of vaterite—an abnormal polymorph. While vateritic otoliths occur in less than 10% of wild-origin salmon, they are extremely common in hatchery fish, affecting 60–80% of individuals. Vaterite deposition impairs otolith function and hearing, potentially compromising marine survival and the effectiveness of hatchery restoration programs. Despite long-standing recognition of vateritic otoliths, the causes of their formation remain poorly understood. Our research investigates which hatchery-rearing conditions promote vateritic otolith formation in juvenile coho salmon and examines the consequences of these deformities for survival. This work has important implications for fish welfare and the success of salmonid hatcheries.   
-
-**Collaborators:**  
-Goldstream Volunteer Salmonid Enhancement Association, Fisheries and Oceans Canada (DFO), British Columbia Conservation Foundation (BCCF), Pacific Salmon Foundation (PSF)  
 
 **Authors:**  
 Leigh Gaffney, Micah Quindazzi, Emma Polard, Lydia Walton, Chloe Kraemer, Zoe Mulder, Will Duguid, Francis Juanes  

@@ -801,7 +801,7 @@ cat("✅ Quarto render complete\n\n")
 
 cat("📤 Pushing to GitHub...\n")
 system("git add .")
-system('git commit -m "Revised to include BCSRIF pdfs and multiple pdfs per project"')
+system('git commit -m "Revised projects info"')
 system("git push origin main")
 
 cat("\n✨ All done! Site deployed.\n")
