@@ -1,5 +1,5 @@
 ---
-title: "Supporting the Ongoing Use and Development of the Pacific Salmon Explorer"
+title: "Democratizing Salmon Data through the Expansion of the Pacific Salmon Explorer"
 output-file: "BCSRIF_2020_279.html"
 Leads: "Pacific Salmon Foundation"
 toc: true
@@ -13,8 +13,8 @@ toc: true
 **Organization:** Pacific Salmon Foundation  
 **Session(s):** Data And Modelling To Support Decision Making  
 **Presentation Date(s):** December 09, 2025  
-**Speakers:** Leah Honka  
+**Speakers:** Leah Honka and Eric Hertz  
 **Abstract:**  
-BCSRIF funding will support the expansion improvement and application of an interactive data visualization tool for tracking and reporting information on the status of Pacific salmon Conservation Units (CUs) and their freshwater habitats in British Columbia. CUs are groupings of salmon at the stock level sharing common genetic traits geographic distribution and life-history that is defined for the purposes of identifying challenges to survival and potential conservation strategies. The project will result in more timely credible and standardized information on the status of salmon and their habitats and is critical to informing science-based decisions for salmon conservation and management.   
+For over a decade, the Pacific Salmon Foundation’s Salmon Watersheds Program (SWP) has worked to democratize salmon data. Through support from BCSRIF, and additional funding sources, the SWP has expanded the Pacific Salmon Explorer – an online data visualization tool for Pacific salmon and their freshwater habitats – to all salmon-bearing regions in British Columbia and the Yukon. The SWP team has engaged with First Nations organizations, government scientists, and independent experts to compile and analyse data on salmon abundance, catch, productivity, and broad-scale habitat pressures to inform standardized assessments of biological status and habitat threats for Pacific salmon Conservation Units. By making data and assessments readily accessible, the SWP has supported numerous organizations, including COSEWIC, Ocean Wise, and the Central Coast Indigenous Resource Alliance, in decision-making for salmon conservation, management, and recovery.   
 
 
