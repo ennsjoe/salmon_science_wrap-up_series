@@ -690,6 +690,7 @@ for (date_key in names(presentations_by_date)) {
     session_location <- session_info$location %||% ""
     session_url <- session_info$webinar_url %||% ""
     session_hosts <- session_info$hosts %||% ""
+    session_intro <- session_info$intro %||% NA  # Add this line
     
     # Build session header with new information
     desc_text <- if (session_description != "" && !is.na(session_description)) session_description else ""
@@ -759,6 +760,11 @@ for (date_key in names(presentations_by_date)) {
       cat(glue("      Original group size: {nrow(group)}\n"))
     }
     
+    # Add introduction if present
+    if (!is.na(session_intro) && session_intro != "" && session_intro != "NA") {
+      index_md <- c(index_md, glue("- **Introduction** | {session_intro}"))
+    }
+    
     for (i in seq_len(nrow(projects_display))) {
       row <- projects_display[i, ]
       
@@ -799,9 +805,9 @@ render_result <- tryCatch({
 
 cat("✅ Quarto render complete\n\n")
 
-cat("📤 Pushing to GitHub...\n")
-system("git add .")
-system('git commit -m "Revised projects info"')
-system("git push origin main")
+#cat("📤 Pushing to GitHub...\n")
+#system("git add .")
+#system('git commit -m "Revised projects info"')
+#system("git push origin main")
 
-cat("\n✨ All done! Site deployed.\n")
+#cat("\n✨ All done! Site deployed.\n")
