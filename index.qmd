@@ -27,18 +27,18 @@ Join us this December for a series of online sessions sharing knowledge and outc
 <tr>
 <td></td>
 <td><div class='calendar-cell'><strong>1</strong></div></td>
-<td><div class='calendar-cell'><strong>2</strong><br><div class='calendar-button' style='background-color:#1f4456'>Salmon In A Changing Climate</div><div class='calendar-button' style='background-color:#1f4456'>Freshwater Stressors</div></div></td>
+<td><div class='calendar-cell'><strong>2</strong><br><a href='#-almon-n-hanging-limate' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Salmon In A Changing Climate</div></a><a href='#-reshwater-tressors' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Freshwater Stressors</div></a></div></td>
 <td><div class='calendar-cell'><strong>3</strong></div></td>
-<td><div class='calendar-cell'><strong>4</strong><br><div class='calendar-button' style='background-color:#1f4456'>Follow The Fish</div><div class='calendar-button' style='background-color:#1f4456'>Marine Stressors</div></div></td>
+<td><div class='calendar-cell'><strong>4</strong><br><a href='#-ollow-he-ish' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Follow The Fish</div></a><a href='#-arine-tressors' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Marine Stressors</div></a></div></td>
 <td><div class='calendar-cell'><strong>5</strong></div></td>
 <td><div class='calendar-cell'><strong>6</strong></div></td>
 </tr>
 <tr>
 <td><div class='calendar-cell'><strong>7</strong></div></td>
 <td><div class='calendar-cell'><strong>8</strong></div></td>
-<td><div class='calendar-cell'><strong>9</strong><br><div class='calendar-button' style='background-color:#1f4456'>Fisheries Monitoring And Harvest Methods</div><div class='calendar-button' style='background-color:#1f4456'>Data And Modelling To Support Decision Making</div></div></td>
+<td><div class='calendar-cell'><strong>9</strong><br><a href='#-isheries-onitoring-nd-arvest-ethods' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Fisheries Monitoring And Harvest Methods</div></a><a href='#-ata-nd-odelling-o-upport-ecision-aking' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Data And Modelling To Support Decision Making</div></a></div></td>
 <td><div class='calendar-cell'><strong>10</strong></div></td>
-<td><div class='calendar-cell'><strong>11</strong><br><div class='calendar-button' style='background-color:#1f4456'>Hatchery Fitness And Genetics</div><div class='calendar-button' style='background-color:#1f4456'>Fish Health</div></div></td>
+<td><div class='calendar-cell'><strong>11</strong><br><a href='#-atchery-itness-nd-enetics' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Hatchery Fitness And Genetics</div></a><a href='#-ish-ealth' style='text-decoration: none;'><div class='calendar-button' style='background-color:#1f4456'>Fish Health</div></a></div></td>
 <td><div class='calendar-cell'><strong>12</strong></div></td>
 <td><div class='calendar-cell'><strong>13</strong></div></td>
 </tr>
@@ -80,7 +80,7 @@ Join us this December for a series of online sessions sharing knowledge and outc
 ## 📅 December 02, 2025
 </div>
 
-### Salmon In A Changing Climate
+### Salmon In A Changing Climate {#-almon-n-hanging-limate}
 Improving our understanding of the long-term implications of climate change for Pacific Salmon and their ecosystems.
 
 **Time:** 10AM-12PM  
@@ -95,7 +95,7 @@ Improving our understanding of the long-term implications of climate change for 
 - **11:15 AM** - 🌱 [Supporting Climate-Resilient Salmon Ecosystems: from Modelling to Monitoring](pages/bcsrif/BCSRIF_2022_401.html) | Marc Porter, Kathleen Belton, Stephanie Peacock | Salmon Watersheds Program, Pacific Salmon Foundation
 - **11:30 AM** - 🌊 [Insights into the effects of marine and freshwater variables on salmon population dynamics: A hierarchical lifecycle approach](pages/pssi/2405.html) | Jan Finke | DFO
 
-### Freshwater Stressors
+### Freshwater Stressors {#-reshwater-tressors}
 Mechanistic, physiological, and quantitative studies for evaluating stressors to freshwater habitats of Pacific salmon, including cumulative stressors.
 
 **Time:** 1PM-3PM  
@@ -116,7 +116,7 @@ Mechanistic, physiological, and quantitative studies for evaluating stressors to
 ## 📅 December 04, 2025
 </div>
 
-### Follow The Fish
+### Follow The Fish {#-ollow-he-ish}
 A review of the Follow the Fish Program, including methods and approaches for life cycle assessment of WCVI Chinook and ecosystem-scale research programs.
 
 **Time:** 10AM-12PM  
@@ -130,7 +130,7 @@ A review of the Follow the Fish Program, including methods and approaches for li
 - **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
 - **11:15 AM** - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry to determine estuary entry size of juvenile salmonids and track habitat usage](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
 
-### Marine Stressors
+### Marine Stressors {#-arine-tressors}
 Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
 
 **Time:** 1PM-3PM  
@@ -150,7 +150,7 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 ## 📅 December 09, 2025
 </div>
 
-### Fisheries Monitoring And Harvest Methods
+### Fisheries Monitoring And Harvest Methods {#-isheries-onitoring-nd-arvest-ethods}
 Projects piloting new methods for selective salmon harvest and informing fisheries management decisions through improved monitoring.
 
 **Time:** 10AM-12PM  
@@ -165,7 +165,7 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 - **11:15 AM** - 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | Derek Leboeuf | A-Tlegay Fisheries Society
 - **11:30 AM** - 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Megan Adams | Central Coast Indigenous Resource Alliance
 
-### Data And Modelling To Support Decision Making
+### Data And Modelling To Support Decision Making {#-ata-nd-odelling-o-upport-ecision-aking}
 Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management
 
 **Time:** 1PM-3PM  
@@ -185,7 +185,7 @@ Databases, analytic tools, and modelling projects that provide information to su
 ## 📅 December 11, 2025
 </div>
 
-### Hatchery Fitness And Genetics
+### Hatchery Fitness And Genetics {#-atchery-itness-nd-enetics}
 Research on the genetic and fitness consequences of hatchery enhancment, and the interactions between hatchery and wild salmon.
 
 **Time:** 10AM-12PM  
@@ -201,7 +201,7 @@ Research on the genetic and fitness consequences of hatchery enhancment, and the
 - **10:45 AM** - 🌊 [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/pssi/2451.html) | Eric Rondeau, Tim Healy, Kyle Wellband | DFO
 - **10:45 AM** - 🌊 [SHERLOCK assay for rapid genotyping applications](pages/pssi/2434.html) | Eric Rondeau, Tim Healy, Kyle Wellband | DFO
 
-### Fish Health
+### Fish Health {#-ish-ealth}
 Tools and research to support monitoring and managing the health of cultured salmon.
 
 **Time:** 1PM-3PM  

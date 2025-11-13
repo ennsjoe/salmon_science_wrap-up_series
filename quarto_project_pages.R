@@ -577,13 +577,15 @@ for (d in 1:31) {
   label <- as.character(d)
   sessions_today <- december_sessions %>% filter(day == d)
   if (nrow(sessions_today) > 0) {
-    buttons <- paste0(
-      "<div class='calendar-button' style='background-color:", 
-      sapply(sessions_today$session, get_session_color), 
-      "'>", sessions_today$session, "</div>"
-    )
+    # Create anchor links for each session
+    buttons <- sapply(1:nrow(sessions_today), function(i) {
+      session_name <- sessions_today$session[i]
+      session_anchor <- tolower(gsub("[^a-z0-9]+", "-", session_name))
+      session_color <- get_session_color(session_name)
+      glue("<a href='#{session_anchor}' style='text-decoration: none;'><div class='calendar-button' style='background-color:{session_color}'>{session_name}</div></a>")
+    })
     label <- glue("<div class='calendar-cell'><strong>{d}</strong><br>{paste(buttons, collapse='')}</div>")
-  } else {
+  }else {
     label <- glue("<div class='calendar-cell'><strong>{d}</strong></div>")
   }
   days <- c(days, label)
@@ -602,8 +604,6 @@ for (week in weeks) {
 calendar_html <- c(calendar_html, "</table>")
 
 # 📄 Generate index.qmd----
-cat("📄 Generating index.qmd with banner and title block...\n")
-
 index_md <- c(
   "---",
   'title-block-banner: false',
@@ -712,7 +712,9 @@ for (date_key in names(presentations_by_date)) {
     
     info_line <- if (length(info_parts) > 0) paste(info_parts, collapse = "  \n") else ""
     
-    index_md <- c(index_md, glue("### {session_title}"), desc_text, "", info_line, "")
+    # Create a URL-friendly ID from the session title
+    session_id <- tolower(gsub("[^a-z0-9]+", "-", session_title))
+    index_md <- c(index_md, glue("### {session_title} {{#{session_id}}}"), desc_text, "", info_line, "")
     
     projects_display <- group %>%
       select(project_id, title) %>%
