@@ -126,7 +126,7 @@ A review of the Follow the Fish Program, including methods and approaches for li
 [Register for Webinar](https://events.teams.microsoft.com/event/038709c6-a551-4faa-8957-8f56a8b7f32b@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Wilf Luedke, Nicholas Brown
-- **10:00 AM** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference points](pages/pssi/2397.html) | Jared Dick | DFO
+- **10:00 AM** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference points](pages/pssi/2397.html) | Jared Dick | Nuu-Chah-Nulth Tribal Council
 - **10:15 AM** - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry to determine estuary entry size of juvenile salmonids and track habitat usage](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
 - **10:30 AM** - 🌊 [Characterizing juvenile Chinook salmon distribution, diet and health on the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
 - **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
@@ -134,7 +134,7 @@ A review of the Follow the Fish Program, including methods and approaches for li
 ### Marine Stressors {#-arine-tressors}
 Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
 
-**Time:** 1PM-3PM  
+**Time:** 1PM-4PM  
 **Location:** Institute of Ocean Sciences (IOS), Sidney  
 **Chair:** Cameron Freshwater  
 [Register for Webinar](https://events.teams.microsoft.com/event/038709c6-a551-4faa-8957-8f56a8b7f32b@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
