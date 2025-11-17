@@ -807,9 +807,9 @@ render_result <- tryCatch({
 
 cat("✅ Quarto render complete\n\n")
 
-#cat("📤 Pushing to GitHub...\n")
-#system("git add .")
-#system('git commit -m "Revised projects info"')
-#system("git push origin main")
+cat("📤 Pushing to GitHub...\n")
+system("git add .")
+system('git commit -m "Made calendar items clickable"')
+system("git push origin main")
 
-#cat("\n✨ All done! Site deployed.\n")
+cat("\n✨ All done! Site deployed.\n")
