@@ -13,7 +13,7 @@ toc: true
 DFO Science Branch
 Mitacs  
 **Organization:** Uvic  
-**Session(s):** Marine Stressors  
+**Session(s):** Follow The Fish  
 **Presentation Date(s):** December 04, 2025  
 **Speakers:** Mack Bartlett  
 **Abstract:**  
