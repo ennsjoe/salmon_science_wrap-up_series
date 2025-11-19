@@ -785,7 +785,6 @@ for (date_key in names(presentations_by_date)) {
 writeLines(index_md, here("index.qmd"))
 cat("✅ Generated index.qmd\n\n")
 
-
 # 🌐Â Write CNAME file
 writeLines("www.pacificsalmonscience.ca", here("CNAME"))
 
