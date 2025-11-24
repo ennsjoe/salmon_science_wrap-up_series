@@ -1,5 +1,5 @@
 ---
-title: "Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon."
+title: "Evaluating the usability of stress hormones in scales as biomarkers of chronic stress in Chinook Salmon smolts"
 output-file: "2421.html"
 Leads: "Stewart Johnson"
 toc: true
@@ -14,7 +14,7 @@ toc: true
 **Presentation Date(s):** December 11, 2025  
 **Speakers:** Reid Williams  
 **Abstract:**  
-Chronic stress impacts fish health and can be measured in salmon by sampling hormone (cortisol) and enzyme deposits in scales. This lab and hatchery study gathers coho and Chinook scale samples from broodstock surveys to develop methods of measuring chronic and acute stress hormone levels that could be expanded to monitor salmon health responses to stressors including climate change.   
+Chronic stress is often detrimental to the health and reproductive success of salmon, yet reliably measuring it is difficult. Recently, the stress hormone (cortisol) content of scales has shown potential in this regard. This lab study compares scale and plasma cortisol content of Chinook Salmon smolt under acute stress, and a combined chronic osmotic and thermal stress to evaluate the usability of scale cortisol as a biomarker of chronic stress under environmental stressors such as climate change.   
 
 ## Project Bulletin
 

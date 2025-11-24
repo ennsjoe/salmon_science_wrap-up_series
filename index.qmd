@@ -178,12 +178,12 @@ Databases, analytic tools, and modelling projects that provide information to su
 [Register for Webinar](https://events.teams.microsoft.com/event/2b7462ee-b28d-4f73-b4df-4a48d954cdb3@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Mike Hawkshaw
-- **1:05 PM** - 🌊 [Same Salmon, Shared Semantics. The DFO Salmon Ontology for Data Integration and Decision Support](pages/pssi/2546.html) | Brett Johnson | DFO
-- **1:20 PM** - 🌱 [The Bottlenecks to Survival Project: An open-source framework for end-to-end biological data management](pages/bcsrif/BCSRIF_2022_456.html) | Sam James, Brahm White-Gluz | Pacific Salmon Foundation
-- **1:35 PM** - 🌱 [Democratizing Salmon Data through the Expansion of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka and Eric Hertz | Pacific Salmon Foundation
-- **1:50 PM** - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
-- **2:05 PM** - 🌱 [Prioritizing barriers for restoring Pacific Salmon habitat connectivity](pages/bcsrif/BCSRIF_2022_415.html) | Nick Mazany-Wright | Canadian Wildlife Federation
-- **2:20 PM** - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault | DFO
+- **1:10 PM** - 🌊 [Same Salmon, Shared Semantics. The DFO Salmon Ontology for Data Integration and Decision Support](pages/pssi/2546.html) | Brett Johnson | DFO
+- **1:25 PM** - 🌱 [The Bottlenecks to Survival Project: An open-source framework for end-to-end biological data management](pages/bcsrif/BCSRIF_2022_456.html) | Sam James, Brahm White-Gluz | Pacific Salmon Foundation
+- **1:40 PM** - 🌱 [Democratizing Salmon Data through the Expansion of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka and Eric Hertz | Pacific Salmon Foundation
+- **1:55 PM** - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
+- **2:10 PM** - 🌱 [Prioritizing barriers for restoring Pacific Salmon habitat connectivity](pages/bcsrif/BCSRIF_2022_415.html) | Nick Mazany-Wright | Canadian Wildlife Federation
+- **2:25 PM** - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault | DFO
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
@@ -215,10 +215,10 @@ Tools and research to support monitoring and managing the health of cultured sal
 [Register for Webinar](https://events.teams.microsoft.com/event/b685712a-d089-4f8f-8b6a-a6b7953ff0da@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Adam Silverstein, Alison Krimmer
-- **1:15 PM** - 🌊 [Measurement of stress hormones in scales and its application for the identification of conditions causing chronic stress in Pacific Salmon.](pages/pssi/2421.html) | Reid Williams | DFO
-- **1:30 PM** - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/pssi/2408.html) | Amy Long | DFO
-- **1:45 PM** - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production ](pages/pssi/2448.html) | Karia Kaukinen | DFO
-- **2:00 PM** - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/pssi/2417.html) | Erika Eliason | DFO
-- **2:15 PM** - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/bcsrif/BCSRIF_2020_311.html) | Ahmed Siah | BC Centre for Aquatic Health Sciences Society
-- **2:30 PM** - 🌱 [Investigation into molecular tools and how they could be applied in hatchery management](pages/bcsrif/BCSRIF_2019_136.html) | Samantha James | Pacific Salmon Foundation
+- **1:15 PM** - 🌱 [Investigation into molecular tools and how they could be applied in hatchery management](pages/bcsrif/BCSRIF_2019_136.html) | Samantha James | Pacific Salmon Foundation
+- **1:30 PM** - 🌊 [Evaluating the usability of stress hormones in scales as biomarkers of chronic stress in Chinook Salmon smolts](pages/pssi/2421.html) | Reid Williams | DFO
+- **1:45 PM** - 🌊 [Improvement, Expansion and Modernization of Salmonid Health Diagnostic Services For Optimizing Salmonid Hatchery Health Management.](pages/pssi/2408.html) | Amy Long | DFO
+- **2:00 PM** - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production ](pages/pssi/2448.html) | Karia Kaukinen | DFO
+- **2:15 PM** - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/pssi/2417.html) | Erika Eliason | DFO
+- **2:30 PM** - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/bcsrif/BCSRIF_2020_311.html) | Ahmed Siah | BC Centre for Aquatic Health Sciences Society
 
