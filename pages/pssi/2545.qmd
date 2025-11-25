@@ -1,0 +1,19 @@
+---
+title: "Ten years of hatchery broodstock genotyping and parentage-based tagging"
+output-file: "2545.html"
+Leads: "Eric Rondeau"
+toc: true
+---
+
+## PSSI Project Summary
+
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Molecular Genetics  
+**Organization:** DFO  
+**Session(s):** Hatchery Fitness And Genetics  
+**Presentation Date(s):** December 11, 2025  
+**Speakers:** Eric Rondeau  
+**Abstract:**  
+No abstract available.   
+
+

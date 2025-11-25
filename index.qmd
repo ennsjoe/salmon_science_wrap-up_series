@@ -199,11 +199,12 @@ Research on the genetic and fitness consequences of hatchery enhancment, and the
 [Register for Webinar](https://events.teams.microsoft.com/event/b685712a-d089-4f8f-8b6a-a6b7953ff0da@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Adam Silverstein, Alison Krimmer
-- **10:15 AM** - 🌊 [Drivers and functional consequences of hatchery epigenetic variation](pages/pssi/3103.html) | Eric Rondeau, Timothy Healy, Kyle Wellband | DFO
-- **10:15 AM** - 🌊 [Epigenetic variation between hatchery- and natural-origin Canadian Chinook Salmon](pages/pssi/2453.html) | Eric Rondeau, Tim Healy, Kyle Wellband | DFO
-- **10:15 AM** - 🌊 [Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon](pages/pssi/2435.html) | Eric Rondeau, Tim Healy, Kyle Wellband | DFO
-- **10:15 AM** - 🌊 [Relative reproductive success of hatchery- versus natural-origin salmon in Canadian integrated populations](pages/pssi/2451.html) | Eric Rondeau, Tim Healy, Kyle Wellband | DFO
-- **10:15 AM** - 🌊 [SHERLOCK assay for rapid genotyping applications](pages/pssi/2434.html) | Eric Rondeau, Tim Healy, Kyle Wellband | DFO
+- **10:15 AM** - 🌊 [Fitness effects of hatchery enhancement and relative reproductive success](pages/pssi/2451.html) | Tim Healy | DFO
+- **10:30 AM** - 🌊 [Epigenetic variation and inheritance in hatchery- and natural-origin Chinook and Coho salmon](pages/pssi/2435.html) | Tim Healy, Kyle Wellband | DFO
+- **10:30 AM** - 🌊 [Epigenetic variation and inheritance in hatchery- and natural-origin Chinook and Coho salmon](pages/pssi/2453.html) | Tim Healy, Kyle Wellband | DFO
+- **10:45 AM** - 🌊 [Ten years of hatchery broodstock genotyping and parentage-based tagging](pages/pssi/2545.html) | Eric Rondeau | DFO
+- **11:00 AM** - 🌊 [Increasing genetic resolution in southern BC chum enabled by whole genome data](pages/pssi/2436.html) | Anna Tigano | DFO
+- **11:15 AM** - 🌊 [Rapid broodstock screening for improved genetic management of Pacific Salmon](pages/pssi/2434.html) | Kyle Wellband | DFO
 - **11:30 AM** - 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/bcsrif/BCSRIF_2020_239.html) | Leigh Gaffney | University of Victoria, Department of Biology
 
 ### Fish Health {#-ish-ealth}

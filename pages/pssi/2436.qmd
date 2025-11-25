@@ -1,0 +1,26 @@
+---
+title: "Increasing genetic resolution in southern BC chum enabled by whole genome data"
+output-file: "2436.html"
+Leads: "Eric Rondeau, Tim Healy, Kyle Wellband"
+toc: true
+---
+
+## PSSI Project Summary
+
+**Division:** Aquatic Diagnostics, Genomics and Technology (ADGT)  
+**Section:** Molecular Genetics  
+**Organization:** DFO  
+**Session(s):** Hatchery Fitness And Genetics  
+**Presentation Date(s):** December 11, 2025  
+**Speakers:** Anna Tigano  
+**Abstract:**  
+Genetic sequencing is an effective tool to identify salmon species by stock, but this method is only available where enough genetic information has been gathered and sufficient differentiation has been detected. South Coast chum salmon have not been sequenced intensely enough to fully describe population structure delineation, so this genome sequencing study gathers DNA from across the region to assess differences in genetic markers that could be used to maximize the resolution.   
+
+## Project Bulletin
+
+<iframe src="../../data/PSSI_bulletin/2436.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+[📄 Download PDF](../../data/PSSI_bulletin/2436.pdf){.btn .btn-primary target="_blank"}
+</p>
+

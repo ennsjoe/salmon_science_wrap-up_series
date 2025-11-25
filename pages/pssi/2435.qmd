@@ -1,5 +1,5 @@
 ---
-title: "Intergenerational transfer and parental origins of DNA methylation variation in Coho and Chinook Salmon"
+title: "Epigenetic variation and inheritance in hatchery- and natural-origin Chinook and Coho salmon"
 output-file: "2435.html"
 Leads: "Eric Rondeau, Tim Healy, Kyle Wellband"
 toc: true
@@ -12,7 +12,7 @@ toc: true
 **Organization:** DFO  
 **Session(s):** Hatchery Fitness And Genetics  
 **Presentation Date(s):** December 11, 2025  
-**Speakers:** Eric Rondeau, Tim Healy, Kyle Wellband  
+**Speakers:** Tim Healy, Kyle Wellband  
 **Abstract:**  
 Chemical reactions in a salmon body decide which genes are expressed in a process called “DNA methylation.” This hatchery genetics study sequences methylation across the genome to compare between hatchery and natural origin to see if salmon offspring inherit DNA methylation from parents (epigenetics) and how this could inform hatchery breeding methods.   
 

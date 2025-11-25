@@ -808,7 +808,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "added ftf pdf to Lisa Loseto project page 2513"')
+#system('git commit -m "Updated data/modelling session time, and Reid Williams abstract"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
