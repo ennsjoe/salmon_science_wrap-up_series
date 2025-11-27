@@ -2,7 +2,7 @@
 # Title: Query SQLite Tables & Generate Quarto Pages
 # Description: Connects to SQLite, validates tables, joins project data,
 #              and builds Quarto pages and index.
-# VERSION: v31_DISTINCT_FIX - Uses distinct() instead of summarise()
+# VERSION: v32_PANEL_QANDA - Adds Panel Q&A at end of each session
 ################################################################################
 
 # 📦 Load libraries
@@ -38,7 +38,7 @@ if (!file.exists(db_path)) {
   stop(glue("❌ Database file not found at: {db_path}"))
 }
 
-# 🔌 Connect to database----
+# 📌 Connect to database----
 con <- dbConnect(SQLite(), dbname = db_path)
 if (!dbIsValid(con)) stop("❌ Database connection is not valid")
 
@@ -60,11 +60,11 @@ presentation_info <- dbReadTable(con, "presentation_info") %>%
 if ("confirmed" %in% names(presentation_info)) {
   presentation_info <- presentation_info %>% filter(confirmed == "Yes")
 }
-cat(glue("   ✓ presentation_info: {nrow(presentation_info)} confirmed rows\n"))
+cat(glue("   ✔ presentation_info: {nrow(presentation_info)} confirmed rows\n"))
 
 projects <- dbReadTable(con, "Science.PSSI.Projects") %>%
   mutate(project_id = as.character(project_id))
-cat(glue("   ✓ PSSI Projects: {nrow(projects)} rows\n"))
+cat(glue("   ✔ PSSI Projects: {nrow(projects)} rows\n"))
 
 bcsrif_projects <- if ("BCSRIF.Project.List.September.2025" %in% available_tables) {
   dbReadTable(con, "BCSRIF.Project.List.September.2025") %>%
@@ -75,7 +75,7 @@ bcsrif_projects <- if ("BCSRIF.Project.List.September.2025" %in% available_table
   cat("   ⚠️ BCSRIF table not found, using empty placeholder\n")
   data.frame(project_id = character())
 }
-cat(glue("   ✓ BCSRIF Projects: {nrow(bcsrif_projects)} rows\n"))
+cat(glue("   ✔ BCSRIF Projects: {nrow(bcsrif_projects)} rows\n"))
 
 sessions <- dbReadTable(con, "session_info") %>%
   mutate(session = normalize_session(session),
@@ -165,7 +165,7 @@ session_projects <- joined %>%
     else .} %>%
   filter(!is.na(session))
 
-# 🔌 Disconnect from database
+# 📌 Disconnect from database
 dbDisconnect(con)
 
 # 📄 Extract PDFs from database and write to filesystem
@@ -198,7 +198,7 @@ if ("PSSI_bulletins" %in% dbListTables(con_pdf)) {
         # Try to write the PDF, skip if file is locked
         tryCatch({
           writeBin(pdf_binary, pdf_path)
-          cat(glue("  ✓ Extracted PDF for project {project_id}\n"))
+          cat(glue("  ✔ Extracted PDF for project {project_id}\n"))
           extracted_count <- extracted_count + 1
         }, error = function(e) {
           cat(glue("  ⚠️ Skipped PDF for project {project_id} (file may be open/locked)\n"))
@@ -218,8 +218,8 @@ if ("PSSI_bulletins" %in% dbListTables(con_pdf)) {
   cat("⚠️  PSSI_bulletins table not found in database\n\n")
 }
 
-# 🖼️Â Extract banner image from database
-cat("🖼️Â Extracting banner image from database...\n")
+# 🖼️ Extract banner image from database
+cat("🖼️ Extracting banner image from database...\n")
 
 # Reconnect briefly to get banner
 con_banner <- dbConnect(SQLite(), dbname = db_path)
@@ -258,7 +258,7 @@ if ("banner_images" %in% dbListTables(con_banner)) {
       tryCatch({
         writeBin(image_binary, banner_path)
         banner_path_relative <- glue("images/{file_name}")
-        cat(glue("  ✓ Extracted banner: {file_name}\n"))
+        cat(glue("  ✔ Extracted banner: {file_name}\n"))
       }, error = function(e) {
         cat(glue("  ⚠️ Could not write banner (file may be locked): {e$message}\n"))
       })
@@ -272,8 +272,8 @@ if ("banner_images" %in% dbListTables(con_banner)) {
 
 dbDisconnect(con_pdf)
 
-# �‚ Create output directory----
-cat("�‚ Creating output directories...\n")
+# 📂 Create output directory----
+cat("📂 Creating output directories...\n")
 pages_dir <- here("pages")
 
 # Clean up old .qmd files to ensure only confirmed projects are included
@@ -500,7 +500,7 @@ for (i in seq_len(nrow(aggregated_projects_confirmed))) {
       if (bio != "" && !is.na(bio)) paste0("**Bio:**  \n", bio, "  \n\n") else "",
       if (collaborators != "" && !is.na(collaborators)) paste0("**Collaborators:**  \n", collaborators, "  \n\n") else "",
       if (authors != "" && !is.na(authors)) paste0("**Authors:**  \n", authors, "  \n\n") else "",
-    "{pdf_section}"  # ADD THIS LINE
+      "{pdf_section}"
     )
   } else {
     page_content <- glue(
@@ -690,7 +690,8 @@ for (date_key in names(presentations_by_date)) {
     session_location <- session_info$location %||% ""
     session_url <- session_info$webinar_url %||% ""
     session_hosts <- session_info$hosts %||% ""
-    session_intro <- session_info$intro %||% NA  # Add this line
+    session_intro <- session_info$intro %||% NA
+    session_panel_qanda <- session_info$panel_qanda %||% NA
     
     # Build session header with new information
     desc_text <- if (session_description != "" && !is.na(session_description)) session_description else ""
@@ -741,7 +742,7 @@ for (date_key in names(presentations_by_date)) {
         source_emoji = case_when(
           source_program == "BCSRIF" ~ "🌱",
           source_program == "PSSI" ~ "🌊",
-          TRUE ~ "❓"
+          TRUE ~ "•"
         ),
         # Parse start_time for sorting (if column exists)
         time_sort = if ("start_time" %in% names(.)) {
@@ -778,6 +779,11 @@ for (date_key in names(presentations_by_date)) {
       }
     }
     
+    # Add Panel Q&A at the end of the session if present
+    if (!is.na(session_panel_qanda) && session_panel_qanda != "" && session_panel_qanda != "NA") {
+      index_md <- c(index_md, glue("- **{session_panel_qanda}** - Panel Q and A | {session_title}"))
+    }
+    
     index_md <- c(index_md, "")
   }
 }
@@ -785,7 +791,8 @@ for (date_key in names(presentations_by_date)) {
 writeLines(index_md, here("index.qmd"))
 cat("✅ Generated index.qmd\n\n")
 
-# 🌐Â Write CNAME file
+
+# 🌐 Write CNAME file
 writeLines("www.pacificsalmonscience.ca", here("CNAME"))
 
 # Note: _quarto.yml already exists with correct subfolder configuration
@@ -808,7 +815,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Updated data/modelling session time, and Reid Williams abstract"')
+#system('git commit -m "Added Panel Q&A to end of each session"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
