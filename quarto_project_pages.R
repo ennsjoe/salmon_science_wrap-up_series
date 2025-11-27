@@ -781,7 +781,7 @@ for (date_key in names(presentations_by_date)) {
     
     # Add Panel Q&A at the end of the session if present
     if (!is.na(session_panel_qanda) && session_panel_qanda != "" && session_panel_qanda != "NA") {
-      index_md <- c(index_md, glue("- **{session_panel_qanda}** - Panel Q and A | {session_title}"))
+      index_md <- c(index_md, glue("- **{session_panel_qanda}** - 🎤 Panel Q and A | {session_title}"))
     }
     
     index_md <- c(index_md, "")

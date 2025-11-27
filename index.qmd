@@ -95,7 +95,7 @@ Improving our understanding of the long-term implications of climate change for 
 - **11:00 AM** - 🌊 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/pssi/2437.html) | Tim Healy | DFO
 - **11:15 AM** - 🌱 [Supporting Climate-Resilient Salmon Ecosystems: from Modelling to Monitoring](pages/bcsrif/BCSRIF_2022_401.html) | Marc Porter, Kathleen Belton, Stephanie Peacock | Salmon Watersheds Program, Pacific Salmon Foundation
 - **11:30 AM** - 🌊 [Insights into the effects of marine and freshwater variables on salmon population dynamics: A hierarchical lifecycle approach](pages/pssi/2405.html) | Jan Finke | DFO
-- **11:45AM-12:05PM** - Panel Q and A | Salmon In A Changing Climate
+- **11:45AM-12:05PM** - 🎤 Panel Q and A | Salmon In A Changing Climate
 
 ### Freshwater Stressors {#-reshwater-tressors}
 Mechanistic, physiological, and quantitative studies for evaluating stressors to freshwater habitats of Pacific salmon, including cumulative stressors.
@@ -113,7 +113,7 @@ Mechanistic, physiological, and quantitative studies for evaluating stressors to
 - **2:15 PM** - 🌊 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/pssi/2425.html) | Keegan Paterson | DFO
 - **2:30 PM** - 🌱 [Cumulative effects of forest harvest on Pacific salmon productivity in coastal British Columbia](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | University of Victoria
 - **2:45 PM** - 🌊 [Habitat use and predation on juvenile Chinook Salmon in the Canadian Okanagan River and Lake system](pages/pssi/2442.html) | Tommy Pontbriand | DFO
-- **3:00-3:30PM** - Panel Q and A | Freshwater Stressors
+- **3:00-3:30PM** - 🎤 Panel Q and A | Freshwater Stressors
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
@@ -134,7 +134,7 @@ A review of the Follow the Fish Program, including methods and approaches for li
 - **10:30 AM** - 🌊 [Characterizing juvenile Chinook salmon distribution, diet and health on the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
 - **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
 - **11:15 AM** - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/bcsrif/BCSRIF_2022_442.html) | Mack Bartlett | Uvic
-- **11:30AM-12:00PM** - Panel Q and A | Follow The Fish
+- **11:30AM-12:00PM** - 🎤 Panel Q and A | Follow The Fish
 
 ### Marine Stressors {#-arine-tressors}
 Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
@@ -151,7 +151,7 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 - **2:00 PM** - 🌊 [Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/pssi/2513.html) | Lisa Loseto | DFO
 - **2:15 PM** - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/pssi/2412.html) | Chris Pearce | DFO
 - **2:30 PM** - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
-- **2:45-3:15PM** - Panel Q and A | Marine Stressors
+- **2:45-3:15PM** - 🎤 Panel Q and A | Marine Stressors
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
@@ -173,7 +173,7 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 - **11:00 AM** - 🌱 [Mortality of released Pacific Salmon in the marine recreational fishery: new science and recommendations](pages/bcsrif/BCSRIF_2019_058.html) | Steve Johnston | Pacific Salmon Ecology and Conservation Laboratory, UBC
 - **11:15 AM** - 🌱 [Selective Fishing Using a Salmon Trap in the Campbell River Estuary](pages/bcsrif/BCSRIF_2022_347.html) | Derek Leboeuf | A-Tlegay Fisheries Society
 - **11:30 AM** - 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Megan Adams | Central Coast Indigenous Resource Alliance
-- **11:45AM-12:05PM** - Panel Q and A | Fisheries Monitoring And Harvest Methods
+- **11:45AM-12:05PM** - 🎤 Panel Q and A | Fisheries Monitoring And Harvest Methods
 
 ### Data And Modelling To Support Decision Making {#-ata-nd-odelling-o-upport-ecision-aking}
 Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management
@@ -190,7 +190,7 @@ Databases, analytic tools, and modelling projects that provide information to su
 - **1:55 PM** - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
 - **2:10 PM** - 🌱 [Prioritizing barriers for restoring Pacific Salmon habitat connectivity](pages/bcsrif/BCSRIF_2022_415.html) | Nick Mazany-Wright | Canadian Wildlife Federation
 - **2:25 PM** - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault | DFO
-- **2:40-3:00PM** - Panel Q and A | Data And Modelling To Support Decision Making
+- **2:40-3:00PM** - 🎤 Panel Q and A | Data And Modelling To Support Decision Making
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
@@ -213,7 +213,7 @@ Research on the genetic and fitness consequences of hatchery enhancment, and the
 - **11:00 AM** - 🌊 [Increasing genetic resolution in southern BC chum enabled by whole genome data](pages/pssi/2436.html) | Anna Tigano | DFO
 - **11:15 AM** - 🌊 [Rapid broodstock screening for improved genetic management of Pacific Salmon](pages/pssi/2434.html) | Kyle Wellband | DFO
 - **11:30 AM** - 🌱 [Causes and consequences of vateritic otoliths in hatchery-reared Coho salmon](pages/bcsrif/BCSRIF_2020_239.html) | Leigh Gaffney | University of Victoria, Department of Biology
-- **11:45AM-12:05PM** - Panel Q and A | Hatchery Fitness And Genetics
+- **11:45AM-12:05PM** - 🎤 Panel Q and A | Hatchery Fitness And Genetics
 
 ### Fish Health {#-ish-ealth}
 Tools and research to support monitoring and managing the health of cultured salmon.
@@ -230,5 +230,5 @@ Tools and research to support monitoring and managing the health of cultured sal
 - **2:00 PM** - 🌊 [Developing a proactive, modernized, holistic approach to ensure optimal health and condition of Hatchery Production ](pages/pssi/2448.html) | Karia Kaukinen | DFO
 - **2:15 PM** - 🌊 [Optimization of feeds used in the hatchery production of Pacific Salmon.](pages/pssi/2417.html) | Erika Eliason | DFO
 - **2:30 PM** - 🌱 [The application of nanopore technology for the rapid detection and characterization of pathogenic organisms in enhancement hatcheries](pages/bcsrif/BCSRIF_2020_311.html) | Ahmed Siah | BC Centre for Aquatic Health Sciences Society
-- **2:45-3:15PM** - Panel Q and A | Fish Health
+- **2:45-3:15PM** - 🎤 Panel Q and A | Fish Health
 
