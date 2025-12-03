@@ -629,8 +629,6 @@ index_md <- c(index_md,
               "# Pacific Salmon Science Symposium",
               "",
               "Join us this December for a series of online sessions sharing knowledge and outcomes from PSSI and BCSRIF investments into salmon research and conservation. The symposium will feature over 40 presentations from biologists and researchers organized into eight themed sessions. Scroll down for further details and registration links for the sessions.",
-              "",
-              "*Brought to you by the PSSI Science Implementation Team and DFO Science Pacific Region*",
               "")
 
 # Calendar section
@@ -815,7 +813,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Added microphone emoji for panel Q&A session"')
+#system('git commit -m "Removed govt logo from banner"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
