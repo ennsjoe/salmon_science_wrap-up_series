@@ -169,7 +169,7 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 - **10:30 AM** - 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Owen Bird | Sport Fishing Institute of BC
 - **10:45 AM** - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors, Adam O'Dell | DFO
 - **11:00 AM** - 🌱 [Mortality of released Pacific Salmon in the marine recreational fishery: new science and recommendations](pages/bcsrif/BCSRIF_2019_058.html) | Steve Johnston | Pacific Salmon Ecology and Conservation Laboratory, UBC
-- **11:15 AM** - 🌊 [Untitled Project](pages/pssi/3498.html) | Phil Lemp, Erin Rechisky | DFO
+- **11:15 AM** - 🌊 [Enhanced Monitoring of Chinook Salmon Mark Selective Fishery (MSF)](pages/pssi/3498.html) | Phil Lemp, Erin Rechisky | DFO
 - **11:30 AM** - 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Megan Adams | Central Coast Indigenous Resource Alliance
 - **11:45AM-12:05PM** - 🎤 Panel Q and A | Fisheries Monitoring And Harvest Methods
 
