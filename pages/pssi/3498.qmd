@@ -1,0 +1,19 @@
+---
+title: "Untitled Project"
+output-file: "3498.html"
+Leads: "N/A"
+toc: true
+---
+
+## PSSI Project Summary
+
+**Division:** N/A  
+**Section:** N/A  
+**Organization:** DFO  
+**Session(s):** Fisheries Monitoring And Harvest Methods  
+**Presentation Date(s):** December 09, 2025  
+**Speakers:** Phil Lemp, Erin Rechisky  
+**Abstract:**  
+No abstract available   
+
+
