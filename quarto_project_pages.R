@@ -658,6 +658,19 @@ for (date_key in names(presentations_by_date)) {
                 "</div>",
                 "")
   
+  # Get recording URL for this date
+  day_recording <- sessions_raw %>%
+    filter(date == as.Date(date_key)) %>%
+    pull(recording_urls) %>%
+    na.omit() %>%
+    first()
+  
+  if (!is.null(day_recording) && !is.na(day_recording) && day_recording != "") {
+    index_md <- c(index_md, 
+                  glue("📹 [Watch the recording]({day_recording}){{.btn .btn-outline-secondary .btn-sm}}"),
+                  "")
+  }
+  
   sessions_list <- date_presentations %>%
     group_by(session) %>%
     group_split()
@@ -813,7 +826,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Removed copyright"')
+#system('git commit -m "Added recording links to website"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
