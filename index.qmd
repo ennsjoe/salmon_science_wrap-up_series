@@ -78,7 +78,7 @@ Join us this December for a series of online sessions sharing knowledge and outc
 ## 📅 December 02, 2025
 </div>
 
-📹 [Watch the recording](https://086gc-my.sharepoint.com/:v:/g/personal/joe_enns_dfo-mpo_gc_ca/IQCEMkFiO-ipT4wgAOvI-CeuAZL3DBmJE78fj-EWK6mzWSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9vKcfy){.btn .btn-outline-secondary .btn-sm}
+📹 [Watch the recording (timestamps below)](https://086gc-my.sharepoint.com/:v:/g/personal/joe_enns_dfo-mpo_gc_ca/IQCEMkFiO-ipT4wgAOvI-CeuAZL3DBmJE78fj-EWK6mzWSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9vKcfy){.btn .btn-outline-secondary .btn-sm}
 
 ### Salmon In A Changing Climate {#-almon-n-hanging-limate}
 Improving our understanding of the long-term implications of climate change for Pacific Salmon and their ecosystems.
@@ -89,13 +89,13 @@ Improving our understanding of the long-term implications of climate change for 
 [Register for Webinar](https://events.teams.microsoft.com/event/1f2df8a8-252e-47f7-8df1-a6096b1fa578@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Cory Lagasse
-- **10:15 AM** - 🌱 [Development of High-resolution Climate Change Freshwater Hazard Data for BC](pages/bcsrif/BCSRIF_2022_384.html) | Markus Schnorbus | Pacific Climate Impacts Consortium
-- **10:30 AM** - 🌊 [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/pssi/2406.html) | Sophia Johannessen | DFO
-- **10:45 AM** - 🌱 [Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks](pages/bcsrif/BCSRIF_2022_399.html) | Ellen Petticrew | University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences and UNBC’s Quesnel River Research Centre
-- **11:00 AM** - 🌊 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/pssi/2437.html) | Tim Healy | DFO
-- **11:15 AM** - 🌱 [Supporting Climate-Resilient Salmon Ecosystems: from Modelling to Monitoring](pages/bcsrif/BCSRIF_2022_401.html) | Marc Porter, Kathleen Belton, Stephanie Peacock | Salmon Watersheds Program, Pacific Salmon Foundation
-- **11:30 AM** - 🌊 [Insights into the effects of marine and freshwater variables on salmon population dynamics: A hierarchical lifecycle approach](pages/pssi/2405.html) | Jan Finke | DFO
-- **11:45AM-12:05PM** - 🎤 Panel Q and A | Salmon In A Changing Climate
+- **00:06:30** - 🌊 [Changing coastal productivity: Using sediment cores, water properties and archived plankton data to identify changes at the bottom of the food web in BC’s coastal waters](pages/pssi/2406.html) | Sophia Johannessen | DFO
+- **00:23:40** - 🌱 [Evaluating climate change scenarios for the Quesnel Watershed to determine flood, fire and temperature risks posed to Upper Fraser salmon stocks](pages/bcsrif/BCSRIF_2022_399.html) | Ellen Petticrew | University of Northern British Columbia, Department of Geography, Earth and Environmental Sciences and UNBC’s Quesnel River Research Centre
+- **00:38:55** - 🌊 [Adaptive genetic variation and climate change resilience in Canadian Pacific salmon](pages/pssi/2437.html) | Tim Healy | DFO
+- **00:54:20** - 🌱 [Supporting Climate-Resilient Salmon Ecosystems: from Modelling to Monitoring](pages/bcsrif/BCSRIF_2022_401.html) | Marc Porter, Kathleen Belton, Stephanie Peacock | Salmon Watersheds Program, Pacific Salmon Foundation
+- **01:07:10** - 🌊 [Insights into the effects of marine and freshwater variables on salmon population dynamics: A hierarchical lifecycle approach](pages/pssi/2405.html) | Jan Finke | DFO
+- **01:23:00** - 🌱 [Development of High-resolution Climate Change Freshwater Hazard Data for BC](pages/bcsrif/BCSRIF_2022_384.html) | Markus Schnorbus | Pacific Climate Impacts Consortium
+- **01:32:00** - 🎤 Panel Q and A | Salmon In A Changing Climate
 
 ### Freshwater Stressors {#-reshwater-tressors}
 Mechanistic, physiological, and quantitative studies for evaluating stressors to freshwater habitats of Pacific salmon, including cumulative stressors.
@@ -106,19 +106,21 @@ Mechanistic, physiological, and quantitative studies for evaluating stressors to
 [Register for Webinar](https://events.teams.microsoft.com/event/1f2df8a8-252e-47f7-8df1-a6096b1fa578@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Chantelle Caron
-- **1:15 PM** - 🌱 [First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay](pages/bcsrif/BCSRIF_2022_334.html) | Dave Scott | Salish Sea Indigenous Guardians Association
-- **1:30 PM** - 🌊 [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/pssi/2424.html) | Sean Naman | DFO
-- **1:45 PM** - 🌱 [Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations](pages/bcsrif/BCSRIF_2020_217.html) | Jordan Rosenfeld | University of British Columbia (Vancouver), Institute for the Oceans and Fisheries
-- **2:00 PM** - 🌊 [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/pssi/2493.html) | David Patterson, Douglas Braun | DFO
-- **2:15 PM** - 🌊 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/pssi/2425.html) | Keegan Paterson | DFO
-- **2:30 PM** - 🌱 [Cumulative effects of forest harvest on Pacific salmon productivity in coastal British Columbia](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | University of Victoria
-- **2:45 PM** - 🌊 [Habitat use and predation on juvenile Chinook Salmon in the Canadian Okanagan River and Lake system](pages/pssi/2442.html) | Tommy Pontbriand | DFO
-- **3:00-3:30PM** - 🎤 Panel Q and A | Freshwater Stressors
+- **01:48:15** - 🌱 [First Nations led salmon habitat and population monitoring, research and cumulative effects assessment in the Lower Fraser River and Boundary Bay](pages/bcsrif/BCSRIF_2022_334.html) | Dave Scott | Salish Sea Indigenous Guardians Association
+- **02:03:00** - 🌊 [Mechanistic modelling to link hydrology to juvenile salmon habitat quality and productivity](pages/pssi/2424.html) | Sean Naman | DFO
+- **02:21:30** - 🌱 [Developing a cumulative effects modelling framework for the recovery of aquatic salmonid populations](pages/bcsrif/BCSRIF_2020_217.html) | Jordan Rosenfeld | University of British Columbia (Vancouver), Institute for the Oceans and Fisheries
+- **02:40:00** - 🌊 [Improved understanding of cumulative impacts on salmon survival across freshwater life-stages; tools and approaches for mechanistic assessments](pages/pssi/2493.html) | David Patterson, Douglas Braun | DFO
+- **02:57:30** - 🌊 [Development of geospatial tools for large-scale freshwater salmon habitat assessment by the Freshwater Spatial Ecology Program](pages/pssi/2425.html) | Keegan Paterson | DFO
+- **03:17:05** - 🌱 [Cumulative effects of forest harvest on Pacific salmon productivity in coastal British Columbia](pages/bcsrif/BCSRIF_2022_449.html) | Maria Kuruvilla | University of Victoria
+- **03:29:20** - 🌊 [Habitat use and predation on juvenile Chinook Salmon in the Canadian Okanagan River and Lake system](pages/pssi/2442.html) | Tommy Pontbriand | DFO
+- **03:41:30** - 🎤 Panel Q and A | Freshwater Stressors
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 04, 2025
 </div>
+
+📹 [Watch the recording (timestamps below)](https://086gc-my.sharepoint.com/:v:/g/personal/joe_enns_dfo-mpo_gc_ca/IQDff2lUBCwLT5RXza8HyZyZAQrQ1zpbbyk0b09hsB_Ft18?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kHACzD){.btn .btn-outline-secondary .btn-sm}
 
 ### Follow The Fish {#-ollow-he-ish}
 A review of the Follow the Fish Program, including methods and approaches for life cycle assessment of WCVI Chinook and ecosystem-scale research programs.
@@ -129,12 +131,11 @@ A review of the Follow the Fish Program, including methods and approaches for li
 [Register for Webinar](https://events.teams.microsoft.com/event/038709c6-a551-4faa-8957-8f56a8b7f32b@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Wilf Luedke, Nicholas Brown
-- **10:00 AM** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference points](pages/pssi/2397.html) | Jared Dick | Nuu-Chah-Nulth Tribal Council
-- **10:15 AM** - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry to determine estuary entry size of juvenile salmonids and track habitat usage](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
-- **10:30 AM** - 🌊 [Characterizing juvenile Chinook salmon distribution, diet and health on the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
-- **10:45 AM** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
-- **11:15 AM** - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/bcsrif/BCSRIF_2022_442.html) | Mack Bartlett | Uvic
-- **11:30AM-12:00PM** - 🎤 Panel Q and A | Follow The Fish
+- **00:23:30** - 🌊 [Development and application of laser ablation-inductively coupled plasma-mass spectrometry to determine estuary entry size of juvenile salmonids and track habitat usage](pages/pssi/2422.html) | Nicole LaForge, Micah Quindazzi  | DFO
+- **00:41:00** - 🌊 [Characterizing juvenile Chinook salmon distribution, diet and health on the West Coast of Vancouver Island](pages/pssi/2407.html) | Jessy Bokvist | DFO
+- **01:00:00** - 🌊 [Innovative Ecosystem Based Approaches to identify cumulative stressors: Salmon Fit-Chips and eDNA](pages/pssi/2447.html) | Arthur Bass, Christoph Deeg | DFO
+- **01:42:00** - 🌱 [Identifying factors that influence early marine survival of WCVI Chinook salmon](pages/bcsrif/BCSRIF_2022_442.html) | Mack Bartlett | Uvic
+- **01:55:30** - 🌊 [Identifying good practices for considering Indigenous Knowledge in Rebuilding Plan targets and stock assessment reference points](pages/pssi/2397.html) | Jared Dick | Nuu-Chah-Nulth Tribal Council
 
 ### Marine Stressors {#-arine-tressors}
 Research on stressors in nearshore marine ecosystems and their effects on salmon survival.
@@ -144,19 +145,21 @@ Research on stressors in nearshore marine ecosystems and their effects on salmon
 **Chair:** Cameron Freshwater  
 [Register for Webinar](https://events.teams.microsoft.com/event/038709c6-a551-4faa-8957-8f56a8b7f32b@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
-- **1:00 PM** - 🌱 [An overview of the Bottlenecks to Survival program with a focus on marine monitoring, tagging, and biological sampling](pages/bcsrif/BCSRIF_2019_040.html) | Sam James, Jamieson Atkinson  | Pacific Salmon Foundation
-- **1:15 PM** - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/pssi/2404.html) | Laura Bianucci, Marilena Geng | DFO
-- **1:30 PM** - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri, Kelly Young | DFO
-- **1:45 PM** - 🌊 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/pssi/2416.html) | Andrew Ross | DFO
-- **2:00 PM** - 🌊 [Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/pssi/2513.html) | Lisa Loseto | DFO
-- **2:15 PM** - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/pssi/2412.html) | Chris Pearce | DFO
-- **2:30 PM** - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
-- **2:45-3:15PM** - 🎤 Panel Q and A | Marine Stressors
+- **02:22:15** - 🌱 [An overview of the Bottlenecks to Survival program with a focus on marine monitoring, tagging, and biological sampling](pages/bcsrif/BCSRIF_2019_040.html) | Sam James, Jamieson Atkinson  | Pacific Salmon Foundation
+- **02:37:30** - 🌊 [Improving baseline knowledge of environmental conditions in Vancouver Islands fjords through observations and modelling, with a focus on hypoxia dynamics, climate change, and the potential implications for Pacific salmon](pages/pssi/2404.html) | Laura Bianucci, Marilena Geng | DFO
+- **02:53:45** - 🌊 [Barkley Sound and Clayoquot Sound Krill Monitoring](pages/pssi/2413.html) | Akash Sastri, Kelly Young | DFO
+- **03:08:15** - 🌊 [Monitoring and predicting the exposure of Pacific salmon to harmful algal biotoxins](pages/pssi/2416.html) | Andrew Ross | DFO
+- **03:28:15** - 🌊 [Characterizing and monitoring priority contaminants of concern in WCVI juvenile salmon](pages/pssi/2513.html) | Lisa Loseto | DFO
+- **03:41:30** - 🌊 [Investigation of the impacts of singular and coinciding acute climate stressors on the nutritional quality of the pteropod Limacina helicina, a juvenile Pacific salmon dietary species](pages/pssi/2412.html) | Chris Pearce | DFO
+- **04:03:45** - 🌊 [Convergent tracks: a tagging study to quantify salmon predation by sea lions](pages/pssi/2409.html) | Cameron Freshwater | DFO
+- **04:28:00** - 🎤 Panel Q and A | Marine Stressors
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>
 ## 📅 December 09, 2025
 </div>
+
+📹 [Watch the recording (timestamps below)](https://086gc-my.sharepoint.com/:v:/g/personal/joe_enns_dfo-mpo_gc_ca/IQAtueIEGe5BRZvWMFDdns_gAYSCEYbwByz-VbxBleQLDKk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dL3veE){.btn .btn-outline-secondary .btn-sm}
 
 ### Fisheries Monitoring And Harvest Methods {#-isheries-onitoring-nd-arvest-ethods}
 Projects piloting new methods for selective salmon harvest and informing fisheries management decisions through improved monitoring.
@@ -167,13 +170,13 @@ Projects piloting new methods for selective salmon harvest and informing fisheri
 [Register for Webinar](https://events.teams.microsoft.com/event/2b7462ee-b28d-4f73-b4df-4a48d954cdb3@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Mike Hawkshaw
-- **10:15 AM** - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
-- **10:30 AM** - 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Owen Bird | Sport Fishing Institute of BC
-- **10:45 AM** - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors, Adam O'Dell | DFO
-- **11:00 AM** - 🌱 [Mortality of released Pacific Salmon in the marine recreational fishery: new science and recommendations](pages/bcsrif/BCSRIF_2019_058.html) | Steve Johnston | Pacific Salmon Ecology and Conservation Laboratory, UBC
-- **11:15 AM** - 🌊 [Enhanced Monitoring of Chinook Salmon Mark Selective Fishery (MSF)](pages/pssi/3498.html) | Phil Lemp, Erin Rechisky | DFO
-- **11:30 AM** - 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Megan Adams | Central Coast Indigenous Resource Alliance
-- **11:45AM-12:05PM** - 🎤 Panel Q and A | Fisheries Monitoring And Harvest Methods
+- **00:07:34** - 🌱 [Empowering Indigenous community fisheries with deep learning - computer vision for adaptive management of terminal salmon fisheries](pages/bcsrif/BCSRIF_2019_045.html) | Will Atlas | Pacific Salmon Foundation
+- **00:27:06** - 🌱 [FRIM – Short term mortality holding and respirometry studies](pages/bcsrif/BCSRIF_2022_454.html) | Owen Bird | Sport Fishing Institute of BC
+- **00:44:15** - 🌊 [Quantifying Yukon Chinook migration mortality and its implications for fisheries management and rebuilding under the Fish Stock Provisions of the Fisheries Act](pages/pssi/2402.html) | Brendan Connors, Adam O'Dell | DFO
+- **01:01:06** - 🌱 [Mortality of released Pacific Salmon in the marine recreational fishery: new science and recommendations](pages/bcsrif/BCSRIF_2019_058.html) | Steve Johnston | Pacific Salmon Ecology and Conservation Laboratory, UBC
+- **01:15:22** - 🌊 [Enhanced Monitoring of Chinook Salmon Mark Selective Fishery (MSF)](pages/pssi/3498.html) | Phil Lemp, Erin Rechisky | DFO
+- **01:31:21** - 🌱 [First Nations-led catch monitoring to inform sustainable mixed-stock fisheries management on the Central Coast](pages/bcsrif/BCSRIF_2020_292.html) | Megan Adams | Central Coast Indigenous Resource Alliance
+- **01:47:42** - 🎤 Panel Q and A | Fisheries Monitoring And Harvest Methods
 
 ### Data And Modelling To Support Decision Making {#-ata-nd-odelling-o-upport-ecision-aking}
 Databases, analytic tools, and modelling projects that provide information to support decision-making for salmon conservation and management
@@ -184,13 +187,13 @@ Databases, analytic tools, and modelling projects that provide information to su
 [Register for Webinar](https://events.teams.microsoft.com/event/2b7462ee-b28d-4f73-b4df-4a48d954cdb3@1594fdae-a1d9-4405-915d-011467234338){.btn .btn-primary}
 
 - **Introduction** | Mike Hawkshaw
-- **1:10 PM** - 🌊 [Same Salmon, Shared Semantics. The DFO Salmon Ontology for Data Integration and Decision Support](pages/pssi/2546.html) | Brett Johnson | DFO
-- **1:25 PM** - 🌱 [The Bottlenecks to Survival Project: An open-source framework for end-to-end biological data management](pages/bcsrif/BCSRIF_2022_456.html) | Sam James, Brahm White-Gluz | Pacific Salmon Foundation
-- **1:40 PM** - 🌱 [Democratizing Salmon Data through the Expansion of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka and Eric Hertz | Pacific Salmon Foundation
-- **1:55 PM** - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt, Brendan Connors, Catarina Wor | DFO
-- **2:10 PM** - 🌱 [Prioritizing barriers for restoring Pacific Salmon habitat connectivity](pages/bcsrif/BCSRIF_2022_415.html) | Nick Mazany-Wright | Canadian Wildlife Federation
-- **2:25 PM** - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault | DFO
-- **2:40-3:00PM** - 🎤 Panel Q and A | Data And Modelling To Support Decision Making
+- **02:06:28** - 🌊 [Same Salmon, Shared Semantics. The DFO Salmon Ontology for Data Integration and Decision Support](pages/pssi/2546.html) | Brett Johnson | DFO
+- **02:28:04** - 🌱 [The Bottlenecks to Survival Project: An open-source framework for end-to-end biological data management](pages/bcsrif/BCSRIF_2022_456.html) | Sam James, Brahm White-Gluz | Pacific Salmon Foundation
+- **02:45:31** - 🌱 [Democratizing Salmon Data through the Expansion of the Pacific Salmon Explorer](pages/bcsrif/BCSRIF_2020_279.html) | Leah Honka and Eric Hertz | Pacific Salmon Foundation
+- **03:00:49** - 🌊 [A decision-support tool that considers harvest, hatchery, and habitat management levers to support implementation of the Fisheries Act for Pacific salmon](pages/pssi/2449.html) | Carrie Holt | DFO
+- **03:17:45** - 🌱 [Prioritizing barriers for restoring Pacific Salmon habitat connectivity](pages/bcsrif/BCSRIF_2022_415.html) | Nick Mazany-Wright | Canadian Wildlife Federation
+- **03:31:41** - 🌊 [Improved decision making for salmon by understanding the threats of freshwater Aquatic Invasive Species both now and in the future](pages/pssi/2410.html) | Thomas Therriault | DFO
+- **03:48:26** - 🎤 Panel Q and A | Data And Modelling To Support Decision Making
 
 
 <div style='background-color: #1f4456; color: white; padding: 12px 20px; border-radius: 8px; margin-top: 30px; margin-bottom: 20px;'>

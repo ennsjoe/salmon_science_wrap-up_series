@@ -2,7 +2,7 @@
 # Title: Query SQLite Tables & Generate Quarto Pages
 # Description: Connects to SQLite, validates tables, joins project data,
 #              and builds Quarto pages and index.
-# VERSION: v32_PANEL_QANDA - Adds Panel Q&A at end of each session
+# VERSION: v33_TIMESTAMP_DISPLAY - Fixes timestamp display in presentation list
 ################################################################################
 
 # 📦 Load libraries
@@ -667,7 +667,7 @@ for (date_key in names(presentations_by_date)) {
   
   if (!is.null(day_recording) && !is.na(day_recording) && day_recording != "") {
     index_md <- c(index_md, 
-                  glue("📹 [Watch the recording]({day_recording}){{.btn .btn-outline-secondary .btn-sm}}"),
+                  glue("📹 [Watch the recording (timestamps below)]({day_recording}){{.btn .btn-outline-secondary .btn-sm}}"),
                   "")
   }
   
@@ -732,8 +732,13 @@ for (date_key in names(presentations_by_date)) {
       select(project_id, title) %>%
       left_join(
         presentation_info %>% 
-          {if ("start_time" %in% names(.)) select(., project_id, speakers, organization, start_time) 
-            else select(., project_id, speakers, organization)},
+          {if ("start_time" %in% names(.)) {
+            cols <- c("project_id", "speakers", "organization", "start_time")
+            if ("timestamp" %in% names(.)) cols <- c(cols, "timestamp")
+            select(., all_of(cols))
+          } else {
+            select(., project_id, speakers, organization)
+          }},
         by = "project_id"
       ) %>%
       left_join(
@@ -755,18 +760,31 @@ for (date_key in names(presentations_by_date)) {
           source_program == "PSSI" ~ "🌊",
           TRUE ~ "•"
         ),
-        # Parse start_time for sorting (if column exists)
-        time_sort = if ("start_time" %in% names(.)) {
-          case_when(
-            is.na(start_time) | start_time == "" ~ as.POSIXct("9999-12-31 23:59:59"),  # Put blanks at end
-            TRUE ~ parse_date_time(start_time, orders = c("I:M p", "H:M"), quiet = TRUE)
-          )
+        # Use timestamp for display if it exists, otherwise start_time
+        display_time = if ("timestamp" %in% names(.)) {
+          if_else(!is.na(timestamp) & timestamp != "", timestamp, start_time)
         } else {
-          as.POSIXct(NA)
-        }
+          start_time
+        },
+        # Sort by timestamp (as seconds) if present, otherwise by start_time
+        timestamp_seconds = if ("timestamp" %in% names(.)) {
+          sapply(timestamp, function(ts) {
+            if (is.na(ts) || ts == "") return(NA_real_)
+            parts <- as.numeric(strsplit(ts, ":")[[1]])
+            parts[1] * 3600 + parts[2] * 60 + parts[3]
+          })
+        } else {
+          NA_real_
+        },
+        start_time_numeric = if ("start_time" %in% names(.)) {
+          as.numeric(parse_date_time(start_time, orders = c("I:M p", "H:M"), quiet = TRUE))
+        } else {
+          NA_real_
+        },
+        time_sort = if_else(!is.na(timestamp_seconds), timestamp_seconds, coalesce(start_time_numeric, 9999999))
       ) %>%
       distinct(project_id, .keep_all = TRUE) %>%
-      arrange(time_sort, title)  # Sort by time first, then title
+      arrange(time_sort, title)
     
     # Debug: print counts
     if (nrow(projects_display) == 0) {
@@ -782,9 +800,9 @@ for (date_key in names(presentations_by_date)) {
     for (i in seq_len(nrow(projects_display))) {
       row <- projects_display[i, ]
       
-      # Add start_time to display if available
-      if ("start_time" %in% names(row) && !is.na(row$start_time) && row$start_time != "") {
-        index_md <- c(index_md, glue("- **{row$start_time}** - {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
+      # Display timestamp or start_time if available (FIXED: now uses display_time)
+      if (!is.na(row$display_time) && row$display_time != "") {
+        index_md <- c(index_md, glue("- **{row$display_time}** - {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
       } else {
         index_md <- c(index_md, glue("- {row$source_emoji} {row$project_link} | {row$speakers} | {row$organization}"))
       }
@@ -826,7 +844,7 @@ cat("✅ Quarto render complete\n\n")
 
 #cat("📤 Pushing to GitHub...\n")
 #system("git add .")
-#system('git commit -m "Added recording links to website"')
+#system('git commit -m "Added recording links to website and timestamps"')
 #system("git push origin main")
 
 #cat("\n✨ All done! Site deployed.\n")
