@@ -719,7 +719,7 @@ for (date_key in names(presentations_by_date)) {
       info_parts <- c(info_parts, glue("**Chair:** {session_hosts}"))
     }
     if (session_url != "" && !is.na(session_url)) {
-      info_parts <- c(info_parts, glue("[Register for Webinar]({session_url}){{.btn .btn-primary}}"))
+      info_parts <- c(info_parts, glue("[Visit Webinar Page]({session_url}){{.btn .btn-primary}}"))
     }
     
     info_line <- if (length(info_parts) > 0) paste(info_parts, collapse = "  \n") else ""
